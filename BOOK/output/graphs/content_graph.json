@@ -1,0 +1,138 @@
+{
+  "nodes": [
+    {
+      "id": "ELYSIUM_ROOT",
+      "title": "ELYSIUM Manuscript",
+      "type": "book",
+      "status": "PLANNED",
+      "path": "BOOK/manuscript/index.md"
+    },
+    {
+      "id": "01_opening",
+      "title": "01_opening",
+      "type": "part",
+      "status": "PLANNED",
+      "path": "BOOK/manuscript/01_opening/index.md"
+    },
+    {
+      "id": "PART_02",
+      "title": "Foundations",
+      "type": "part",
+      "status": "SCAFFOLDED",
+      "path": "BOOK/manuscript/02_foundations/index.md"
+    },
+    {
+      "id": "03_transition_dynamics",
+      "title": "03_transition_dynamics",
+      "type": "part",
+      "status": "PLANNED",
+      "path": "BOOK/manuscript/03_transition_dynamics/index.md"
+    },
+    {
+      "id": "04_implementation",
+      "title": "04_implementation",
+      "type": "part",
+      "status": "PLANNED",
+      "path": "BOOK/manuscript/04_implementation/index.md"
+    },
+    {
+      "id": "05_appendices",
+      "title": "05_appendices",
+      "type": "part",
+      "status": "PLANNED",
+      "path": "BOOK/manuscript/05_appendices/index.md"
+    },
+    {
+      "id": "F01_material_base",
+      "title": "Material Base",
+      "type": "foundation",
+      "status": "SCAFFOLDED",
+      "path": "BOOK/manuscript/02_foundations/F01_material_base/index.md"
+    },
+    {
+      "id": "F01_01",
+      "title": "Energy",
+      "type": "facet",
+      "status": "SCAFFOLDED",
+      "path": "BOOK/manuscript/02_foundations/F01_material_base/F01_01_energy/index.md"
+    },
+    {
+      "id": "F01_01_M01",
+      "title": "Energy as Dependency",
+      "type": "module",
+      "status": "SCAFFOLDED",
+      "path": "BOOK/manuscript/02_foundations/F01_material_base/F01_01_energy/modules/01_energy_as_dependency.md"
+    },
+    {
+      "id": "F01_01_M02",
+      "title": "Energy Pathologies",
+      "type": "module",
+      "status": "SCAFFOLDED",
+      "path": "BOOK/manuscript/02_foundations/F01_material_base/F01_01_energy/modules/02_energy_pathologies.md"
+    },
+    {
+      "id": "F01_01_M03",
+      "title": "Energy Transition Vectors",
+      "type": "module",
+      "status": "SCAFFOLDED",
+      "path": "BOOK/manuscript/02_foundations/F01_material_base/F01_01_energy/modules/03_energy_transition_vectors.md"
+    }
+  ],
+  "edges": [
+    {
+      "source": "ELYSIUM_ROOT",
+      "target": "null",
+      "type": "child_of"
+    },
+    {
+      "source": "01_opening",
+      "target": "ELYSIUM_ROOT",
+      "type": "child_of"
+    },
+    {
+      "source": "PART_02",
+      "target": "ELYSIUM_ROOT",
+      "type": "child_of"
+    },
+    {
+      "source": "03_transition_dynamics",
+      "target": "ELYSIUM_ROOT",
+      "type": "child_of"
+    },
+    {
+      "source": "04_implementation",
+      "target": "ELYSIUM_ROOT",
+      "type": "child_of"
+    },
+    {
+      "source": "05_appendices",
+      "target": "ELYSIUM_ROOT",
+      "type": "child_of"
+    },
+    {
+      "source": "F01_material_base",
+      "target": "PART_02",
+      "type": "child_of"
+    },
+    {
+      "source": "F01_01",
+      "target": "F01_material_base",
+      "type": "child_of"
+    },
+    {
+      "source": "F01_01_M01",
+      "target": "F01_01_energy",
+      "type": "child_of"
+    },
+    {
+      "source": "F01_01_M02",
+      "target": "F01_01_energy",
+      "type": "child_of"
+    },
+    {
+      "source": "F01_01_M03",
+      "target": "F01_01_energy",
+      "type": "child_of"
+    }
+  ]
+}

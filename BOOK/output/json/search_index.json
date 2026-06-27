@@ -1,0 +1,27 @@
+[
+  {
+    "id": "civilizational_bottleneck",
+    "title": "civilizational_bottleneck",
+    "type": "concept"
+  },
+  {
+    "id": "dependency_structure",
+    "title": "dependency_structure",
+    "type": "concept"
+  },
+  {
+    "id": "energy_metabolism",
+    "title": "energy_metabolism",
+    "type": "concept"
+  },
+  {
+    "id": "material_dependency",
+    "title": "material_dependency",
+    "type": "concept"
+  },
+  {
+    "id": "metabolic_foundation",
+    "title": "metabolic_foundation",
+    "type": "concept"
+  }
+]

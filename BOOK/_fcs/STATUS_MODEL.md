@@ -1,0 +1,34 @@
+# Status Model
+
+FCS uses simplified V1 statuses to track the state of content, actions, and resources.
+
+## Content Statuses
+- PLANNED
+- SCAFFOLDED
+- DRAFT
+- AI_PROPOSAL_READY
+- REVIEW_PENDING
+- REVISION_REQUIRED
+- REVISED
+- LOCKED
+
+*Do not use FINAL.*
+
+## Action Statuses
+- DRAFT_ACTION
+- READY_FOR_AI
+- IN_PROGRESS
+- AI_PROPOSAL_READY
+- COMPLETED
+- BLOCKED
+- ARCHIVED
+
+## Resource Statuses
+- IDENTIFIED
+- TO_VERIFY
+- VERIFIED
+- CANONICAL_SOURCE
+- NON_CANONICAL_TEXTURE
+- MENTION_ONLY
+- REJECTED
+- ARCHIVED

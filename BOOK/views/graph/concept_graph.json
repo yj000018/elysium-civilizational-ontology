@@ -1,0 +1,46 @@
+{
+  "nodes": [
+    {
+      "id": "civilizational_bottleneck",
+      "type": "concept"
+    },
+    {
+      "id": "dependency_structure",
+      "type": "concept"
+    },
+    {
+      "id": "energy_metabolism",
+      "type": "concept"
+    },
+    {
+      "id": "material_dependency",
+      "type": "concept"
+    },
+    {
+      "id": "metabolic_foundation",
+      "type": "concept"
+    }
+  ],
+  "mentions": [
+    {
+      "concept": "material_dependency",
+      "source": "F01_material_base"
+    },
+    {
+      "concept": "metabolic_foundation",
+      "source": "F01_material_base"
+    },
+    {
+      "concept": "energy_metabolism",
+      "source": "F01_01"
+    },
+    {
+      "concept": "dependency_structure",
+      "source": "F01_01"
+    },
+    {
+      "concept": "civilizational_bottleneck",
+      "source": "F01_01"
+    }
+  ]
+}
