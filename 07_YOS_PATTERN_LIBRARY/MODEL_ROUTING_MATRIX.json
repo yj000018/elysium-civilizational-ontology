@@ -1,0 +1,32 @@
+{
+  "tasks": {
+    "Deep Research": [
+      "Perplexity",
+      "Claude 3.5 Sonnet",
+      "GPT-4o"
+    ],
+    "Ontology Structuring": [
+      "Claude 3.5 Sonnet",
+      "GPT-4o",
+      "Gemini 1.5 Pro"
+    ],
+    "Creative Drafting": [
+      "GPT-4o",
+      "Claude 3.5 Sonnet",
+      "Gemini 1.5 Pro"
+    ],
+    "Critical Review": [
+      "Claude 3.5 Sonnet",
+      "GPT-4o",
+      "O1-preview"
+    ],
+    "Code & Scripts": [
+      "Claude 3.5 Sonnet",
+      "GPT-4o",
+      "O1-mini"
+    ],
+    "Orchestration": [
+      "Manus"
+    ]
+  }
+}

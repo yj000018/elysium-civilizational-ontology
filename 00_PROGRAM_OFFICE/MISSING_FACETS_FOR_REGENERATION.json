@@ -1,0 +1,18 @@
+[
+  {
+    "id": "F06_01",
+    "code": "F06_01_EDUCATION",
+    "name_fr": "Éducation",
+    "name_en": "Education",
+    "foundation": "F06",
+    "foundation_name": "Vision / Connaissance & Prospective"
+  },
+  {
+    "id": "F07_02",
+    "code": "F07_02_SPIRITUALITE",
+    "name_fr": "Spiritualité",
+    "name_en": "Spirituality",
+    "foundation": "F07",
+    "foundation_name": "Conscience / Sens & Finalité"
+  }
+]

@@ -1,0 +1,77 @@
+{
+  "date": "2026-06-27T17:58:05",
+  "quarantined_scripts": [
+    {
+      "script": "multi_model_workflow.py",
+      "original_path": "Unknown (already in DEPRECATED)",
+      "action": "VERIFIED_QUARANTINE",
+      "reason": "Misleading workflow or uses fallback without logging"
+    },
+    {
+      "script": "update_state_01.py",
+      "original_path": "Unknown (already in DEPRECATED)",
+      "action": "VERIFIED_QUARANTINE",
+      "reason": "Misleading workflow or uses fallback without logging"
+    },
+    {
+      "script": "generate_docs_02_05.py",
+      "original_path": "Unknown (already in DEPRECATED)",
+      "action": "VERIFIED_QUARANTINE",
+      "reason": "Misleading workflow or uses fallback without logging"
+    },
+    {
+      "script": "audit_1.py",
+      "original_path": "Unknown (already in DEPRECATED)",
+      "action": "VERIFIED_QUARANTINE",
+      "reason": "Misleading workflow or uses fallback without logging"
+    },
+    {
+      "script": "generate_docs_06_10.py",
+      "original_path": "Unknown (already in DEPRECATED)",
+      "action": "VERIFIED_QUARANTINE",
+      "reason": "Misleading workflow or uses fallback without logging"
+    },
+    {
+      "script": "audit_2.py",
+      "original_path": "Unknown (already in DEPRECATED)",
+      "action": "VERIFIED_QUARANTINE",
+      "reason": "Misleading workflow or uses fallback without logging"
+    },
+    {
+      "script": "generate_docs_11_15.py",
+      "original_path": "Unknown (already in DEPRECATED)",
+      "action": "VERIFIED_QUARANTINE",
+      "reason": "Misleading workflow or uses fallback without logging"
+    },
+    {
+      "script": "audit_3.py",
+      "original_path": "Unknown (already in DEPRECATED)",
+      "action": "VERIFIED_QUARANTINE",
+      "reason": "Misleading workflow or uses fallback without logging"
+    },
+    {
+      "script": "generate_docs_16_20.py",
+      "original_path": "Unknown (already in DEPRECATED)",
+      "action": "VERIFIED_QUARANTINE",
+      "reason": "Misleading workflow or uses fallback without logging"
+    },
+    {
+      "script": "audit_4.py",
+      "original_path": "Unknown (already in DEPRECATED)",
+      "action": "VERIFIED_QUARANTINE",
+      "reason": "Misleading workflow or uses fallback without logging"
+    },
+    {
+      "script": "generate_docs_21_26.py",
+      "original_path": "Unknown (already in DEPRECATED)",
+      "action": "VERIFIED_QUARANTINE",
+      "reason": "Misleading workflow or uses fallback without logging"
+    },
+    {
+      "script": "audit_5.py",
+      "original_path": "Unknown (already in DEPRECATED)",
+      "action": "VERIFIED_QUARANTINE",
+      "reason": "Misleading workflow or uses fallback without logging"
+    }
+  ]
+}

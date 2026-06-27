@@ -1,0 +1,180 @@
+{
+  "ontology_name": "Elysium",
+  "version": "2.0",
+  "description": "A universal, fractal civilizational ontology mapping human, social, and planetary evolution.",
+  "scales": [
+    {
+      "id": 1,
+      "name": "Human",
+      "description": "Individual, personal, interior"
+    },
+    {
+      "id": 2,
+      "name": "Society",
+      "description": "Collective, institutional, communal"
+    },
+    {
+      "id": 3,
+      "name": "Civilization",
+      "description": "Planetary, species-level, epochal"
+    }
+  ],
+  "foundations": [
+    {
+      "id": 1,
+      "name": "Foundation",
+      "subtitle": "Material Base",
+      "description": "The physical substrate and infrastructure required for civilization to exist.",
+      "facets": [
+        "Energy",
+        "Water",
+        "Habitat",
+        "Infrastructure",
+        "Mobility",
+        "Materials"
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Vitality",
+      "subtitle": "Life & Ecology",
+      "description": "The biological and ecological systems that sustain living beings and the planet.",
+      "facets": [
+        "Health",
+        "Food & Agriculture",
+        "Biodiversity",
+        "Ecosystems",
+        "Regeneration"
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Agency",
+      "subtitle": "Economy & Production",
+      "description": "The capacity to act, produce, create value, and transform material conditions.",
+      "facets": [
+        "Economy",
+        "Work",
+        "Finance",
+        "Entrepreneurship",
+        "Innovation",
+        "Production"
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Cohesion",
+      "subtitle": "Community & Culture",
+      "description": "The social fabric, relationships, and shared identities that bind people together.",
+      "facets": [
+        "Community",
+        "Relationships",
+        "Culture",
+        "Art",
+        "Media",
+        "Identity"
+      ]
+    },
+    {
+      "id": 5,
+      "name": "Governance",
+      "subtitle": "Coordination & Law",
+      "description": "The structures, laws, and institutions through which societies coordinate and resolve conflict.",
+      "facets": [
+        "Law & Justice",
+        "Democracy",
+        "Institutions",
+        "Security",
+        "Communication"
+      ]
+    },
+    {
+      "id": 6,
+      "name": "Vision",
+      "subtitle": "Knowledge & Foresight",
+      "description": "The capacity to understand reality, learn, and anticipate the future.",
+      "facets": [
+        "Education",
+        "Science",
+        "Foresight",
+        "Systems Thinking",
+        "Technology"
+      ]
+    },
+    {
+      "id": 7,
+      "name": "Consciousness",
+      "subtitle": "Meaning & Purpose",
+      "description": "The orienting layer that provides direction, ethics, and meaning to civilization.",
+      "facets": [
+        "Ethics",
+        "Spirituality",
+        "Purpose",
+        "Worldview",
+        "Civilizational Direction"
+      ]
+    }
+  ],
+  "universal_matrix_steps": [
+    {
+      "step": 1,
+      "name": "What Is It? (Ontology)",
+      "phase": "Definition"
+    },
+    {
+      "step": 2,
+      "name": "Why It Matters (Teleology)",
+      "phase": "Definition"
+    },
+    {
+      "step": 3,
+      "name": "Today's Paradigm (Status Quo)",
+      "phase": "Crisis"
+    },
+    {
+      "step": 4,
+      "name": "Current Crisis / Limitations",
+      "phase": "Crisis"
+    },
+    {
+      "step": 5,
+      "name": "Key Transitions Underway",
+      "phase": "Transition"
+    },
+    {
+      "step": 6,
+      "name": "Technology / AI Disruption",
+      "phase": "Transition"
+    },
+    {
+      "step": 7,
+      "name": "Consciousness / Cultural Shift",
+      "phase": "Transition"
+    },
+    {
+      "step": 8,
+      "name": "The Future Paradigm",
+      "phase": "Future"
+    },
+    {
+      "step": 9,
+      "name": "Transition Pathways",
+      "phase": "Future"
+    },
+    {
+      "step": 10,
+      "name": "Projects / Experiments",
+      "phase": "Action"
+    },
+    {
+      "step": 11,
+      "name": "Risks / Shadows",
+      "phase": "Action"
+    },
+    {
+      "step": 12,
+      "name": "Resources (The Library)",
+      "phase": "Action"
+    }
+  ]
+}

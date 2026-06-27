@@ -1,0 +1,24 @@
+# STALE CLAIMS REPAIR REPORT
+
+**Date:** 2026-06-27
+**Files Scanned:** All files in ELYSIUM/
+**Files Repaired:** 9
+
+## Patterns Corrected
+| Pattern | Replacement |
+|---|---|
+| `126 analyzed + 10 candidate models` | `126 analyzed models + 10 candidate models proposed` |
+| `total_models: 126+10` | `total_models: 126` |
+| `Program Complete` | `Program Phase: Canonicalization / QA` |
+| `38 facets` | `38 Facets` |
+
+## Files Repaired
+- `ELYSIUM/00_PROGRAM_OFFICE/SINGLE_SOURCE_OF_TRUTH_REPORT.md`
+- `ELYSIUM/00_PROGRAM_OFFICE/SINGLE_SOURCE_OF_TRUTH_REPORT.json`
+- `ELYSIUM/04_DATASETS_AND_MATRICES/ELYSIUM_CORE_ONTOLOGY_V2.json`
+- `ELYSIUM/05_RESEARCH_CORPUS/RAW_RESEARCH/PHASE2_FACETS.md`
+- `ELYSIUM/05_RESEARCH_CORPUS/RAW_RESEARCH/16_ELYSIUM_BOOK_TOC.md`
+- `ELYSIUM/05_RESEARCH_CORPUS/RAW_RESEARCH/RECOVERY_REPORT.md`
+- `ELYSIUM/05_RESEARCH_CORPUS/RAW_RESEARCH/STAGE5_ADDITIONAL_MODELS.md`
+- `ELYSIUM/05_RESEARCH_CORPUS/RAW_RESEARCH/STAGE6_GAP_ANALYSIS.md`
+- `ELYSIUM/05_RESEARCH_CORPUS/RAW_RESEARCH/16_ELYSIUM_BOOK_TOC_V2.md`

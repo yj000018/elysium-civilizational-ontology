@@ -1,0 +1,161 @@
+{
+  "date": "2026-06-27",
+  "documents": [
+    {
+      "document_id": "DOC_01",
+      "title": "ELYSIUM Charter",
+      "status": "DRAFT_INTEGRATED_QA_PENDING",
+      "version": "0.9"
+    },
+    {
+      "document_id": "DOC_02",
+      "title": "Founding Manifesto",
+      "status": "DRAFT_INTEGRATED_QA_PENDING",
+      "version": "0.9"
+    },
+    {
+      "document_id": "DOC_03",
+      "title": "Philosophical Constitution",
+      "status": "DRAFT_INTEGRATED_QA_PENDING",
+      "version": "0.9"
+    },
+    {
+      "document_id": "DOC_04",
+      "title": "Civilizational Principles",
+      "status": "DRAFT_INTEGRATED_QA_PENDING",
+      "version": "0.9"
+    },
+    {
+      "document_id": "DOC_05",
+      "title": "Core Ontology Overview",
+      "status": "DRAFT_INTEGRATED_QA_PENDING",
+      "version": "0.9"
+    },
+    {
+      "document_id": "DOC_06",
+      "title": "Ontology Specification",
+      "status": "DRAFT_INTEGRATED_QA_PENDING",
+      "version": "0.9"
+    },
+    {
+      "document_id": "DOC_07",
+      "title": "Knowledge Graph Specification",
+      "status": "DRAFT_INTEGRATED_QA_PENDING",
+      "version": "0.9"
+    },
+    {
+      "document_id": "DOC_08",
+      "title": "Research Methodology",
+      "status": "DRAFT_INTEGRATED_QA_PENDING",
+      "version": "0.9"
+    },
+    {
+      "document_id": "DOC_09",
+      "title": "Model Registry",
+      "status": "DRAFT_INTEGRATED_QA_PENDING",
+      "version": "0.9"
+    },
+    {
+      "document_id": "DOC_10",
+      "title": "Evidence Standards",
+      "status": "DRAFT_INTEGRATED_QA_PENDING",
+      "version": "0.9"
+    },
+    {
+      "document_id": "DOC_11",
+      "title": "Governance Handbook",
+      "status": "DRAFT_INTEGRATED_QA_PENDING",
+      "version": "0.9"
+    },
+    {
+      "document_id": "DOC_12",
+      "title": "Ontology Stewardship Council Handbook",
+      "status": "DRAFT_INTEGRATED_QA_PENDING",
+      "version": "0.9"
+    },
+    {
+      "document_id": "DOC_13",
+      "title": "Community Contribution Guide",
+      "status": "DRAFT_INTEGRATED_QA_PENDING",
+      "version": "0.9"
+    },
+    {
+      "document_id": "DOC_14",
+      "title": "Future Observatory Framework",
+      "status": "DRAFT_INTEGRATED_QA_PENDING",
+      "version": "0.9"
+    },
+    {
+      "document_id": "DOC_15",
+      "title": "Civilization State Report Template",
+      "status": "DRAFT_INTEGRATED_QA_PENDING",
+      "version": "0.9"
+    },
+    {
+      "document_id": "DOC_16",
+      "title": "Book Canon",
+      "status": "DRAFT_INTEGRATED_QA_PENDING",
+      "version": "0.9"
+    },
+    {
+      "document_id": "DOC_17",
+      "title": "Brand and Visual System",
+      "status": "DRAFT_INTEGRATED_QA_PENDING",
+      "version": "0.9"
+    },
+    {
+      "document_id": "DOC_18",
+      "title": "Website Architecture",
+      "status": "DRAFT_INTEGRATED_QA_PENDING",
+      "version": "0.9"
+    },
+    {
+      "document_id": "DOC_19",
+      "title": "Educational Framework",
+      "status": "DRAFT_INTEGRATED_QA_PENDING",
+      "version": "0.9"
+    },
+    {
+      "document_id": "DOC_20",
+      "title": "AI Ecosystem / yOS Integration",
+      "status": "DRAFT_INTEGRATED_QA_PENDING",
+      "version": "0.9"
+    },
+    {
+      "document_id": "DOC_21",
+      "title": "Roadmap",
+      "status": "DRAFT_INTEGRATED_QA_PENDING",
+      "version": "0.9"
+    },
+    {
+      "document_id": "DOC_22",
+      "title": "Version History",
+      "status": "DRAFT_INTEGRATED_QA_PENDING",
+      "version": "0.9"
+    },
+    {
+      "document_id": "DOC_23",
+      "title": "Partnership Framework",
+      "status": "DRAFT_INTEGRATED_QA_PENDING",
+      "version": "0.9"
+    },
+    {
+      "document_id": "DOC_24",
+      "title": "Historical Archive",
+      "status": "DRAFT_INTEGRATED_QA_PENDING",
+      "version": "0.9"
+    },
+    {
+      "document_id": "DOC_25",
+      "title": "Legacy and Succession Framework",
+      "status": "DRAFT_INTEGRATED_QA_PENDING",
+      "version": "0.9"
+    },
+    {
+      "document_id": "DOC_26",
+      "title": "AI Collaboration Constitution",
+      "status": "DRAFT_INTEGRATED_QA_PENDING",
+      "version": "0.9"
+    }
+  ]
+}

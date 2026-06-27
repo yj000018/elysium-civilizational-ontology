@@ -1,0 +1,47 @@
+{
+  "date": "2026-06-27",
+  "manifest": [
+    {
+      "name": "ELYSIUM_MODEL_COVERAGE_MATRIX.csv",
+      "status": "QA_REPAIRED",
+      "size": 6665,
+      "location": "REPAIRED/ELYSIUM_MODEL_COVERAGE_MATRIX.csv"
+    },
+    {
+      "name": "ELYSIUM_WORLDCHANGING_MAPPING.csv",
+      "status": "QA_REPAIRED",
+      "size": 6644,
+      "location": "REPAIRED/ELYSIUM_WORLDCHANGING_MAPPING.csv"
+    },
+    {
+      "name": "ELYSIUM_ONTOLOGY_MATRIX.csv",
+      "status": "QA_REPAIRED",
+      "size": 25976,
+      "location": "REPAIRED/ELYSIUM_ONTOLOGY_MATRIX.csv"
+    },
+    {
+      "name": "ELYSIUM_FRACTAL_SCALE_TEST.csv",
+      "status": "QA_REPAIRED",
+      "size": 2356,
+      "location": "REPAIRED/ELYSIUM_FRACTAL_SCALE_TEST.csv"
+    },
+    {
+      "name": "ELYSIUM_FINAL_DATASET.json",
+      "status": "QA_REPAIRED",
+      "size": 645,
+      "location": "REPAIRED/ELYSIUM_FINAL_DATASET.json"
+    },
+    {
+      "name": "ELYSIUM_CORE_ONTOLOGY.json",
+      "status": "QA_REPAIRED",
+      "size": 4139,
+      "location": "REPAIRED/ELYSIUM_CORE_ONTOLOGY.json"
+    },
+    {
+      "name": "ELYSIUM_CORE_ONTOLOGY_V2.json",
+      "status": "QA_REPAIRED",
+      "size": 4646,
+      "location": "REPAIRED/ELYSIUM_CORE_ONTOLOGY_V2.json"
+    }
+  ]
+}

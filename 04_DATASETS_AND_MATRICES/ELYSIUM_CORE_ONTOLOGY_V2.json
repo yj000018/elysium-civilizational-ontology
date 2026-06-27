@@ -1,0 +1,154 @@
+{
+  "ontology_name": "Elysium",
+  "version": "2.0",
+  "description": "A fractal civilizational ontology mapping human existence across 3 Scales and 7 Foundations.",
+  "scales": [
+    {
+      "id": "scale_1",
+      "name": "Humain",
+      "description": "L'individu, son corps, sa psyché, son action locale."
+    },
+    {
+      "id": "scale_2",
+      "name": "Société",
+      "description": "Les groupes, les villes, les nations, les réseaux."
+    },
+    {
+      "id": "scale_3",
+      "name": "Civilisation",
+      "description": "L'espèce humaine, la planète, l'infrastructure globale."
+    }
+  ],
+  "foundations": [
+    {
+      "id": "F1",
+      "name": "FOUNDATION",
+      "subtitle": "Base Matérielle",
+      "description": "L'infrastructure physique et métabolique qui soutient la vie humaine.",
+      "facets": [
+        "Énergie",
+        "Eau",
+        "Habitat",
+        "Infrastructure",
+        "Mobilité",
+        "Matériaux"
+      ]
+    },
+    {
+      "id": "F2",
+      "name": "VITALITÉ",
+      "subtitle": "Vie & Écologie",
+      "description": "Les systèmes vivants, biologiques et écologiques.",
+      "facets": [
+        "Santé",
+        "Alimentation",
+        "Biodiversité",
+        "Écosystèmes",
+        "Régénération"
+      ]
+    },
+    {
+      "id": "F3",
+      "name": "AGENTIVITÉ",
+      "subtitle": "Économie & Production",
+      "description": "La capacité humaine à créer de la valeur, échanger et transformer le monde.",
+      "facets": [
+        "Économie",
+        "Travail",
+        "Finance",
+        "Entrepreneuriat",
+        "Innovation",
+        "Production"
+      ]
+    },
+    {
+      "id": "F4",
+      "name": "COHÉSION",
+      "subtitle": "Communauté & Culture",
+      "description": "Le tissu social, les récits partagés et l'expression humaine.",
+      "facets": [
+        "Communauté",
+        "Relations",
+        "Culture",
+        "Art",
+        "Médias",
+        "Appartenance & Identité"
+      ]
+    },
+    {
+      "id": "F5",
+      "name": "GOUVERNANCE",
+      "subtitle": "Coordination & Loi",
+      "description": "Les mécanismes de prise de décision, de justice et d'organisation collective.",
+      "facets": [
+        "Droit & Justice",
+        "Démocratie",
+        "Institutions",
+        "Sécurité",
+        "Communication"
+      ]
+    },
+    {
+      "id": "F6",
+      "name": "VISION",
+      "subtitle": "Connaissance & Prospective",
+      "description": "L'acquisition du savoir, la technologie et la capacité à voir le futur.",
+      "facets": [
+        "Éducation",
+        "Science",
+        "Prospective",
+        "Paradigmes Cognitifs",
+        "Technologie"
+      ]
+    },
+    {
+      "id": "F7",
+      "name": "CONSCIENCE",
+      "subtitle": "Sens & Finalité",
+      "description": "L'éthique, la spiritualité et la direction ultime de la civilisation.",
+      "facets": [
+        "Éthique",
+        "Spiritualité",
+        "Sens & Finalité",
+        "Vision du Monde",
+        "Direction Civilisationnelle"
+      ]
+    }
+  ],
+  "z_axis_dynamics": [
+    {
+      "id": "Z1",
+      "name": "Digital/Cyber",
+      "description": "How computation and networks alter each Foundation."
+    },
+    {
+      "id": "Z2",
+      "name": "Evolutionary",
+      "description": "How each Foundation develops and transitions over time."
+    },
+    {
+      "id": "Z3",
+      "name": "Complexity",
+      "description": "How each Foundation connects and cascades into others."
+    }
+  ],
+  "universal_analysis_matrix": [
+    {"step": 1, "name": "Ontologie", "description": "Qu'est-ce que c'est ?"},
+    {"step": 2, "name": "Téléologie", "description": "Pourquoi c'est essentiel ?"},
+    {"step": 3, "name": "Statu quo", "description": "Le paradigme actuel."},
+    {"step": 4, "name": "Effondrement", "description": "La crise actuelle."},
+    {"step": 5, "name": "Basculement", "description": "Transitions en cours."},
+    {"step": 6, "name": "Catalyseur", "description": "Disruption technologique/IA."},
+    {"step": 7, "name": "Transition intérieure", "description": "Mutation culturelle/conscience."},
+    {"step": 8, "name": "Synthèse", "description": "Le paradigme futur (2050)."},
+    {"step": 9, "name": "Le pont", "description": "Chemins de transition."},
+    {"step": 10, "name": "L'avant-garde", "description": "Projets et expériences."},
+    {"step": 11, "name": "L'avertissement", "description": "Risques et ombres."},
+    {"step": 12, "name": "La bibliothèque", "description": "Ressources clés."}
+  ],
+  "backing_corpus": {
+    "total_models": 126,
+    "worldchanging_coverage": "100%",
+    "fractal_validation_score": 4.9
+  }
+}

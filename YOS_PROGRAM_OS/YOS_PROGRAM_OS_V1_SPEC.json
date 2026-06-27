@@ -1,0 +1,22 @@
+{
+  "version": "1.0",
+  "date": "2026-06-27",
+  "name": "yOS Program Operating System",
+  "description": "Generic Specification for Autonomous AI-Driven Program Execution",
+  "core_principles": [
+    "State is Supreme",
+    "Sequential over Parallel",
+    "Audit Gates",
+    "Engine Provenance",
+    "No Implicit Finality"
+  ],
+  "state_machine": [
+    "INIT",
+    "RESEARCH",
+    "DRAFTING",
+    "AUDIT_GATE",
+    "QA_REPAIR",
+    "CANONICALIZATION",
+    "DEPLOYMENT"
+  ]
+}

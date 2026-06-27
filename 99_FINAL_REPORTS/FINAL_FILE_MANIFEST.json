@@ -1,0 +1,975 @@
+{
+  "date": "2026-06-27",
+  "files": [
+    {
+      "path": "00_PROGRAM_OFFICE/ELYSIUM_PROGRAM_STATE.md",
+      "size": 1092,
+      "type": ".md"
+    },
+    {
+      "path": "00_PROGRAM_OFFICE/ELYSIUM_PROGRAM_STATE.json",
+      "size": 649,
+      "type": ".json"
+    },
+    {
+      "path": "00_PROGRAM_OFFICE/DOCUMENTATION_REGISTRY.md",
+      "size": 2048,
+      "type": ".md"
+    },
+    {
+      "path": "00_PROGRAM_OFFICE/DOCUMENTATION_REGISTRY.json",
+      "size": 4085,
+      "type": ".json"
+    },
+    {
+      "path": "00_PROGRAM_OFFICE/DECISION_LOG.md",
+      "size": 667,
+      "type": ".md"
+    },
+    {
+      "path": "00_PROGRAM_OFFICE/RISK_REGISTER.md",
+      "size": 612,
+      "type": ".md"
+    },
+    {
+      "path": "00_PROGRAM_OFFICE/SINGLE_SOURCE_OF_TRUTH_REPORT.md",
+      "size": 726,
+      "type": ".md"
+    },
+    {
+      "path": "00_PROGRAM_OFFICE/SINGLE_SOURCE_OF_TRUTH_REPORT.json",
+      "size": 522,
+      "type": ".json"
+    },
+    {
+      "path": "00_PROGRAM_OFFICE/STALE_CLAIMS_REPAIR_REPORT.md",
+      "size": 1026,
+      "type": ".md"
+    },
+    {
+      "path": "00_PROGRAM_OFFICE/STALE_CLAIMS_REPAIR_REPORT.json",
+      "size": 699,
+      "type": ".json"
+    },
+    {
+      "path": "00_PROGRAM_OFFICE/MISSING_FACETS_FOR_REGENERATION.json",
+      "size": 413,
+      "type": ".json"
+    },
+    {
+      "path": "00_PROGRAM_OFFICE/API_CALL_LOG.json",
+      "size": 1802,
+      "type": ".json"
+    },
+    {
+      "path": "00_PROGRAM_OFFICE/MISSING_ASSETS.md",
+      "size": 277,
+      "type": ".md"
+    },
+    {
+      "path": "00_PROGRAM_OFFICE/MISSING_ASSETS.json",
+      "size": 98,
+      "type": ".json"
+    },
+    {
+      "path": "00_PROGRAM_OFFICE/DATASET_QA_REPORT.md",
+      "size": 287,
+      "type": ".md"
+    },
+    {
+      "path": "00_PROGRAM_OFFICE/DATASET_QA_REPORT.json",
+      "size": 1238,
+      "type": ".json"
+    },
+    {
+      "path": "00_PROGRAM_OFFICE/DOCUMENT_QA_MATRIX.md",
+      "size": 2326,
+      "type": ".md"
+    },
+    {
+      "path": "00_PROGRAM_OFFICE/DOCUMENT_QA_MATRIX.json",
+      "size": 13863,
+      "type": ".json"
+    },
+    {
+      "path": "02_ONTOLOGY_AND_KNOWLEDGE/CANONICAL_FACET_ID_MAP.md",
+      "size": 3537,
+      "type": ".md"
+    },
+    {
+      "path": "02_ONTOLOGY_AND_KNOWLEDGE/CANONICAL_FACET_ID_MAP.json",
+      "size": 8478,
+      "type": ".json"
+    },
+    {
+      "path": "03_BOOK_AND_PUBLICATION/01_ELYSIUM_CHARTER_draft.md",
+      "size": 3023,
+      "type": ".md"
+    },
+    {
+      "path": "03_BOOK_AND_PUBLICATION/01_ELYSIUM_CHARTER_review.md",
+      "size": 3227,
+      "type": ".md"
+    },
+    {
+      "path": "03_BOOK_AND_PUBLICATION/01_ELYSIUM_CHARTER.md",
+      "size": 4498,
+      "type": ".md"
+    },
+    {
+      "path": "03_BOOK_AND_PUBLICATION/02_FOUNDING_MANIFESTO.md",
+      "size": 4473,
+      "type": ".md"
+    },
+    {
+      "path": "03_BOOK_AND_PUBLICATION/03_PHILOSOPHICAL_CONSTITUTION.md",
+      "size": 5691,
+      "type": ".md"
+    },
+    {
+      "path": "03_BOOK_AND_PUBLICATION/04_CIVILIZATIONAL_PRINCIPLES.md",
+      "size": 4946,
+      "type": ".md"
+    },
+    {
+      "path": "03_BOOK_AND_PUBLICATION/05_CORE_ONTOLOGY_OVERVIEW.md",
+      "size": 5205,
+      "type": ".md"
+    },
+    {
+      "path": "03_BOOK_AND_PUBLICATION/06_ONTOLOGY_SPECIFICATION.md",
+      "size": 7540,
+      "type": ".md"
+    },
+    {
+      "path": "03_BOOK_AND_PUBLICATION/07_KNOWLEDGE_GRAPH_SPECIFICATION.md",
+      "size": 5085,
+      "type": ".md"
+    },
+    {
+      "path": "03_BOOK_AND_PUBLICATION/08_RESEARCH_METHODOLOGY.md",
+      "size": 5496,
+      "type": ".md"
+    },
+    {
+      "path": "03_BOOK_AND_PUBLICATION/09_MODEL_REGISTRY.md",
+      "size": 5050,
+      "type": ".md"
+    },
+    {
+      "path": "03_BOOK_AND_PUBLICATION/10_EVIDENCE_STANDARDS.md",
+      "size": 4932,
+      "type": ".md"
+    },
+    {
+      "path": "03_BOOK_AND_PUBLICATION/11_GOVERNANCE_HANDBOOK.md",
+      "size": 5682,
+      "type": ".md"
+    },
+    {
+      "path": "03_BOOK_AND_PUBLICATION/12_ONTOLOGY_STEWARDSHIP_COUNCIL_HANDBOOK.md",
+      "size": 4497,
+      "type": ".md"
+    },
+    {
+      "path": "03_BOOK_AND_PUBLICATION/13_COMMUNITY_CONTRIBUTION_GUIDE.md",
+      "size": 5403,
+      "type": ".md"
+    },
+    {
+      "path": "03_BOOK_AND_PUBLICATION/26_AI_COLLABORATION_CONSTITUTION.md",
+      "size": 5557,
+      "type": ".md"
+    },
+    {
+      "path": "03_BOOK_AND_PUBLICATION/14_FUTURE_OBSERVATORY_FRAMEWORK.md",
+      "size": 5525,
+      "type": ".md"
+    },
+    {
+      "path": "03_BOOK_AND_PUBLICATION/15_CIVILIZATION_STATE_REPORT_TEMPLATE.md",
+      "size": 4280,
+      "type": ".md"
+    },
+    {
+      "path": "03_BOOK_AND_PUBLICATION/16_BOOK_CANON.md",
+      "size": 4027,
+      "type": ".md"
+    },
+    {
+      "path": "03_BOOK_AND_PUBLICATION/17_BRAND_AND_VISUAL_SYSTEM.md",
+      "size": 5591,
+      "type": ".md"
+    },
+    {
+      "path": "03_BOOK_AND_PUBLICATION/18_WEBSITE_ARCHITECTURE.md",
+      "size": 4884,
+      "type": ".md"
+    },
+    {
+      "path": "03_BOOK_AND_PUBLICATION/19_EDUCATIONAL_FRAMEWORK.md",
+      "size": 4680,
+      "type": ".md"
+    },
+    {
+      "path": "03_BOOK_AND_PUBLICATION/20_AI_ECOSYSTEM_YOS_INTEGRATION.md",
+      "size": 4680,
+      "type": ".md"
+    },
+    {
+      "path": "03_BOOK_AND_PUBLICATION/21_ROADMAP.md",
+      "size": 5135,
+      "type": ".md"
+    },
+    {
+      "path": "03_BOOK_AND_PUBLICATION/22_VERSION_HISTORY.md",
+      "size": 452,
+      "type": ".md"
+    },
+    {
+      "path": "03_BOOK_AND_PUBLICATION/23_PARTNERSHIP_FRAMEWORK.md",
+      "size": 4690,
+      "type": ".md"
+    },
+    {
+      "path": "03_BOOK_AND_PUBLICATION/24_HISTORICAL_ARCHIVE.md",
+      "size": 797,
+      "type": ".md"
+    },
+    {
+      "path": "03_BOOK_AND_PUBLICATION/25_LEGACY_AND_SUCCESSION_FRAMEWORK.md",
+      "size": 5003,
+      "type": ".md"
+    },
+    {
+      "path": "04_DATASETS_AND_MATRICES/ELYSIUM_ONTOLOGY_MATRIX.csv",
+      "size": 25976,
+      "type": ".csv"
+    },
+    {
+      "path": "04_DATASETS_AND_MATRICES/ELYSIUM_MODEL_COVERAGE_MATRIX.csv",
+      "size": 0,
+      "type": ".csv"
+    },
+    {
+      "path": "04_DATASETS_AND_MATRICES/ELYSIUM_WORLDCHANGING_MAPPING.csv",
+      "size": 0,
+      "type": ".csv"
+    },
+    {
+      "path": "04_DATASETS_AND_MATRICES/ELYSIUM_FRACTAL_SCALE_TEST.csv",
+      "size": 2356,
+      "type": ".csv"
+    },
+    {
+      "path": "04_DATASETS_AND_MATRICES/ELYSIUM_FINAL_DATASET.json",
+      "size": 645,
+      "type": ".json"
+    },
+    {
+      "path": "04_DATASETS_AND_MATRICES/ELYSIUM_CORE_ONTOLOGY.json",
+      "size": 4139,
+      "type": ".json"
+    },
+    {
+      "path": "04_DATASETS_AND_MATRICES/coverage_audit_data.json",
+      "size": 277644,
+      "type": ".json"
+    },
+    {
+      "path": "04_DATASETS_AND_MATRICES/ELYSIUM_CORE_ONTOLOGY_V2.json",
+      "size": 4646,
+      "type": ".json"
+    },
+    {
+      "path": "04_DATASETS_AND_MATRICES/DATASET_MANIFEST.md",
+      "size": 845,
+      "type": ".md"
+    },
+    {
+      "path": "04_DATASETS_AND_MATRICES/DATASET_MANIFEST.json",
+      "size": 1238,
+      "type": ".json"
+    },
+    {
+      "path": "06_ENGINEERING_AND_WORKFLOWS/reference_multi_model_workflow.py",
+      "size": 4551,
+      "type": ".py"
+    },
+    {
+      "path": "07_YOS_PATTERN_LIBRARY/API_ROUTING_PROTOCOL.md",
+      "size": 1020,
+      "type": ".md"
+    },
+    {
+      "path": "07_YOS_PATTERN_LIBRARY/API_CALL_LOG_SCHEMA.json",
+      "size": 915,
+      "type": ".json"
+    },
+    {
+      "path": "07_YOS_PATTERN_LIBRARY/MODEL_ROUTING_MATRIX.md",
+      "size": 692,
+      "type": ".md"
+    },
+    {
+      "path": "07_YOS_PATTERN_LIBRARY/MODEL_ROUTING_MATRIX.json",
+      "size": 542,
+      "type": ".json"
+    },
+    {
+      "path": "07_YOS_PATTERN_LIBRARY/MULTI_MODEL_WORKFLOW_AUDIT.md",
+      "size": 352,
+      "type": ".md"
+    },
+    {
+      "path": "YOS_PROGRAM_OS/YOS_PROGRAM_OS_V1_SPEC.md",
+      "size": 6696,
+      "type": ".md"
+    },
+    {
+      "path": "YOS_PROGRAM_OS/YOS_PROGRAM_OS_V1_SPEC.json",
+      "size": 474,
+      "type": ".json"
+    },
+    {
+      "path": "YOS_PROGRAM_OS/PROGRAM_OS_PROMPT_TEMPLATE.md",
+      "size": 191,
+      "type": ".md"
+    },
+    {
+      "path": "YOS_PROGRAM_OS/PROGRAM_OS_STATE_SCHEMA.json",
+      "size": 87,
+      "type": ".json"
+    },
+    {
+      "path": "YOS_PROGRAM_OS/PROGRAM_OS_DECISION_LOG_TEMPLATE.md",
+      "size": 89,
+      "type": ".md"
+    },
+    {
+      "path": "YOS_PROGRAM_OS/PROGRAM_OS_RISK_REGISTER_TEMPLATE.md",
+      "size": 85,
+      "type": ".md"
+    },
+    {
+      "path": "YOS_PROGRAM_OS/PROGRAM_OS_AUDIT_TEMPLATE.md",
+      "size": 81,
+      "type": ".md"
+    },
+    {
+      "path": "YOS_PROGRAM_OS/PROGRAM_OS_DOCUMENTATION_REGISTRY_TEMPLATE.md",
+      "size": 99,
+      "type": ".md"
+    },
+    {
+      "path": "YOS_PROGRAM_OS/PROGRAM_OS_API_CALL_LOG_TEMPLATE.md",
+      "size": 107,
+      "type": ".md"
+    },
+    {
+      "path": "YOS_PROGRAM_OS/PROGRAM_OS_CANONICAL_FACTS_TEMPLATE.md",
+      "size": 97,
+      "type": ".md"
+    },
+    {
+      "path": "YOS_PROGRAM_OS/PROGRAM_OS_NEXT_ACTIONS_TEMPLATE.md",
+      "size": 43,
+      "type": ".md"
+    },
+    {
+      "path": "YOS_PROGRAM_OS/YOS_PROGRAM_OS_V1_1_SPEC.md",
+      "size": 17297,
+      "type": ".md"
+    },
+    {
+      "path": "99_FINAL_REPORTS/PASS_0_2_FINAL_AUDIT.md",
+      "size": 644,
+      "type": ".md"
+    },
+    {
+      "path": "99_FINAL_REPORTS/PASS_0_2_FINAL_AUDIT.json",
+      "size": 662,
+      "type": ".json"
+    },
+    {
+      "path": "99_FINAL_REPORTS/NEXT_ACTIONS_FOR_CHATGPT.md",
+      "size": 368,
+      "type": ".md"
+    },
+    {
+      "path": "99_FINAL_REPORTS/NEXT_ACTIONS_FOR_FOUNDER.md",
+      "size": 273,
+      "type": ".md"
+    },
+    {
+      "path": "99_FINAL_REPORTS/CHIEF_ARCHITECT_REVIEW_BRIEF_PASS_0_2.md",
+      "size": 999,
+      "type": ".md"
+    },
+    {
+      "path": "99_FINAL_REPORTS/FINAL_FILE_MANIFEST.md",
+      "size": 14871,
+      "type": ".md"
+    },
+    {
+      "path": "99_FINAL_REPORTS/FINAL_FILE_MANIFEST.json",
+      "size": 24684,
+      "type": ".json"
+    },
+    {
+      "path": "02_ONTOLOGY_AND_KNOWLEDGE/FACET_MATRICES/F01_01_ENERGIE.md",
+      "size": 22832,
+      "type": ".md"
+    },
+    {
+      "path": "02_ONTOLOGY_AND_KNOWLEDGE/FACET_MATRICES/F01_02_EAU.md",
+      "size": 21846,
+      "type": ".md"
+    },
+    {
+      "path": "02_ONTOLOGY_AND_KNOWLEDGE/FACET_MATRICES/F01_03_HABITAT.md",
+      "size": 23257,
+      "type": ".md"
+    },
+    {
+      "path": "02_ONTOLOGY_AND_KNOWLEDGE/FACET_MATRICES/F01_04_INFRASTRUCTURE.md",
+      "size": 26332,
+      "type": ".md"
+    },
+    {
+      "path": "02_ONTOLOGY_AND_KNOWLEDGE/FACET_MATRICES/F01_05_MOBILITE.md",
+      "size": 8353,
+      "type": ".md"
+    },
+    {
+      "path": "02_ONTOLOGY_AND_KNOWLEDGE/FACET_MATRICES/F01_06_MATERIAUX.md",
+      "size": 23181,
+      "type": ".md"
+    },
+    {
+      "path": "02_ONTOLOGY_AND_KNOWLEDGE/FACET_MATRICES/F02_01_SANTE.md",
+      "size": 22104,
+      "type": ".md"
+    },
+    {
+      "path": "02_ONTOLOGY_AND_KNOWLEDGE/FACET_MATRICES/F02_02_ALIMENTATION_AGRICULTURE.md",
+      "size": 27549,
+      "type": ".md"
+    },
+    {
+      "path": "02_ONTOLOGY_AND_KNOWLEDGE/FACET_MATRICES/F02_03_BIODIVERSITE.md",
+      "size": 11669,
+      "type": ".md"
+    },
+    {
+      "path": "02_ONTOLOGY_AND_KNOWLEDGE/FACET_MATRICES/F02_04_ECOSYSTEMES.md",
+      "size": 9232,
+      "type": ".md"
+    },
+    {
+      "path": "02_ONTOLOGY_AND_KNOWLEDGE/FACET_MATRICES/F02_05_REGENERATION.md",
+      "size": 23938,
+      "type": ".md"
+    },
+    {
+      "path": "02_ONTOLOGY_AND_KNOWLEDGE/FACET_MATRICES/F03_01_ECONOMIE.md",
+      "size": 25755,
+      "type": ".md"
+    },
+    {
+      "path": "02_ONTOLOGY_AND_KNOWLEDGE/FACET_MATRICES/F03_02_TRAVAIL.md",
+      "size": 23908,
+      "type": ".md"
+    },
+    {
+      "path": "02_ONTOLOGY_AND_KNOWLEDGE/FACET_MATRICES/F03_03_FINANCE.md",
+      "size": 19609,
+      "type": ".md"
+    },
+    {
+      "path": "02_ONTOLOGY_AND_KNOWLEDGE/FACET_MATRICES/F03_04_ENTREPRENEURIAT.md",
+      "size": 23797,
+      "type": ".md"
+    },
+    {
+      "path": "02_ONTOLOGY_AND_KNOWLEDGE/FACET_MATRICES/F03_05_INNOVATION.md",
+      "size": 26053,
+      "type": ".md"
+    },
+    {
+      "path": "02_ONTOLOGY_AND_KNOWLEDGE/FACET_MATRICES/F03_06_PRODUCTION.md",
+      "size": 27691,
+      "type": ".md"
+    },
+    {
+      "path": "02_ONTOLOGY_AND_KNOWLEDGE/FACET_MATRICES/F04_01_COMMUNAUTE.md",
+      "size": 23411,
+      "type": ".md"
+    },
+    {
+      "path": "02_ONTOLOGY_AND_KNOWLEDGE/FACET_MATRICES/F04_02_RELATIONS.md",
+      "size": 22078,
+      "type": ".md"
+    },
+    {
+      "path": "02_ONTOLOGY_AND_KNOWLEDGE/FACET_MATRICES/F04_03_CULTURE.md",
+      "size": 21222,
+      "type": ".md"
+    },
+    {
+      "path": "02_ONTOLOGY_AND_KNOWLEDGE/FACET_MATRICES/F04_04_ART.md",
+      "size": 33692,
+      "type": ".md"
+    },
+    {
+      "path": "02_ONTOLOGY_AND_KNOWLEDGE/FACET_MATRICES/F04_05_MEDIAS.md",
+      "size": 18707,
+      "type": ".md"
+    },
+    {
+      "path": "02_ONTOLOGY_AND_KNOWLEDGE/FACET_MATRICES/F04_06_APPARTENANCE_IDENTITE.md",
+      "size": 27010,
+      "type": ".md"
+    },
+    {
+      "path": "02_ONTOLOGY_AND_KNOWLEDGE/FACET_MATRICES/F05_01_DROIT_JUSTICE.md",
+      "size": 24663,
+      "type": ".md"
+    },
+    {
+      "path": "02_ONTOLOGY_AND_KNOWLEDGE/FACET_MATRICES/F05_02_DEMOCRATIE.md",
+      "size": 26250,
+      "type": ".md"
+    },
+    {
+      "path": "02_ONTOLOGY_AND_KNOWLEDGE/FACET_MATRICES/F05_04_SECURITE.md",
+      "size": 24414,
+      "type": ".md"
+    },
+    {
+      "path": "02_ONTOLOGY_AND_KNOWLEDGE/FACET_MATRICES/F05_05_COMMUNICATION.md",
+      "size": 19413,
+      "type": ".md"
+    },
+    {
+      "path": "02_ONTOLOGY_AND_KNOWLEDGE/FACET_MATRICES/F05_03_INSTITUTIONS.md",
+      "size": 25385,
+      "type": ".md"
+    },
+    {
+      "path": "02_ONTOLOGY_AND_KNOWLEDGE/FACET_MATRICES/F06_02_SCIENCE.md",
+      "size": 26920,
+      "type": ".md"
+    },
+    {
+      "path": "02_ONTOLOGY_AND_KNOWLEDGE/FACET_MATRICES/F06_03_PROSPECTIVE.md",
+      "size": 26122,
+      "type": ".md"
+    },
+    {
+      "path": "02_ONTOLOGY_AND_KNOWLEDGE/FACET_MATRICES/F06_04_PENSEE_SYSTEMIQUE.md",
+      "size": 27021,
+      "type": ".md"
+    },
+    {
+      "path": "02_ONTOLOGY_AND_KNOWLEDGE/FACET_MATRICES/F06_05_TECHNOLOGIE.md",
+      "size": 24474,
+      "type": ".md"
+    },
+    {
+      "path": "02_ONTOLOGY_AND_KNOWLEDGE/FACET_MATRICES/F07_01_ETHIQUE.md",
+      "size": 22832,
+      "type": ".md"
+    },
+    {
+      "path": "02_ONTOLOGY_AND_KNOWLEDGE/FACET_MATRICES/F07_03_SENS_FINALITE.md",
+      "size": 23681,
+      "type": ".md"
+    },
+    {
+      "path": "02_ONTOLOGY_AND_KNOWLEDGE/FACET_MATRICES/F07_04_VISION_DU_MONDE.md",
+      "size": 25930,
+      "type": ".md"
+    },
+    {
+      "path": "02_ONTOLOGY_AND_KNOWLEDGE/FACET_MATRICES/F07_05_DIRECTION_CIVILISATIONNELLE.md",
+      "size": 29108,
+      "type": ".md"
+    },
+    {
+      "path": "02_ONTOLOGY_AND_KNOWLEDGE/FACET_MATRICES/FACET_MATRICES_INDEX.md",
+      "size": 2310,
+      "type": ".md"
+    },
+    {
+      "path": "02_ONTOLOGY_AND_KNOWLEDGE/FACET_MATRICES/FACET_MATRICES_INDEX.json",
+      "size": 128,
+      "type": ".json"
+    },
+    {
+      "path": "02_ONTOLOGY_AND_KNOWLEDGE/FACET_MATRICES/F06_01_EDUCATION.md",
+      "size": 3334,
+      "type": ".md"
+    },
+    {
+      "path": "02_ONTOLOGY_AND_KNOWLEDGE/FACET_MATRICES/F07_02_SPIRITUALITE.md",
+      "size": 4134,
+      "type": ".md"
+    },
+    {
+      "path": "04_DATASETS_AND_MATRICES/REPAIRED/ELYSIUM_MODEL_COVERAGE_MATRIX.csv",
+      "size": 6665,
+      "type": ".csv"
+    },
+    {
+      "path": "04_DATASETS_AND_MATRICES/REPAIRED/ELYSIUM_WORLDCHANGING_MAPPING.csv",
+      "size": 6644,
+      "type": ".csv"
+    },
+    {
+      "path": "04_DATASETS_AND_MATRICES/REPAIRED/ELYSIUM_ONTOLOGY_MATRIX.csv",
+      "size": 25976,
+      "type": ".csv"
+    },
+    {
+      "path": "04_DATASETS_AND_MATRICES/REPAIRED/ELYSIUM_FRACTAL_SCALE_TEST.csv",
+      "size": 2356,
+      "type": ".csv"
+    },
+    {
+      "path": "04_DATASETS_AND_MATRICES/REPAIRED/ELYSIUM_FINAL_DATASET.json",
+      "size": 645,
+      "type": ".json"
+    },
+    {
+      "path": "04_DATASETS_AND_MATRICES/REPAIRED/ELYSIUM_CORE_ONTOLOGY.json",
+      "size": 4139,
+      "type": ".json"
+    },
+    {
+      "path": "04_DATASETS_AND_MATRICES/REPAIRED/ELYSIUM_CORE_ONTOLOGY_V2.json",
+      "size": 4646,
+      "type": ".json"
+    },
+    {
+      "path": "05_RESEARCH_CORPUS/RAW_RESEARCH/00_README.md",
+      "size": 2799,
+      "type": ".md"
+    },
+    {
+      "path": "05_RESEARCH_CORPUS/RAW_RESEARCH/01_EXECUTIVE_SUMMARY.md",
+      "size": 2736,
+      "type": ".md"
+    },
+    {
+      "path": "05_RESEARCH_CORPUS/RAW_RESEARCH/02_MODEL_INVENTORY.md",
+      "size": 12928,
+      "type": ".md"
+    },
+    {
+      "path": "05_RESEARCH_CORPUS/RAW_RESEARCH/03_ONTOLOGY_EXTRACTION_BY_MODEL.md",
+      "size": 1211229,
+      "type": ".md"
+    },
+    {
+      "path": "05_RESEARCH_CORPUS/RAW_RESEARCH/04_COMPARATIVE_ONTOLOGY_MATRIX.md",
+      "size": 1813,
+      "type": ".md"
+    },
+    {
+      "path": "05_RESEARCH_CORPUS/RAW_RESEARCH/05_EMERGENT_CLUSTERS.md",
+      "size": 10999,
+      "type": ".md"
+    },
+    {
+      "path": "05_RESEARCH_CORPUS/RAW_RESEARCH/06_WORLDCHANGING_COVERAGE_TEST.md",
+      "size": 3518,
+      "type": ".md"
+    },
+    {
+      "path": "05_RESEARCH_CORPUS/RAW_RESEARCH/07_FRACTAL_SCALE_TEST.md",
+      "size": 7949,
+      "type": ".md"
+    },
+    {
+      "path": "05_RESEARCH_CORPUS/RAW_RESEARCH/08_TAXONOMY_LEVELS.md",
+      "size": 6737,
+      "type": ".md"
+    },
+    {
+      "path": "05_RESEARCH_CORPUS/RAW_RESEARCH/09_PROPOSED_ARCHITECTURES.md",
+      "size": 5337,
+      "type": ".md"
+    },
+    {
+      "path": "05_RESEARCH_CORPUS/RAW_RESEARCH/10_UNIVERSAL_ANALYSIS_MATRIX.md",
+      "size": 3843,
+      "type": ".md"
+    },
+    {
+      "path": "05_RESEARCH_CORPUS/RAW_RESEARCH/11_RECOMMENDATION_FOR_PHASE_2.md",
+      "size": 3797,
+      "type": ".md"
+    },
+    {
+      "path": "05_RESEARCH_CORPUS/RAW_RESEARCH/12_SOURCE_BIBLIOGRAPHY.md",
+      "size": 140,
+      "type": ".md"
+    },
+    {
+      "path": "05_RESEARCH_CORPUS/RAW_RESEARCH/13_OPEN_QUESTIONS.md",
+      "size": 124,
+      "type": ".md"
+    },
+    {
+      "path": "05_RESEARCH_CORPUS/RAW_RESEARCH/14_RAW_NOTES_BY_MODEL.md",
+      "size": 25435,
+      "type": ".md"
+    },
+    {
+      "path": "05_RESEARCH_CORPUS/RAW_RESEARCH/PHASE2_FACETS.md",
+      "size": 3785,
+      "type": ".md"
+    },
+    {
+      "path": "05_RESEARCH_CORPUS/RAW_RESEARCH/15_THE_7_MATRICES.md",
+      "size": 110727,
+      "type": ".md"
+    },
+    {
+      "path": "05_RESEARCH_CORPUS/RAW_RESEARCH/16_ELYSIUM_BOOK_TOC.md",
+      "size": 4901,
+      "type": ".md"
+    },
+    {
+      "path": "05_RESEARCH_CORPUS/RAW_RESEARCH/17_HOW_THIS_ONTOLOGY_WAS_BUILT.md",
+      "size": 15003,
+      "type": ".md"
+    },
+    {
+      "path": "05_RESEARCH_CORPUS/RAW_RESEARCH/RECOVERY_REPORT.md",
+      "size": 4668,
+      "type": ".md"
+    },
+    {
+      "path": "05_RESEARCH_CORPUS/RAW_RESEARCH/STAGE3_COVERAGE_AUDIT.md",
+      "size": 7749,
+      "type": ".md"
+    },
+    {
+      "path": "05_RESEARCH_CORPUS/RAW_RESEARCH/STAGE4_WORLDCHANGING_AUDIT.md",
+      "size": 11502,
+      "type": ".md"
+    },
+    {
+      "path": "05_RESEARCH_CORPUS/RAW_RESEARCH/STAGE5_ADDITIONAL_MODELS.md",
+      "size": 6248,
+      "type": ".md"
+    },
+    {
+      "path": "05_RESEARCH_CORPUS/RAW_RESEARCH/STAGE6_GAP_ANALYSIS.md",
+      "size": 5070,
+      "type": ".md"
+    },
+    {
+      "path": "05_RESEARCH_CORPUS/RAW_RESEARCH/STAGE7_CONSISTENCY_FRACTAL_VALIDATION.md",
+      "size": 5551,
+      "type": ".md"
+    },
+    {
+      "path": "05_RESEARCH_CORPUS/RAW_RESEARCH/16_ELYSIUM_BOOK_TOC_V2.md",
+      "size": 3316,
+      "type": ".md"
+    },
+    {
+      "path": "05_RESEARCH_CORPUS/RAW_LOTS/lot_a_human_development.json",
+      "size": 20825,
+      "type": ".json"
+    },
+    {
+      "path": "05_RESEARCH_CORPUS/RAW_LOTS/lot_b_civilization_sustainability.json",
+      "size": 22696,
+      "type": ".json"
+    },
+    {
+      "path": "05_RESEARCH_CORPUS/RAW_LOTS/lot_c_systems_complexity.json",
+      "size": 18768,
+      "type": ".json"
+    },
+    {
+      "path": "05_RESEARCH_CORPUS/RAW_LOTS/lot_d_ecology_regeneration.json",
+      "size": 17993,
+      "type": ".json"
+    },
+    {
+      "path": "05_RESEARCH_CORPUS/RAW_LOTS/lot_e_economy_technology_future.json",
+      "size": 22689,
+      "type": ".json"
+    },
+    {
+      "path": "05_RESEARCH_CORPUS/RAW_LOTS/lot_f_philosophy_spirituality.json",
+      "size": 21480,
+      "type": ".json"
+    },
+    {
+      "path": "05_RESEARCH_CORPUS/RAW_LOTS/lot_g_discovered_models.json",
+      "size": 15477,
+      "type": ".json"
+    },
+    {
+      "path": "05_RESEARCH_CORPUS/RAW_LOTS/lot_h_missing_models.json",
+      "size": 19414,
+      "type": ".json"
+    },
+    {
+      "path": "05_RESEARCH_CORPUS/RAW_LOTS/facets_12_steps_batch_1.json",
+      "size": 23042,
+      "type": ".json"
+    },
+    {
+      "path": "05_RESEARCH_CORPUS/RAW_LOTS/facets_12_steps_batch_2.json",
+      "size": 20436,
+      "type": ".json"
+    },
+    {
+      "path": "05_RESEARCH_CORPUS/RAW_LOTS/remaining_facets_conscience.json",
+      "size": 4252,
+      "type": ".json"
+    },
+    {
+      "path": "05_RESEARCH_CORPUS/RAW_LOTS/remaining_facets_gouvernance.json",
+      "size": 1440,
+      "type": ".json"
+    },
+    {
+      "path": "05_RESEARCH_CORPUS/RAW_LOTS/universal_matrix_7_foundations.json",
+      "size": 10484,
+      "type": ".json"
+    },
+    {
+      "path": "06_ENGINEERING_AND_WORKFLOWS/DEPRECATED/multi_model_workflow.py",
+      "size": 3933,
+      "type": ".py"
+    },
+    {
+      "path": "06_ENGINEERING_AND_WORKFLOWS/DEPRECATED/update_state_01.py",
+      "size": 973,
+      "type": ".py"
+    },
+    {
+      "path": "06_ENGINEERING_AND_WORKFLOWS/DEPRECATED/generate_docs_02_05.py",
+      "size": 5024,
+      "type": ".py"
+    },
+    {
+      "path": "06_ENGINEERING_AND_WORKFLOWS/DEPRECATED/audit_1.py",
+      "size": 2661,
+      "type": ".py"
+    },
+    {
+      "path": "06_ENGINEERING_AND_WORKFLOWS/DEPRECATED/generate_docs_06_10.py",
+      "size": 5448,
+      "type": ".py"
+    },
+    {
+      "path": "06_ENGINEERING_AND_WORKFLOWS/DEPRECATED/audit_2.py",
+      "size": 2646,
+      "type": ".py"
+    },
+    {
+      "path": "06_ENGINEERING_AND_WORKFLOWS/DEPRECATED/generate_docs_11_15.py",
+      "size": 5462,
+      "type": ".py"
+    },
+    {
+      "path": "06_ENGINEERING_AND_WORKFLOWS/DEPRECATED/audit_3.py",
+      "size": 2731,
+      "type": ".py"
+    },
+    {
+      "path": "06_ENGINEERING_AND_WORKFLOWS/DEPRECATED/generate_docs_16_20.py",
+      "size": 5324,
+      "type": ".py"
+    },
+    {
+      "path": "06_ENGINEERING_AND_WORKFLOWS/DEPRECATED/audit_4.py",
+      "size": 2836,
+      "type": ".py"
+    },
+    {
+      "path": "06_ENGINEERING_AND_WORKFLOWS/DEPRECATED/generate_docs_21_26.py",
+      "size": 7201,
+      "type": ".py"
+    },
+    {
+      "path": "06_ENGINEERING_AND_WORKFLOWS/DEPRECATED/audit_5.py",
+      "size": 3170,
+      "type": ".py"
+    },
+    {
+      "path": "06_ENGINEERING_AND_WORKFLOWS/CANONICALIZATION_SCRIPTS/run_canonicalization.py",
+      "size": 7954,
+      "type": ".py"
+    },
+    {
+      "path": "06_ENGINEERING_AND_WORKFLOWS/CANONICALIZATION_SCRIPTS/run_part_b.py",
+      "size": 5310,
+      "type": ".py"
+    },
+    {
+      "path": "06_ENGINEERING_AND_WORKFLOWS/CANONICALIZATION_SCRIPTS/run_part_c.py",
+      "size": 7765,
+      "type": ".py"
+    },
+    {
+      "path": "06_ENGINEERING_AND_WORKFLOWS/CANONICALIZATION_SCRIPTS/run_part_d.py",
+      "size": 7182,
+      "type": ".py"
+    },
+    {
+      "path": "06_ENGINEERING_AND_WORKFLOWS/CANONICALIZATION_SCRIPTS/run_part_d_v2.py",
+      "size": 6463,
+      "type": ".py"
+    },
+    {
+      "path": "06_ENGINEERING_AND_WORKFLOWS/CANONICALIZATION_SCRIPTS/run_part_e.py",
+      "size": 2510,
+      "type": ".py"
+    },
+    {
+      "path": "06_ENGINEERING_AND_WORKFLOWS/CANONICALIZATION_SCRIPTS/run_part_f.py",
+      "size": 5429,
+      "type": ".py"
+    },
+    {
+      "path": "06_ENGINEERING_AND_WORKFLOWS/CANONICALIZATION_SCRIPTS/run_part_g.py",
+      "size": 6302,
+      "type": ".py"
+    },
+    {
+      "path": "06_ENGINEERING_AND_WORKFLOWS/CANONICALIZATION_SCRIPTS/run_part_h.py",
+      "size": 4710,
+      "type": ".py"
+    },
+    {
+      "path": "06_ENGINEERING_AND_WORKFLOWS/CANONICALIZATION_SCRIPTS/run_part_i.py",
+      "size": 9745,
+      "type": ".py"
+    },
+    {
+      "path": "06_ENGINEERING_AND_WORKFLOWS/CANONICALIZATION_SCRIPTS/run_part_j.py",
+      "size": 3946,
+      "type": ".py"
+    },
+    {
+      "path": "06_ENGINEERING_AND_WORKFLOWS/CANONICALIZATION_SCRIPTS/run_parts_k_l.py",
+      "size": 5716,
+      "type": ".py"
+    },
+    {
+      "path": "06_ENGINEERING_AND_WORKFLOWS/CANONICALIZATION_SCRIPTS/execute_pass_02.py",
+      "size": 27467,
+      "type": ".py"
+    }
+  ]
+}

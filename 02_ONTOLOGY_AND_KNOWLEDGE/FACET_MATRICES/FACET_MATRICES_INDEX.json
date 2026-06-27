@@ -1,0 +1,9 @@
+{
+  "date": "2026-06-27",
+  "total": 38,
+  "present": 36,
+  "missing": [
+    "F06_01_EDUCATION",
+    "F07_02_SPIRITUALITE"
+  ]
+}

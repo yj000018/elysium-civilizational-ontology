@@ -1,0 +1,52 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "type": "object",
+  "required": [
+    "call_id",
+    "timestamp",
+    "requested_engine",
+    "executed_engine",
+    "task_type",
+    "success"
+  ],
+  "properties": {
+    "call_id": {
+      "type": "string"
+    },
+    "timestamp": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "requested_engine": {
+      "type": "string"
+    },
+    "executed_engine": {
+      "type": "string"
+    },
+    "task_type": {
+      "type": "string",
+      "enum": [
+        "DRAFTING",
+        "REVIEW",
+        "REVISION",
+        "ORCHESTRATION",
+        "RESEARCH"
+      ]
+    },
+    "input_file_or_prompt": {
+      "type": "string"
+    },
+    "output_file": {
+      "type": "string"
+    },
+    "success": {
+      "type": "boolean"
+    },
+    "fallback_used": {
+      "type": "boolean"
+    },
+    "reason_for_fallback": {
+      "type": "string"
+    }
+  }
+}

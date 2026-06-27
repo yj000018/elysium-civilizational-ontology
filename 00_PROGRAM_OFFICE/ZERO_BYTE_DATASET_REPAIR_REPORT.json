@@ -1,0 +1,24 @@
+{
+  "date": "2026-06-27T17:56:50",
+  "repairs": [
+    {
+      "file": "ELYSIUM_MODEL_COVERAGE_MATRIX.csv",
+      "original_size": 0,
+      "repaired_size": 6665,
+      "source": "REPAIRED/ELYSIUM_MODEL_COVERAGE_MATRIX.csv",
+      "action": "REPLACED_FROM_REPAIRED",
+      "status": "QA_REPAIRED"
+    },
+    {
+      "file": "ELYSIUM_WORLDCHANGING_MAPPING.csv",
+      "original_size": 0,
+      "repaired_size": 6644,
+      "source": "REPAIRED/ELYSIUM_WORLDCHANGING_MAPPING.csv",
+      "action": "REPLACED_FROM_REPAIRED",
+      "status": "QA_REPAIRED"
+    }
+  ],
+  "total_zero_byte_found": 2,
+  "total_repaired": 2,
+  "total_unrecoverable": 0
+}

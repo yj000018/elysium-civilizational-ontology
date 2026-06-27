@@ -1,0 +1,132 @@
+{
+  "results": [
+    {
+      "input": "COHÉSION — Facette 2 : RELATIONS. Famille, liens interpersonnels, connexion émotionnelle, amour, amitié. Fondation 4 (Communauté \u0026 Culture) de l'ontologie Elysium.",
+      "output": {
+        "chapter_content": "https://private-us-east-1.manuscdn.com/sessionFile/m5R7z0EwZgjBqmbCIHQOIV/sandbox/XdhgpeDfLEwEPWZ9vpm55j_1782548540747_na1fn_L2hvbWUvdWJ1bnR1L2NoYXB0ZXJfY29oZXNpb25fcmVsYXRpb25z.md?Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9wcml2YXRlLXVzLWVhc3QtMS5tYW51c2Nkbi5jb20vc2Vzc2lvbkZpbGUvbTVSN3owRXdaZ2pCcW1iQ0lIUU9JVi9zYW5kYm94L1hkaGdwZURmTEV3RVBXWjl2cG01NWpfMTc4MjU0ODU0MDc0N19uYTFmbl9MMmh2YldVdmRXSjFiblIxTDJOb1lYQjBaWEpmWTI5b1pYTnBiMjVmY21Wc1lYUnBiMjV6Lm1kIiwiQ29uZGl0aW9uIjp7IkRhdGVMZXNzVGhhbiI6eyJBV1M6RXBvY2hUaW1lIjoxNzk4NzYxNjAwfX19XX0_\u0026Key-Pair-Id=K2HSFNDJXOU9YS\u0026Signature=FwUYuk0S9sHYANYlKVp5xC2dBkdWuXU-O7EsIlg-iaEitMVqHfLEyQ5I3WkBsUvJZKmZD9IL5JvezLcZISl473WHjO3AjSd5bReH1dnxcgbPtRWewTNQ6uxtdyDPJ6iVFjyUIPskQSpO~gTnhyBc4mbEfpvMtE5pVk34oRc-2zeUrDHr~vkUS4zHrkfW2nH6e0AH6cp31ARBsT3ILzIhjENyvLjYYnP0m9EvnmEHU5CLUOMdTnkL5Hw-4TG1mY051zo8SLf21TA-t9U1zj-clh9MtTE~gzAxtsIk4PETv~mne8TnEMhOICPsTxgiPS-h~fpVixs6gdlABDBw7-HNlA__",
+        "facet_name": "COHÉSION — Relations"
+      },
+      "error": ""
+    },
+    {
+      "input": "COHÉSION — Facette 3 : CULTURE. Récits partagés, traditions, échanges culturels mondiaux, patrimoine immatériel. Fondation 4 (Communauté \u0026 Culture) de l'ontologie Elysium.",
+      "output": {
+        "chapter_content": "https://private-us-east-1.manuscdn.com/sessionFile/Fe8K1wetSIIR1VX1iB47u2/sandbox/sU9Ywv8k9YdNqNTUuMlxaj_1782548568783_na1fn_L2hvbWUvdWJ1bnR1L2NoYXB0ZXJfY3VsdHVyZQ.md?Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9wcml2YXRlLXVzLWVhc3QtMS5tYW51c2Nkbi5jb20vc2Vzc2lvbkZpbGUvRmU4SzF3ZXRTSUlSMVZYMWlCNDd1Mi9zYW5kYm94L3NVOVl3djhrOVlkTnFOVFV1TWx4YWpfMTc4MjU0ODU2ODc4M19uYTFmbl9MMmh2YldVdmRXSjFiblIxTDJOb1lYQjBaWEpmWTNWc2RIVnlaUS5tZCIsIkNvbmRpdGlvbiI6eyJEYXRlTGVzc1RoYW4iOnsiQVdTOkVwb2NoVGltZSI6MTc5ODc2MTYwMH19fV19\u0026Key-Pair-Id=K2HSFNDJXOU9YS\u0026Signature=JDsMed5nBV8Nd9pQ8NezAkjhhkx4waolYP3hvKRK0xfmq2I4MTuKICvIHQVtBqz91zfM99CxCnFanKb5iKKrF2E6GmvPRztDgaYUgs3HTBAgrU119BsBP9SOMDa-UE40Ac8hdbNek1tOlY-Zt1HNV7lE5ipKIQZJcRQNKS8y8~jtf4ZQt7wxoW-vocMKqZEQpRb8p~-oQgb79pnIY~EWoJswdpjK~P5-rFpXuXILIimFdkkClKuy3Mpbj5jRXvYzAP1juopmi4Z0h3aLCY1Kx8JpPGvoZC5-ziAnsfrDbau9iW0rUhQNSkeiAnvzX5yRIB9jtsodA-SLAExtU8cOvA__",
+        "facet_name": "COHÉSION — Culture"
+      },
+      "error": ""
+    },
+    {
+      "input": "COHÉSION — Facette 4 : ART. Expression créative, esthétique, production culturelle, art comme vecteur de transformation. Fondation 4 (Communauté \u0026 Culture) de l'ontologie Elysium.",
+      "output": {
+        "chapter_content": "https://private-us-east-1.manuscdn.com/sessionFile/9SpZILsRtR12nne5w0Y83t/sandbox/bAld8vhO0m1LWo9l8wzlq6_1782548611325_na1fn_L2hvbWUvdWJ1bnR1L2VseXNpdW1fY29oZXNpb25fYXJ0.md?Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9wcml2YXRlLXVzLWVhc3QtMS5tYW51c2Nkbi5jb20vc2Vzc2lvbkZpbGUvOVNwWklMc1J0UjEybm5lNXcwWTgzdC9zYW5kYm94L2JBbGQ4dmhPMG0xTFdvOWw4d3pscTZfMTc4MjU0ODYxMTMyNV9uYTFmbl9MMmh2YldVdmRXSjFiblIxTDJWc2VYTnBkVzFmWTI5b1pYTnBiMjVmWVhKMC5tZCIsIkNvbmRpdGlvbiI6eyJEYXRlTGVzc1RoYW4iOnsiQVdTOkVwb2NoVGltZSI6MTc5ODc2MTYwMH19fV19\u0026Key-Pair-Id=K2HSFNDJXOU9YS\u0026Signature=W05ZCQAdhlGCOmvpTAWgLkDNE5FYOsSw1wZ5CTnijkMZWgj~eHnX~HUvtG-4GFRNX7PQNiFrWS4qsVTxWnE513~DmQ4GgfYyvdyyMK8sUlssRo4-0~1mVVzz~5rXBk16dui9w-6WF8ZJ30YRRYVdpV-rgqy-vujD4wngWao~iUdurTRu03Rae6OclevqIWIeKLBfzZw5vNm7wgfLg7B93WTJk4MJQEqWFRoZVCS4jy9hhYZ7Su1gez15uqB~kJ9sFAJT8ddax~wYQCTR-rKsRJmeem3IkGo0Y4RCGXHjG8hWsCqpilkJWTskfBq-N91NuZHDucLeJT0qJgfAzC3gxQ__",
+        "facet_name": "COHÉSION — Art"
+      },
+      "error": ""
+    },
+    {
+      "input": "COHÉSION — Facette 5 : MÉDIAS. Flux d'information, journalisme, discours public, désinformation, médias indépendants. Fondation 4 (Communauté \u0026 Culture) de l'ontologie Elysium.",
+      "output": {
+        "chapter_content": "https://private-us-east-1.manuscdn.com/sessionFile/xKBUJ0borS4vEO7zEUQQa7/sandbox/bGoYrVapGWa4Ep9htWH50e_1782548607206_na1fn_L2hvbWUvdWJ1bnR1L2NoYXB0ZXJfbWVkaWFz.md?Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9wcml2YXRlLXVzLWVhc3QtMS5tYW51c2Nkbi5jb20vc2Vzc2lvbkZpbGUveEtCVUowYm9yUzR2RU83ekVVUVFhNy9zYW5kYm94L2JHb1lyVmFwR1dhNEVwOWh0V0g1MGVfMTc4MjU0ODYwNzIwNl9uYTFmbl9MMmh2YldVdmRXSjFiblIxTDJOb1lYQjBaWEpmYldWa2FXRnoubWQiLCJDb25kaXRpb24iOnsiRGF0ZUxlc3NUaGFuIjp7IkFXUzpFcG9jaFRpbWUiOjE3OTg3NjE2MDB9fX1dfQ__\u0026Key-Pair-Id=K2HSFNDJXOU9YS\u0026Signature=ttkz~v~NLCbo6ul5OFJNdKrN3s6UauGH0yPMnLfqVXkZv41fXVnBZoh47DkB64AdWhKzcT7jlaPhXO~y-zsFulbMk5FX73qIsV63CPmOVsKBAV0czaFzT3LHtolUWBm1cWifF5tiGNaGOWqTZoyA94zFSZlkb04H~nUPo36FLdgJMtcmzonG8pCifB60UCoATX49PU7v~MUJ2EGo3v48VlUOj9JufEf4f-JfnrAa35DWkMKGSlgraM80tcLKvf7mjeynmfGU9eQmf2KB0jvFGxlXV9XM65oXFl8BbW~nXxGudha2iUwYFBAqf~Hc6uN1~RCu5yzs9GsKBCrnsS3pvw__",
+        "facet_name": "COHÉSION — Médias"
+      },
+      "error": ""
+    },
+    {
+      "input": "COHÉSION — Facette 6 : IDENTITÉ. Appartenance, inclusion, évolution culturelle, diversité, genre, intersectionnalité. Fondation 4 (Communauté \u0026 Culture) de l'ontologie Elysium.",
+      "output": {
+        "chapter_content": "https://private-us-east-1.manuscdn.com/sessionFile/FgcuzvgoJ5zcXQaXGN6Kni/sandbox/Gr75YtQpgKhQb8aWn7IgCo_1782548551219_na1fn_L2hvbWUvdWJ1bnR1L2VseXNpdW1fY29oZXNpb25faWRlbnRpdGU.md?Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9wcml2YXRlLXVzLWVhc3QtMS5tYW51c2Nkbi5jb20vc2Vzc2lvbkZpbGUvRmdjdXp2Z29KNXpjWFFhWEdONktuaS9zYW5kYm94L0dyNzVZdFFwZ0toUWI4YVduN0lnQ29fMTc4MjU0ODU1MTIxOV9uYTFmbl9MMmh2YldVdmRXSjFiblIxTDJWc2VYTnBkVzFmWTI5b1pYTnBiMjVmYVdSbGJuUnBkR1UubWQiLCJDb25kaXRpb24iOnsiRGF0ZUxlc3NUaGFuIjp7IkFXUzpFcG9jaFRpbWUiOjE3OTg3NjE2MDB9fX1dfQ__\u0026Key-Pair-Id=K2HSFNDJXOU9YS\u0026Signature=SInvhtHmGtWJ0EInJPNK-h2gxaOe42Xr0RdttAGAr3PDMFUiSeCqf4XtYjxpOjPWA0RX1VTpw2sBsVox9ZDFJidxNd36NRLOVbG78XNQoYyjDs8vepouuICmhfSZIDvZ1yDIJJFE8zB1qCM1puu~6pf3NKvqFnAPFd~nChari~9CUJZamDpG6Gdanra8-reufyRu2T9hFt3tqtLjLCm1Gwt~coHIIt6qi2AxPNf9D1ScQm1t8K-X5j4UdjDnPw1V-ebqpvytxQpLF7wf0CULg9kQ5cN9xUlh2pxnviF34hfbXFWT5MPwB8xvvwGtrvdkHNEYR3eew~wojAKt1YWt9w__",
+        "facet_name": "COHÉSION — Identité"
+      },
+      "error": ""
+    },
+    {
+      "input": "GOUVERNANCE — Facette 1 : DROIT \u0026 JUSTICE. Cadres juridiques, droits humains, justice restaurative, accès au droit. Fondation 5 (Coordination \u0026 Loi) de l'ontologie Elysium.",
+      "output": {
+        "chapter_content": "https://private-us-east-1.manuscdn.com/sessionFile/HI8uJnO2RUYA4MgFFVErNa/sandbox/EB6ZdHSLMnIg8lkgNcKliy_1782548475207_na1fn_L2hvbWUvdWJ1bnR1L2dvdXZlcm5hbmNlX2Ryb2l0X2p1c3RpY2U.md?Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9wcml2YXRlLXVzLWVhc3QtMS5tYW51c2Nkbi5jb20vc2Vzc2lvbkZpbGUvSEk4dUpuTzJSVVlBNE1nRkZWRXJOYS9zYW5kYm94L0VCNlpkSFNMTW5JZzhsa2dOY0tsaXlfMTc4MjU0ODQ3NTIwN19uYTFmbl9MMmh2YldVdmRXSjFiblIxTDJkdmRYWmxjbTVoYm1ObFgyUnliMmwwWDJwMWMzUnBZMlUubWQiLCJDb25kaXRpb24iOnsiRGF0ZUxlc3NUaGFuIjp7IkFXUzpFcG9jaFRpbWUiOjE3OTg3NjE2MDB9fX1dfQ__\u0026Key-Pair-Id=K2HSFNDJXOU9YS\u0026Signature=qLUR1a3SOe2KRKPF7VIwfPmhPwRi3CAYe8~QbCGu43hvfDbg0JplvxXVayiFGNlkNf6zPrvsq5cR15INdgml7eW7IGr8utZiB6CDPz-qd8wsRa5ufpJpo4rk6ieX9lgW-EZdbAizaZEtW8thL3aIeDHMY0T~ewekbB5FO7LUEt8aZhyFjqz7n51RaCIAakyVtOTkKjduTAH9gCvQsLxL9sIhm2cEYSmfiq~j6xXSs5ozYWGM0cLNpiUswxd8RBz2v2HnFEA2sl6AM2iIbfSUd7jAziqo13Ij4Sll3oYdWlETnk4GKWhYZoktsjOWgKjYy9bhr~VIIN4XNLL7~WSd1A__",
+        "facet_name": "GOUVERNANCE — Droit \u0026 Justice"
+      },
+      "error": ""
+    },
+    {
+      "input": "GOUVERNANCE — Facette 2 : DÉMOCRATIE. Participation politique, vote, démocratie délibérative, citoyenneté active. Fondation 5 (Coordination \u0026 Loi) de l'ontologie Elysium.",
+      "output": {
+        "chapter_content": "https://private-us-east-1.manuscdn.com/sessionFile/FZ0p0tiuZypN5KlOkxv37c/sandbox/WWIBQ8RlOo3tJ39PUKXL7L_1782548620591_na1fn_L2hvbWUvdWJ1bnR1L2VseXNpdW1fZ291dmVybmFuY2VfZGVtb2NyYXRpZQ.md?Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9wcml2YXRlLXVzLWVhc3QtMS5tYW51c2Nkbi5jb20vc2Vzc2lvbkZpbGUvRlowcDB0aXVaeXBONUtsT2t4djM3Yy9zYW5kYm94L1dXSUJROFJsT28zdEozOVBVS1hMN0xfMTc4MjU0ODYyMDU5MV9uYTFmbl9MMmh2YldVdmRXSjFiblIxTDJWc2VYTnBkVzFmWjI5MWRtVnlibUZ1WTJWZlpHVnRiMk55WVhScFpRLm1kIiwiQ29uZGl0aW9uIjp7IkRhdGVMZXNzVGhhbiI6eyJBV1M6RXBvY2hUaW1lIjoxNzk4NzYxNjAwfX19XX0_\u0026Key-Pair-Id=K2HSFNDJXOU9YS\u0026Signature=KTVETq97p6hnkXUvDb0biEfZMa63UcPqiLe-QxVKGUmtDY87fwOgRhhyxnBEnvWJSCRc6GPEtQ~-zaKmdBJOKaNJczTEEoyFA1Qz3f3x214VclqipXzRMeQLa6CnFMm4q2Ngff3-pJR~lUwf1GvXf29tYfks-2oz1m1SjgFV6FKOmAgfRLfUVXwrpK-FmYjnC7VNFoqv6Cs3Dz0x1Z80TcR6VwrzJaC9rtZX2TyAM1sRE89-Ui2tlQZn35dmfISBbuP0kT-X0c6dSbIOXDXOwDj1~ZJzL7El3LaACI5zPci0q8ZHKn6mtiP1QZhnY5cbMiceSRJU8wkC0j5gSFJs-A__",
+        "facet_name": "GOUVERNANCE — Démocratie"
+      },
+      "error": ""
+    },
+    {
+      "input": "GOUVERNANCE — Facette 4 : SÉCURITÉ. Études de paix, non-violence, résolution de conflits, paix positive. Fondation 5 (Coordination \u0026 Loi) de l'ontologie Elysium.",
+      "output": {
+        "chapter_content": "https://private-us-east-1.manuscdn.com/sessionFile/vlp52bP4ApN32h5ZkT5JZL/sandbox/L5B7cq6iiYMEW2Vi5uACUa_1782548540147_na1fn_L2hvbWUvdWJ1bnR1L2dvdXZlcm5hbmNlX3NlY3VyaXRl.md?Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9wcml2YXRlLXVzLWVhc3QtMS5tYW51c2Nkbi5jb20vc2Vzc2lvbkZpbGUvdmxwNTJiUDRBcE4zMmg1WmtUNUpaTC9zYW5kYm94L0w1QjdjcTZpaVlNRVcyVmk1dUFDVWFfMTc4MjU0ODU0MDE0N19uYTFmbl9MMmh2YldVdmRXSjFiblIxTDJkdmRYWmxjbTVoYm1ObFgzTmxZM1Z5YVhSbC5tZCIsIkNvbmRpdGlvbiI6eyJEYXRlTGVzc1RoYW4iOnsiQVdTOkVwb2NoVGltZSI6MTc5ODc2MTYwMH19fV19\u0026Key-Pair-Id=K2HSFNDJXOU9YS\u0026Signature=s4dWNdiaSMA26CWrfFCElns70sh4zg6QqiRobCdySM7wIvhOPxp3R-1xY0ABFlY31LPxxFjNQxn36cHrR~tnrATZEcA9mxkU1GsLU3qUzG1vfh5qYo3Hy6vEVtk1aX32Bfo2Nlk36Kq5Yzb20PEhEbntZUzAcu0z2~smaa~iPHEigjXrNd7~BNE~FV~jipUBBi1g5z8rXxJPHi3b1kceo2PTNsQcup1VObxnWrE8mHAW4babbsu2zu8hXgvlomf3tpdr6Wj19fmbaU7c3PIM6RpBmRz7psEEAd7~PDeG5y1k6~FEvegkAaEa6vi9QbyD5RKf0LQNI2Sdsh3JmNSqQw__",
+        "facet_name": "GOUVERNANCE — Sécurité"
+      },
+      "error": ""
+    },
+    {
+      "input": "GOUVERNANCE — Facette 5 : COMMUNICATION. Outils de coordination, transparence, dialogue, espace public numérique. Fondation 5 (Coordination \u0026 Loi) de l'ontologie Elysium.",
+      "output": {
+        "chapter_content": "https://private-us-east-1.manuscdn.com/sessionFile/D1eSdMprwPnkKm8c20ods4/sandbox/JhuCO0keFpW6sVqEhi4MVj_1782548548122_na1fn_L2hvbWUvdWJ1bnR1L2NoYXB0ZXJfZ291dmVybmFuY2VfY29tbXVuaWNhdGlvbg.md?Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9wcml2YXRlLXVzLWVhc3QtMS5tYW51c2Nkbi5jb20vc2Vzc2lvbkZpbGUvRDFlU2RNcHJ3UG5rS204YzIwb2RzNC9zYW5kYm94L0podUNPMGtlRnBXNnNWcUVoaTRNVmpfMTc4MjU0ODU0ODEyMl9uYTFmbl9MMmh2YldVdmRXSjFiblIxTDJOb1lYQjBaWEpmWjI5MWRtVnlibUZ1WTJWZlkyOXRiWFZ1YVdOaGRHbHZiZy5tZCIsIkNvbmRpdGlvbiI6eyJEYXRlTGVzc1RoYW4iOnsiQVdTOkVwb2NoVGltZSI6MTc5ODc2MTYwMH19fV19\u0026Key-Pair-Id=K2HSFNDJXOU9YS\u0026Signature=U4tuV9bEOX16s~VaFQPyYX7mlI3vTgTOJyI4E74-W2CGlvnwaVQwvffBblNlMo0X2I1ESdqUMH0c-gOr1pKkT4J2QZn5~l4Uk-Sx3k2N-EMRPC46HP9K5j4LguOoiqKiPVlYmqZWUPp6tDAYGtDxYBi4JeysC5URmXmnUX3C28pBrEhn6AWb4Wj6XB9ioez6z8D26S15kFaULu-Z0GaXaD2-m-3NThN5o5XZ6p~tQqxAvd3N4dYyUf0aNFzJz0lnMPuqpMtz~p~eX9NIpjZJ3j6a9I3MP46u8EERt0fF7LlRisdiSdDOOjkET508Q-l2jTQojYyfafHc8N6DubD7nw__",
+        "facet_name": "GOUVERNANCE — Communication"
+      },
+      "error": ""
+    },
+    {
+      "input": "VISION — Facette 1 : ÉDUCATION. Systèmes d'apprentissage, pédagogie critique, éducation populaire, apprentissage tout au long de la vie. Fondation 6 (Connaissance \u0026 Prospective) de l'ontologie Elysium.",
+      "output": {
+        "chapter_content": "https://private-us-east-1.manuscdn.com/sessionFile/LA3xJW10bsMWpnWaYfQu9G/sandbox/SVQ5LBZm6lpbrpI86Lw85d_1782548522089_na1fn_L2hvbWUvdWJ1bnR1L2VseXNpdW1fdmlzaW9uX2VkdWNhdGlvbg.md?Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9wcml2YXRlLXVzLWVhc3QtMS5tYW51c2Nkbi5jb20vc2Vzc2lvbkZpbGUvTEEzeEpXMTBic01XcG5XYVlmUXU5Ry9zYW5kYm94L1NWUTVMQlptNmxwYnJwSTg2THc4NWRfMTc4MjU0ODUyMjA4OV9uYTFmbl9MMmh2YldVdmRXSjFiblIxTDJWc2VYTnBkVzFmZG1semFXOXVYMlZrZFdOaGRHbHZiZy5tZCIsIkNvbmRpdGlvbiI6eyJEYXRlTGVzc1RoYW4iOnsiQVdTOkVwb2NoVGltZSI6MTc5ODc2MTYwMH19fV19\u0026Key-Pair-Id=K2HSFNDJXOU9YS\u0026Signature=M0qKRYj1A8osb9qC4UGbmF8bU-My9OTirSnFq9FcoKSD54kZ8EjX11u-VLLmIc2AhHDce6Bml9TzGqj-CDFUzPA3ROhcqyhBbBsOPoOpNPomjzOBiPz7Q2NI1v9wDKARmMBUjUOvduo-db2CKN17~byWzSt4~STgt83cYOYTWVhGxagVdagVLqMe1FwQ6VoHOrrwyqvIq~tOpckEZPcxhnMALfcGR-M66TeoMvo0xUmaRH4kBpDYcAMB5HPiNb1Ux7csWqk3BeF-LygBgnKN5vcPqpQlwRmW9-85-IHifWQcJwIm6hWHv5dpL2RI52AhC4TNAxxNJwPJBdVyakME8w__",
+        "facet_name": "VISION — Éducation"
+      },
+      "error": ""
+    },
+    {
+      "input": "VISION — Facette 2 : SCIENCE. Recherche, empirisme, intelligence collective, science ouverte, transdisciplinarité. Fondation 6 (Connaissance \u0026 Prospective) de l'ontologie Elysium.",
+      "output": {
+        "chapter_content": "https://private-us-east-1.manuscdn.com/sessionFile/TgMWJ8KudMsUCbzAWUC3l4/sandbox/41xdH2xPO1xHEFGzeCtn0y_1782548499403_na1fn_L2hvbWUvdWJ1bnR1L2VseXNpdW1fdmlzaW9uX3NjaWVuY2U.md?Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9wcml2YXRlLXVzLWVhc3QtMS5tYW51c2Nkbi5jb20vc2Vzc2lvbkZpbGUvVGdNV0o4S3VkTXNVQ2J6QVdVQzNsNC9zYW5kYm94LzQxeGRIMnhQTzF4SEVGR3plQ3RuMHlfMTc4MjU0ODQ5OTQwM19uYTFmbl9MMmh2YldVdmRXSjFiblIxTDJWc2VYTnBkVzFmZG1semFXOXVYM05qYVdWdVkyVS5tZCIsIkNvbmRpdGlvbiI6eyJEYXRlTGVzc1RoYW4iOnsiQVdTOkVwb2NoVGltZSI6MTc5ODc2MTYwMH19fV19\u0026Key-Pair-Id=K2HSFNDJXOU9YS\u0026Signature=UAVkWVdPNM8EjMT~pRYdgARz3HxtUXWv9ixH38g4qxOUjEJw3SOudONBJj370cGjyTmTJ0jUDICA197PO-2WD~x-B3r6knZDccCQmuebITqT41VfHcDXstyjwA4xU~hAD60FEreLBiNcgB-KL3jLsOPm1nojyA4A9VAQgY7Ju6ue36QlD7zH8bdgBN4DSxoyDSFabw8lhvv62HSyFh1fyCKKGmC7EZDuJ0IluzmfAkx6yMOfNURGQM~K5qnu2DBXRvREGbNzVV9HKBFvbVrzKDMUxYWP4lsHaL5EchuTcIB~5158wjLdMig3yWu6wGkJbm3N3Ciah9ulXR2yniZMtg__",
+        "facet_name": "VISION — Science"
+      },
+      "error": ""
+    },
+    {
+      "input": "VISION — Facette 3 : PROSPECTIVE. Pensée des futurs, modélisation climatique, planification long terme, scénarios. Fondation 6 (Connaissance \u0026 Prospective) de l'ontologie Elysium.",
+      "output": {
+        "chapter_content": "https://private-us-east-1.manuscdn.com/sessionFile/tRHGlT71AW4d97dHFVRBUn/sandbox/ykTc8X7Wr9wYISShOuQSJD_1782548541389_na1fn_L2hvbWUvdWJ1bnR1L2VseXNpdW1fdmlzaW9uX3Byb3NwZWN0aXZl.md?Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9wcml2YXRlLXVzLWVhc3QtMS5tYW51c2Nkbi5jb20vc2Vzc2lvbkZpbGUvdFJIR2xUNzFBVzRkOTdkSEZWUkJVbi9zYW5kYm94L3lrVGM4WDdXcjl3WUlTU2hPdVFTSkRfMTc4MjU0ODU0MTM4OV9uYTFmbl9MMmh2YldVdmRXSjFiblIxTDJWc2VYTnBkVzFmZG1semFXOXVYM0J5YjNOd1pXTjBhWFpsLm1kIiwiQ29uZGl0aW9uIjp7IkRhdGVMZXNzVGhhbiI6eyJBV1M6RXBvY2hUaW1lIjoxNzk4NzYxNjAwfX19XX0_\u0026Key-Pair-Id=K2HSFNDJXOU9YS\u0026Signature=GVtLnhKiCl12Ryu0CslaAmy4tzbRNnDuNlKTNZGQx5Lq2vQKAh6K5vniX5HlgKAgLpGnQAOmeAuOYltYzSk3kP1A-EHLIygN3FuCteqrFzNiGOkmfsyKCD2ZXNUzBfcC2hHb9T0SRv~ihV-KiWm9R0~CMwUO3644PdF7~dRZ3gnisqZSI1o87S~6~rDQ5MYNkQ1ZODTyX8wwjdjq-DPwW7V~XXHE-Nm846SmGDIUXpLfJmg2hmbVTQglbsSrLODyndOfO6kbihDkMjyB9x8ybs2j0rFAPFxBXL5oQwGdo5VWf~YKViSoHaUSEXz1GRY4XFj~EACRkj~9XwR9syXkGg__",
+        "facet_name": "VISION — Prospective"
+      },
+      "error": ""
+    },
+    {
+      "input": "VISION — Facette 4 : PENSÉE SYSTÉMIQUE. Compréhension de la complexité, boucles de rétroaction, holisme, transdisciplinarité. Fondation 6 (Connaissance \u0026 Prospective) de l'ontologie Elysium.",
+      "output": {
+        "chapter_content": "https://private-us-east-1.manuscdn.com/sessionFile/vSzvlcDSgZkNqEKd2QCa70/sandbox/YgKLRteaWiGZpYxVwztQDf_1782548500536_na1fn_L2hvbWUvdWJ1bnR1L3Zpc2lvbl9wZW5zZWVfc3lzdGVtaXF1ZQ.md?Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9wcml2YXRlLXVzLWVhc3QtMS5tYW51c2Nkbi5jb20vc2Vzc2lvbkZpbGUvdlN6dmxjRFNnWmtOcUVLZDJRQ2E3MC9zYW5kYm94L1lnS0xSdGVhV2lHWnBZeFZ3enRRRGZfMTc4MjU0ODUwMDUzNl9uYTFmbl9MMmh2YldVdmRXSjFiblIxTDNacGMybHZibDl3Wlc1elpXVmZjM2x6ZEdWdGFYRjFaUS5tZCIsIkNvbmRpdGlvbiI6eyJEYXRlTGVzc1RoYW4iOnsiQVdTOkVwb2NoVGltZSI6MTc5ODc2MTYwMH19fV19\u0026Key-Pair-Id=K2HSFNDJXOU9YS\u0026Signature=qvLnhcSxzfHdyLfau1pg6RRDwM6lbcyElQ12xWd-95naZ8-CCEOQKSdZkOuzzfAR-KCZ3k-GW48QzTRznwEVYTsjoV4YkYijDXxnB5phxv9PtvmFcUZ73BmOr4lHAj2r0jI1CysJ8fBbiq4dftXnuODlIVya7tOvwJYhE3kVXEf30Q2acI6HES2lEb34cVNgrCF92pmzBAq4F1zfbZNT73yWwY0097N~muMxHwbv2NkL~yBc3mmw03TV8V8W5IZ8A2fiRoOR3aKP94r4BaliEj-GUVbGP5uWLDSPXxt4hCyVC1Z-S~8K4QifTW9ePPw0IFlGVSXSUXLRjEmimiGMPQ__",
+        "facet_name": "VISION — Pensée Systémique"
+      },
+      "error": ""
+    },
+    {
+      "input": "VISION — Facette 5 : TECHNOLOGIE (comme outil). IA, computation, outils conviviaux, souveraineté numérique. Fondation 6 (Connaissance \u0026 Prospective) de l'ontologie Elysium.",
+      "output": {
+        "chapter_content": "https://private-us-east-1.manuscdn.com/sessionFile/sNdDSdbFgQAVA9j5J5zSIU/sandbox/nM1XS6pozlR2CuV5wKVL8A_1782548512158_na1fn_L2hvbWUvdWJ1bnR1L2VseXNpdW1fdmlzaW9uX3RlY2hub2xvZ2ll.md?Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9wcml2YXRlLXVzLWVhc3QtMS5tYW51c2Nkbi5jb20vc2Vzc2lvbkZpbGUvc05kRFNkYkZnUUFWQTlqNUo1elNJVS9zYW5kYm94L25NMVhTNnBvemxSMkN1VjV3S1ZMOEFfMTc4MjU0ODUxMjE1OF9uYTFmbl9MMmh2YldVdmRXSjFiblIxTDJWc2VYTnBkVzFmZG1semFXOXVYM1JsWTJodWIyeHZaMmxsLm1kIiwiQ29uZGl0aW9uIjp7IkRhdGVMZXNzVGhhbiI6eyJBV1M6RXBvY2hUaW1lIjoxNzk4NzYxNjAwfX19XX0_\u0026Key-Pair-Id=K2HSFNDJXOU9YS\u0026Signature=Hj72HDDUnhGMsjz3kBewz0Bhp54-Ziy2v-J3xiAVXH7efSP0UHWJ1ug-x85v34LraGCJ8xPZJ3ic3FTbZinLKRTJz0N6~W7ockaPZ~lopxyOybiY8QKaDR6~ndNdkNbGcTXs3l--LyBPyV36vx1oSZKuxTqEMwYWc841uZh1TiQPryELIDoga7O8QiRusCNF1y8enrHgd-dxLnGLRMLotnvPGo3dAKw40Hu~gdz8S77bQkSlhS2wbR9ri7gNmTFQWrW74cFC5hFRBUGCJ9-K4qrlQ63Qh8FquOzKmUQwGumaAQmq-adpr7zSrWKd~aDVBl-Il-nAv9fK53QZHVEunw__",
+        "facet_name": "VISION — Technologie"
+      },
+      "error": ""
+    },
+    {
+      "input": "CONSCIENCE — Facette 1 : ÉTHIQUE. Cadres moraux, bioéthique, éthique de l'IA, responsabilité intergénérationnelle. Fondation 7 (Sens \u0026 Finalité) de l'ontologie Elysium.",
+      "output": {
+        "chapter_content": "https://private-us-east-1.manuscdn.com/sessionFile/3VEMJoljBsEmnALMhEuZwP/sandbox/yQX83CSIvxr8m6xeU92KzA_1782548596746_na1fn_L2hvbWUvdWJ1bnR1L2NvbnNjaWVuY2VfZXRoaXF1ZQ.md?Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9wcml2YXRlLXVzLWVhc3QtMS5tYW51c2Nkbi5jb20vc2Vzc2lvbkZpbGUvM1ZFTUpvbGpCc0VtbkFMTWhFdVp3UC9zYW5kYm94L3lRWDgzQ1NJdnhyOG02eGVVOTJLekFfMTc4MjU0ODU5Njc0Nl9uYTFmbl9MMmh2YldVdmRXSjFiblIxTDJOdmJuTmphV1Z1WTJWZlpYUm9hWEYxWlEubWQiLCJDb25kaXRpb24iOnsiRGF0ZUxlc3NUaGFuIjp7IkFXUzpFcG9jaFRpbWUiOjE3OTg3NjE2MDB9fX1dfQ__\u0026Key-Pair-Id=K2HSFNDJXOU9YS\u0026Signature=QAc5dttu9FTj8aI53AJnLyGzCB8uV2r~8hgPIL~gQDMpe~oKoqbhlVns27gKb7ImRXd62~5Da9vd-xNryglrMv~ILfOhfalTVWfQv5wovYkDrNrRO5PJ95OndzPagOpTkGBer9vNNqVFktoBiVMDWexKCkLo417ZHj7F6AMtKEQe5EY3Z~9607NLaBcon7vupdqQkNBfLpGzpwsTZFpjBGLgu59GqRZTE0RLa8REWBaiW1ZCfI-Gyg~wHE-5sO9Vxe7G3NyR17LLQ5UGyvHuV5IVhmXJEIO1kPwqscFuKqHhQQ~brXdaM7U2Hema94APgXNlPD3wSkWcPGVWUNtc4g__",
+        "facet_name": "CONSCIENCE — Éthique"
+      },
+      "error": ""
+    },
+    {
+      "input": "CONSCIENCE — Facette 2 : SPIRITUALITÉ. Développement intérieur, traditions de sagesse, transcendance, méditation, contemplation. Fondation 7 (Sens \u0026 Finalité) de l'ontologie Elysium.",
+      "output": {
+        "chapter_content": "https://private-us-east-1.manuscdn.com/sessionFile/xLt4ln4uvY6TG1t2pTAjt5/sandbox/rijX7jpGGDO8W6dHutE53P_1782548489159_na1fn_L2hvbWUvdWJ1bnR1L2NvbnNjaWVuY2Vfc3Bpcml0dWFsaXRl.md?Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9wcml2YXRlLXVzLWVhc3QtMS5tYW51c2Nkbi5jb20vc2Vzc2lvbkZpbGUveEx0NGxuNHV2WTZURzF0MnBUQWp0NS9zYW5kYm94L3Jpalg3anBHR0RPOFc2ZEh1dEU1M1BfMTc4MjU0ODQ4OTE1OV9uYTFmbl9MMmh2YldVdmRXSjFiblIxTDJOdmJuTmphV1Z1WTJWZmMzQnBjbWwwZFdGc2FYUmwubWQiLCJDb25kaXRpb24iOnsiRGF0ZUxlc3NUaGFuIjp7IkFXUzpFcG9jaFRpbWUiOjE3OTg3NjE2MDB9fX1dfQ__\u0026Key-Pair-Id=K2HSFNDJXOU9YS\u0026Signature=BXXhLJFtB5ucnf5GL4z304SKcn8khdhMV1b0-XvPaKnAyyiYRfWm4~OSJW63OeqRG8HDD0wZRE40j5qSfkf9tnAoRrzhZ47ltcbr66geT14GHNngAZe70suaLWg96yhA26sQJvSTUZSDYHB9lRDWBs2a0-V3B0~d-AwabwZP3IhPbzH9HIJcjKrKVotDNrarJIWvT2KLwQe6vqtxeZ1jH-Yc76X9LJE2daCZ-k7HDpwoe7KTSZrr3gmFkJxIw7ewrT~8ntUJAQSW4-Vg6EDdgjqDTJ~zK8JZ~v10qSzqxYYnEKKCCdRBrIa9VJXUqKLeudQVGFcAxfw3asFQvbne3Q__",
+        "facet_name": "CONSCIENCE — Spiritualité"
+      },
+      "error": ""
+    }
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "results": [
+    {
+      "input": "Foundation (Material Base) — The physical substrate and infrastructure required for civilization to exist. Facets: Energy, Water, Habitat, Infrastructure, Mobility, Materials. At Human scale: body, shelter, physical security. At Society scale: energy grids, water systems, housing stock, transport networks. At Civilization scale: planetary resource base, energy regime, global infrastructure paradigm.",
+      "output": {
+        "foundation_name": "Foundation (Material Base)",
+        "matrix_analysis": "https://private-us-east-1.manuscdn.com/sessionFile/jxn7D5ZLUgFf8MX3X5HAT9/sandbox/0KbFYzsCNhoNf4O35S8otY_1782544480690_na1fn_L2hvbWUvdWJ1bnR1L21hdHJpeF9hbmFseXNpcw.md?Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9wcml2YXRlLXVzLWVhc3QtMS5tYW51c2Nkbi5jb20vc2Vzc2lvbkZpbGUvanhuN0Q1WkxVZ0ZmOE1YM1g1SEFUOS9zYW5kYm94LzBLYkZZenNDTmhvTmY0TzM1UzhvdFlfMTc4MjU0NDQ4MDY5MF9uYTFmbl9MMmh2YldVdmRXSjFiblIxTDIxaGRISnBlRjloYm1Gc2VYTnBjdy5tZCIsIkNvbmRpdGlvbiI6eyJEYXRlTGVzc1RoYW4iOnsiQVdTOkVwb2NoVGltZSI6MTc5ODc2MTYwMH19fV19\u0026Key-Pair-Id=K2HSFNDJXOU9YS\u0026Signature=pWXhqwPXHGQezDm7grJlI-zJCfHZjEyuvF7JTnImLBRLHnF5uVoNELn55jply3bUPvkcqn9VUDsA47VaUTit3hiQAJZN9nRlXEoUuGLDT9dNmhzLab5WMyjCFMo7mV5GRlrpQty65aARHZQtyIVPaxfwk9Z6qXFrcDzGaH2PHqE0qCWu19Mvmfaj1K5qcZjZ-phwuedRhmOUjyA20MZdR1W5HQhOKhnCQGXWM0RnOYMDuENAjAIiGt9f8fzv9dhlZ7Pw1KrqLvJT6D9Wt08OOq6R6~Yr-ucsRpKZU4bOwYV0GP0mWGu4ccxh8YMRKXJ40~OGchmpjuugEdI6uMFg2Q__"
+      },
+      "error": ""
+    },
+    {
+      "input": "Vitality (Life \u0026 Ecology) — The biological and ecological systems that sustain living beings and the planet. Facets: Health, Food \u0026 Agriculture, Biodiversity, Ecosystems, Regeneration. At Human scale: personal health, nutrition, vitality. At Society scale: public health, food systems, ecosystem management. At Civilization scale: biosphere health, species survival, planetary regeneration.",
+      "output": {
+        "foundation_name": "Vitality (Life \u0026 Ecology)",
+        "matrix_analysis": "https://private-us-east-1.manuscdn.com/sessionFile/iLcIktqPEITxCiBlswZcf2/sandbox/96gCB0j9H9DbB2z0WgCdlh_1782544479122_na1fn_L2hvbWUvdWJ1bnR1L3ZpdGFsaXR5X2FuYWx5c2lz.md?Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9wcml2YXRlLXVzLWVhc3QtMS5tYW51c2Nkbi5jb20vc2Vzc2lvbkZpbGUvaUxjSWt0cVBFSVR4Q2lCbHN3WmNmMi9zYW5kYm94Lzk2Z0NCMGo5SDlEYkIyejBXZ0NkbGhfMTc4MjU0NDQ3OTEyMl9uYTFmbl9MMmh2YldVdmRXSjFiblIxTDNacGRHRnNhWFI1WDJGdVlXeDVjMmx6Lm1kIiwiQ29uZGl0aW9uIjp7IkRhdGVMZXNzVGhhbiI6eyJBV1M6RXBvY2hUaW1lIjoxNzk4NzYxNjAwfX19XX0_\u0026Key-Pair-Id=K2HSFNDJXOU9YS\u0026Signature=qhqgAhfg7lY8GutjHGjoiTXsTx6~-brcqVT6CG8PUmgE2lB74sNzWjLxmDmYTgcltr2xBvj6JK3jn4TpMAkZJHV8ViE0H6m1zhOzJL4qBeq2I16lVt19JX51XebSIcorka4SbZrPHcBxYjJrC0MJwzdxA~vTSS0mqis5Js1AfwjwQUhFrEzqMA8eLY1lL0wWpnHBrkR5rZmnJ1kbSf9MNujE0OIv0nzYrFDB2QLF1NrGR3IZ-LKXMO6KFpUeV4YESvYhJaFXb5KLQnH4KbMqQRnxXtDSLpOpgXG98HzFOgHjcpNwT0rRR6~dDdzmQ55gcxIgELwmZtYkDf7N5ncNnA__"
+      },
+      "error": ""
+    },
+    {
+      "input": "Agency (Economy \u0026 Production) — The capacity to act, produce, create value, and transform material conditions. Facets: Economy, Work, Finance, Entrepreneurship, Innovation, Production. At Human scale: personal agency, competence, career. At Society scale: economic systems, labor markets, industry. At Civilization scale: global economic paradigm, technological capacity, productive power.",
+      "output": {
+        "foundation_name": "Foundation (Agency)",
+        "matrix_analysis": "https://private-us-east-1.manuscdn.com/sessionFile/we5jGyS9cePi1Sn0YuwFoG/sandbox/BgGkogiJ3OIkBPjJ3yNW02_1782544463117_na1fn_L2hvbWUvdWJ1bnR1L2FnZW5jeV9hbmFseXNpcw.md?Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9wcml2YXRlLXVzLWVhc3QtMS5tYW51c2Nkbi5jb20vc2Vzc2lvbkZpbGUvd2U1akd5UzljZVBpMVNuMFl1d0ZvRy9zYW5kYm94L0JnR2tvZ2lKM09Ja0JQakozeU5XMDJfMTc4MjU0NDQ2MzExN19uYTFmbl9MMmh2YldVdmRXSjFiblIxTDJGblpXNWplVjloYm1Gc2VYTnBjdy5tZCIsIkNvbmRpdGlvbiI6eyJEYXRlTGVzc1RoYW4iOnsiQVdTOkVwb2NoVGltZSI6MTc5ODc2MTYwMH19fV19\u0026Key-Pair-Id=K2HSFNDJXOU9YS\u0026Signature=pFEDbcPW5Jz8frzOfagBB3AVAV2TIV0Ar0VorCCFvG4kwa8KcMVWqM40OSaRgkMrgY51YmZT6U4~xoakGwVfELTv9xc8Z3bxZDY0LCZy3wPpSgOVLkSFkFu0cpcP9TRn3wIOe6BweDWNiwkKIEKAApsPZt96d6Y1izxJukTupdwNVVmga3OVMczBWqaf6hCj6rfTGoLIMJJpMMik~5ICqAj5M8ivHsiyOLedD11gti4UytCAYRlxWCYNYODwSisCiVmG2l05V9mTrjGRinNPzRl9tZxJK0tgvx5erg0pbpjtD56TiXWY9dIVFZJIz9hqgTzU9-GUceD1bOTAcoaLfA__"
+      },
+      "error": ""
+    },
+    {
+      "input": "Cohesion (Community \u0026 Culture) — The social fabric, relationships, and shared identities that bind people together. Facets: Community, Relationships, Culture, Art, Media, Identity. At Human scale: relationships, love, belonging. At Society scale: social capital, cultural institutions, collective identity. At Civilization scale: global cultural exchange, shared narratives, intercultural dialogue.",
+      "output": {
+        "foundation_name": "Foundation: Cohesion (Community \u0026 Culture)",
+        "matrix_analysis": "https://private-us-east-1.manuscdn.com/sessionFile/86wRUDu1ujgiFqCpYglh9e/sandbox/Wz1lQRHXLXzZdQRJ82rAdx_1782544418662_na1fn_L2hvbWUvdWJ1bnR1L2NvaGVzaW9uX2FuYWx5c2lz.md?Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9wcml2YXRlLXVzLWVhc3QtMS5tYW51c2Nkbi5jb20vc2Vzc2lvbkZpbGUvODZ3UlVEdTF1amdpRnFDcFlnbGg5ZS9zYW5kYm94L1d6MWxRUkhYTFh6WmRRUko4MnJBZHhfMTc4MjU0NDQxODY2Ml9uYTFmbl9MMmh2YldVdmRXSjFiblIxTDJOdmFHVnphVzl1WDJGdVlXeDVjMmx6Lm1kIiwiQ29uZGl0aW9uIjp7IkRhdGVMZXNzVGhhbiI6eyJBV1M6RXBvY2hUaW1lIjoxNzk4NzYxNjAwfX19XX0_\u0026Key-Pair-Id=K2HSFNDJXOU9YS\u0026Signature=U4MrOhUhzNmCkLjCAdH4fa5Hqzx1twf9WtYn~EsHoH9~1srEPjIPumjNdawUIZmaz4KxZPqH-f4lByWrQbRMiQljqlbJ4ubSm9mclV8wif8cN-2eWeowKXM4cF4F7-CHatsRI8rP~13811IByrK1VXeCzJWPxRkE3frunUSbAEYS2G6g4ZSpCJdWKB0EpQScDkVQLaW2Ly1Z4RwSlZ74FEYIfoFxlV8MZJk3R0g7woMZFF0DerQUzDChdLiFXkP87IAEWUllGAEBCkbrnc1cKENJZ3nIkVehvUOc2vP7bFsT~zfrJmm749OwkYiM7VsopqMr24hlkyhg4BljQMSgXA__"
+      },
+      "error": ""
+    },
+    {
+      "input": "Governance (Coordination \u0026 Law) — The structures, laws, and institutions through which societies coordinate and resolve conflict. Facets: Law \u0026 Justice, Democracy, Institutions, Security, Communication. At Human scale: self-expression, personal boundaries, voice. At Society scale: governance systems, law, democracy, media. At Civilization scale: global governance, international law, planetary coordination.",
+      "output": {
+        "foundation_name": "Foundation (Governance)",
+        "matrix_analysis": "https://private-us-east-1.manuscdn.com/sessionFile/RseM8Z7ApkcMSyPVlQoiwa/sandbox/XEKHP6f29s2KJw6Kd82EWt_1782544459050_na1fn_L2hvbWUvdWJ1bnR1L2dvdmVybmFuY2VfYW5hbHlzaXM.md?Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9wcml2YXRlLXVzLWVhc3QtMS5tYW51c2Nkbi5jb20vc2Vzc2lvbkZpbGUvUnNlTThaN0Fwa2NNU3lQVmxRb2l3YS9zYW5kYm94L1hFS0hQNmYyOXMyS0p3NktkODJFV3RfMTc4MjU0NDQ1OTA1MF9uYTFmbl9MMmh2YldVdmRXSjFiblIxTDJkdmRtVnlibUZ1WTJWZllXNWhiSGx6YVhNLm1kIiwiQ29uZGl0aW9uIjp7IkRhdGVMZXNzVGhhbiI6eyJBV1M6RXBvY2hUaW1lIjoxNzk4NzYxNjAwfX19XX0_\u0026Key-Pair-Id=K2HSFNDJXOU9YS\u0026Signature=j8SPRsxbF0BKxK73Q9OEHAMymzgnyLgJOvFxHYuv~qimDuviJOmvA1wsjVNQKRBBbc0qwZmwMAJrKfvydlUhyzZ-CC4~dH6KjDDB~md9vXmfMWHsLBHJOv~lIFzn3Sc1X3nztj92hGCHMqzSUTfREMtfXOFWCoaEtvemjx7lHY2UHUWEJOwpYIi6vm9ADu15N9gMJdUvzXw6gPVv1RKlKulftPmOsa4o5vHJJcwWl1KZu2nx3vTOQ-Deo3UpwXSBLheDAsClNEPxINdLDFvq7ERL31ZHTGbJfr5fZkcOwLC79s3Pw5rte8VgP93H~ndkege7vQ-3hsEBBPw7INnLZA__"
+      },
+      "error": ""
+    },
+    {
+      "input": "Vision (Knowledge \u0026 Foresight) — The capacity to understand reality, learn, and anticipate the future. Facets: Education, Science, Foresight, Systems Thinking, Technology (as tool). At Human scale: learning, cognitive development, wisdom. At Society scale: education systems, research, universities. At Civilization scale: collective intelligence, scientific paradigms, planetary sensing.",
+      "output": {
+        "foundation_name": "Vision (Knowledge \u0026 Foresight)",
+        "matrix_analysis": "https://private-us-east-1.manuscdn.com/sessionFile/qEriPqeOlEZfqZ0oICNerU/sandbox/7DFBBQvMfDVu3ydWWV0Eyk_1782544413789_na1fn_L2hvbWUvdWJ1bnR1L3Zpc2lvbl9mb3VuZGF0aW9uX2FuYWx5c2lz.md?Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9wcml2YXRlLXVzLWVhc3QtMS5tYW51c2Nkbi5jb20vc2Vzc2lvbkZpbGUvcUVyaVBxZU9sRVpmcVowb0lDTmVyVS9zYW5kYm94LzdERkJCUXZNZkRWdTN5ZFdXVjBFeWtfMTc4MjU0NDQxMzc4OV9uYTFmbl9MMmh2YldVdmRXSjFiblIxTDNacGMybHZibDltYjNWdVpHRjBhVzl1WDJGdVlXeDVjMmx6Lm1kIiwiQ29uZGl0aW9uIjp7IkRhdGVMZXNzVGhhbiI6eyJBV1M6RXBvY2hUaW1lIjoxNzk4NzYxNjAwfX19XX0_\u0026Key-Pair-Id=K2HSFNDJXOU9YS\u0026Signature=YFYgoPvJn4nTZCbtHbIpf-ILMO8sZvpUORV~85iwZin55krYN8X7FGYN2ZNgJ1Sue3M6dsbqmbV6K6~a8grcESi7ko0wOZc2Tg0RvzWwMsG3qxsTm-lG2dzWH1MBla1dlpfO9zQoieJqdwe2DI54q36dVJaSnL-Spn101LsA2r8WJGy5lOHplDVW0fwB4wiZgNwgZzuBMCAG1-j6m6UUTH7Ggo1WrSxZ8zabyEvUIg7nEbbiPCi3YU-iXVCGEQk8FrkdwreSFIurpJB-ePt0zHk~4ZPk0WWqaXzlndRyyHj8cIQWYOFTerWGMjZaKEs~mcHJgEheIa7W0wQbcqKUjw__"
+      },
+      "error": ""
+    },
+    {
+      "input": "Consciousness (Meaning \u0026 Purpose) — The orienting layer that provides direction, ethics, and meaning to civilization. Facets: Ethics, Spirituality, Purpose, Worldview, Civilizational Direction. At Human scale: self-awareness, purpose, values, spiritual practice. At Society scale: shared values, ethical frameworks, collective purpose. At Civilization scale: civilizational purpose, planetary consciousness, cosmic orientation.",
+      "output": {
+        "foundation_name": "Consciousness (Meaning \u0026 Purpose)",
+        "matrix_analysis": "https://private-us-east-1.manuscdn.com/sessionFile/9oY8P8PAM4IkCcOV2ecoSv/sandbox/EfYFN7uj6FMVsvKwL51TOX_1782544440698_na1fn_L2hvbWUvdWJ1bnR1L2NvbnNjaW91c25lc3NfYW5hbHlzaXM.md?Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9wcml2YXRlLXVzLWVhc3QtMS5tYW51c2Nkbi5jb20vc2Vzc2lvbkZpbGUvOW9ZOFA4UEFNNElrQ2NPVjJlY29Tdi9zYW5kYm94L0VmWUZON3VqNkZNVnN2S3dMNTFUT1hfMTc4MjU0NDQ0MDY5OF9uYTFmbl9MMmh2YldVdmRXSjFiblIxTDJOdmJuTmphVzkxYzI1bGMzTmZZVzVoYkhsemFYTS5tZCIsIkNvbmRpdGlvbiI6eyJEYXRlTGVzc1RoYW4iOnsiQVdTOkVwb2NoVGltZSI6MTc5ODc2MTYwMH19fV19\u0026Key-Pair-Id=K2HSFNDJXOU9YS\u0026Signature=fC2s4z8-cbHPk1bSSPeyOoN-7dUDah94xhe8d7p1VStqBGingzrGhZqaHC7kpvQS4ArBGqiaOKg9iwwjEDDrglaMWG~su0SrOWkNOWAi1s~mY8zIp-L5XZWlPu1zlhbSm2vWaOQT4A967qcTgOzpHxqLI5WByhtIV~TvLnHERa9NpiqczShrT4OSgjmSKeosROWJCsv3WuAa4TT~Ntd1qfGbpJlo8k75apbf6shx6OVpoc8~mK4jgfbQS0oe4Y1XA~HK7hYiLxlZ5d-WXuwK6mw6ZsFXDemCy~gmVdrmPpCnTDOVup16PxeV9k1Dgf26izqDYkcnNbGWia0PummsCg__"
+      },
+      "error": ""
+    }
+  ]
+}

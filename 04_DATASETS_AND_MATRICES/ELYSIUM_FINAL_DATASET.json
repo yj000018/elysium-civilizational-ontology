@@ -1,0 +1,21 @@
+{
+  "project": "Elysium Civilizational Ontology",
+  "version": "research_v2_final",
+  "mission": "Discover a minimal, elegant and universal ontology of human, social and civilizational evolution.",
+  "models_analyzed_count": 126,
+  "recommended_architecture": "Fractal Model (3 Scales \u00d7 7 Foundations)",
+  "scales": [
+    "Human",
+    "Society",
+    "Civilization"
+  ],
+  "foundations": [
+    "Foundation (Material Base)",
+    "Vitality (Life/Health)",
+    "Agency (Economy/Production)",
+    "Cohesion (Community/Culture)",
+    "Governance (Coordination/Law)",
+    "Vision (Knowledge/Foresight)",
+    "Consciousness (Meaning/Purpose)"
+  ]
+}

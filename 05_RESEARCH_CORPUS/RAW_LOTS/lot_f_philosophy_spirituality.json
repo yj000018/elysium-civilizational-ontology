@@ -1,0 +1,140 @@
+{
+  "results": [
+    {
+      "input": "Aristotle — Eudaimonia / Virtue Ethics / Polis (the good life as flourishing through virtue; the polis as natural community for human excellence; practical wisdom)",
+      "output": {
+        "analysis_card": "https://private-us-east-1.manuscdn.com/sessionFile/Y90eTIoYaAA7f1FNsqEraN/sandbox/i81OaprCDboQeOC5ZJJwk4_1782519936252_na1fn_L2hvbWUvdWJ1bnR1L2FyaXN0b3RsZV9hbmFseXNpc19jYXJk.md?Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9wcml2YXRlLXVzLWVhc3QtMS5tYW51c2Nkbi5jb20vc2Vzc2lvbkZpbGUvWTkwZVRJb1lhQUE3ZjFGTnNxRXJhTi9zYW5kYm94L2k4MU9hcHJDRGJvUWVPQzVaSkp3azRfMTc4MjUxOTkzNjI1Ml9uYTFmbl9MMmh2YldVdmRXSjFiblIxTDJGeWFYTjBiM1JzWlY5aGJtRnNlWE5wYzE5allYSmsubWQiLCJDb25kaXRpb24iOnsiRGF0ZUxlc3NUaGFuIjp7IkFXUzpFcG9jaFRpbWUiOjE3OTg3NjE2MDB9fX1dfQ__\u0026Key-Pair-Id=K2HSFNDJXOU9YS\u0026Signature=e7Yu7F0xq9N2zx~LjbCRXztr8S5RAJWfvQQrkd7gZdBBufSxxVepeQGZt~T7oR-19aKKNcUjY1t-5gjGSoRhLfzb7hupi4AMFQCXyV3PelBejH4cgv5l3Z7MCjHIyk8tUzqhJYI4g3JmhmVOvvlk~fYm03CuDEjjMYrjWMUywNzbf7sOec3AyI7gZPjqDoVf8AdjhR6YmAvQG7Vi80busWgl0jTnOHO8fh3GvMk5kxJ7719twA4rfYbPH-lu3TUPbvm-O77a~BHLq0ct9DYtXmOFuxwcDen9Jy2hA82dXXxEwxFZsoDcoB2KNz9frr2w3syvKjt3hQx4OFZ9wNSPtw__",
+        "model_name": "Aristotle — Eudaimonia / Virtue Ethics / Polis"
+      },
+      "error": ""
+    },
+    {
+      "input": "Plato — Tripartite Soul / Ideal City (reason-spirit-appetite in the soul; philosopher-kings, guardians, producers in the Republic; justice as harmony)",
+      "output": {
+        "analysis_card": "https://private-us-east-1.manuscdn.com/sessionFile/qClomRibCTLDJTdIjhHXyA/sandbox/5B6obexbGTPfKfA8xDx3dX_1782519942760_na1fn_L2hvbWUvdWJ1bnR1L3BsYXRvX2FuYWx5c2lzX2NhcmQ.md?Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9wcml2YXRlLXVzLWVhc3QtMS5tYW51c2Nkbi5jb20vc2Vzc2lvbkZpbGUvcUNsb21SaWJDVExESlRkSWpoSFh5QS9zYW5kYm94LzVCNm9iZXhiR1RQZktmQTh4RHgzZFhfMTc4MjUxOTk0Mjc2MF9uYTFmbl9MMmh2YldVdmRXSjFiblIxTDNCc1lYUnZYMkZ1WVd4NWMybHpYMk5oY21RLm1kIiwiQ29uZGl0aW9uIjp7IkRhdGVMZXNzVGhhbiI6eyJBV1M6RXBvY2hUaW1lIjoxNzk4NzYxNjAwfX19XX0_\u0026Key-Pair-Id=K2HSFNDJXOU9YS\u0026Signature=jcOtcYzgXXm4U9tJnMBhKJOz7XPLGHrQnchSKMKC5WZrbb1xbXK-SxHJcTc7281ZBQM1MwFIvKvEi95niIyLmylBdM9SZnrzuIZVve84LP5cAaiu38QbkeDeALFEkdyolS5ahXfvhjmxeAWuB2ID3DE1jbwqZ2hrfYiax1tr5A5tb7GPNz52kKQH36FKKx7V8SccrduI4Ylnal8xK03CjGpBjzplmrl07DCcJClK1fRCgVaQZYdCjjNPg~vVWpMQcieJ2-c5s~vbREz0kb9K1AxdOwrVtyCtIO8dSyJoOx5AQhdGVri2YXptTGAQHc9PlBIfbN0AMm0dhSLdV6no8g__",
+        "model_name": "Plato — Tripartite Soul / Ideal City"
+      },
+      "error": ""
+    },
+    {
+      "input": "Stoicism — Epictetus / Marcus Aurelius / Seneca (virtue as sole good, living according to nature/logos, dichotomy of control, cosmopolitanism, duty)",
+      "output": {
+        "analysis_card": "https://private-us-east-1.manuscdn.com/sessionFile/Ss3etiY9jYN8A3NBORSsTQ/sandbox/361A9arOOMqnDrY3ZyXxiC_1782519993678_na1fn_L2hvbWUvdWJ1bnR1L3N0b2ljaXNtX2FuYWx5c2lzX2ZpbmFs.md?Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9wcml2YXRlLXVzLWVhc3QtMS5tYW51c2Nkbi5jb20vc2Vzc2lvbkZpbGUvU3MzZXRpWTlqWU44QTNOQk9SU3NUUS9zYW5kYm94LzM2MUE5YXJPT01xbkRyWTNaeVh4aUNfMTc4MjUxOTk5MzY3OF9uYTFmbl9MMmh2YldVdmRXSjFiblIxTDNOMGIybGphWE50WDJGdVlXeDVjMmx6WDJacGJtRnMubWQiLCJDb25kaXRpb24iOnsiRGF0ZUxlc3NUaGFuIjp7IkFXUzpFcG9jaFRpbWUiOjE3OTg3NjE2MDB9fX1dfQ__\u0026Key-Pair-Id=K2HSFNDJXOU9YS\u0026Signature=ZmAFjogQ3har6ndZhq4ehzQiEjxVnV2zBMLSRP7vQEZBgtzaoYJM36aQfTnQXxtC1ho-aZS7ethGdF4sL5ptSFv8fcNKGJ9ruKvNBhC1pN7M2L94hIlNbyfdIVC7zGDKJL56MORZUmyiL7fCpLQDaTeRBmD7ARcJtLeZ7ZRfNDtIwD2lChhpjt0JWKwL5X7MU3eMy1uqsfhvoiQ2JJAo9VZWTZkFkZ~naBnl3Y3sLEwp-PH6ny9TA5mDTu1Bwpw8Y8~p2CiT4q2az5oWxS-XjACxAr05BudcrlK5ad70imnXyk5-xHYxgXW-euKlxQBRFmr2LpwH-ZIpwYsslOvTCA__",
+        "model_name": "Stoicism — Epictetus / Marcus Aurelius / Seneca"
+      },
+      "error": ""
+    },
+    {
+      "input": "Buddhism — Four Noble Truths / Eightfold Path (suffering, origin, cessation, path; right view/intention/speech/action/livelihood/effort/mindfulness/concentration)",
+      "output": {
+        "analysis_card": "https://private-us-east-1.manuscdn.com/sessionFile/bvEKmfBtUE7S7BkN5Zl66t/sandbox/catg8SddmhEKIBeWZ5LSKQ_1782519896306_na1fn_L2hvbWUvdWJ1bnR1L2J1ZGRoaXNtX2FuYWx5c2lzX2NhcmQ.md?Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9wcml2YXRlLXVzLWVhc3QtMS5tYW51c2Nkbi5jb20vc2Vzc2lvbkZpbGUvYnZFS21mQnRVRTdTN0JrTjVabDY2dC9zYW5kYm94L2NhdGc4U2RkbWhFS0lCZVdaNUxTS1FfMTc4MjUxOTg5NjMwNl9uYTFmbl9MMmh2YldVdmRXSjFiblIxTDJKMVpHUm9hWE50WDJGdVlXeDVjMmx6WDJOaGNtUS5tZCIsIkNvbmRpdGlvbiI6eyJEYXRlTGVzc1RoYW4iOnsiQVdTOkVwb2NoVGltZSI6MTc5ODc2MTYwMH19fV19\u0026Key-Pair-Id=K2HSFNDJXOU9YS\u0026Signature=T-0zcQ91cCbfiMgzfUwfUAzxmVguVHogcWcNvxCEFmku1hIzKk1sP~wG6FltzOGfLCoZIOmWK1kV4pTP1FfltaCDhW~9QFgoyB89r7zoQ-zBI5qHYOcwKHizMahJ6SKX87OssR36W7gp79dJ3QxE~Sa19t3bZxxtLByRb3sDldqFQLdd9K~Pa8BAXnjT5B8AXOZEQPzOaUXfRNKzeKfwe6YwDDCxVuvbJcSYNIimaVPA-q5EwxM5WhOfHMFGLTdst0-u5EJwmuqaHpZ40mwS~~pHDvRNhSWm2h8xSkQkvnGPYX6nhhrrm2rzfnCaZi~wz2P~Lx6prZXyJvvtAZgMOg__",
+        "model_name": "Buddhism — Four Noble Truths / Eightfold Path"
+      },
+      "error": ""
+    },
+    {
+      "input": "Vedanta / Non-Dual Frameworks — Advaita / Shankara (Brahman-Atman identity, maya/illusion, levels of reality, liberation through knowledge, consciousness as ground)",
+      "output": {
+        "analysis_card": "https://private-us-east-1.manuscdn.com/sessionFile/N4ATqI2d1xr9rteH4xq4F0/sandbox/IQYCg3Fjl4hSoguAL0t7om_1782519955971_na1fn_L2hvbWUvdWJ1bnR1L2FkdmFpdGFfdmVkYW50YV9hbmFseXNpcw.md?Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9wcml2YXRlLXVzLWVhc3QtMS5tYW51c2Nkbi5jb20vc2Vzc2lvbkZpbGUvTjRBVHFJMmQxeHI5cnRlSDR4cTRGMC9zYW5kYm94L0lRWUNnM0ZqbDRoU29ndUFMMHQ3b21fMTc4MjUxOTk1NTk3MV9uYTFmbl9MMmh2YldVdmRXSjFiblIxTDJGa2RtRnBkR0ZmZG1Wa1lXNTBZVjloYm1Gc2VYTnBjdy5tZCIsIkNvbmRpdGlvbiI6eyJEYXRlTGVzc1RoYW4iOnsiQVdTOkVwb2NoVGltZSI6MTc5ODc2MTYwMH19fV19\u0026Key-Pair-Id=K2HSFNDJXOU9YS\u0026Signature=ZG-1~5utWBD~7zoAenLhVKSyrOz-Eb8Jtw9XFBUIEAp9JN31Pta6YiA3Pfaskl8xS6FIhHe1tXy8ApE6dEckxyPM1eYr3rz3DCTBrEqdhO8t73uu-eEbjbxp1EqyJNiVeiJ~Px6xgD51LV2DYgYwDe4kZJdyeHMbKbDehv-l~nNHofnMc5tFYSXBYEFB1sf05SyZ5lVzBDoPeA2DcekkYDZVMWYdPbSU06P6yDNtJgnzH7y-njWOrGl9QFjWl8lMCd9kKHKtBxB-f3Lod3FlmrBslLYmCaPANyH~-LXaHUAYs1WXjXb2h4Y8he5kGX~-H~EGXkNGXdyuHc~72auLmw__",
+        "model_name": "Advaita Vedanta / Non-Dual Frameworks — Advaita / Shankara"
+      },
+      "error": ""
+    },
+    {
+      "input": "Taoism — Lao Tzu / Zhuangzi (Tao as source, wu wei, yin-yang complementarity, naturalness, simplicity, harmony with the Way)",
+      "output": {
+        "analysis_card": "https://private-us-east-1.manuscdn.com/sessionFile/7S6gdCmO55zY1lAdkaoyrT/sandbox/7xbpaGyYv4BRTIFdN8tn0C_1782519883291_na1fn_L2hvbWUvdWJ1bnR1L3Rhb2lzbV9hbmFseXNpc19jYXJk.md?Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9wcml2YXRlLXVzLWVhc3QtMS5tYW51c2Nkbi5jb20vc2Vzc2lvbkZpbGUvN1M2Z2RDbU81NXpZMWxBZGthb3lyVC9zYW5kYm94Lzd4YnBhR3lZdjRCUlRJRmROOHRuMENfMTc4MjUxOTg4MzI5MV9uYTFmbl9MMmh2YldVdmRXSjFiblIxTDNSaGIybHpiVjloYm1Gc2VYTnBjMTlqWVhKay5tZCIsIkNvbmRpdGlvbiI6eyJEYXRlTGVzc1RoYW4iOnsiQVdTOkVwb2NoVGltZSI6MTc5ODc2MTYwMH19fV19\u0026Key-Pair-Id=K2HSFNDJXOU9YS\u0026Signature=szVLFLdIdBd969iEFQVbID7ksoav8BCdlbhxjORnxYukvt3ah7U45Bu~KbZINUplXbyUKrxZfDClv1UuAWchJddnILYbTVqZKPgsl0tIaURhrukBDx5K4zJXU7vWeVaeKCR9zq4ysZiSsOHtK-l0Vz5dNhiMWOL7AMdUooPlVV7gq0p3b0ROIH6enhqAzYnyptghlPmdkVCj9dFi-H3V2~y7hXTqVk3E1M-nBw7wMfzz-f7wKs63wl1TV2ftRoYSD8mwupD6c5Sh4IypuFhrLeXi9oJ~OSKwpodIa8CE3d~RgPr7r9g3xJwehS5pLcsRs06s7zL7faEYyJLqgUlzTg__",
+        "model_name": "Taoism — Lao Tzu / Zhuangzi"
+      },
+      "error": ""
+    },
+    {
+      "input": "Confucianism — Confucius / Mencius (ren/humaneness, li/ritual, junzi/exemplary person, 5 relationships, rectification of names, social harmony through virtue)",
+      "output": {
+        "analysis_card": "https://private-us-east-1.manuscdn.com/sessionFile/fsxsvjzDiwcu6k7lNNUn8I/sandbox/feni3R2AxyZxSBOGnvM4jM_1782519930666_na1fn_L2hvbWUvdWJ1bnR1L2NvbmZ1Y2lhbmlzbV9hbmFseXNpc19jYXJk.md?Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9wcml2YXRlLXVzLWVhc3QtMS5tYW51c2Nkbi5jb20vc2Vzc2lvbkZpbGUvZnN4c3ZqekRpd2N1Nms3bE5OVW44SS9zYW5kYm94L2ZlbmkzUjJBeHlaeFNCT0dudk00ak1fMTc4MjUxOTkzMDY2Nl9uYTFmbl9MMmh2YldVdmRXSjFiblIxTDJOdmJtWjFZMmxoYm1semJWOWhibUZzZVhOcGMxOWpZWEprLm1kIiwiQ29uZGl0aW9uIjp7IkRhdGVMZXNzVGhhbiI6eyJBV1M6RXBvY2hUaW1lIjoxNzk4NzYxNjAwfX19XX0_\u0026Key-Pair-Id=K2HSFNDJXOU9YS\u0026Signature=Uua-WgOUrB2j9AyeMJBoVW5qK6aM2QuLXy2xUHZDn8dPmdWxPOQS3NpYezcrEmW4NRsCSkgwHYZ01XTL~8XJ-FkisFdvjaPAndF7ScP3k~ibx7mVXgyyE8Jusg~WN3TzBf9cm9sX3-C2Imw-HnWlOOKsoMTotIahUOM82iHdypnRi8jBXEwP270uoAYHBTwc9FgH9HMjMD3J3lCsm5yNz5-3o15KiAmnNK9T5dEned6SeLF02IQ4rcao6tIOHvmRQ3IFQ4iaO-I6C4VVQOJl8~aUUMzB7hlHwaleMBUpG5AMP3s~dqOIzAf2Fku-Kq~2mjVFLoKrgGJNmqHTMyOuKg__",
+        "model_name": "Confucianism — Confucius / Mencius"
+      },
+      "error": ""
+    },
+    {
+      "input": "Ubuntu — African Philosophy (I am because we are; communal personhood, relational ethics, interconnectedness, restorative justice, collective responsibility)",
+      "output": {
+        "analysis_card": "https://private-us-east-1.manuscdn.com/sessionFile/wk6jr4jgHdjZzn6rOMxJIJ/sandbox/2lPW38C2wXk3HetC3g1hj6_1782519913155_na1fn_L2hvbWUvdWJ1bnR1L3VidW50dV9hbmFseXNpc19jYXJk.md?Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9wcml2YXRlLXVzLWVhc3QtMS5tYW51c2Nkbi5jb20vc2Vzc2lvbkZpbGUvd2s2anI0amdIZGpaem42ck9NeEpJSi9zYW5kYm94LzJsUFczOEMyd1hrM0hldEMzZzFoajZfMTc4MjUxOTkxMzE1NV9uYTFmbl9MMmh2YldVdmRXSjFiblIxTDNWaWRXNTBkVjloYm1Gc2VYTnBjMTlqWVhKay5tZCIsIkNvbmRpdGlvbiI6eyJEYXRlTGVzc1RoYW4iOnsiQVdTOkVwb2NoVGltZSI6MTc5ODc2MTYwMH19fV19\u0026Key-Pair-Id=K2HSFNDJXOU9YS\u0026Signature=qfKmJRsRMeNA6lQjwRGqWqUvZ2N0CCzK3lYsTdtscaMWsGrO38WlmSYKin9mThRS3qJe4qvrlsyXmR4qH4OqfHuR9j1w-qBn6bzU3OgMYZj8IzEXqk55ML-wN7PBS~QEB92emCFLSjUuCUuAIaYZN8a71~fsnEL7LUUtdpwKsSgEacQFvEubC0LjL~dcUrUH7z5uOy9AHwBzII-l9ewT0K7dSCXaknJxwH6xTvzktMD0evVwxsqn09-x6pKw7gshuAiUHj3Rvy~d38RDp5Z5NNiLwSa3J9cFsiT6dGIcEAZEL5fB~kpn51Yk-zUi-pXIs7PHke7BX8cQO7umZOVJyg__",
+        "model_name": "Ubuntu — African Philosophy"
+      },
+      "error": ""
+    },
+    {
+      "input": "Indigenous Worldviews — Relationality / Reciprocity / Land (relational ontology, all-my-relations, reciprocity with earth, cyclical time, ancestors, place-based knowledge)",
+      "output": {
+        "analysis_card": "https://private-us-east-1.manuscdn.com/sessionFile/C7CExUfL1rovnpA8K3JGU5/sandbox/1s6zSGHiZwbZfayOX0KS6u_1782519873205_na1fn_L2hvbWUvdWJ1bnR1L2luZGlnZW5vdXNfd29ybGR2aWV3c19hbmFseXNpcw.md?Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9wcml2YXRlLXVzLWVhc3QtMS5tYW51c2Nkbi5jb20vc2Vzc2lvbkZpbGUvQzdDRXhVZkwxcm92bnBBOEszSkdVNS9zYW5kYm94LzFzNnpTR0hpWndiWmZheU9YMEtTNnVfMTc4MjUxOTg3MzIwNV9uYTFmbl9MMmh2YldVdmRXSjFiblIxTDJsdVpHbG5aVzV2ZFhOZmQyOXliR1IyYVdWM2MxOWhibUZzZVhOcGN3Lm1kIiwiQ29uZGl0aW9uIjp7IkRhdGVMZXNzVGhhbiI6eyJBV1M6RXBvY2hUaW1lIjoxNzk4NzYxNjAwfX19XX0_\u0026Key-Pair-Id=K2HSFNDJXOU9YS\u0026Signature=Gtfyk4nxnI8GpHBvg~wkSKfRRDzHoET-BFHUwy8IaOdyw-FLs1sXMAuwuSVLDzvtf4ujTv6BRdJLNkRURsi0zJCUQhGwrDjxsDT9zA60SjFAVk0~UfXpjCzu4zxNNvW9an3vqB1c64zmtAJvkwkgkT8VKGbrTy28UPWFx9Sgt3mexayKWmrtvJoGF-SLrt-Mgd240pqXXJEtufxfvPRojACGYkJI0djUpzv-wFGkx6MTz2lzSSGEoYZxgh2us7DDRhcnE3qyNjB8JL5Nv0dbMRv7wVagy9T0qBPNCDwCordP9~uw8bT~t-6t0ccMrJGKgCn7MipzuLrXpvsNeYztLw__",
+        "model_name": "Indigenous Worldviews — Relationality / Reciprocity / Land"
+      },
+      "error": ""
+    },
+    {
+      "input": "Christian Social Ethics — Catholic Social Teaching (human dignity, common good, subsidiarity, solidarity, preferential option for the poor, stewardship of creation)",
+      "output": {
+        "analysis_card": "https://private-us-east-1.manuscdn.com/sessionFile/BpXn6ZSZcNBlugiaMPj2No/sandbox/1z3o3GIcQHHXMaSd1tsBde_1782519968552_na1fn_L2hvbWUvdWJ1bnR1L0NhdGhvbGljX1NvY2lhbF9UZWFjaGluZ19BbmFseXNpcw.md?Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9wcml2YXRlLXVzLWVhc3QtMS5tYW51c2Nkbi5jb20vc2Vzc2lvbkZpbGUvQnBYbjZaU1pjTkJsdWdpYU1QajJOby9zYW5kYm94LzF6M28zR0ljUUhIWE1hU2QxdHNCZGVfMTc4MjUxOTk2ODU1Ml9uYTFmbl9MMmh2YldVdmRXSjFiblIxTDBOaGRHaHZiR2xqWDFOdlkybGhiRjlVWldGamFHbHVaMTlCYm1Gc2VYTnBjdy5tZCIsIkNvbmRpdGlvbiI6eyJEYXRlTGVzc1RoYW4iOnsiQVdTOkVwb2NoVGltZSI6MTc5ODc2MTYwMH19fV19\u0026Key-Pair-Id=K2HSFNDJXOU9YS\u0026Signature=a3XcUo0qWJlbesbZrTQMAARdv0EEgwOP27BO2WNIRqo9bP6JYDe9YOXJkcH8DxjDVgOGVePD1jbrpsSal35BcWvGL7Nkch4nVYBKOIWbpWf5fc2hfNNcWUlIiFLnnTEZYxQ5RIXOfYPVGZdRliEs~pXZW3Ee-e9KOrfa2PtUzAkXd-N9hzs4ope~ph1x43JDeje2nGwDBHWHDRqImWuNC69~Ed2JX-EktgAWUVyYATcn5ahmQM5rjaXZ-DkcT~zQrjK-c-1jJIZOJpmU7RrsAt8rDfgLJdZRL97JJwoy4ksCDe7fCJa1e5DlwMmRpmk5VK~Mcc6rCl1spCB8p5yUpg__",
+        "model_name": "Catholic Social Teaching"
+      },
+      "error": ""
+    },
+    {
+      "input": "Jewish Social Ethics — Tikkun Olam (repairing the world, tzedakah/justice, community obligation, covenant, ethical monotheism, social responsibility)",
+      "output": {
+        "analysis_card": "https://private-us-east-1.manuscdn.com/sessionFile/wxfRDMebKXK5SNWZMGKYDG/sandbox/UrtXbgj6aotv8jZ9CtdC0r_1782520036191_na1fn_L2hvbWUvdWJ1bnR1L3Rpa2t1bl9vbGFtX2FuYWx5c2lz.md?Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9wcml2YXRlLXVzLWVhc3QtMS5tYW51c2Nkbi5jb20vc2Vzc2lvbkZpbGUvd3hmUkRNZWJLWEs1U05XWk1HS1lERy9zYW5kYm94L1VydFhiZ2o2YW90djhqWjlDdGRDMHJfMTc4MjUyMDAzNjE5MV9uYTFmbl9MMmh2YldVdmRXSjFiblIxTDNScGEydDFibDl2YkdGdFgyRnVZV3g1YzJsei5tZCIsIkNvbmRpdGlvbiI6eyJEYXRlTGVzc1RoYW4iOnsiQVdTOkVwb2NoVGltZSI6MTc5ODc2MTYwMH19fV19\u0026Key-Pair-Id=K2HSFNDJXOU9YS\u0026Signature=p71Zyh8KOLMgIwKNUAAeW6Fyh0C9wE5SGNNQkMkGKmVCk5TvJFBVYENGMvwC2mlvBjzAe0u1RXOf3znbEcbxLbfqUH~re5Q6KPTQd9qv8XOHpvaU-MRrHfeehQH-yymIkoKBlSjlFPizjuZwpQZj~lom3mak~s3MpBm-lNywLtazxBaifRDbc40YZnlHQDxMx8778buvY4MJ6J3~oOKw7df7I9zL2F50L68HLwyVw1pK9zY60F7NwekQXFUwPPejkIzoUlj5AXy~Is6Hr~Z-ye7qwyZvSgFizoH3KS1WtKmnQNU9n0jh~a30plt603OjuTJN8Sy5OSg8Z8XtoSDUqw__",
+        "model_name": "Jewish Social Ethics — Tikkun Olam"
+      },
+      "error": ""
+    },
+    {
+      "input": "Islamic Social Ethics — Maqasid al-Shariah (5 objectives: preservation of religion, life, intellect, lineage, property; maslaha/public interest, khilafah/stewardship)",
+      "output": {
+        "analysis_card": "https://private-us-east-1.manuscdn.com/sessionFile/tR88nUlxK2yHTnDz726aSJ/sandbox/AC0YNX2AW3MqZbZ5tbU1VB_1782519954498_na1fn_L2hvbWUvdWJ1bnR1L21hcWFzaWRfYW5hbHlzaXM.md?Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9wcml2YXRlLXVzLWVhc3QtMS5tYW51c2Nkbi5jb20vc2Vzc2lvbkZpbGUvdFI4OG5VbHhLMnlIVG5EejcyNmFTSi9zYW5kYm94L0FDMFlOWDJBVzNNcVpiWjV0YlUxVkJfMTc4MjUxOTk1NDQ5OF9uYTFmbl9MMmh2YldVdmRXSjFiblIxTDIxaGNXRnphV1JmWVc1aGJIbHphWE0ubWQiLCJDb25kaXRpb24iOnsiRGF0ZUxlc3NUaGFuIjp7IkFXUzpFcG9jaFRpbWUiOjE3OTg3NjE2MDB9fX1dfQ__\u0026Key-Pair-Id=K2HSFNDJXOU9YS\u0026Signature=HUbUT0DHO~kViOt7TjQOJoEYw9xRF1SRGLvGxVjsjaRv3teZhibw18ZoCsJnej~tntZcoQoPA~B8gkJq8T5tiZYfdBzhua1qFOCZIb9Wyyk~OvvhJTkCgnOcqXy8yaXs3-6T1Cb4GYxY1jPGzT4ghkWLKIRHfQpwlXMpt-5gyhUuo6-xspbFmx90P5DBftGJwKlcRyLhVAMaTGyo9iGrwHCf-xupcUV2XXtauQKIRNHvAz1~v17z7KZ-WCRsfdCve49opPc4SgeC3xOqgKXq3UgU58nnaikiLU2IQ0tqrGvu8LHNxstQSk3jz70X1kjmP4W279u-nWbKG64Akjv1VQ__",
+        "model_name": "Islamic Social Ethics — Maqasid al-Shariah"
+      },
+      "error": ""
+    },
+    {
+      "input": "Hindu Purusharthas — Four Aims of Life (dharma/duty, artha/prosperity, kama/pleasure, moksha/liberation; varnashrama as social organization)",
+      "output": {
+        "analysis_card": "https://private-us-east-1.manuscdn.com/sessionFile/KU5ksNyB6KDVi6jWhwRNnT/sandbox/q6lKEiYRXWxtLeGfJVFHy8_1782519918617_na1fn_L2hvbWUvdWJ1bnR1L3B1cnVzaGFydGhhc19hbmFseXNpcw.md?Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9wcml2YXRlLXVzLWVhc3QtMS5tYW51c2Nkbi5jb20vc2Vzc2lvbkZpbGUvS1U1a3NOeUI2S0RWaTZqV2h3Uk5uVC9zYW5kYm94L3E2bEtFaVlSWFd4dExlR2ZKVkZIeThfMTc4MjUxOTkxODYxN19uYTFmbl9MMmh2YldVdmRXSjFiblIxTDNCMWNuVnphR0Z5ZEdoaGMxOWhibUZzZVhOcGN3Lm1kIiwiQ29uZGl0aW9uIjp7IkRhdGVMZXNzVGhhbiI6eyJBV1M6RXBvY2hUaW1lIjoxNzk4NzYxNjAwfX19XX0_\u0026Key-Pair-Id=K2HSFNDJXOU9YS\u0026Signature=h9CRIVmSrGxG177FcBUrmggQCBULJVgTiTm8jRxVDoxnvWvIHjo5pAZSN4UYHV-2miVbFOvMnD2-hIynvGfFqoO9Eu1wX74i0gjTP5~RrYJnRx218Pf6r09tnnqKRuRJn-689SmV-vskRVg4~8bGGjd8Eis87ecxh5TRvIb44GP6Jp2O~4AW9Qmq57-99-oP7pf96Is8UFY7ewUR~HjtGfPaMjetKHtmBwehBMcd69XGQ1KYTI1nNqTYKkB73MwecSQGgxF7LyzL4UaNkJfCrAdJDuEjjm8w30YKUi2Y3VhYh2ZD8rsTxGbQ45pKbxxKln6oZxcarA78FZ1Cyg6y3Q__",
+        "model_name": "Hindu Purusharthas — Four Aims of Life"
+      },
+      "error": ""
+    },
+    {
+      "input": "Traditional Four Elements — Greek / Western (earth, water, fire, air as fundamental constituents; qualities: hot/cold, wet/dry; microcosm-macrocosm)",
+      "output": {
+        "analysis_card": "https://private-us-east-1.manuscdn.com/sessionFile/23kVP8QnWznvjm7T7MGC2E/sandbox/GO81TIToIMpKq7wwvTm5Lt_1782519902392_na1fn_L2hvbWUvdWJ1bnR1L1RyYWRpdGlvbmFsX0ZvdXJfRWxlbWVudHNfTW9kZWxfQ2FyZA.md?Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9wcml2YXRlLXVzLWVhc3QtMS5tYW51c2Nkbi5jb20vc2Vzc2lvbkZpbGUvMjNrVlA4UW5Xem52am03VDdNR0MyRS9zYW5kYm94L0dPODFUSVRvSU1wS3E3d3d2VG01THRfMTc4MjUxOTkwMjM5Ml9uYTFmbl9MMmh2YldVdmRXSjFiblIxTDFSeVlXUnBkR2x2Ym1Gc1gwWnZkWEpmUld4bGJXVnVkSE5mVFc5a1pXeGZRMkZ5WkEubWQiLCJDb25kaXRpb24iOnsiRGF0ZUxlc3NUaGFuIjp7IkFXUzpFcG9jaFRpbWUiOjE3OTg3NjE2MDB9fX1dfQ__\u0026Key-Pair-Id=K2HSFNDJXOU9YS\u0026Signature=Wdrir70cjAk9zOd3h-VWoYdXBUkxxnA4JQ9QeOZH2UfVv1dEvkG33-aCApWwhnMB-7mYBLmAagHBIGoZHiKkq3FghDFaVOffcPv3KgY2x-qNOPKpGltW1NLzQsZWEuq~a~6n3FDYbF-bJ0u2Ay5hj4OVoemKVOjFa07jhRfwMcLk4RXlM-CC8G6Nvyo9gU60rieniwT53tBRAeYKDEtJXEJvNS-XldECwqLEEYUWzdm~xPdqK0qEblz51hn7LGWhxu-yWJpQqjptnfJ3kcvOlIdwO1HRzW6GzDFZbdOKEU0aswmriQZhnoul-WJmBYvFQoMp4h5t~YL7sm6sB-dQjw__",
+        "model_name": "Traditional Four Elements — Greek / Western"
+      },
+      "error": ""
+    },
+    {
+      "input": "Chinese Five Elements / Wu Xing (wood, fire, earth, metal, water; generating and overcoming cycles; correspondence with organs, seasons, emotions, directions)",
+      "output": {
+        "analysis_card": "https://private-us-east-1.manuscdn.com/sessionFile/IcDNZLSfa73TnfmTgS6BXH/sandbox/CyshjWgc5WZgQUWvl6ZioU_1782519927764_na1fn_L2hvbWUvdWJ1bnR1L3d1X3hpbmdfYW5hbHlzaXNfY2FyZA.md?Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9wcml2YXRlLXVzLWVhc3QtMS5tYW51c2Nkbi5jb20vc2Vzc2lvbkZpbGUvSWNETlpMU2ZhNzNUbmZtVGdTNkJYSC9zYW5kYm94L0N5c2hqV2djNVdaZ1FVV3ZsNlppb1VfMTc4MjUxOTkyNzc2NF9uYTFmbl9MMmh2YldVdmRXSjFiblIxTDNkMVgzaHBibWRmWVc1aGJIbHphWE5mWTJGeVpBLm1kIiwiQ29uZGl0aW9uIjp7IkRhdGVMZXNzVGhhbiI6eyJBV1M6RXBvY2hUaW1lIjoxNzk4NzYxNjAwfX19XX0_\u0026Key-Pair-Id=K2HSFNDJXOU9YS\u0026Signature=UVqMyHLtb58Y-zaenKOrSuF5Ejxk9WPoJCjICN7ahwmYx4TJa2w7VXpdtuz9UPhGQawTdQ4p3UrmFnok-nOvu2cZFICXaYUpbfXH6hvVKvSFWXXxecj7dSU4huR1Uq1ooYb09QTX562NZrY9~r~kALtF6StmBYbudNxgBA8T4jNM5882HI7KQc2dNDTHViNvO2~X4adLcHl~OVBZdYiSF7XbFMfinGz9WE8sIaGsZjTxeXMgsJKMGSs3bOwYSymxITClX4hD0W3XgYmyhWCrWolri0zwFmvDCk9Saev5mSyIPAB7yU9tiGaSA8uD4EwVGI4C2fCQ3I6Jre-EbRpkdA__",
+        "model_name": "Chinese Five Elements / Wu Xing"
+      },
+      "error": ""
+    },
+    {
+      "input": "Ayurveda — Vedic Medicine (3 doshas: vata/pitta/kapha; 5 elements; 7 dhatus/tissues; prakriti/constitution; balance as health; mind-body-spirit unity)",
+      "output": {
+        "analysis_card": "https://private-us-east-1.manuscdn.com/sessionFile/bDlljYGlxWbNk7Nx5MblDs/sandbox/crld3kVZCU9hhg6BP5KLIf_1782519972785_na1fn_L2hvbWUvdWJ1bnR1L2F5dXJ2ZWRhX2FuYWx5c2lzX2NhcmQ.md?Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9wcml2YXRlLXVzLWVhc3QtMS5tYW51c2Nkbi5jb20vc2Vzc2lvbkZpbGUvYkRsbGpZR2x4V2JOazdOeDVNYmxEcy9zYW5kYm94L2NybGQza1ZaQ1U5aGhnNkJQNUtMSWZfMTc4MjUxOTk3Mjc4NV9uYTFmbl9MMmh2YldVdmRXSjFiblIxTDJGNWRYSjJaV1JoWDJGdVlXeDVjMmx6WDJOaGNtUS5tZCIsIkNvbmRpdGlvbiI6eyJEYXRlTGVzc1RoYW4iOnsiQVdTOkVwb2NoVGltZSI6MTc5ODc2MTYwMH19fV19\u0026Key-Pair-Id=K2HSFNDJXOU9YS\u0026Signature=icLnjxp1~nAhLmJ7PiNKu6uGicymzTQ1eEInpqUDZUWarFQIBWXWxboBfTl4tX4fPii2ehCiybVXfjmub9mnx9HmCXO0H2rxg9jkIZOCAq~8fdU8qvTowiRwANcp4~92kBmpes~Da5kk~sZjsOs2i5RA3i~caQBnDCRX32twuX45H4mNi8pdc1lbW4FKIQPSvnIipxhI6DqQidlozhGSv~2eiKBpPnm4yrIdwJW1dhdI2dRqsO-g~EpnOjH6oqOyClUQ43YzrmZvOiwOn001Qdrf19~cV61zPdvgvp~rNlE-yIM2A7SOyBUwwSn2Hzv7w93cKBJxyxBoc5f7FjoIrQ__",
+        "model_name": "Ayurveda — Vedic Medicine"
+      },
+      "error": ""
+    },
+    {
+      "input": "Kabbalistic Tree of Life / Hermetic-Alchemical Models (10 sefirot as emanations of divine; 3 pillars; 4 worlds; alchemical stages: nigredo, albedo, rubedo)",
+      "output": {
+        "analysis_card": "https://private-us-east-1.manuscdn.com/sessionFile/HkpfLYwVGprFhdAVGlnMyp/sandbox/i6Gzkl8TNC8IdghAKuJrMt_1782519928543_na1fn_L2hvbWUvdWJ1bnR1L2thYmJhbGlzdGljX2hlcm1ldGljX21vZGVsX2NhcmQ.md?Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9wcml2YXRlLXVzLWVhc3QtMS5tYW51c2Nkbi5jb20vc2Vzc2lvbkZpbGUvSGtwZkxZd1ZHcHJGaGRBVkdsbk15cC9zYW5kYm94L2k2R3prbDhUTkM4SWRnaEFLdUpyTXRfMTc4MjUxOTkyODU0M19uYTFmbl9MMmh2YldVdmRXSjFiblIxTDJ0aFltSmhiR2x6ZEdsalgyaGxjbTFsZEdsalgyMXZaR1ZzWDJOaGNtUS5tZCIsIkNvbmRpdGlvbiI6eyJEYXRlTGVzc1RoYW4iOnsiQVdTOkVwb2NoVGltZSI6MTc5ODc2MTYwMH19fV19\u0026Key-Pair-Id=K2HSFNDJXOU9YS\u0026Signature=TGxJKZyAexj7H~rfcvRA9UfKZDTVTTct~bPrLu2I~bcce3tcGCmUrTwu7uRFxZw9~G5gA75To0E-5-H1fY-32gVHH25OproBzJfSTqjSKyqvpeHRS2qD0LtbSQa5YCJswlTgyVPhhlicqQTgH86~K9rEC0PvuLFLbNKW-KgiCkDEg~EDeThUvtdn7DN1kJYnYvg3P6Om2cOdtfRrMPZgIQGKyaJVangfg5zZto-i8fArugxXvwuOrOLs3T25HZmFIBVkZ2oeYMa9pjAV1XyKJjBrzsd233H6~sniTYNumaRm6uhWfENjd~tMVTFS3XG8Yn6ihCkd3q75f7BmixIdXg__",
+        "model_name": "Kabbalistic Tree of Life / Hermetic-Alchemical Models"
+      },
+      "error": ""
+    }
+  ]
+}

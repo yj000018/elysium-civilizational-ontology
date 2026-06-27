@@ -1,0 +1,19 @@
+{
+  "date": "2026-06-27",
+  "contradictions_found": [
+    {
+      "file": "ELYSIUM/00_PROGRAM_OFFICE/ELYSIUM_PROGRAM_STATE.md",
+      "issues": [
+        "Claims 126 analyzed models + 10 candidate models proposeds"
+      ]
+    },
+    {
+      "file": "ELYSIUM/00_PROGRAM_OFFICE/ELYSIUM_PROGRAM_STATE.json",
+      "issues": [
+        "Claims 126 analyzed models + 10 candidate models proposeds",
+        "Claims Program Phase: Canonicalization / QA"
+      ]
+    }
+  ],
+  "resolution": "All replaced with canonical version"
+}

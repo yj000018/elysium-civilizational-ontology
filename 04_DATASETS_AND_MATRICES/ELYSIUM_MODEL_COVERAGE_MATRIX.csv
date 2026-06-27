@@ -1,0 +1,127 @@
+model_name,lot,author,coverage_score
+Maslow — Hierarchy of Needs,a,,N/A
+Chakra System — 7 Chakras,a,,N/A
+Spiral Dynamics — Graves / Beck / Cowan,a,,N/A
+Integral Theory — Ken Wilber / AQAL,a,,N/A
+Jungian Archetypes,a,,N/A
+Campbell — Hero's Journey,a,,N/A
+Big Five Personality Model (OCEAN),a,,N/A
+Kegan — Orders of Consciousness,a,,N/A
+Loevinger / Cook-Greuter — Ego Development Theory,a,,N/A
+Self-Determination Theory — Deci & Ryan,a,,N/A
+Inner Development Goals (IDGs),a,,N/A
+Positive Psychology — PERMA / Flourishing,a,,N/A
+Erikson — Psychosocial Stages,a,,N/A
+Piaget — Developmental Stages,a,,N/A
+Kohlberg — Moral Development,a,,N/A
+Fowler — Stages of Faith,a,,N/A
+Metamodern Development Models,a,,N/A
+Worldchanging — Alex Steffen,b,,N/A
+UN Sustainable Development Goals — SDGs,b,,N/A
+Doughnut Economics — Kate Raworth,b,,N/A
+Planetary Boundaries — Rockström et al.,b,,N/A
+Great Transition Initiative — Paul Raskin / Tellus Institute,b,,N/A
+Earth Charter — Earth Charter Commission,b,,N/A
+Wellbeing Economy frameworks (WEAll),b,,N/A
+OECD Better Life Index,b,,N/A
+Social Progress Index,b,,N/A
+Human Development Index / UNDP,b,,N/A
+World Values Survey / Inglehart-Welzel Cultural Map,b,,N/A
+Club of Rome / Limits to Growth,b,,N/A
+Toynbee — Challenge and Response,b,,N/A
+Oswald Spengler — Decline of Civilizations,b,,N/A
+Ibn Khaldun — Asabiyyah / Civilizational Cycles,b,,N/A
+The Collapse of Complex Societies — Joseph Tainter,b,,N/A
+Jared Diamond — Collapse,b,,N/A
+Norberg / Pinker / Progress Narratives,b,,N/A
+Donella Meadows — Leverage Points,c,,N/A
+Peter Senge — Learning Organizations / The Fifth Discipline,c,,N/A
+Stafford Beer — Viable System Model,c,,N/A
+Complex Adaptive Systems — Santa Fe Institute,c,,N/A
+Stewart Brand — Pace Layers,c,,N/A
+Buckminster Fuller — World Game / Comprehensive Anticipatory Design Science,c,,N/A
+General Systems Theory — Ludwig von Bertalanffy,c,,N/A
+Cybernetics — Norbert Wiener / W. Ross Ashby,c,,N/A
+Socio-Technical Systems Theory — Tavistock Institute,c,,N/A
+Transition Management Frameworks — Dutch School,c,,N/A
+Theory U — Otto Scharmer,c,,N/A
+Agile / Lean / Adaptive Organization Models,c,,N/A
+DAO / Network Governance Models,c,,N/A
+Resilience Theory — C.S. Holling / Stockholm Resilience Centre,c,,N/A
+Panarchy Theory — Gunderson & Holling,c,,N/A
+Permaculture Ethics and Principles — Bill Mollison & David Holmgren,d,,N/A
+Regenerative Design Frameworks — John T. Lyle / Bill Reed / Carol Sanford,d,,N/A
+Biomimicry — Janine Benyus,d,,N/A
+Ecosystem Services Frameworks — Millennium Ecosystem Assessment / TEEB,d,,N/A
+Gaia Theory — James Lovelock & Lynn Margulis,d,,N/A
+Deep Ecology — Arne Næss,d,,N/A
+Social Ecology — Murray Bookchin,d,,N/A
+Circular Economy — Ellen MacArthur Foundation,d,,N/A
+Cradle to Cradle — McDonough & Braungart,d,,N/A
+Natural Step Framework — Karl-Henrik Robèrt,d,,N/A
+Ecological Economics — Herman Daly / Robert Costanza,d,,N/A
+Landscape Ecology — Forman / Godron,d,,N/A
+Bioregionalism — Peter Berg & Kirkpatrick Sale,d,,N/A
+Indigenous Ecological Knowledge — TEK / Robin Wall Kimmerer / Berkes,d,,N/A
+Capitalism / Post-Capitalism Models — overview,e,,N/A
+Commons Models — Elinor Ostrom,e,,N/A
+Mariana Mazzucato — Mission Economy,e,,N/A
+Jeremy Rifkin — Third Industrial Revolution / Zero Marginal Cost Society,e,,N/A
+Carlota Perez — Technological Revolutions,e,,N/A
+Post-Scarcity / Abundance Frameworks,e,,N/A
+Web3 / Decentralization / DAO Governance,e,,N/A
+"AI Transformation Frameworks (Kai-Fu Lee, Stuart Russell, Mustafa Suleyman)",e,,N/A
+Automation / Future of Work,e,,N/A
+Universal Basic Income / Universal Basic Services,e,,N/A
+Energy Transition Models,e,,N/A
+Smart City Frameworks,e,,N/A
+Industry 4.0 / Society 5.0,e,,N/A
+Open-Source Economy (Commons-Based Peer Production),e,,N/A
+Platform Cooperativism — Trebor Scholz,e,,N/A
+Degrowth / Post-Growth,e,,N/A
+Doughnut / Wellbeing / Regenerative Economics,e,,N/A
+Society 5.0 + Fourth Industrial Revolution,e,,N/A
+Aristotle — Eudaimonia / Virtue Ethics / Polis,f,,N/A
+Plato — Tripartite Soul / Ideal City,f,,N/A
+Stoicism — Epictetus / Marcus Aurelius / Seneca,f,,N/A
+Buddhism — Four Noble Truths / Eightfold Path,f,,N/A
+Advaita Vedanta / Non-Dual Frameworks — Advaita / Shankara,f,,N/A
+Taoism — Lao Tzu / Zhuangzi,f,,N/A
+Confucianism — Confucius / Mencius,f,,N/A
+Ubuntu — African Philosophy,f,,N/A
+Indigenous Worldviews — Relationality / Reciprocity / Land,f,,N/A
+Catholic Social Teaching,f,,N/A
+Jewish Social Ethics — Tikkun Olam,f,,N/A
+Islamic Social Ethics — Maqasid al-Shariah,f,,N/A
+Hindu Purusharthas — Four Aims of Life,f,,N/A
+Traditional Four Elements — Greek / Western,f,,N/A
+Chinese Five Elements / Wu Xing,f,,N/A
+Ayurveda — Vedic Medicine,f,,N/A
+Kabbalistic Tree of Life / Hermetic-Alchemical Models,f,,N/A
+Gross National Happiness — Bhutan,g,,N/A
+Buen Vivir / Sumak Kawsay — Andean Indigenous Philosophy,g,,N/A
+Genuine Progress Indicator — GPI,g,,N/A
+Capability Approach — Amartya Sen / Martha Nussbaum,g,,N/A
+Manfred Max-Neef — Human Scale Development,g,,N/A
+Frederic Laloux — Reinventing Organizations / Teal,g,,N/A
+Daniel Schmachtenberger — Civilizational Risk / Game B,g,,N/A
+Nora Bateson — Warm Data / Symmathesy,g,,N/A
+Charles Eisenstein — Sacred Economics / The More Beautiful World,g,,N/A
+Donella Meadows — Thinking in Systems + Dancing with Systems,g,,N/A
+One Health Framework — WHO/FAO/OIE,g,,N/A
+Integral Ecology — Sean Esbjörn-Hargens / Michael Zimmerman,g,,N/A
+Christopher Alexander — A Pattern Language / The Nature of Order,h,,N/A
+E.F. Schumacher — Small Is Beautiful / Appropriate Technology,h,,N/A
+Ivan Illich — Tools for Conviviality / Deschooling Society,h,,N/A
+Fritjof Capra — The Web of Life / The Systems View of Life,h,,N/A
+Joanna Macy — The Work That Reconnects / Active Hope,h,,N/A
+Jane Jacobs — The Death and Life of Great American Cities,h,,N/A
+Paulo Freire — Pedagogy of the Oppressed,h,,N/A
+Vandana Shiva — Earth Democracy / Seed Sovereignty,h,,N/A
+Nassim Nicholas Taleb — Antifragile / Black Swan,h,,N/A
+Edgar Morin — Complex Thought / La Méthode,h,,N/A
+Jan Gehl — Cities for People / Life Between Buildings,h,,N/A
+Muhammad Yunus — Social Business / Grameen Bank,h,,N/A
+Johan Galtung — Peace Studies / Structural Violence,h,,N/A
+"Product-Service Systems / Sharing Economy — Botsman & Rogers, Stahel",h,,N/A
+David Graeber — Debt: The First 5000 Years / Bullshit Jobs,h,,N/A

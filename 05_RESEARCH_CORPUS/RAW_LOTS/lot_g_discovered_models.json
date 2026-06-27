@@ -1,0 +1,100 @@
+{
+  "results": [
+    {
+      "input": "Gross National Happiness — Bhutan (9 domains: living standards, health, education, governance, ecological diversity, time use, psychological wellbeing, community vitality, cultural resilience)",
+      "output": {
+        "analysis_card": "https://private-us-east-1.manuscdn.com/sessionFile/FOQZEWsD1rN1UqEQYcQi6X/sandbox/613k22nizNfpBkdyXOOHhN_1782520135899_na1fn_L2hvbWUvdWJ1bnR1L0dOSF9CaHV0YW5fQW5hbHlzaXM.md?Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9wcml2YXRlLXVzLWVhc3QtMS5tYW51c2Nkbi5jb20vc2Vzc2lvbkZpbGUvRk9RWkVXc0Qxck4xVXFFUVljUWk2WC9zYW5kYm94LzYxM2syMm5pek5mcEJrZHlYT09IaE5fMTc4MjUyMDEzNTg5OV9uYTFmbl9MMmh2YldVdmRXSjFiblIxTDBkT1NGOUNhSFYwWVc1ZlFXNWhiSGx6YVhNLm1kIiwiQ29uZGl0aW9uIjp7IkRhdGVMZXNzVGhhbiI6eyJBV1M6RXBvY2hUaW1lIjoxNzk4NzYxNjAwfX19XX0_\u0026Key-Pair-Id=K2HSFNDJXOU9YS\u0026Signature=UeY-q4LuyPFQ4Y6OL1JXZpQnH6jfXl37b~bQJC9jNe4qpbwWXP2hU9VuiqpbLOT8IuTlwE2wOZP90QNWw1z1f3RyLxNPnAnVNieskkONkcnNlTqmVn9Z5VDYZTt5dV0WX94EXtbJLgJP2T4tVOdanQ8du3aHKX4wX108p99Nj76Iyz3Rvo7-5uo3ScSEvq1qZUmXGluTCme3reLVkRRR6~v-Hx1wU~3wd2ZUaPMvQxpvLgzqvT5dKw0MShSGZyCPoEkKfu7dUhTGFUNCtcREwbvVu33TNj8xwi~7djE64EnkQsrFYVL11giTFOFWjwYfeVMwD-WFkfL3D8EBo9cdBA__",
+        "model_name": "Gross National Happiness — Bhutan"
+      },
+      "error": ""
+    },
+    {
+      "input": "Buen Vivir / Sumak Kawsay — Andean Indigenous Philosophy (good living in harmony with Pachamama/nature, rights of nature, community over individual, decolonial alternative to development)",
+      "output": {
+        "analysis_card": "https://private-us-east-1.manuscdn.com/sessionFile/uVdYplvN4PS4KH2Qwez4q2/sandbox/OtbnwM8KtZRPjolTWpTECO_1782520230305_na1fn_L2hvbWUvdWJ1bnR1L2J1ZW5fdml2aXJfYW5hbHlzaXM.md?Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9wcml2YXRlLXVzLWVhc3QtMS5tYW51c2Nkbi5jb20vc2Vzc2lvbkZpbGUvdVZkWXBsdk40UFM0S0gyUXdlejRxMi9zYW5kYm94L090Ym53TThLdFpSUGpvbFRXcFRFQ09fMTc4MjUyMDIzMDMwNV9uYTFmbl9MMmh2YldVdmRXSjFiblIxTDJKMVpXNWZkbWwyYVhKZllXNWhiSGx6YVhNLm1kIiwiQ29uZGl0aW9uIjp7IkRhdGVMZXNzVGhhbiI6eyJBV1M6RXBvY2hUaW1lIjoxNzk4NzYxNjAwfX19XX0_\u0026Key-Pair-Id=K2HSFNDJXOU9YS\u0026Signature=Aoijn5mKXiSaTa8blVwBkV-GqKsZUDDOgo0YPPzknhYkV67UI53jT2eCs~GbY-alv2Yir2HxMj0qk510DF6B7rELSeS9CCVpcIu4foCC5LZfZzGJ2MedI9UEWHe6JKV0RMlrqmtjeCCA0b4m1RdawOSruGsdYxipuyMDbQsY5axKZcOMeCMSuQUlq5BOQ9KSq7OMMoCz51~b80o5ija14jtQqSWx9k7q~RTq2JTbVTu-YY8Ylti-GDuA2t0bVhbqCmq4jq9gndsRFkgfNRKpS9L5Qqv7b4MppeUCxP1IpIVw0mv4emb9dGytoF~~tChQWU7uwFrPD1MThMLmON-mBw__",
+        "model_name": "Buen Vivir / Sumak Kawsay — Andean Indigenous Philosophy"
+      },
+      "error": ""
+    },
+    {
+      "input": "Genuine Progress Indicator — GPI (alternative to GDP: adds household work, volunteering, leisure; subtracts crime, pollution, resource depletion, inequality)",
+      "output": {
+        "analysis_card": "https://private-us-east-1.manuscdn.com/sessionFile/CtsHCQwt7ubK7BRvgIZxcO/sandbox/DvXwtvOQV816766ajN3b0G_1782520170917_na1fn_L2hvbWUvdWJ1bnR1L2dwaV9hbmFseXNpc19jYXJk.md?Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9wcml2YXRlLXVzLWVhc3QtMS5tYW51c2Nkbi5jb20vc2Vzc2lvbkZpbGUvQ3RzSENRd3Q3dWJLN0JSdmdJWnhjTy9zYW5kYm94L0R2WHd0dk9RVjgxNjc2NmFqTjNiMEdfMTc4MjUyMDE3MDkxN19uYTFmbl9MMmh2YldVdmRXSjFiblIxTDJkd2FWOWhibUZzZVhOcGMxOWpZWEprLm1kIiwiQ29uZGl0aW9uIjp7IkRhdGVMZXNzVGhhbiI6eyJBV1M6RXBvY2hUaW1lIjoxNzk4NzYxNjAwfX19XX0_\u0026Key-Pair-Id=K2HSFNDJXOU9YS\u0026Signature=gmWYRCeScsrlCOO3dd4LfhFOoHlmBXRnelLcKnSa45cbtq1B324L3Fnm6Bi8dZuDQwuBqjq97GTvTpBxp34wfhMgo4sVNzMQocg9tcMtNEOr0xsT6U1eOmAWYweRvddHc1B6Zz9Z-583O5kWmgqStbzh7y4G0IU0xUFJgtGjsIv6hFpZnE1Iu8ocQjwLxGgsxX3x9qY60A3SeBZ3t5as4emVLyPKe7O4yi0FG-2~l3eyruRwj9oIjLpEvgmUASFYFCAwFEiIJkLbO3P4mR8i2d2EG6Ir6FxnvveMJ-0Fur6GlWSvFK4JG1ZZ-b1CHUnMtA-ABYdGlDtqhNKObXlKkg__",
+        "model_name": "Genuine Progress Indicator — GPI"
+      },
+      "error": ""
+    },
+    {
+      "input": "Capability Approach — Amartya Sen / Martha Nussbaum (10 central capabilities: life, health, bodily integrity, senses/imagination, emotions, practical reason, affiliation, other species, play, political control)",
+      "output": {
+        "analysis_card": "https://private-us-east-1.manuscdn.com/sessionFile/kcSeVnvhtpVkXUfufxht9Q/sandbox/bKXcIA3f7sTKuy3s1MdGzT_1782520107467_na1fn_L2hvbWUvdWJ1bnR1L2NhcGFiaWxpdHlfYXBwcm9hY2hfYW5hbHlzaXM.md?Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9wcml2YXRlLXVzLWVhc3QtMS5tYW51c2Nkbi5jb20vc2Vzc2lvbkZpbGUva2NTZVZudmh0cFZrWFVmdWZ4aHQ5US9zYW5kYm94L2JLWGNJQTNmN3NUS3V5M3MxTWRHelRfMTc4MjUyMDEwNzQ2N19uYTFmbl9MMmh2YldVdmRXSjFiblIxTDJOaGNHRmlhV3hwZEhsZllYQndjbTloWTJoZllXNWhiSGx6YVhNLm1kIiwiQ29uZGl0aW9uIjp7IkRhdGVMZXNzVGhhbiI6eyJBV1M6RXBvY2hUaW1lIjoxNzk4NzYxNjAwfX19XX0_\u0026Key-Pair-Id=K2HSFNDJXOU9YS\u0026Signature=U5AF0ZS8HPYlyRY5BPTlTtCh4IBMoRcjDB2dGUM1r-rOD2PBDuqQ7on3JDndiphxw7jkwlwjd6BmlDIQmrAlH3vmvtzkAvI5kmxKrYnd~yaHrqxZ1rSUOjZOhVBXReRIwwM8S~A3mV8k22WfNZYxV9PF7JmHPg~OD~RLG7wZrlD4HUHsJmDdb~c8uz3JfUkxuKbT8ajqxJpz~y0jiJzk9JPkUEHhG94bQFG-9lks1Lxh5LFWAqPetrDzG3-yHF7ONLzXR0uuneSkyUR17QdWd7q-WDjYVwzz0gpGD2uIwBxa0EJ3BEpdNFUxOCqXdQJSY8OQuJBGBA-Ou65f~fazqA__",
+        "model_name": "Capability Approach — Amartya Sen / Martha Nussbaum"
+      },
+      "error": ""
+    },
+    {
+      "input": "Manfred Max-Neef — Human Scale Development (9 fundamental needs: subsistence, protection, affection, understanding, participation, leisure, creation, identity, freedom; matrix of satisfiers)",
+      "output": {
+        "analysis_card": "https://private-us-east-1.manuscdn.com/sessionFile/drnz59aRuNdNic1rxut0Pn/sandbox/i4tO3yGBYCJ2y7o5iWNFaH_1782520245866_na1fn_L2hvbWUvdWJ1bnR1L01heC1OZWVmX0h1bWFuX1NjYWxlX0RldmVsb3BtZW50.md?Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9wcml2YXRlLXVzLWVhc3QtMS5tYW51c2Nkbi5jb20vc2Vzc2lvbkZpbGUvZHJuejU5YVJ1TmROaWMxcnh1dDBQbi9zYW5kYm94L2k0dE8zeUdCWUNKMnk3bzVpV05GYUhfMTc4MjUyMDI0NTg2Nl9uYTFmbl9MMmh2YldVdmRXSjFiblIxTDAxaGVDMU9aV1ZtWDBoMWJXRnVYMU5qWVd4bFgwUmxkbVZzYjNCdFpXNTAubWQiLCJDb25kaXRpb24iOnsiRGF0ZUxlc3NUaGFuIjp7IkFXUzpFcG9jaFRpbWUiOjE3OTg3NjE2MDB9fX1dfQ__\u0026Key-Pair-Id=K2HSFNDJXOU9YS\u0026Signature=Tud379wQlSjN3cpxbUOYvYFKNtWvk-clK6fBdg6MXElBY5wz4SMaqtWD-5y0GVX6afoZs5uw6vhX1Xz5oTaJAjszCobT7ciZWwRkuSHY92zXUXv8UJPKZBJQ7P-kJ3K9Xjmgp5lU1xUvfxPWLoOjlllABEcdQwqmgHQh5bIdSfFdDUhc1xjDa6Qxkt~t7hLC~HnD1Mph81sHz8FIsIMUiKzH-Cksgu0Ot5lWh9l37HSrI7hJTK6TXKMuNWd~P9GU9zYt7wvWnjG3BMCunxDyDd-WP4dCQNRV7K-DXERnWT56fhwpmpqpeeJlLYvCVJQ0i0VPbApUmOVI-av3U9ocvQ__",
+        "model_name": "Manfred Max-Neef — Human Scale Development"
+      },
+      "error": ""
+    },
+    {
+      "input": "Frederic Laloux — Reinventing Organizations / Teal (evolutionary stages of organizations: red/amber/orange/green/teal; self-management, wholeness, evolutionary purpose)",
+      "output": {
+        "analysis_card": "https://private-us-east-1.manuscdn.com/sessionFile/O2o6Klsn2FcejlOr5SSjVR/sandbox/sVRGcfaajqzEkqf7pnooOu_1782520168076_na1fn_L2hvbWUvdWJ1bnR1L0xhbG91eF9UZWFsX0FuYWx5c2lz.md?Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9wcml2YXRlLXVzLWVhc3QtMS5tYW51c2Nkbi5jb20vc2Vzc2lvbkZpbGUvTzJvNktsc24yRmNlamxPcjVTU2pWUi9zYW5kYm94L3NWUkdjZmFhanF6RWtxZjdwbm9vT3VfMTc4MjUyMDE2ODA3Nl9uYTFmbl9MMmh2YldVdmRXSjFiblIxTDB4aGJHOTFlRjlVWldGc1gwRnVZV3g1YzJsei5tZCIsIkNvbmRpdGlvbiI6eyJEYXRlTGVzc1RoYW4iOnsiQVdTOkVwb2NoVGltZSI6MTc5ODc2MTYwMH19fV19\u0026Key-Pair-Id=K2HSFNDJXOU9YS\u0026Signature=h-sZh0RuNZHs1nezsBhlCWopt7K~IEDUZIJ13th5VkAPnqlAKyBr7OidAtoCmOceGvvowDK79u6XopYv0QotDHh~LqS4qLZAEXyhjJaV0A2TfvupnnOmovwHcPvBkv2TL~y-3hOdPWud~o~gKyD41mXQo2z0r01aA1v5-I0lT~dEIC7X7Tpriy6-qij-NBnZUhG3YSmuNU0RCQ1RqUKlj-gMKITV7d36rfXH5wuKtJD20zkcEa8GjBVP5K4QJpX-ECf70swMAdWBKTLDTgPCCGlvBVfft438LZV722v1aKzP5gIrMht5Quq1h0JNTtm1WRiWs6uoHKse5CuRx4rHvQ__",
+        "model_name": "Frederic Laloux — Reinventing Organizations / Teal"
+      },
+      "error": ""
+    },
+    {
+      "input": "Daniel Schmachtenberger — Civilizational Risk / Game B (metacrisis, generator functions of existential risk, anti-rivalrous dynamics, new game theory for coordination)",
+      "output": {
+        "analysis_card": "https://private-us-east-1.manuscdn.com/sessionFile/WFEzVxe3rTOMhmSVqIuTeb/sandbox/C93iLldYZm1u7F3uKexhJF_1782520129096_na1fn_L2hvbWUvdWJ1bnR1L2FuYWx5c2lzX2NhcmQ.md?Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9wcml2YXRlLXVzLWVhc3QtMS5tYW51c2Nkbi5jb20vc2Vzc2lvbkZpbGUvV0ZFelZ4ZTNyVE9NaG1TVnFJdVRlYi9zYW5kYm94L0M5M2lMbGRZWm0xdTdGM3VLZXhoSkZfMTc4MjUyMDEyOTA5Nl9uYTFmbl9MMmh2YldVdmRXSjFiblIxTDJGdVlXeDVjMmx6WDJOaGNtUS5tZCIsIkNvbmRpdGlvbiI6eyJEYXRlTGVzc1RoYW4iOnsiQVdTOkVwb2NoVGltZSI6MTc5ODc2MTYwMH19fV19\u0026Key-Pair-Id=K2HSFNDJXOU9YS\u0026Signature=SDGvmuWzgUQNcSvvWgTq1WwoK1fqhYG6djxjSxcuShcCRg6IA6EXK8Tkirr7uWG1Mo60uubXdElN3hgU0m7VhIp16Q791xy8xJF52~BH8uouNn47tUvarfvP-~injn4mTXuMGQGVu~Aoc43cyIrB9jDhobOwr8yWvKUCUD0g55eqQm99yKK8LL2YMJdk~4XPP6pBpL9tLu2eXYb8kH45uaIzCw1M3hG5iMy3Xh9UEo92J49H5NCeXdiMBCR-5YhDkrg5w1K0HkQXU1PjMOM~jSHq8WP8lk3h3NQ-Q3eW3t3hsX9ykeYk44zpWKBmLWNHMkH2yTHkfUKQkW3epNjdDA__",
+        "model_name": "Daniel Schmachtenberger — Civilizational Risk / Game B"
+      },
+      "error": ""
+    },
+    {
+      "input": "Nora Bateson — Warm Data / Symmathesy (mutual learning in living systems, transcontextual understanding, warm data labs, complexity beyond cold data)",
+      "output": {
+        "analysis_card": "https://private-us-east-1.manuscdn.com/sessionFile/nH4Ra0VJsyyemsjvMv9ate/sandbox/nQWLZQN9TVWiu91i6GBzQd_1782520144554_na1fn_L2hvbWUvdWJ1bnR1L25vcmFfYmF0ZXNvbl9hbmFseXNpcw.md?Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9wcml2YXRlLXVzLWVhc3QtMS5tYW51c2Nkbi5jb20vc2Vzc2lvbkZpbGUvbkg0UmEwVkpzeXllbXNqdk12OWF0ZS9zYW5kYm94L25RV0xaUU45VFZXaXU5MWk2R0J6UWRfMTc4MjUyMDE0NDU1NF9uYTFmbl9MMmh2YldVdmRXSjFiblIxTDI1dmNtRmZZbUYwWlhOdmJsOWhibUZzZVhOcGN3Lm1kIiwiQ29uZGl0aW9uIjp7IkRhdGVMZXNzVGhhbiI6eyJBV1M6RXBvY2hUaW1lIjoxNzk4NzYxNjAwfX19XX0_\u0026Key-Pair-Id=K2HSFNDJXOU9YS\u0026Signature=OqwEiYt4NxnbCuxwkFuKvcgWpvOmLVNxLqOL3aa3KzlVADkhgKVpjHi6Hz4dLodmCeC2RNIibHqyNAcYBt-ADf4ABxmNd3kr3II3BvaOFjNO05GHidDICj0pGOZPYrcil7hZay-HpO7Aj-ATxTB38E~0DhL-oP11WSVX-UzBCt7MPdN1qmnKCeYvQZA9G5BPavcCwTI2oJtErtlv9DZOK5uCGyRoB~evNanap78myEj8y4zNAWqjKN8BWV5aKxai2xOVe1J04ErEkkxneOOe-vSW6A7ONSFed0A-5DECwTkxbJJTN7zEVVy73yKxOD1gthUX-~ByKlaySeNlWcAC4A__",
+        "model_name": "Nora Bateson — Warm Data / Symmathesy"
+      },
+      "error": ""
+    },
+    {
+      "input": "Charles Eisenstein — Sacred Economics / The More Beautiful World (gift economy, interbeing, story of separation vs story of interbeing, transition narratives)",
+      "output": {
+        "analysis_card": "https://private-us-east-1.manuscdn.com/sessionFile/1eHKNJiI3PPvPFsQi633uZ/sandbox/icNDIDujSnYeVY4S23WBQt_1782520257715_na1fn_L2hvbWUvdWJ1bnR1L2NoYXJsZXNfZWlzZW5zdGVpbl9hbmFseXNpcw.md?Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9wcml2YXRlLXVzLWVhc3QtMS5tYW51c2Nkbi5jb20vc2Vzc2lvbkZpbGUvMWVIS05KaUkzUFB2UEZzUWk2MzN1Wi9zYW5kYm94L2ljTkRJRHVqU25ZZVZZNFMyM1dCUXRfMTc4MjUyMDI1NzcxNV9uYTFmbl9MMmh2YldVdmRXSjFiblIxTDJOb1lYSnNaWE5mWldselpXNXpkR1ZwYmw5aGJtRnNlWE5wY3cubWQiLCJDb25kaXRpb24iOnsiRGF0ZUxlc3NUaGFuIjp7IkFXUzpFcG9jaFRpbWUiOjE3OTg3NjE2MDB9fX1dfQ__\u0026Key-Pair-Id=K2HSFNDJXOU9YS\u0026Signature=Dsq63eSVlvP4BLK8oKU2fORudKawfZDPZrkUKmAT4cPv6nx1bIa84GSfF~nKR4XBKiE8fxOVcbu-v08CESu8yZJrKNnn8z2twB1d23dpCWHJMrLH6mcYBtYjuDFwR8WUstVvjZcMi-lyjgHA9T9q2AOWGmg5fVMa0cbajuKcdiF0EQbuMndkGJQaETIV0YhB2VUjoyM9hQmPZ7ML7xfS2WKxa9V1S8BgVxoRdLHuOjC2IicXt53g4OGSxRvSImcihvnWecoiwkh8LI6iczjzNEt2Hp8U9QxpXg2bEFMIFjbte-LfKDksemD9BXtVviPbi5M3BTeA8t32EdtuAATbuQ__",
+        "model_name": "Charles Eisenstein — Sacred Economics / The More Beautiful World"
+      },
+      "error": ""
+    },
+    {
+      "input": "Donella Meadows — Thinking in Systems + Dancing with Systems (system archetypes, stocks and flows, feedback, bounded rationality, system traps, dancing with complexity)",
+      "output": {
+        "analysis_card": "https://private-us-east-1.manuscdn.com/sessionFile/SjLPEJqKbp9lqiUcb1nLaV/sandbox/qJZOCTCmeYk0W0WXZKQEYP_1782520157139_na1fn_L2hvbWUvdWJ1bnR1L2RvbmVsbGFfbWVhZG93c19hbmFseXNpcw.md?Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9wcml2YXRlLXVzLWVhc3QtMS5tYW51c2Nkbi5jb20vc2Vzc2lvbkZpbGUvU2pMUEVKcUticDlscWlVY2IxbkxhVi9zYW5kYm94L3FKWk9DVENtZVlrMFcwV1haS1FFWVBfMTc4MjUyMDE1NzEzOV9uYTFmbl9MMmh2YldVdmRXSjFiblIxTDJSdmJtVnNiR0ZmYldWaFpHOTNjMTloYm1Gc2VYTnBjdy5tZCIsIkNvbmRpdGlvbiI6eyJEYXRlTGVzc1RoYW4iOnsiQVdTOkVwb2NoVGltZSI6MTc5ODc2MTYwMH19fV19\u0026Key-Pair-Id=K2HSFNDJXOU9YS\u0026Signature=Mek5EE3l3eJHMHgPeWSSFK0imf9LpPzLi6M4HzVjR0hW3TyNJ3s3-XP14a1WhfoIRWhITIIvFC8g9zi6vyv4qw-RGbtTyvMmC7pHmg54~T2ouwEVmbNIBhQEZ3073sibB1ow~ZVQ26uQYGyNHBvZ-HE4LOYVC9dzrPGS1A5ZngGJ8Hp-U7ZS4KZThLhQyhUm3nfLBfvC5hV84Iy8aFxtKGHK-ONj7C~ULOwN27US3PLgaxxN4pOEQAxznClwOEoVSh-psvbCUT5sH27feoe24tRlCjdHEUCK5QIxlsKkXrDPtT8Px-z4WhYkzh132Bu-GJgIzcA0J0RGkxNRA7yKEQ__",
+        "model_name": "Donella Meadows — Thinking in Systems + Dancing with Systems"
+      },
+      "error": ""
+    },
+    {
+      "input": "One Health Framework — WHO/FAO/OIE (interconnection of human health, animal health, and environmental health; zoonotic diseases, antimicrobial resistance, food safety)",
+      "output": {
+        "analysis_card": "https://private-us-east-1.manuscdn.com/sessionFile/Ymah6f2IpqOKlA4Jjuunzk/sandbox/Mtvvox1R4gwXa3caqVKdxi_1782520136000_na1fn_L2hvbWUvdWJ1bnR1L09uZV9IZWFsdGhfRnJhbWV3b3JrX0FuYWx5c2lz.md?Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9wcml2YXRlLXVzLWVhc3QtMS5tYW51c2Nkbi5jb20vc2Vzc2lvbkZpbGUvWW1haDZmMklwcU9LbEE0Smp1dW56ay9zYW5kYm94L010dnZveDFSNGd3WGEzY2FxVktkeGlfMTc4MjUyMDEzNjAwMF9uYTFmbl9MMmh2YldVdmRXSjFiblIxTDA5dVpWOUlaV0ZzZEdoZlJuSmhiV1YzYjNKclgwRnVZV3g1YzJsei5tZCIsIkNvbmRpdGlvbiI6eyJEYXRlTGVzc1RoYW4iOnsiQVdTOkVwb2NoVGltZSI6MTc5ODc2MTYwMH19fV19\u0026Key-Pair-Id=K2HSFNDJXOU9YS\u0026Signature=O5wxaWFWHyV1sDR1tptF0B~JFkxgm2sh6pSSsqhhiJTXZOZPTPkVbrUa~nAS6H605M90KN5mc5iEdscjpec~9D0n6BfkZBloi8JAys85YxLEBgNSFjC9LZgw6dCtiYPI6Fnf6lx3EAa2s4GB-47KPC92eii1oIiD8RcjBSJ9PcH1dh8UpOKQefNmRITf03r0GBEyaFn1veHSypi0-Fpeg1kNBVMW6KZTyxoP3ZwVsIjv1XEDuNhfiEelnXN52fhWFg3Q0uZ3qkNNblYNj93q9510J~gX6YuQsP50F0o5wNrqQySiWtG2Dw28XeFa4f5PWTgtF6sZvi0dsqBBlHHQrQ__",
+        "model_name": "One Health Framework — WHO/FAO/OIE"
+      },
+      "error": ""
+    },
+    {
+      "input": "Integral Ecology — Sean Esbjorn-Hargens / Michael Zimmerman (applying Wilber's AQAL to ecology: all quadrants, all levels of ecological understanding; interior + exterior of nature)",
+      "output": {
+        "analysis_card": "https://private-us-east-1.manuscdn.com/sessionFile/Um8NOYdBZy3lt8HHEhH186/sandbox/eOByzCoU7H5aZUzqBaENmH_1782520266152_na1fn_L2hvbWUvdWJ1bnR1L2ludGVncmFsX2Vjb2xvZ3lfYW5hbHlzaXM.md?Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9wcml2YXRlLXVzLWVhc3QtMS5tYW51c2Nkbi5jb20vc2Vzc2lvbkZpbGUvVW04Tk9ZZEJaeTNsdDhISEVoSDE4Ni9zYW5kYm94L2VPQnl6Q29VN0g1YVpVenFCYUVObUhfMTc4MjUyMDI2NjE1Ml9uYTFmbl9MMmh2YldVdmRXSjFiblIxTDJsdWRHVm5jbUZzWDJWamIyeHZaM2xmWVc1aGJIbHphWE0ubWQiLCJDb25kaXRpb24iOnsiRGF0ZUxlc3NUaGFuIjp7IkFXUzpFcG9jaFRpbWUiOjE3OTg3NjE2MDB9fX1dfQ__\u0026Key-Pair-Id=K2HSFNDJXOU9YS\u0026Signature=sMADnEZPpUjFYIEOQfy~hN7NLP5eIzowzHUxuOhVTUhziBjx9Uil7~5Sue1fhbM4sFXknqrOeWatMkT4wE7wCEFCwadsMvpwOHgnAeJO3zIvG~mKbbVOm1Li4GP5MozPTneUco3zz7p3zvg40XG3NmYRlSqaGl9PK6V0BTBr9BuD5L2KKUGKQv2R2saAVmKlKdcmgFZC7qve43Yjtarmzsvu8f5Zx~fK~dHkBsWdleHALguhkUJZ7u896ou8CYZKmPeoD79HSAXbInT2T1XGCYHOw-UzlYTkNjnF-Zuou~XyRdIjZLEGXWr6G7pjeoFgvsuZYET0zhNpe115iMPXuw__",
+        "model_name": "Integral Ecology — Sean Esbjörn-Hargens / Michael Zimmerman"
+      },
+      "error": ""
+    }
+  ]
+}
