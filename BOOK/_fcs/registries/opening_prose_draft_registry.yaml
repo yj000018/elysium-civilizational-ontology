@@ -139,3 +139,11 @@ modules:
     movement: MOV-IV
     prose_status: NOT_STARTED
     operational_status: NOT_STARTED
+  - module_id: OPN-009
+    title: The Five Classes of Civilizational Flows
+    movement: MOV-III
+    word_count: 1003
+    status: DRAFT_0
+    chatgpt_review: PASS
+    revision_count: 2
+    date: 2026-06-28

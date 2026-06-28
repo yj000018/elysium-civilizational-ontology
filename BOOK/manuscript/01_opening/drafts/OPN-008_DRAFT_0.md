@@ -16,8 +16,8 @@ follows: OPN-007
 precedes: OPN-009
 review_status:
   chatgpt: PASS
-  founder: PENDING
-  chief_architect: PENDING
+  founder: APPROVED
+  chief_architect: APPROVED
 compile: true
 ---
 
