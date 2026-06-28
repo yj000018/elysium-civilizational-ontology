@@ -171,3 +171,12 @@ modules:
     chatgpt_review: PASS
     revision_count: 2
     date: 2026-06-28
+  - module_id: OPN-013
+    title: The Reading Contract
+    movement: MOV-V
+    word_count: 733
+    status: DRAFT_0
+    chatgpt_review: PASS
+    revision_count: 0
+    date: 2026-06-28
+    note: FINAL Opening module
