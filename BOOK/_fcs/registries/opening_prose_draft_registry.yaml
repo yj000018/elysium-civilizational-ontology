@@ -155,3 +155,11 @@ modules:
     chatgpt_review: PASS
     revision_count: 2
     date: 2026-06-28
+  - module_id: OPN-011
+    title: The Need for a Map
+    movement: MOV-IV
+    word_count: 841
+    status: DRAFT_0
+    chatgpt_review: PASS
+    revision_count: 0
+    date: 2026-06-28
