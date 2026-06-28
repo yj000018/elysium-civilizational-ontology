@@ -217,3 +217,39 @@ Write module OPN-009 of the ELYSIUM book Opening Part. Title: 'The Five Classes 
 | Founder | PENDING | — |
 | Chief Architect | PENDING | — |
 | Ready for S4 prose | NO | — |
+
+---
+
+## ChatGPT Chief Architect Review
+
+> Model: gpt-4o-2024-08-06 | Date: 2026-06-28 | Status: REVIEWED
+
+**Decision:** APPROVE
+**Approval Recommendation:** READY
+
+### Revised Metadata
+- **Revised title:** No change
+- **Revised word target:** No change
+- **Revised purpose:** Present the five classes of civilizational flows as the operational expression of the metabolic model.
+
+### Revised Narrative Architecture
+- **Reader transition:** Arrives with a basic understanding of metabolic functions / Leaves with knowledge of the five classes of flows.
+- **Opening direction:** Transition from metabolic functions to the operational expression of flows.
+- **Closing direction:** Highlight the importance of understanding these flows for diagnosing civilizational health.
+
+### Key Concepts & Traps
+- **Three key concepts:** 1. Five classes of civilizational flows / 2. Flow typology / 3. Metabolic diagnosis
+- **Two traps:** 1. Avoid naming the seven foundations / 2. Avoid technical systems theory language
+
+### Refinements
+- **Tone/register:** Clear and structured.
+- **Depth/density:** Moderate density to ensure accessibility.
+- **Narrative beats:** Use structured beats to introduce the flows.
+- **Cross-reference correction:** None
+- **Forbidden moves:** Avoid using alternative terminology for the flows.
+
+### Claude S4 Prompt Seed
+> "Write a module that introduces the five classes of civilizational flows as the operational expression of the metabolic model — clear, structured, building toward the foundations."
+
+### Founder Note Suggestions
+Clarify the operational significance of each flow class.

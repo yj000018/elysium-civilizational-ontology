@@ -215,3 +215,39 @@ Write module OPN-003 of the ELYSIUM book Opening Part. Title: 'The Patient Metap
 | Founder | PENDING | — |
 | Chief Architect | PENDING | — |
 | Ready for S4 prose | NO | — |
+
+---
+
+## ChatGPT Chief Architect Review
+
+> Model: gpt-4o-2024-08-06 | Date: 2026-06-28 | Status: REVIEWED
+
+**Decision:** APPROVE
+**Approval Recommendation:** READY
+
+### Revised Metadata
+- **Revised title:** No change
+- **Revised word target:** No change
+- **Revised purpose:** Reframe civilization as a patient with systemic symptoms, shifting from mechanical to organic understanding.
+
+### Revised Narrative Architecture
+- **Reader transition:** Arrives with a sense of structural crisis / Leaves considering civilization as a living system.
+- **Opening direction:** Introduce the metaphor of civilization as a patient.
+- **Closing direction:** Imply the need for a systemic diagnosis.
+
+### Key Concepts & Traps
+- **Three key concepts:** 1. Patient metaphor / 2. Systemic symptoms / 3. Organic dysfunction vs. mechanical failure
+- **Two traps:** 1. Avoid overextending the metaphor / 2. Avoid medicalizing civilization
+
+### Refinements
+- **Tone/register:** Metaphorical yet precise, warm but not sentimental.
+- **Depth/density:** Maintain moderate density to ensure clarity of metaphor.
+- **Narrative beats:** Use metaphorical beats to transition understanding.
+- **Cross-reference correction:** None
+- **Forbidden moves:** Avoid suggesting civilization is dying.
+
+### Claude S4 Prompt Seed
+> "Write a module that introduces the patient metaphor for civilization — not a broken machine but a living system with systemic symptoms — and uses it to reframe the reader's diagnostic lens."
+
+### Founder Note Suggestions
+Consider reinforcing the metaphor's implications for diagnosis.

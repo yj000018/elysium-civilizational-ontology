@@ -215,3 +215,39 @@ Write module OPN-010 of the ELYSIUM book Opening Part. Title: 'The Ontological F
 | Founder | PENDING | — |
 | Chief Architect | PENDING | — |
 | Ready for S4 prose | NO | — |
+
+---
+
+## ChatGPT Chief Architect Review
+
+> Model: gpt-4o-2024-08-06 | Date: 2026-06-28 | Status: REVIEWED
+
+**Decision:** APPROVE
+**Approval Recommendation:** READY
+
+### Revised Metadata
+- **Revised title:** No change
+- **Revised word target:** No change
+- **Revised purpose:** Ground the metabolic model in a specific ontological understanding of civilization.
+
+### Revised Narrative Architecture
+- **Reader transition:** Arrives with knowledge of civilizational flows / Leaves understanding the ontological basis of the model.
+- **Opening direction:** Transition from flows to the ontological grounding of the model.
+- **Closing direction:** Emphasize the foundational role of ontology in shaping the model.
+
+### Key Concepts & Traps
+- **Three key concepts:** 1. Ontological grounding / 2. What civilization is/is for/requires / 3. Foundation of the model
+- **Two traps:** 1. Avoid philosophical jargon / 2. Avoid making the module abstract
+
+### Refinements
+- **Tone/register:** Grounded and precise.
+- **Depth/density:** Moderate density to ensure clarity.
+- **Narrative beats:** Use foundational beats to ground the model.
+- **Cross-reference correction:** None
+- **Forbidden moves:** Avoid introducing the seven foundations by name.
+
+### Claude S4 Prompt Seed
+> "Write a module that grounds the metabolic model ontologically — what civilization is, what it is for, what it requires — without introducing the seven foundations by name."
+
+### Founder Note Suggestions
+Emphasize the practical implications of the ontological foundation.

@@ -215,3 +215,39 @@ Write module OPN-011 of the ELYSIUM book Opening Part. Title: 'The Three Scales'
 | Founder | PENDING | — |
 | Chief Architect | PENDING | — |
 | Ready for S4 prose | NO | — |
+
+---
+
+## ChatGPT Chief Architect Review
+
+> Model: gpt-4o-2024-08-06 | Date: 2026-06-28 | Status: REVIEWED
+
+**Decision:** APPROVE
+**Approval Recommendation:** READY
+
+### Revised Metadata
+- **Revised title:** No change
+- **Revised word target:** No change
+- **Revised purpose:** Explain the three scales at which the metabolic model operates, emphasizing their interdependence.
+
+### Revised Narrative Architecture
+- **Reader transition:** Arrives with an ontological understanding / Leaves recognizing the importance of scale coherence.
+- **Opening direction:** Transition from ontology to the three scales of operation.
+- **Closing direction:** Highlight the interdependence of scales for metabolic health.
+
+### Key Concepts & Traps
+- **Three key concepts:** 1. Three scales / 2. Scale coherence / 3. Individual/collective/civilizational
+- **Two traps:** 1. Avoid making this a sociology lecture / 2. Avoid suggesting individual change is sufficient
+
+### Refinements
+- **Tone/register:** Clear and structured.
+- **Depth/density:** Moderate density to ensure accessibility.
+- **Narrative beats:** Use structured beats to explain scale coherence.
+- **Cross-reference correction:** None
+- **Forbidden moves:** Avoid making the scales feel hierarchical.
+
+### Claude S4 Prompt Seed
+> "Write a module that introduces the three scales of the metabolic model — individual, collective, civilizational — showing that health requires coherence across all three."
+
+### Founder Note Suggestions
+Highlight examples of scale interaction.

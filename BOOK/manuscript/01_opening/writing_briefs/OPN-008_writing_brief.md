@@ -217,3 +217,39 @@ Write module OPN-008 of the ELYSIUM book Opening Part. Title: 'Civilization as M
 | Founder | PENDING | — |
 | Chief Architect | PENDING | — |
 | Ready for S4 prose | NO | — |
+
+---
+
+## ChatGPT Chief Architect Review
+
+> Model: gpt-4o-2024-08-06 | Date: 2026-06-28 | Status: REVIEWED
+
+**Decision:** APPROVE
+**Approval Recommendation:** READY
+
+### Revised Metadata
+- **Revised title:** No change
+- **Revised word target:** No change
+- **Revised purpose:** Introduce the metabolic model of civilization, focusing on its core functions without delving into the five classes of flows.
+
+### Revised Narrative Architecture
+- **Reader transition:** Arrives questioning the machine metaphor / Leaves understanding civilization as a metabolic entity.
+- **Opening direction:** Introduce the metabolic model as a living system.
+- **Closing direction:** Imply the need to understand civilization in metabolic terms.
+
+### Key Concepts & Traps
+- **Three key concepts:** 1. Metabolic entity / 2. Inputs/transformation/regulation/outputs/entropy management / 3. Metabolic health vs. dysfunction
+- **Two traps:** 1. Avoid introducing the five classes of flows / 2. Avoid technical biology language
+
+### Refinements
+- **Tone/register:** Conceptually rich and grounded.
+- **Depth/density:** High density to convey complex ideas clearly.
+- **Narrative beats:** Use conceptual beats to introduce the metabolic model.
+- **Cross-reference correction:** None
+- **Forbidden moves:** Avoid developing the five classes of flows.
+
+### Claude S4 Prompt Seed
+> "Write the central metabolic pivot module — introduce civilization as a metabolic entity processing inputs, transforming, regulating, producing outputs, and managing entropy — without developing the five classes of flows (that is OPN-009)."
+
+### Founder Note Suggestions
+Emphasize the shift from mechanical to metabolic understanding.

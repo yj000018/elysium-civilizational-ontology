@@ -215,3 +215,39 @@ Write module OPN-013 of the ELYSIUM book Opening Part. Title: 'The Reading Contr
 | Founder | PENDING | — |
 | Chief Architect | PENDING | — |
 | Ready for S4 prose | NO | — |
+
+---
+
+## ChatGPT Chief Architect Review
+
+> Model: gpt-4o-2024-08-06 | Date: 2026-06-28 | Status: REVIEWED
+
+**Decision:** APPROVE
+**Approval Recommendation:** READY
+
+### Revised Metadata
+- **Revised title:** No change
+- **Revised word target:** No change
+- **Revised purpose:** Establish the reading contract, outlining the book's structure and inviting the reader into the journey.
+
+### Revised Narrative Architecture
+- **Reader transition:** Arrives with the framework of the Seven Foundations / Leaves with a clear understanding of the book's structure and their role as a reader.
+- **Opening direction:** Transition from the foundations to the reading contract.
+- **Closing direction:** Extend an invitation to the reader to engage with Part I.
+
+### Key Concepts & Traps
+- **Three key concepts:** 1. Reading contract / 2. Book structure / 3. Reader invitation
+- **Two traps:** 1. Avoid making this a table of contents / 2. Avoid being too formal
+
+### Refinements
+- **Tone/register:** Warm and inviting.
+- **Depth/density:** Light density to ensure accessibility and engagement.
+- **Narrative beats:** Use invitational beats to engage the reader.
+- **Cross-reference correction:** None
+- **Forbidden moves:** Avoid summarizing previous content.
+
+### Claude S4 Prompt Seed
+> "Write the reading contract module — close the Opening by telling the reader what the book will do and inviting them into Part I with the metabolic lens and the skeleton of the seven foundations."
+
+### Founder Note Suggestions
+Consider including a visual map to enhance reader engagement.
