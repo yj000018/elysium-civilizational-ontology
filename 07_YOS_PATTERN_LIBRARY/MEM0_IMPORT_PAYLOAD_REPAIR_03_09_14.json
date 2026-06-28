@@ -1,0 +1,56 @@
+{
+  "user_id": "yannick",
+  "facts": [
+    {
+      "fact": "The yOS Program Mode Notion inventory has been repaired to include page 03 MPM Standard Template (Notion ID: 38d35e21-8cf8-8111-a805-cde3c8807661). Status: Candidate yOS Program Mode Pattern v0.1.",
+      "tags": ["yOS", "Program Mode", "MPM", "Notion", "documentation"],
+      "source": "ELYSIUM operational development",
+      "date": "2026-06-28"
+    },
+    {
+      "fact": "The yOS Program Mode Notion inventory has been repaired to include page 09 Program Registry & Multi-Project Dashboard Protocol (Notion ID: 38d35e21-8cf8-8151-a0f4-d3db10f40210). Status: Candidate yOS Program Mode Protocol v0.1.",
+      "tags": ["yOS", "Program Mode", "Program Registry", "Dashboard", "Notion"],
+      "source": "ELYSIUM operational development",
+      "date": "2026-06-28"
+    },
+    {
+      "fact": "The yOS Program Mode Notion inventory has been repaired to include page 10 Program Queue Implementation Protocol (Notion ID: 38d35e21-8cf8-8164-8bc2-e8de6ca65443). Status: Candidate yOS Program Mode Protocol v0.1.",
+      "tags": ["yOS", "Program Mode", "Program Queue", "Notion"],
+      "source": "ELYSIUM operational development",
+      "date": "2026-06-28"
+    },
+    {
+      "fact": "The yOS Program Mode Notion inventory has been repaired to include page 11 Model Routing & Agent Roles Protocol (Notion ID: 38d35e21-8cf8-816e-9bdc-c22732ee8f08). Status: Candidate yOS Program Mode Protocol v0.1.",
+      "tags": ["yOS", "Program Mode", "Model Routing", "Agent Roles", "Notion"],
+      "source": "ELYSIUM operational development",
+      "date": "2026-06-28"
+    },
+    {
+      "fact": "The yOS Program Mode Notion inventory has been repaired to include page 12 Artifact Validation & QA Protocol (Notion ID: 38d35e21-8cf8-8191-8105-eeec80027934). Status: Candidate yOS Program Mode Protocol v0.1.",
+      "tags": ["yOS", "Program Mode", "Artifact Validation", "QA", "Notion"],
+      "source": "ELYSIUM operational development",
+      "date": "2026-06-28"
+    },
+    {
+      "fact": "The yOS Program Mode Notion inventory has been repaired to include page 13 Source of Truth & Canonical Status Protocol (Notion ID: 38d35e21-8cf8-811a-a223-de2c0ea13191). Status: Candidate yOS Program Mode Protocol v0.1.",
+      "tags": ["yOS", "Program Mode", "Source of Truth", "Canonical Status", "Notion"],
+      "source": "ELYSIUM operational development",
+      "date": "2026-06-28"
+    },
+    {
+      "fact": "The yOS Program Mode Notion inventory has been repaired to include page 14 Review & Acceptance Workflow Protocol (Notion ID: 38d35e21-8cf8-81a8-9b13-ed892602f6b4). Status: Candidate yOS Program Mode Protocol v0.1.",
+      "tags": ["yOS", "Program Mode", "Review", "Acceptance Workflow", "Notion"],
+      "source": "ELYSIUM operational development",
+      "date": "2026-06-28"
+    },
+    {
+      "fact": "The yOS Program Mode candidate Notion inventory now contains 19 pages (00-16, 98, 99). Docs 17, 18, 19 are pending MPM delivery from the Founder. All pages are under parent 38d35e21-8cf8-81ac-9fbd-e1ddef4f41ce.",
+      "tags": ["yOS", "Program Mode", "Notion", "inventory", "complete"],
+      "source": "ELYSIUM operational development",
+      "date": "2026-06-28"
+    }
+  ],
+  "mem0_status": "MEM0_PERSISTENCE_BLOCKED",
+  "reason": "Mem0 API key not configured in Manus session secrets",
+  "action_required": "Configure MEM0_API_KEY in Manus secrets and re-run import with this payload"
+}

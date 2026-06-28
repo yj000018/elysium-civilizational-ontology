@@ -95,3 +95,37 @@ Pending insertions (not yet received):
 - 12 Artifact Validation & QA Protocol
 - 13 Source of Truth & Canonical Status Protocol
 - 14 Review & Acceptance Workflow Protocol
+
+---
+
+## Update — 2026-06-28 (Session 3 — Repair 03 + 09–14)
+
+All 7 previously missing pages have been created:
+
+| # | Title | Notion Page ID | Notion URL |
+|---|---|---|---|
+| 03 | 03 MPM Standard Template — v0.1 | 38d35e21-8cf8-8111-a805-cde3c8807661 | https://app.notion.com/p/38d35e218cf88111a805cde3c8807661 |
+| 09 | 09 Program Registry & Multi-Project Dashboard Protocol — v0.1 | 38d35e21-8cf8-8151-a0f4-d3db10f40210 | https://app.notion.com/p/38d35e218cf88151a0f4d3db10f40210 |
+| 10 | 10 Program Queue Implementation Protocol — v0.1 | 38d35e21-8cf8-8164-8bc2-e8de6ca65443 | https://app.notion.com/p/38d35e218cf881648bc2e8de6ca65443 |
+| 11 | 11 Model Routing & Agent Roles Protocol — v0.1 | 38d35e21-8cf8-816e-9bdc-c22732ee8f08 | https://app.notion.com/p/38d35e218cf8816e9bdcc22732ee8f08 |
+| 12 | 12 Artifact Validation & QA Protocol — v0.1 | 38d35e21-8cf8-8191-8105-eeec80027934 | https://app.notion.com/p/38d35e218cf881918105eeec80027934 |
+| 13 | 13 Source of Truth & Canonical Status Protocol — v0.1 | 38d35e21-8cf8-811a-a223-de2c0ea13191 | https://app.notion.com/p/38d35e218cf8811aa223de2c0ea13191 |
+| 14 | 14 Review & Acceptance Workflow Protocol — v0.1 | 38d35e21-8cf8-81a8-9b13-ed892602f6b4 | https://app.notion.com/p/38d35e218cf881a89b13ed892602f6b4 |
+
+GitHub backup files added in this session:
+
+- `07_YOS_PATTERN_LIBRARY/MPM_STANDARD_TEMPLATE.md`
+- `07_YOS_PATTERN_LIBRARY/PROGRAM_REGISTRY_MULTI_PROJECT_DASHBOARD_PROTOCOL.md`
+- `07_YOS_PATTERN_LIBRARY/PROGRAM_QUEUE_IMPLEMENTATION_PROTOCOL.md`
+- `07_YOS_PATTERN_LIBRARY/MODEL_ROUTING_AGENT_ROLES_PROTOCOL.md`
+- `07_YOS_PATTERN_LIBRARY/ARTIFACT_VALIDATION_QA_PROTOCOL.md`
+- `07_YOS_PATTERN_LIBRARY/SOURCE_OF_TRUTH_CANONICAL_STATUS_PROTOCOL.md`
+- `07_YOS_PATTERN_LIBRARY/REVIEW_ACCEPTANCE_WORKFLOW_PROTOCOL.md`
+
+Source used: Source C (canonical content generated from yOS Program Mode context — no GitHub backups existed, no MPM files supplied).
+
+Pending insertions (MPMs not yet received):
+
+- 17 Dependency & Blocker Management Protocol
+- 18 Program Metrics & Progress Reporting Protocol
+- 19 Publication / Release Readiness Protocol
