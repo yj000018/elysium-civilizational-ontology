@@ -1,0 +1,243 @@
+---
+# ELYSIUM / FCS — Opening Writing Brief Registry
+# Phase: III-1A-S3
+# Generated: 2026-06-28
+# Status: BRIEF_DRAFT — Founder + Chief Architect review pending
+# Routing: Manus = orchestration only | ChatGPT = architecture review | Claude = prose (S4)
+
+registry_id: opening_writing_brief_registry
+version: "0.1"
+part: 01_opening
+phase: III-1A-S3
+total_modules: 13
+prose_status: NOT_WRITTEN
+s4_status: NOT_STARTED
+claude_status: NOT_CALLED
+founder_approval: PENDING
+chief_architect_approval: PENDING
+
+movements:
+  MOV-I:
+    title: "The Malaise of the Present"
+    modules: [OPN-001, OPN-002, OPN-003]
+    state_in: "Diffuse personal unease"
+    state_out: "Whole-patient diagnosis — civilization requires integrated diagnosis"
+  MOV-II:
+    title: "The Failure of Fragmented Maps"
+    modules: [OPN-004, OPN-005, OPN-006]
+    state_in: "Whole-patient diagnosis"
+    state_out: "Need for integrative lens — critique complete, new frame needed"
+  MOV-III:
+    title: "Civilization as Metabolism"
+    modules: [OPN-007, OPN-008, OPN-009]
+    state_in: "Need for integrative lens"
+    state_out: "Metabolic frame established with five classes of civilizational flows"
+  MOV-IV:
+    title: "The Architecture of a New Map"
+    modules: [OPN-010, OPN-011, OPN-012, OPN-013]
+    state_in: "Metabolic frame established"
+    state_out: "Reading contract established — book is a map, not a manifesto"
+
+modules:
+  - id: OPN-001
+    title_en: "The Feeling That Everything Is Coming Apart"
+    title_fr: "Le sentiment que tout se défait"
+    movement: MOV-I
+    word_target: 750
+    word_min: 600
+    word_max: 900
+    ca_decision: KEEP
+    brief_file: "BOOK/manuscript/01_opening/writing_briefs/OPN-001_writing_brief.md"
+    prose_file: "BOOK/manuscript/01_opening/structure_modules/OPN-001_the_feeling_that_everything_is_coming_apart.md"
+    s3_status: BRIEF_DRAFT
+    s4_status: NOT_STARTED
+    founder_approval: PENDING
+
+  - id: OPN-002
+    title_en: "The Convergence of Crises"
+    title_fr: "La convergence des crises"
+    movement: MOV-I
+    word_target: 850
+    word_min: 700
+    word_max: 1000
+    ca_decision: KEEP
+    brief_file: "BOOK/manuscript/01_opening/writing_briefs/OPN-002_writing_brief.md"
+    prose_file: "BOOK/manuscript/01_opening/structure_modules/OPN-002_the_convergence_of_crises.md"
+    s3_status: BRIEF_DRAFT
+    s4_status: NOT_STARTED
+    founder_approval: PENDING
+
+  - id: OPN-003
+    title_en: "The Patient Metaphor"
+    title_fr: "La métaphore du patient"
+    movement: MOV-I
+    word_target: 700
+    word_min: 600
+    word_max: 800
+    ca_decision: KEEP_WITH_OVERLAP_CAUTION
+    brief_file: "BOOK/manuscript/01_opening/writing_briefs/OPN-003_writing_brief.md"
+    prose_file: "BOOK/manuscript/01_opening/structure_modules/OPN-003_the_patient_metaphor.md"
+    s3_status: BRIEF_DRAFT
+    s4_status: NOT_STARTED
+    founder_approval: PENDING
+
+  - id: OPN-004
+    title_en: "The Illusion of Silos"
+    title_fr: "L'illusion des silos"
+    movement: MOV-II
+    word_target: 850
+    word_min: 700
+    word_max: 1000
+    ca_decision: KEEP
+    brief_file: "BOOK/manuscript/01_opening/writing_briefs/OPN-004_writing_brief.md"
+    prose_file: "BOOK/manuscript/01_opening/structure_modules/OPN-004_the_illusion_of_silos.md"
+    s3_status: BRIEF_DRAFT
+    s4_status: NOT_STARTED
+    founder_approval: PENDING
+
+  - id: OPN-005
+    title_en: "The Displacement Problem"
+    title_fr: "Le problème du déplacement"
+    movement: MOV-II
+    word_target: 800
+    word_min: 700
+    word_max: 900
+    ca_decision: KEEP
+    brief_file: "BOOK/manuscript/01_opening/writing_briefs/OPN-005_writing_brief.md"
+    prose_file: "BOOK/manuscript/01_opening/structure_modules/OPN-005_the_displacement_problem.md"
+    s3_status: BRIEF_DRAFT
+    s4_status: NOT_STARTED
+    founder_approval: PENDING
+
+  - id: OPN-006
+    title_en: "The Hinge: From Critique to Metabolism"
+    title_fr: "La charnière : de la critique au métabolisme"
+    movement: MOV-II
+    word_target: 850
+    word_min: 700
+    word_max: 1000
+    ca_decision: REFINE_HINGE_TO_MOV_III
+    brief_file: "BOOK/manuscript/01_opening/writing_briefs/OPN-006_writing_brief.md"
+    prose_file: "BOOK/manuscript/01_opening/structure_modules/OPN-006_the_hinge_from_critique_to_metabolism.md"
+    s3_status: BRIEF_DRAFT
+    s4_status: NOT_STARTED
+    founder_approval: PENDING
+
+  - id: OPN-007
+    title_en: "The Machine Metaphor and Its Limits"
+    title_fr: "La métaphore de la machine et ses limites"
+    movement: MOV-III
+    word_target: 600
+    word_min: 500
+    word_max: 700
+    ca_decision: KEEP
+    brief_file: "BOOK/manuscript/01_opening/writing_briefs/OPN-007_writing_brief.md"
+    prose_file: "BOOK/manuscript/01_opening/structure_modules/OPN-007_the_machine_metaphor_and_its_limits.md"
+    s3_status: BRIEF_DRAFT
+    s4_status: NOT_STARTED
+    founder_approval: PENDING
+
+  - id: OPN-008
+    title_en: "Civilization as Metabolic Entity"
+    title_fr: "La civilisation comme entité métabolique"
+    movement: MOV-III
+    word_target: 1050
+    word_min: 900
+    word_max: 1200
+    ca_decision: KEEP_CRITICAL_DO_NOT_SPLIT
+    brief_file: "BOOK/manuscript/01_opening/writing_briefs/OPN-008_writing_brief.md"
+    prose_file: "BOOK/manuscript/01_opening/structure_modules/OPN-008_civilization_as_metabolic_entity.md"
+    s3_status: BRIEF_DRAFT
+    s4_status: NOT_STARTED
+    founder_approval: PENDING
+
+  - id: OPN-009
+    title_en: "The Five Classes of Civilizational Flows"
+    title_fr: "Les cinq classes de flux civilisationnels"
+    movement: MOV-III
+    word_target: 900
+    word_min: 800
+    word_max: 1000
+    ca_decision: KEEP_WITH_TERMINOLOGY_LOCK
+    brief_file: "BOOK/manuscript/01_opening/writing_briefs/OPN-009_writing_brief.md"
+    prose_file: "BOOK/manuscript/01_opening/structure_modules/OPN-009_the_five_classes_of_civilizational_flows.md"
+    s3_status: BRIEF_DRAFT
+    s4_status: NOT_STARTED
+    founder_approval: PENDING
+    terminology_lock: "ALWAYS 'five classes of civilizational flows' — NEVER 'five metabolic dimensions'"
+
+  - id: OPN-010
+    title_en: "The Ontological Foundation"
+    title_fr: "Le fondement ontologique"
+    movement: MOV-IV
+    word_target: 800
+    word_min: 700
+    word_max: 900
+    ca_decision: KEEP
+    brief_file: "BOOK/manuscript/01_opening/writing_briefs/OPN-010_writing_brief.md"
+    prose_file: "BOOK/manuscript/01_opening/structure_modules/OPN-010_the_ontological_foundation.md"
+    s3_status: BRIEF_DRAFT
+    s4_status: NOT_STARTED
+    founder_approval: PENDING
+
+  - id: OPN-011
+    title_en: "The Three Scales"
+    title_fr: "Les trois échelles"
+    movement: MOV-IV
+    word_target: 600
+    word_min: 500
+    word_max: 700
+    ca_decision: KEEP
+    brief_file: "BOOK/manuscript/01_opening/writing_briefs/OPN-011_writing_brief.md"
+    prose_file: "BOOK/manuscript/01_opening/structure_modules/OPN-011_the_three_scales.md"
+    s3_status: BRIEF_DRAFT
+    s4_status: NOT_STARTED
+    founder_approval: PENDING
+
+  - id: OPN-012
+    title_en: "The Seven Foundations"
+    title_fr: "Les sept fondements"
+    movement: MOV-IV
+    word_target: 800
+    word_min: 700
+    word_max: 900
+    ca_decision: KEEP_CRITICAL_FULL_REVEAL_LIGHT
+    brief_file: "BOOK/manuscript/01_opening/writing_briefs/OPN-012_writing_brief.md"
+    prose_file: "BOOK/manuscript/01_opening/structure_modules/OPN-012_the_seven_foundations.md"
+    s3_status: BRIEF_DRAFT
+    s4_status: NOT_STARTED
+    founder_approval: PENDING
+    canonical_phrase: "Reveal the skeleton of the Seven Foundations, not the full body of Part II"
+
+  - id: OPN-013
+    title_en: "The Reading Contract"
+    title_fr: "Le contrat de lecture"
+    movement: MOV-IV
+    word_target: 600
+    word_min: 500
+    word_max: 700
+    ca_decision: KEEP_WITH_VISUAL_RECOMMENDATION
+    brief_file: "BOOK/manuscript/01_opening/writing_briefs/OPN-013_writing_brief.md"
+    prose_file: "BOOK/manuscript/01_opening/structure_modules/OPN-013_the_reading_contract.md"
+    s3_status: BRIEF_DRAFT
+    s4_status: NOT_STARTED
+    founder_approval: PENDING
+    visual_recommendation: "Compact Opening map showing 3 Scales + 7 Foundations + reader path"
+
+# Statistics
+statistics:
+  total_word_target: 9600
+  total_word_min: 8200
+  total_word_max: 11000
+  modules_with_critical_flag: 2  # OPN-008, OPN-012
+  modules_with_terminology_lock: 1  # OPN-009
+  modules_with_visual_recommendation: 1  # OPN-013
+  modules_with_overlap_caution: 1  # OPN-003
+  modules_with_hinge_refinement: 1  # OPN-006
+
+# Routing rules (active)
+routing_rules:
+  manus: "orchestration, files, Git, scripts, reports ONLY"
+  chatgpt_api: "structure review, architecture, coherence, ontology alignment"
+  claude_api: "prose writing ONLY — not called in S3"
+  no_prose_until: "S4 — after Founder + Chief Architect approval of all 13 briefs"
