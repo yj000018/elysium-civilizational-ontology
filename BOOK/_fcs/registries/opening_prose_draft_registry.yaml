@@ -1,0 +1,137 @@
+---
+id: opening_prose_draft_registry
+artifact_type: registry
+part: 01_opening
+description: "Tracks prose draft status for all Opening modules (OPN-001 to OPN-013)"
+last_updated: "2026-06-28"
+phase: III-1A-S4
+routing:
+  manus: orchestration_only
+  claude_api: prose_writing
+  chatgpt_api: review
+---
+
+# Opening Prose Draft Registry
+
+## Summary
+
+| Module | Title | Status | Word Count | ChatGPT Review | Founder Approval |
+|--------|-------|--------|------------|----------------|-----------------|
+| OPN-001 | The Felt Sense of Civilizational Malaise | DRAFT_0 | 670 | PASS | PENDING |
+| OPN-002 | The Convergence of Crises | DRAFT_0 | 749 | PASS | PENDING |
+| OPN-003 | The Patient Metaphor | NOT_STARTED | — | — | — |
+| OPN-004 | The Illusion of Silos | NOT_STARTED | — | — | — |
+| OPN-005 | The Displacement Problem | NOT_STARTED | — | — | — |
+| OPN-006 | The Hinge: From Critique to Model | NOT_STARTED | — | — | — |
+| OPN-007 | The Machine Metaphor and Its Limits | NOT_STARTED | — | — | — |
+| OPN-008 | Civilization as Metabolic Entity | NOT_STARTED | — | — | — |
+| OPN-009 | The Five Classes of Civilizational Flows | NOT_STARTED | — | — | — |
+| OPN-010 | Why We Need a Civilizational Ontology | NOT_STARTED | — | — | — |
+| OPN-011 | The Three Scales | NOT_STARTED | — | — | — |
+| OPN-012 | The Seven Foundations — Skeleton Reveal | NOT_STARTED | — | — | — |
+| OPN-013 | The Reading Contract | NOT_STARTED | — | — | — |
+
+## Module Entries
+
+modules:
+  - id: OPN-001
+    title_en: "The Felt Sense of Civilizational Malaise"
+    movement: MOV-I
+    prose_status: DRAFT_0
+    operational_status: DRAFT_0
+    draft_path: "BOOK/manuscript/01_opening/drafts/OPN-001_DRAFT_0.md"
+    word_count: 670
+    phase_produced: III-1A-S4-001
+    claude_api_model: claude-opus-4-5
+    chatgpt_review_model: gpt-4o-2024-08-06
+    chatgpt_review_status: PASS
+    revision_count: 0
+    founder_approval_status: PENDING
+    review_request: "BOOK/_fcs/action_requests/active/PHASE_III_1A_S4_001_FOUNDER_REVIEW_REQUEST.md"
+
+  - id: OPN-002
+    title_en: "The Convergence of Crises"
+    movement: MOV-I
+    prose_status: DRAFT_0
+    operational_status: DRAFT_0
+    draft_path: "BOOK/manuscript/01_opening/drafts/OPN-002_DRAFT_0.md"
+    word_count: 749
+    phase_produced: III-1A-S4-002
+    claude_api_model: claude-opus-4-5
+    chatgpt_review_model: gpt-4o-2024-08-06
+    chatgpt_review_status: PASS
+    revision_count: 0
+    founder_approval_status: PENDING
+    review_request: "BOOK/_fcs/action_requests/active/PHASE_III_1A_S4_002_OPN002_FOUNDER_REVIEW_REQUEST.md"
+
+  - id: OPN-003
+    title_en: "The Patient Metaphor"
+    movement: MOV-I
+    prose_status: NOT_STARTED
+    operational_status: NOT_STARTED
+    draft_path: ~
+    word_count: ~
+    phase_produced: ~
+    claude_api_model: ~
+    chatgpt_review_status: ~
+    founder_approval_status: PENDING
+
+  - id: OPN-004
+    title_en: "The Illusion of Silos"
+    movement: MOV-II
+    prose_status: NOT_STARTED
+    operational_status: NOT_STARTED
+
+  - id: OPN-005
+    title_en: "The Displacement Problem"
+    movement: MOV-II
+    prose_status: NOT_STARTED
+    operational_status: NOT_STARTED
+
+  - id: OPN-006
+    title_en: "The Hinge: From Critique to Model"
+    movement: MOV-II
+    prose_status: NOT_STARTED
+    operational_status: NOT_STARTED
+
+  - id: OPN-007
+    title_en: "The Machine Metaphor and Its Limits"
+    movement: MOV-III
+    prose_status: NOT_STARTED
+    operational_status: NOT_STARTED
+
+  - id: OPN-008
+    title_en: "Civilization as Metabolic Entity"
+    movement: MOV-III
+    prose_status: NOT_STARTED
+    operational_status: NOT_STARTED
+
+  - id: OPN-009
+    title_en: "The Five Classes of Civilizational Flows"
+    movement: MOV-III
+    prose_status: NOT_STARTED
+    operational_status: NOT_STARTED
+
+  - id: OPN-010
+    title_en: "Why We Need a Civilizational Ontology"
+    movement: MOV-IV
+    prose_status: NOT_STARTED
+    operational_status: NOT_STARTED
+
+  - id: OPN-011
+    title_en: "The Three Scales"
+    movement: MOV-IV
+    prose_status: NOT_STARTED
+    operational_status: NOT_STARTED
+
+  - id: OPN-012
+    title_en: "The Seven Foundations — Skeleton Reveal"
+    movement: MOV-IV
+    prose_status: NOT_STARTED
+    operational_status: NOT_STARTED
+
+  - id: OPN-013
+    title_en: "The Reading Contract"
+    movement: MOV-IV
+    prose_status: NOT_STARTED
+    operational_status: NOT_STARTED

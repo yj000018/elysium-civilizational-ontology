@@ -63,8 +63,11 @@ modules:
     ca_decision: KEEP
     brief_file: "BOOK/manuscript/01_opening/writing_briefs/OPN-002_writing_brief.md"
     prose_file: "BOOK/manuscript/01_opening/structure_modules/OPN-002_the_convergence_of_crises.md"
+    prose_draft_path: "BOOK/manuscript/01_opening/drafts/OPN-002_DRAFT_0.md"
     s3_status: BRIEF_DRAFT
-    s4_status: NOT_STARTED
+    s4_status: DRAFT_0_CREATED
+    claude_status: USED_FOR_PROSE
+    chatgpt_review_status: PASS
     founder_approval: PENDING
 
   - id: OPN-003
