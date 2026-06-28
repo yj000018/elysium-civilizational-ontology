@@ -574,7 +574,8 @@ def validate_elysium_llm_completion_status():
         fm = content[3:end]
         status_match = re.search(r'^llm_completion_status:\s*(\S+)', fm, re.M)
         if not status_match:
-            continue  # No guard field — older output, skip
+            warnings.append(f"[QC DEBT] Legacy API output missing llm_completion_status: {f.relative_to(REPO_ROOT)}")
+            continue
         status = status_match.group(1).strip()
         if status not in ("COMPLETE", "UNKNOWN"):
             errors.append(
