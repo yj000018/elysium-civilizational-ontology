@@ -33,9 +33,14 @@ movements:
     state_in: "Need for integrative lens"
     state_out: "Metabolic frame established with five classes of civilizational flows"
   MOV-IV:
-    title: "The Architecture of a New Map"
-    modules: [OPN-010, OPN-011, OPN-012, OPN-013]
+    title: "Organs and the Need for a Map"
+    modules: [OPN-010, OPN-011]
     state_in: "Metabolic frame established"
+    state_out: "Civilizational organs understood — need for integrated map articulated"
+  MOV-V:
+    title: "ELYSIUM Preview and Reading Contract"
+    modules: [OPN-012, OPN-013]
+    state_in: "Need for integrated map articulated"
     state_out: "Reading contract established — book is a map, not a manifesto"
 
 modules:
@@ -133,7 +138,7 @@ modules:
   - id: OPN-007
     title_en: "The Machine Metaphor and Its Limits"
     title_fr: "La métaphore de la machine et ses limites"
-    movement: MOV-IV
+    movement: MOV-III
     word_target: 600
     word_min: 500
     word_max: 700
@@ -147,7 +152,7 @@ modules:
   - id: OPN-008
     title_en: "Civilization as Metabolic Entity"
     title_fr: "La civilisation comme entité métabolique"
-    movement: MOV-IV
+    movement: MOV-III
     word_target: 1050
     word_min: 900
     word_max: 1200
@@ -161,7 +166,7 @@ modules:
   - id: OPN-009
     title_en: "The Five Classes of Civilizational Flows"
     title_fr: "Les cinq classes de flux civilisationnels"
-    movement: MOV-IV
+    movement: MOV-III
     word_target: 900
     word_min: 800
     word_max: 1000
@@ -174,8 +179,8 @@ modules:
     terminology_lock: "ALWAYS 'five classes of civilizational flows' — NEVER 'five metabolic dimensions'"
 
   - id: OPN-010
-    title_en: "The Ontological Foundation"
-    title_fr: "Le fondement ontologique"
+    title_en: "The Organs of Civilization"
+    title_fr: "Les organes de la civilisation"
     movement: MOV-IV
     word_target: 800
     word_min: 700
@@ -188,8 +193,8 @@ modules:
     founder_approval: PENDING
 
   - id: OPN-011
-    title_en: "The Three Scales"
-    title_fr: "Les trois échelles"
+    title_en: "The Need for a Map"
+    title_fr: "Le besoin d'une carte"
     movement: MOV-IV
     word_target: 600
     word_min: 500
@@ -202,24 +207,27 @@ modules:
     founder_approval: PENDING
 
   - id: OPN-012
-    title_en: "The Seven Foundations"
-    title_fr: "Les sept fondements"
-    movement: MOV-IV
-    word_target: 800
-    word_min: 700
-    word_max: 900
-    ca_decision: KEEP_CRITICAL_FULL_REVEAL_LIGHT
+    title_en: "Introducing ELYSIUM"
+    title_fr: "Présentation d'ELYSIUM"
+    movement: MOV-V
+    word_target: 950
+    word_min: 800
+    word_max: 1050
+    ca_decision: KEEP_CRITICAL_FRAMEWORK_PREVIEW
+    reveal_level: FRAMEWORK_PREVIEW
+    reveal_note: "Authorized to mention 3 Scales, 7 Foundations, 38 Facets, and 12-Step Matrix as preview only, not full exposition."
+    scope_constraint: "Opening-level orientation only. Not Part 02 exposition."
     brief_file: "BOOK/manuscript/01_opening/writing_briefs/OPN-012_writing_brief.md"
-    prose_file: "BOOK/manuscript/01_opening/structure_modules/OPN-012_the_seven_foundations.md"
+    prose_file: "BOOK/manuscript/01_opening/structure_modules/OPN-012_introducing_elysium.md"
     s3_status: BRIEF_DRAFT
-    s4_status: NOT_STARTED
+    s4_status: DRAFT_0
     founder_approval: PENDING
-    canonical_phrase: "Reveal the skeleton of the Seven Foundations, not the full body of Part II"
+    canonical_phrase: "Preview the skeleton of the framework, not the full body of Part 02"
 
   - id: OPN-013
     title_en: "The Reading Contract"
     title_fr: "Le contrat de lecture"
-    movement: MOV-IV
+    movement: MOV-V
     word_target: 600
     word_min: 500
     word_max: 700

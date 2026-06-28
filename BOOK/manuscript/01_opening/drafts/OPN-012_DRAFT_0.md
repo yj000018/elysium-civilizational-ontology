@@ -3,6 +3,9 @@ module_id: OPN-012
 title: "Introducing ELYSIUM"
 movement: MOV-V
 part: 01_opening
+reveal_level: FRAMEWORK_PREVIEW
+reveal_note: "Authorized to mention 3 Scales, 7 Foundations, 38 Facets, and 12-Step Matrix as preview only, not full exposition."
+scope_constraint: "Opening-level orientation only. Not Part 02 exposition."
 word_count: 949
 status: DRAFT
 review_status:

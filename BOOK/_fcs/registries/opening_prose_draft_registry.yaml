@@ -27,9 +27,9 @@ routing:
 | OPN-007 | The Machine Metaphor and Its Limits | NOT_STARTED | — | — | — |
 | OPN-008 | Civilization as Metabolic Entity | NOT_STARTED | — | — | — |
 | OPN-009 | The Five Classes of Civilizational Flows | NOT_STARTED | — | — | — |
-| OPN-010 | Why We Need a Civilizational Ontology | NOT_STARTED | — | — | — |
-| OPN-011 | The Three Scales | NOT_STARTED | — | — | — |
-| OPN-012 | The Seven Foundations — Skeleton Reveal | NOT_STARTED | — | — | — |
+| OPN-010 | The Organs of Civilization | DRAFT_0 | 970 | PASS | PENDING |
+| OPN-011 | The Need for a Map | DRAFT_0 | 841 | PASS | PENDING |
+| OPN-012 | Introducing ELYSIUM [FRAMEWORK_PREVIEW] | DRAFT_0 | 949 | PASS | PENDING |
 | OPN-013 | The Reading Contract | NOT_STARTED | — | — | — |
 
 ## Module Entries
@@ -117,26 +117,29 @@ modules:
     operational_status: NOT_STARTED
 
   - id: OPN-010
-    title_en: "Why We Need a Civilizational Ontology"
+    title_en: "The Organs of Civilization"
     movement: MOV-IV
     prose_status: NOT_STARTED
     operational_status: NOT_STARTED
 
   - id: OPN-011
-    title_en: "The Three Scales"
+    title_en: "The Need for a Map"
     movement: MOV-IV
     prose_status: NOT_STARTED
     operational_status: NOT_STARTED
 
   - id: OPN-012
-    title_en: "The Seven Foundations — Skeleton Reveal"
-    movement: MOV-IV
+    title_en: "Introducing ELYSIUM"
+    movement: MOV-V
+    reveal_level: FRAMEWORK_PREVIEW
+    reveal_note: "Authorized to mention 3 Scales, 7 Foundations, 38 Facets, and 12-Step Matrix as preview only, not full exposition."
+    scope_constraint: "Opening-level orientation only. Not Part 02 exposition."
     prose_status: NOT_STARTED
     operational_status: NOT_STARTED
 
   - id: OPN-013
     title_en: "The Reading Contract"
-    movement: MOV-IV
+    movement: MOV-V
     prose_status: NOT_STARTED
     operational_status: NOT_STARTED
   - module_id: OPN-009
@@ -166,6 +169,9 @@ modules:
   - module_id: OPN-012
     title: Introducing ELYSIUM
     movement: MOV-V
+    reveal_level: FRAMEWORK_PREVIEW
+    reveal_note: "Authorized to mention 3 Scales, 7 Foundations, 38 Facets, and 12-Step Matrix as preview only, not full exposition."
+    scope_constraint: "Opening-level orientation only. Not Part 02 exposition."
     word_count: 949
     status: DRAFT_0
     chatgpt_review: PASS
