@@ -1,6 +1,7 @@
 ---
 id: OPN-006_DRAFT_0
 module_id: OPN-006
+title: "The Hinge: From Critique to Model"
 title_en: "The Hinge: From Critique to Model"
 part: 01_opening
 movement: MOV-II
@@ -24,6 +25,7 @@ mov_ii_closure: true
 patch_applied: "Chief Architect MOV-II micro-patch — title rename + ending softened"
 patch_date: "2026-06-28"
 created_by: "Manus orchestration + Claude API + ChatGPT API review"
+compile: true
 ---
 
 # The Hinge: From Critique to Model

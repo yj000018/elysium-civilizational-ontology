@@ -12,6 +12,7 @@ review_status:
 revision_count: 0
 phase: III-1A-S4-011
 date: 2026-06-28
+compile: true
 ---
 
 The cardiologist understands the heart with a precision that no generalist can match. She knows the electrical pathways, the valve dynamics, the subtle signatures of dysfunction that appear in rhythm strips and echocardiograms. But when the patient presents with fatigue, edema, and shortness of breath, she must decide whether she is seeing primary cardiac failure, renal insufficiency that has stressed the heart, hepatic congestion that has altered fluid dynamics, or an endocrine disruption that has quietly remodeled everything. Her expertise in the heart is necessary for this differential. It is not sufficient. The cardiologist who treats only what she sees in her domain may intervene correctly at the level of the organ while missing entirely the systemic pattern that made the organ fail. This is not a failure of her competence. It is a failure of scope. And scope is not something that expertise alone can provide.

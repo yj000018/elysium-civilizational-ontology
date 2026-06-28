@@ -12,6 +12,7 @@ review_status:
 revision_count: 2
 phase: III-1A-S4-009
 date: 2026-06-28
+compile: true
 ---
 
 To read a metabolism, one begins not with its parts but with its flows. What enters? What circulates? What is transformed? What accumulates? What fails to regenerate? A civilization may look powerful from outside while its flows become increasingly unviable within. The diagnostic lens offered here identifies five classes of civilizational flow, each essential, each capable of pathology, each interconnected in ways that make isolated intervention inadequate. These are not sectors to be managed separately but dimensions of a single metabolic process that must be read as a whole. The five flows tell us what moves. The Seven Foundations will later tell us through which civilizational organs those flows are processed.

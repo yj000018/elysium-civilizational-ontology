@@ -295,6 +295,198 @@ def validate_resources(target_dir):
                                 warnings.append(f"Resource reference to missing card: {item} in {md.relative_to(REPO_ROOT)}")
 
 
+# ============================================================
+# ELYSIUM PHASE III — CANONICAL CHECKS
+# Non-invasive: all failures are errors or warnings, never crash
+# ============================================================
+
+# Required frontmatter fields for DRAFT_0 manuscript modules
+DRAFT_REQUIRED_FIELDS = ["module_id", "title", "word_count", "status", "compile"]
+
+# Canonical F01 module IDs (9 modules: F01-000 to F01-008)
+F01_CANONICAL_IDS = [f"F01-{str(i).zfill(3)}" for i in range(9)]
+
+# Canonical F01 material flows (7 flows — canonical since 2026-06-28 micro-patch)
+F01_CANONICAL_FLOWS = ["Energy", "Water", "Habitat", "Infrastructure", "Mobility", "Food", "Materials"]
+
+# Canonical Opening module IDs (13 modules: OPN-001 to OPN-013)
+OPENING_CANONICAL_IDS = [f"OPN-{str(i).zfill(3)}" for i in range(1, 14)]
+
+# Registry files that must exist
+REQUIRED_REGISTRIES = [
+    "BOOK/_fcs/registries/f01_prose_draft_registry.yaml",
+    "BOOK/_fcs/registries/f01_writing_brief_registry.yaml",
+    "BOOK/_fcs/registries/opening_prose_draft_registry.yaml",
+    "BOOK/_fcs/registries/opening_writing_brief_registry.yaml",
+]
+
+
+def validate_elysium_draft_frontmatter():
+    """Check that all DRAFT_0 manuscript modules have required frontmatter fields."""
+    drafts_dirs = [
+        BOOK / "manuscript" / "01_opening" / "drafts",
+        BOOK / "manuscript" / "02_foundations" / "F01_material_existence" / "drafts",
+    ]
+    for drafts_dir in drafts_dirs:
+        if not drafts_dir.exists():
+            continue
+        for md in sorted(drafts_dir.glob("*_DRAFT_0.md")):
+            fields = extract_frontmatter_fields(md)
+            if not fields:
+                errors.append(f"[ELYSIUM] No frontmatter in DRAFT_0 file: {md.relative_to(REPO_ROOT)}")
+                continue
+            for req in DRAFT_REQUIRED_FIELDS:
+                if req not in fields or fields[req] in (None, "", "null"):
+                    errors.append(f"[ELYSIUM] Missing required frontmatter field '{req}' in: {md.relative_to(REPO_ROOT)}")
+            # word_count must be a positive integer
+            wc = fields.get("word_count")
+            if wc is not None:
+                try:
+                    wc_int = int(str(wc).strip())
+                    if wc_int <= 0:
+                        errors.append(f"[ELYSIUM] word_count <= 0 in: {md.relative_to(REPO_ROOT)}")
+                except ValueError:
+                    errors.append(f"[ELYSIUM] word_count not an integer in: {md.relative_to(REPO_ROOT)}")
+
+
+def validate_elysium_canonical_counts():
+    """Check F01 and Opening module counts and IDs match canonical definitions."""
+    # F01 drafts
+    f01_drafts_dir = BOOK / "manuscript" / "02_foundations" / "F01_material_existence" / "drafts"
+    if f01_drafts_dir.exists():
+        found_ids = []
+        for md in sorted(f01_drafts_dir.glob("F01-*_DRAFT_0.md")):
+            fields = extract_frontmatter_fields(md)
+            mid = fields.get("module_id", "")
+            if mid:
+                found_ids.append(mid)
+        for cid in F01_CANONICAL_IDS:
+            if cid not in found_ids:
+                errors.append(f"[ELYSIUM] Missing canonical F01 module: {cid}")
+        extra = [i for i in found_ids if i not in F01_CANONICAL_IDS]
+        for eid in extra:
+            warnings.append(f"[ELYSIUM] Non-canonical F01 module found: {eid}")
+    # Opening drafts
+    opn_drafts_dir = BOOK / "manuscript" / "01_opening" / "drafts"
+    if opn_drafts_dir.exists():
+        found_opn = []
+        for md in sorted(opn_drafts_dir.glob("OPN-*_DRAFT_0.md")):
+            fields = extract_frontmatter_fields(md)
+            mid = fields.get("module_id", "")
+            if mid:
+                found_opn.append(mid)
+        for cid in OPENING_CANONICAL_IDS:
+            if cid not in found_opn:
+                errors.append(f"[ELYSIUM] Missing canonical Opening module: {cid}")
+        extra_opn = [i for i in found_opn if i not in OPENING_CANONICAL_IDS]
+        for eid in extra_opn:
+            warnings.append(f"[ELYSIUM] Non-canonical Opening module found: {eid}")
+
+
+def validate_elysium_registries_exist():
+    """Check that all required registry files exist."""
+    for reg_path in REQUIRED_REGISTRIES:
+        full_path = REPO_ROOT / reg_path
+        if not full_path.exists():
+            errors.append(f"[ELYSIUM] Required registry missing: {reg_path}")
+
+
+def _load_yaml_frontmatter_only(filepath):
+    """Load only the YAML frontmatter from a file (handles Markdown+frontmatter files)."""
+    try:
+        import yaml
+        content = filepath.read_text(encoding="utf-8")
+        if not content.startswith("---"):
+            return yaml.safe_load(content)
+        end = content.find("---", 3)
+        if end == -1:
+            return yaml.safe_load(content[3:])
+        fm_text = content[3:end]
+        return yaml.safe_load(fm_text)
+    except Exception:
+        return None
+
+
+def validate_elysium_registry_module_crossref():
+    """Cross-reference f01_prose_draft_registry against actual DRAFT_0 files.
+    Only checks registries that have a 'modules:' list in pure YAML format.
+    Markdown-with-frontmatter registries (like opening_prose_draft_registry) are skipped.
+    """
+    try:
+        import yaml
+    except ImportError:
+        warnings.append("[ELYSIUM] PyYAML not available — skipping registry cross-reference")
+        return
+    # Only check pure-YAML registries with modules: list
+    registry_map = {
+        REPO_ROOT / "BOOK/_fcs/registries/f01_prose_draft_registry.yaml": (
+            BOOK / "manuscript" / "02_foundations" / "F01_material_existence" / "drafts",
+            "F01-"
+        ),
+        REPO_ROOT / "BOOK/_fcs/registries/f01_writing_brief_registry.yaml": (
+            BOOK / "manuscript" / "02_foundations" / "F01_material_existence" / "drafts",
+            "F01-"
+        ),
+    }
+    for reg_file, (drafts_dir, prefix) in registry_map.items():
+        if not reg_file.exists():
+            continue  # already caught by validate_elysium_registries_exist
+        try:
+            reg = yaml.safe_load(reg_file.read_text(encoding="utf-8"))
+        except Exception as e:
+            errors.append(f"[ELYSIUM] Registry YAML parse error in {reg_file.name}: {e}")
+            continue
+        if not reg or "modules" not in reg:
+            # Registry may be Markdown-with-frontmatter — skip silently
+            continue
+        for mod in reg["modules"]:
+            mid = mod.get("module_id", "")
+            if not mid:
+                errors.append(f"[ELYSIUM] Registry entry missing module_id in {reg_file.name}")
+                continue
+            draft_file = mod.get("draft_file", "")
+            if draft_file:
+                full_draft = REPO_ROOT / draft_file
+                if not full_draft.exists():
+                    errors.append(f"[ELYSIUM] Registry references missing draft: {draft_file} (in {reg_file.name})")
+            else:
+                warnings.append(f"[ELYSIUM] Registry entry {mid} has no draft_file in {reg_file.name}")
+
+
+def validate_elysium_f01_seven_flows():
+    """Check F01-000 prose does not say 'six' flows when it should say 'seven'."""
+    f01_000 = BOOK / "manuscript" / "02_foundations" / "F01_material_existence" / "drafts" / "F01-000_DRAFT_0.md"
+    if not f01_000.exists():
+        return
+    content = f01_000.read_text(encoding="utf-8")
+    # Strip frontmatter before checking
+    if content.startswith("---"):
+        end = content.find("---", 3)
+        if end != -1:
+            prose = content[end + 3:]
+        else:
+            prose = content
+    else:
+        prose = content
+    # Check for canonical count mismatch patterns
+    bad_patterns = [
+        r"six primary domains",
+        r"six material flows",
+        r"six domains",
+        r"six flows",
+        r"encompasses six",
+        r"These six domains",
+        r"These six flows",
+    ]
+    for pat in bad_patterns:
+        if re.search(pat, prose, re.IGNORECASE):
+            errors.append(f"[ELYSIUM] Canonical count mismatch in F01-000: found pattern '{pat}' — should be 'seven'")
+    # Check all 7 canonical flows are mentioned
+    for flow in F01_CANONICAL_FLOWS:
+        if flow not in prose:
+            errors.append(f"[ELYSIUM] F01-000 missing canonical flow mention: '{flow}'")
+
+
 def main():
     target_dir = BOOK
     if len(sys.argv) > 1:
@@ -315,6 +507,12 @@ def main():
     validate_relations_and_parents(target_dir, all_ids)
     validate_action_requests(target_dir)
     validate_resources(target_dir)
+    # ELYSIUM Phase III canonical checks
+    validate_elysium_draft_frontmatter()
+    validate_elysium_canonical_counts()
+    validate_elysium_registries_exist()
+    validate_elysium_registry_module_crossref()
+    validate_elysium_f01_seven_flows()
 
     print(f"\nErrors: {len(errors)}")
     for e in errors:

@@ -15,6 +15,7 @@ review_status:
 revision_count: 2
 phase: III-1A-S4-012
 date: 2026-06-28
+compile: true
 ---
 
 A map does not replace the territory. It allows the territory to become navigable. And what must now be mapped is not one crisis, one sector, or one discipline, but the architecture of civilization itself.

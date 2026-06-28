@@ -12,6 +12,7 @@ review_status:
 revision_count: 0
 phase: III-1A-S4-013
 date: 2026-06-28
+compile: true
 ---
 
 A map is only as useful as the one who reads it. The most precise cartography in the world cannot help a traveler who refuses to look, who expects the map to walk for them, or who demands that it tell them where they ought to go. ELYSIUM is a map. It is not a guide, not a manifesto, not a prescription. It offers no instructions for what to believe, no program for what to build, no ideology to adopt. It offers something both more modest and more demanding: a way of seeing that makes patterns visible, a language that allows civilizational phenomena to be named and related, a framework that transforms the overwhelming complexity of social existence into something that can be analyzed, compared, and understood.

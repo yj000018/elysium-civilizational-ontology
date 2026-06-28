@@ -1,6 +1,7 @@
 ---
 id: OPN-001_DRAFT_0
 module_id: OPN-001
+title: "The Felt Sense of Civilizational Malaise"
 title_en: "The Felt Sense of Civilizational Malaise"
 title_fr: "Le sentiment vécu du malaise civilisationnel"
 part: 01_opening
@@ -24,6 +25,7 @@ routing_compliance: FULL
 revision_count: 0
 created: 2026-06-28
 founder_approval_status: PENDING
+compile: true
 ---
 
 # The Felt Sense of Civilizational Malaise

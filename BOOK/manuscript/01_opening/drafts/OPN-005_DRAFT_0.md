@@ -1,6 +1,7 @@
 ---
 id: OPN-005_DRAFT_0
 module_id: OPN-005
+title: "The Displacement Problem"
 title_en: "The Displacement Problem"
 part: 01_opening
 movement: MOV-II
@@ -21,6 +22,7 @@ word_count: 780
 fsd_controlled_mode: true
 fsd_scope: MOV-II
 created_by: "Manus orchestration + Claude API + ChatGPT API review"
+compile: true
 ---
 
 # The Displacement Problem

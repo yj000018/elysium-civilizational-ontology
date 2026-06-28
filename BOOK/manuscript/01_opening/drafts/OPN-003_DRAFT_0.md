@@ -2,6 +2,7 @@
 id: OPN-003_DRAFT_0
 module_id: OPN-003
 title_en: "Civilization as Patient"
+title: "Civilization as Patient"
 part: 01_opening
 movement: MOV-I
 artifact_type: prose_draft
@@ -24,6 +25,7 @@ word_count: 814
 mov_i_closure_status: COMPLETE_PENDING_FOUNDER
 created_by: "Manus orchestration + Claude API (claude-opus-4-5) + ChatGPT API review (gpt-4o-2024-08-06)"
 created_at: "2026-06-28"
+compile: true
 ---
 
 # Civilization as Patient

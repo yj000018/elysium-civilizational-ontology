@@ -12,6 +12,7 @@ review_status:
 revision_count: 2
 phase: III-1A-S4-010
 date: 2026-06-28
+compile: true
 ---
 
 The five classes of civilizational flows — energy, material, biological, information, and meaning — tell us what moves through the civilizational body. But flows do not move through empty space. To speak of flows is already to imply channels. A river without banks is not a river but a flood. Blood without vessels is not circulation but hemorrhage. Information without structured pathways is not communication but noise. The flows that constitute civilizational metabolism require structures that capture them, direct them, transform them, store them, and release them in patterns that serve life rather than dissolving it. These structures are not accessories to civilization but its very anatomy. They are what we must call the organs of civilization — the functional systems through which metabolism actually operates.

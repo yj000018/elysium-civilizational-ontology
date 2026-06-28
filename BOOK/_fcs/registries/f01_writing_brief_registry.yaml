@@ -1,18 +1,23 @@
 ---
-# ELYSIUM / FCS — Foundation 01 Prose Draft Registry
+# ELYSIUM / FCS — Foundation 01 Writing Brief Registry
 # Phase: III-1A-S4-F01
 # Generated: 2026-06-28
-# Status: DRAFT_0_COMPLETE — 9/9 modules, 9/9 ChatGPT PASS
-# Routing: Manus = orchestration only | ChatGPT = review | Claude = prose
-registry_id: f01_prose_draft_registry
-version: "1.1"
+# Status: BRIEF_COMPLETE — all 9 writing briefs produced, prose DRAFT_0 complete
+# Routing: Manus = orchestration only | ChatGPT = architecture review | Claude = prose (S4)
+registry_id: f01_writing_brief_registry
+version: "1.0"
 part: "02_foundations"
 foundation: F01
 foundation_name: Material Existence
 phase: III-1A-S4-F01
 total_modules: 9
-draft0_complete: 9
-last_updated: "2026-06-28"
+brief_status: COMPLETE
+prose_status: DRAFT_0_COMPLETE
+s4_status: COMPLETE
+claude_status: COMPLETE
+chatgpt_review_status: COMPLETE
+founder_approval: PENDING
+chief_architect_approval: PASS_WITH_MICRO_PATCH
 authorization_source: pasted_content_6.txt
 canonical_flows: 7
 canonical_flow_list: [Energy, Water, Habitat, Infrastructure, Mobility, Food, Materials]
@@ -23,14 +28,20 @@ movements:
     title: "Foundation 01 Overview"
     modules: [F01-000]
     description: "Foundation overview — 7 flows introduced as integrated metabolic reality"
+    state_in: "Opening complete — reader understands civilizational metabolism concept"
+    state_out: "Material Existence established as first civilizational foundation with 7 flows"
   F01-FACETS:
     title: "Material Flow Facets"
     modules: [F01-001, F01-002, F01-003, F01-004, F01-005, F01-006, F01-007]
     description: "Individual facet chapters — Energy, Water, Habitat, Infrastructure, Mobility, Food, Materials"
+    state_in: "Material Existence established as foundation"
+    state_out: "All 7 material flows diagnosed — pathologies and regenerative directions mapped"
   F01-SYNTHESIS:
     title: "Foundation 01 Synthesis"
     modules: [F01-008]
     description: "Synthesis and transition to Foundation 02 (Vitality)"
+    state_in: "All 7 flows diagnosed individually"
+    state_out: "F01 integrated — reader prepared for Foundation 02 (Vitality)"
 
 # Module entries
 modules:
@@ -38,16 +49,15 @@ modules:
     title: "Foundation 01 Overview: Material Existence"
     movement: F01-OVERVIEW
     movement_role: "Opening overview — establishes Material Existence as first civilizational foundation, introduces 7 flows"
-    word_count: 1617
-    status: DRAFT_0
+    word_target: "1200-1800"
+    word_count_actual: 1617
+    brief_status: COMPLETE
+    prose_status: DRAFT_0
     chatgpt_review: PASS
     founder_status: PENDING
     chief_architect_status: PASS_WITH_MICRO_PATCH
     revisions: 1
     compile: true
-    phase: III-1A-S4-F01
-    claude_model: claude-opus-4-5
-    chatgpt_model: gpt-4o
     brief_file: "BOOK/manuscript/02_foundations/F01_material_existence/writing_briefs/F01-000_writing_brief.md"
     draft_file: "BOOK/manuscript/02_foundations/F01_material_existence/drafts/F01-000_DRAFT_0.md"
     api_outputs:
@@ -55,22 +65,21 @@ modules:
       claude_revised: "BOOK/_fcs/api_outputs/PHASE_III_1A_S4_F01_F01000_CLAUDE_REVISED.md"
       chatgpt_review: "BOOK/_fcs/api_outputs/PHASE_III_1A_S4_F01_F01000_CHATGPT_REVIEW.md"
       chatgpt_final_review: "BOOK/_fcs/api_outputs/PHASE_III_1A_S4_F01_F01000_CHATGPT_FINAL_REVIEW.md"
-    notes: "Micro-patched 2026-06-28: six->seven flows, Food added between Mobility and Materials, word_count updated"
+    notes: "Micro-patched: six→seven flows, Food added between Mobility and Materials"
 
   - module_id: F01-001
     title: "Energy: The Power Flow"
     movement: F01-FACETS
     movement_role: "Facet 1 of 7 — Energy as master variable enabling all material transformations"
-    word_count: 1587
-    status: DRAFT_0
+    word_target: "1400-1800"
+    word_count_actual: 1587
+    brief_status: COMPLETE
+    prose_status: DRAFT_0
     chatgpt_review: PASS
     founder_status: PENDING
     chief_architect_status: PENDING
     revisions: 0
     compile: true
-    phase: III-1A-S4-F01
-    claude_model: claude-opus-4-5
-    chatgpt_model: gpt-4o
     brief_file: "BOOK/manuscript/02_foundations/F01_material_existence/writing_briefs/F01-001_writing_brief.md"
     draft_file: "BOOK/manuscript/02_foundations/F01_material_existence/drafts/F01-001_DRAFT_0.md"
     api_outputs:
@@ -82,16 +91,15 @@ modules:
     title: "Water: The Circulatory Constraint"
     movement: F01-FACETS
     movement_role: "Facet 2 of 7 — Water as medium of life, biological and agricultural necessity"
-    word_count: 1971
-    status: DRAFT_0
+    word_target: "1400-1800"
+    word_count_actual: 1971
+    brief_status: COMPLETE
+    prose_status: DRAFT_0
     chatgpt_review: PASS
     founder_status: PENDING
     chief_architect_status: PENDING
     revisions: 0
     compile: true
-    phase: III-1A-S4-F01
-    claude_model: claude-opus-4-5
-    chatgpt_model: gpt-4o
     brief_file: "BOOK/manuscript/02_foundations/F01_material_existence/writing_briefs/F01-002_writing_brief.md"
     draft_file: "BOOK/manuscript/02_foundations/F01_material_existence/drafts/F01-002_DRAFT_0.md"
     api_outputs:
@@ -102,16 +110,15 @@ modules:
     title: "Habitat: The Organized Space"
     movement: F01-FACETS
     movement_role: "Facet 3 of 7 — Habitat as organized space for human and nonhuman life"
-    word_count: 1802
-    status: DRAFT_0
+    word_target: "1400-1800"
+    word_count_actual: 1802
+    brief_status: COMPLETE
+    prose_status: DRAFT_0
     chatgpt_review: PASS
     founder_status: PENDING
     chief_architect_status: PENDING
     revisions: 0
     compile: true
-    phase: III-1A-S4-F01
-    claude_model: claude-opus-4-5
-    chatgpt_model: gpt-4o
     brief_file: "BOOK/manuscript/02_foundations/F01_material_existence/writing_briefs/F01-003_writing_brief.md"
     draft_file: "BOOK/manuscript/02_foundations/F01_material_existence/drafts/F01-003_DRAFT_0.md"
     api_outputs:
@@ -122,16 +129,15 @@ modules:
     title: "Infrastructure: The Connective Tissue"
     movement: F01-FACETS
     movement_role: "Facet 4 of 7 — Infrastructure as connective tissue linking all material flows"
-    word_count: 2148
-    status: DRAFT_0
+    word_target: "1400-1800"
+    word_count_actual: 2148
+    brief_status: COMPLETE
+    prose_status: DRAFT_0
     chatgpt_review: PASS
     founder_status: PENDING
     chief_architect_status: PENDING
     revisions: 0
     compile: true
-    phase: III-1A-S4-F01
-    claude_model: claude-opus-4-5
-    chatgpt_model: gpt-4o
     brief_file: "BOOK/manuscript/02_foundations/F01_material_existence/writing_briefs/F01-004_writing_brief.md"
     draft_file: "BOOK/manuscript/02_foundations/F01_material_existence/drafts/F01-004_DRAFT_0.md"
     api_outputs:
@@ -142,16 +148,15 @@ modules:
     title: "Mobility: The Circulation of Bodies and Goods"
     movement: F01-FACETS
     movement_role: "Facet 5 of 7 — Mobility as circulation enabling coordination and exchange"
-    word_count: 2037
-    status: DRAFT_0
+    word_target: "1400-1800"
+    word_count_actual: 2037
+    brief_status: COMPLETE
+    prose_status: DRAFT_0
     chatgpt_review: PASS
     founder_status: PENDING
     chief_architect_status: PENDING
     revisions: 0
     compile: true
-    phase: III-1A-S4-F01
-    claude_model: claude-opus-4-5
-    chatgpt_model: gpt-4o
     brief_file: "BOOK/manuscript/02_foundations/F01_material_existence/writing_briefs/F01-005_writing_brief.md"
     draft_file: "BOOK/manuscript/02_foundations/F01_material_existence/drafts/F01-005_DRAFT_0.md"
     api_outputs:
@@ -162,16 +167,15 @@ modules:
     title: "Food: The Nutritive Flow"
     movement: F01-FACETS
     movement_role: "Facet 6 of 7 — Food as nutritive flow, metabolic bridge between biosphere and civilization"
-    word_count: 1772
-    status: DRAFT_0
+    word_target: "1400-1800"
+    word_count_actual: 1772
+    brief_status: COMPLETE
+    prose_status: DRAFT_0
     chatgpt_review: PASS
     founder_status: PENDING
     chief_architect_status: PENDING
     revisions: 0
     compile: true
-    phase: III-1A-S4-F01
-    claude_model: claude-opus-4-5
-    chatgpt_model: gpt-4o
     brief_file: "BOOK/manuscript/02_foundations/F01_material_existence/writing_briefs/F01-006_writing_brief.md"
     draft_file: "BOOK/manuscript/02_foundations/F01_material_existence/drafts/F01-006_DRAFT_0.md"
     api_outputs:
@@ -182,16 +186,15 @@ modules:
     title: "Materials: The Substance of Civilization"
     movement: F01-FACETS
     movement_role: "Facet 7 of 7 — Materials as physical substance, stocks and flows of matter"
-    word_count: 1596
-    status: DRAFT_0
+    word_target: "1400-1800"
+    word_count_actual: 1596
+    brief_status: COMPLETE
+    prose_status: DRAFT_0
     chatgpt_review: PASS
     founder_status: PENDING
     chief_architect_status: PENDING
     revisions: 0
     compile: true
-    phase: III-1A-S4-F01
-    claude_model: claude-opus-4-5
-    chatgpt_model: gpt-4o
     brief_file: "BOOK/manuscript/02_foundations/F01_material_existence/writing_briefs/F01-007_writing_brief.md"
     draft_file: "BOOK/manuscript/02_foundations/F01_material_existence/drafts/F01-007_DRAFT_0.md"
     api_outputs:
@@ -202,16 +205,15 @@ modules:
     title: "The Material Foundation: Synthesis and Transition"
     movement: F01-SYNTHESIS
     movement_role: "Synthesis — integrates all 7 flows, transitions to Foundation 02 (Vitality)"
-    word_count: 1358
-    status: DRAFT_0
+    word_target: "1200-1600"
+    word_count_actual: 1358
+    brief_status: COMPLETE
+    prose_status: DRAFT_0
     chatgpt_review: PASS
     founder_status: PENDING
     chief_architect_status: PENDING
     revisions: 0
     compile: true
-    phase: III-1A-S4-F01
-    claude_model: claude-opus-4-5
-    chatgpt_model: gpt-4o
     brief_file: "BOOK/manuscript/02_foundations/F01_material_existence/writing_briefs/F01-008_writing_brief.md"
     draft_file: "BOOK/manuscript/02_foundations/F01_material_existence/drafts/F01-008_DRAFT_0.md"
     api_outputs:
@@ -221,10 +223,11 @@ modules:
 # Summary
 summary:
   total_words: 15888
+  modules_brief_complete: 9
   modules_draft0: 9
   modules_approved: 0
   modules_pending_review: 9
   chatgpt_pass_rate: "9/9 (100%)"
-  chief_architect_status: "PASS_WITH_MICRO_PATCH (F01-000 patched 2026-06-28)"
+  chief_architect_status: "PASS_WITH_MICRO_PATCH (F01-000 patched: six→seven flows)"
   total_revisions: 1
   last_updated: "2026-06-28"

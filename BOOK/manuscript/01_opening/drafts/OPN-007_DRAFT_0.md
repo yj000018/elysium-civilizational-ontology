@@ -1,6 +1,7 @@
 ---
 id: OPN-007_DRAFT_0
 module_id: OPN-007
+title: "The Machine Metaphor and Its Limits"
 title_en: "The Machine Metaphor and Its Limits"
 part: 01_opening
 movement: MOV-III
@@ -20,6 +21,7 @@ founder_approval_status: PENDING
 word_count: 902
 created_by: "Manus orchestration + Claude API + ChatGPT API review"
 created_at: "2026-06-28"
+compile: true
 ---
 
 # The Machine Metaphor and Its Limits

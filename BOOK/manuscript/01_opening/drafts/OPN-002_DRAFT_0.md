@@ -2,6 +2,7 @@
 id: OPN-002_DRAFT_0
 module_id: OPN-002
 title_en: "The Convergence of Crises"
+title: "The Convergence of Crises"
 part: 01_opening
 movement: MOV-I
 artifact_type: prose_draft
@@ -18,6 +19,7 @@ chatgpt_review_status: PASS
 founder_approval_status: PENDING
 word_count: 749
 created_by: "Manus orchestration + Claude API (claude-opus-4-5) + ChatGPT API review (gpt-4o-2024-08-06)"
+compile: true
 ---
 
 # The Convergence of Crises

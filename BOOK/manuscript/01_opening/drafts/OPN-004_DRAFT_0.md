@@ -1,6 +1,7 @@
 ---
 id: OPN-004_DRAFT_0
 module_id: OPN-004
+title: "The Illusion of Silos"
 title_en: "The Illusion of Silos"
 part: 01_opening
 movement: MOV-II
@@ -21,6 +22,7 @@ word_count: 776
 fsd_controlled_mode: true
 fsd_scope: MOV-II
 created_by: "Manus orchestration + Claude API + ChatGPT API review"
+compile: true
 ---
 
 # The Illusion of Silos
