@@ -1,0 +1,32 @@
+{
+  "user_id": "yannick",
+  "facts": [
+    {
+      "id": "yos_pm_doc05",
+      "fact": "The yOS Program Mode candidate now includes a v0.1 Git / Mem0 / Claude API Protocol defining GitHub as operational source of truth, Mem0 as durable memory, Notion as human-readable documentation, and Claude API as review officer with no silent fallback. It remains a candidate pattern pending yOS Notion reconciliation.",
+      "tags": ["yOS", "Program Mode", "Git", "Mem0", "Claude API", "ELYSIUM", "candidate"],
+      "source": "ELYSIUM operational development",
+      "version": "v0.1",
+      "notion_page": "https://app.notion.com/p/38d35e218cf881fb9361df2f6a5453f7"
+    },
+    {
+      "id": "yos_pm_doc15",
+      "fact": "The yOS Program Mode candidate includes a Handoff & Communication Protocol v0.1 defining handoffs between Founder, ChatGPT Chief Architect, Manus, Claude API, GitHub, Notion, Mem0, and future sessions, including completion, failure, repair, and cross-session handoffs.",
+      "tags": ["yOS", "Program Mode", "Handoff", "Communication", "ELYSIUM", "candidate"],
+      "source": "ELYSIUM operational development",
+      "version": "v0.1",
+      "notion_page": "https://app.notion.com/p/38d35e218cf88157b8fde080f7d1b126"
+    },
+    {
+      "id": "yos_pm_doc16",
+      "fact": "The yOS Program Mode candidate includes a Prompt Archive & Knowledge Capture Protocol v0.1 defining how executed prompts, failed prompts, repair prompts, completion reports, lessons learned, reusable patterns, and prompt lineage should be archived and converted into durable operational knowledge.",
+      "tags": ["yOS", "Program Mode", "Prompt Archive", "Knowledge Capture", "ELYSIUM", "candidate"],
+      "source": "ELYSIUM operational development",
+      "version": "v0.1",
+      "notion_page": "https://app.notion.com/p/38d35e218cf881c4b3adc773e086d0a9"
+    }
+  ],
+  "status": "MEM0_IMPORT_PAYLOAD_READY",
+  "note": "Mem0 API key not configured in Manus Secrets. Import manually when API key is available.",
+  "created": "2026-06-28"
+}
