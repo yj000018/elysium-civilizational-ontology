@@ -1,11 +1,15 @@
 ---
-id: LLM_MATRIX
+id: LLM_AND_TOOL_ROUTING_MATRIX
 title: "yOS LLM & Tool Routing Matrix"
 type: registry
 phase: yOS_Orchestration_Core
-status: TRANSITIONAL_COMPATIBILITY_COPY
-canonical_source: "YOS/core/orchestration/registries/LLM_AND_TOOL_ROUTING_MATRIX.md"
-warning: "Canonical yOS Core source is now the YOS path. This FCS path remains temporarily for script compatibility. Do not edit here — edit the canonical source."
+status: ACTIVE
+canonical_owner: yOS Orchestration Core
+canonical_path: "YOS/core/orchestration/registries/LLM_AND_TOOL_ROUTING_MATRIX.md"
+downstream_applications:
+  - FCS
+  - ELYSIUM Book
+fcs_compatibility_copy: "BOOK/_fcs/registries/LLM_MATRIX.md"
 last_updated: "2026-06-28"
 ---
 
