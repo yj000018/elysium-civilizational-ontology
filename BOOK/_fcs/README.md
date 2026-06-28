@@ -36,3 +36,9 @@ To operate FCS within Obsidian:
 - `NODE_MODEL.md`: Definitions of folder nodes and modules.
 - `MANIFEST_MODEL.md`: Ordering and inclusion rules.
 - `OBSIDIAN_OPERATOR_MANUAL.md`: Daily usage guide.
+
+## Governance Protocols
+- [`protocols/FCS_QA_QC_GOVERNANCE_PROTOCOL.md`](protocols/FCS_QA_QC_GOVERNANCE_PROTOCOL.md): **QA/QC authority model** — review layers (L0–L4), stop conditions, approval semantics, F02 gate conditions. *Added 2026-06-28.*
+- [`protocols/FCS_FSD_CONTROLLED_MODE_PROTOCOL.md`](protocols/FCS_FSD_CONTROLLED_MODE_PROTOCOL.md): FSD Controlled Mode — semi-autonomous execution with defined gates.
+- [`protocols/FCS_MULTI_LLM_ORCHESTRATION_PROTOCOL.md`](protocols/FCS_MULTI_LLM_ORCHESTRATION_PROTOCOL.md): Multi-LLM orchestration — Claude for prose, ChatGPT for review.
+- [`protocols/FCS_WRITING_BRIEF_PROTOCOL.md`](protocols/FCS_WRITING_BRIEF_PROTOCOL.md): Writing brief structure and usage.

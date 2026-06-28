@@ -29,3 +29,9 @@ TABLE
 FROM "BOOK/manuscript"
 WHERE !reader_promise OR reader_promise = ""
 ```
+
+## QA/QC Governance
+
+> **Canonical authority protocol:** [`BOOK/_fcs/protocols/FCS_QA_QC_GOVERNANCE_PROTOCOL.md`](../../_fcs/protocols/FCS_QA_QC_GOVERNANCE_PROTOCOL.md)
+>
+> Defines QA/QC layers (L0–L4), stop conditions, approval semantics, and F02 gate conditions. ChatGPT API PASS ≠ Chief Architect approval. DRAFT_0 complete ≠ publication-ready.
