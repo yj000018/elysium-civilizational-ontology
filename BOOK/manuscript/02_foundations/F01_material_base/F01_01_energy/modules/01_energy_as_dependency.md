@@ -3,7 +3,7 @@ id: F01_01_M01
 title: Energy as Dependency
 type: module
 status: SCAFFOLDED
-parent: F01_01_energy
+parent: F01_01
 
 summary: TEST_ONLY - Introduction to energy dependency.
 reader_promise: NOT_REAL_BOOK_CONTENT

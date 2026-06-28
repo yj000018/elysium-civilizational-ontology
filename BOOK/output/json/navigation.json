@@ -43,10 +43,76 @@
       "path": "BOOK/manuscript/02_foundations/F01_material_base/index.md"
     },
     {
+      "id": "F02_vitality",
+      "title": "F02_vitality",
+      "type": "foundation",
+      "path": "BOOK/manuscript/02_foundations/F02_vitality/index.md"
+    },
+    {
+      "id": "F03_agency",
+      "title": "F03_agency",
+      "type": "foundation",
+      "path": "BOOK/manuscript/02_foundations/F03_agency/index.md"
+    },
+    {
+      "id": "F04_cohesion",
+      "title": "F04_cohesion",
+      "type": "foundation",
+      "path": "BOOK/manuscript/02_foundations/F04_cohesion/index.md"
+    },
+    {
+      "id": "F05_governance",
+      "title": "F05_governance",
+      "type": "foundation",
+      "path": "BOOK/manuscript/02_foundations/F05_governance/index.md"
+    },
+    {
+      "id": "F06_vision",
+      "title": "F06_vision",
+      "type": "foundation",
+      "path": "BOOK/manuscript/02_foundations/F06_vision/index.md"
+    },
+    {
+      "id": "F07_consciousness",
+      "title": "F07_consciousness",
+      "type": "foundation",
+      "path": "BOOK/manuscript/02_foundations/F07_consciousness/index.md"
+    },
+    {
       "id": "F01_01",
       "title": "Energy",
       "type": "facet",
       "path": "BOOK/manuscript/02_foundations/F01_material_base/F01_01_energy/index.md"
+    },
+    {
+      "id": "F01_02_water",
+      "title": "F01_02_water",
+      "type": "facet",
+      "path": "BOOK/manuscript/02_foundations/F01_material_base/F01_02_water/index.md"
+    },
+    {
+      "id": "F01_03_food",
+      "title": "F01_03_food",
+      "type": "facet",
+      "path": "BOOK/manuscript/02_foundations/F01_material_base/F01_03_food/index.md"
+    },
+    {
+      "id": "F01_04_shelter",
+      "title": "F01_04_shelter",
+      "type": "facet",
+      "path": "BOOK/manuscript/02_foundations/F01_material_base/F01_04_shelter/index.md"
+    },
+    {
+      "id": "F01_05_mobility",
+      "title": "F01_05_mobility",
+      "type": "facet",
+      "path": "BOOK/manuscript/02_foundations/F01_material_base/F01_05_mobility/index.md"
+    },
+    {
+      "id": "F01_06_materials",
+      "title": "F01_06_materials",
+      "type": "facet",
+      "path": "BOOK/manuscript/02_foundations/F01_material_base/F01_06_materials/index.md"
     },
     {
       "id": "F01_01_M01",

@@ -22,9 +22,14 @@ REPO_ROOT = Path(__file__).resolve().parent.parent
 def strip_frontmatter(content):
     """Remove YAML frontmatter from content."""
     if content.startswith("---"):
-        end = content.find("---", 3)
-        if end != -1:
-            return content[end + 3:].strip()
+        lines = content.splitlines()
+        end_idx = -1
+        for i, line in enumerate(lines[1:], start=1):
+            if line.strip() == "---":
+                end_idx = i
+                break
+        if end_idx != -1:
+            return "\n".join(lines[end_idx+1:]).strip()
     return content
 
 
@@ -51,7 +56,7 @@ def read_manifest_includes(manifest_path):
         if in_include:
             if line.startswith("## "):
                 break
-            m = re.match(r"^- (.+)$", line.strip())
+            m = re.match(r"^\s*-\s+(.+)$", line.strip())
             if m:
                 includes.append(m.group(1).strip())
     return includes
@@ -67,27 +72,37 @@ def render_brief(target_path):
 
 
 def render_expanded(target_path):
-    """Render expanded view: assemble children from manifest."""
+    """Render expanded view: assemble children from manifest recursively."""
     target = REPO_ROOT / target_path
-    if not target.is_dir():
-        return render_brief(target_path)
-    manifest = target / "manifest.md"
-    includes = read_manifest_includes(manifest)
-    if not includes:
-        return f"# Expanded View\n\nNo manifest includes found at {manifest}"
     parts = []
-    index_file = target / "index.md"
-    if index_file.exists():
-        parts.append(strip_frontmatter(index_file.read_text(encoding="utf-8")))
-    for inc in includes:
-        inc_path = target / inc
-        if inc_path.is_dir():
-            sub_index = inc_path / "index.md"
-            if sub_index.exists():
-                parts.append(strip_frontmatter(sub_index.read_text(encoding="utf-8")))
-        elif inc_path.exists() and inc_path.is_file():
-            parts.append(strip_frontmatter(inc_path.read_text(encoding="utf-8")))
-    return "\n\n---\n\n".join(parts)
+
+    def process_node(path):
+        if path.is_file():
+            if path.exists() and path.name != "manifest.md":
+                parts.append(strip_frontmatter(path.read_text(encoding="utf-8")))
+            return
+            
+        index = path / "index.md"
+        if index.exists():
+            parts.append(strip_frontmatter(index.read_text(encoding="utf-8")))
+            
+        manifest = path / "manifest.md"
+        if manifest.exists():
+            includes = read_manifest_includes(manifest)
+            for inc in includes:
+                # Path resolution for includes
+                inc_path = path / inc
+                if inc_path.exists():
+                    process_node(inc_path)
+                elif (path.parent / inc).exists():
+                    process_node(path.parent / inc)
+                elif (target / inc).exists():
+                    process_node(target / inc)
+                elif (REPO_ROOT / "BOOK/manuscript" / inc).exists():
+                    process_node(REPO_ROOT / "BOOK/manuscript" / inc)
+
+    process_node(target)
+    return "\n\n---\n\n".join(parts) if parts else f"# Expanded View\n\nNo content found at {target}"
 
 
 def render_review(target_path):
@@ -119,45 +134,13 @@ def render_review(target_path):
 
 
 def render_clean(target_path):
-    """Render clean view: content without frontmatter."""
-    target = REPO_ROOT / target_path
-    if not target.is_dir():
-        if target.exists():
-            return strip_frontmatter(target.read_text(encoding="utf-8"))
-        return ""
-    manifest = target / "manifest.md"
-    includes = read_manifest_includes(manifest)
-    parts = []
-    for inc in includes:
-        inc_path = target / inc
-        if inc_path.exists():
-            parts.append(strip_frontmatter(inc_path.read_text(encoding="utf-8")))
-    return "\n\n---\n\n".join(parts)
+    """Render clean view: content without frontmatter recursively."""
+    return render_expanded(target_path)
 
 
 def render_master(target_path):
-    """Render master corpus from the entire manuscript."""
-    target = REPO_ROOT / target_path
-    manifest = target / "manifest.md"
-    includes = read_manifest_includes(manifest)
-    parts = []
-    for inc in includes:
-        sub = target / inc
-        if sub.is_dir():
-            sub_manifest = sub / "manifest.md"
-            sub_includes = read_manifest_includes(sub_manifest)
-            sub_index = sub / "index.md"
-            if sub_index.exists():
-                parts.append(strip_frontmatter(sub_index.read_text(encoding="utf-8")))
-            for si in sub_includes:
-                si_path = sub / si
-                if si_path.is_dir():
-                    deep_index = si_path / "index.md"
-                    if deep_index.exists():
-                        parts.append(strip_frontmatter(deep_index.read_text(encoding="utf-8")))
-                elif si_path.exists() and si_path.is_file():
-                    parts.append(strip_frontmatter(si_path.read_text(encoding="utf-8")))
-    return "\n\n---\n\n".join(parts) if parts else "# Master Corpus\n\nNo content found."
+    """Render master corpus from the entire manuscript recursively."""
+    return render_expanded(target_path)
 
 
 def main():

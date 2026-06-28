@@ -1,0 +1,219 @@
+========================================
+FCS ACCEPTANCE EVIDENCE — Phase III-0A-FIX
+Date: $(date -u +%Y-%m-%dT%H:%M:%SZ)
+========================================
+
+ACCEPTANCE CRITERIA:
+1. Valid fixture MUST pass (exit 0)
+2. ALL 7 invalid fixtures MUST fail (exit 1)
+3. Main BOOK validation MUST pass (0 errors)
+4. Expanded render MUST include child modules
+5. Graph generation MUST produce 0 warnings
+
+RESULTS:
+Date: 2026-06-28T00:17:40Z
+
+--- CRITERION 1: valid_minimal_project → PASS (exit 0) ---
+============================================================
+FCS VALIDATION REPORT: BOOK/_fcs/test_fixtures/valid_minimal_project
+============================================================
+
+Errors: 0
+
+Warnings: 0
+
+Total: 0 errors, 0 warnings
+EXIT CODE: 0
+
+--- CRITERION 2a: invalid_broken_manifest → FAIL (exit 1) ---
+============================================================
+FCS VALIDATION REPORT: BOOK/_fcs/test_fixtures/invalid_broken_manifest
+============================================================
+
+Errors: 1
+  [ERROR] Manifest include missing: does_not_exist in BOOK/_fcs/test_fixtures/invalid_broken_manifest/manuscript/manifest.md
+
+Warnings: 0
+
+Total: 1 errors, 0 warnings
+EXIT CODE: 1
+
+--- CRITERION 2b: invalid_duplicate_id → FAIL (exit 1) ---
+============================================================
+FCS VALIDATION REPORT: BOOK/_fcs/test_fixtures/invalid_duplicate_id
+============================================================
+
+Errors: 1
+  [ERROR] Duplicate ID: DUP_ID (found 2 times)
+
+Warnings: 1
+  [WARN]  Folder node missing index.md: BOOK/_fcs/test_fixtures/invalid_duplicate_id/manuscript
+
+Total: 1 errors, 1 warnings
+EXIT CODE: 1
+
+--- CRITERION 2c: invalid_missing_parent → FAIL (exit 1) ---
+============================================================
+FCS VALIDATION REPORT: BOOK/_fcs/test_fixtures/invalid_missing_parent
+============================================================
+
+Errors: 1
+  [ERROR] Parent ID does not exist: DOES_NOT_EXIST in BOOK/_fcs/test_fixtures/invalid_missing_parent/manuscript/missing_parent.md
+
+Warnings: 1
+  [WARN]  Folder node missing index.md: BOOK/_fcs/test_fixtures/invalid_missing_parent/manuscript
+
+Total: 1 errors, 1 warnings
+EXIT CODE: 1
+
+--- CRITERION 2d: invalid_null_graph_edge → FAIL (exit 1) ---
+============================================================
+FCS VALIDATION REPORT: BOOK/_fcs/test_fixtures/invalid_null_graph_edge
+============================================================
+
+Errors: 2
+  [ERROR] Graph edge to null/empty target in depends_on: BOOK/_fcs/test_fixtures/invalid_null_graph_edge/manuscript/null_edge.md
+  [ERROR] Relation pointing to missing ID: "" in depends_on of BOOK/_fcs/test_fixtures/invalid_null_graph_edge/manuscript/null_edge.md
+
+Warnings: 1
+  [WARN]  Folder node missing index.md: BOOK/_fcs/test_fixtures/invalid_null_graph_edge/manuscript
+
+Total: 2 errors, 1 warnings
+EXIT CODE: 1
+
+--- CRITERION 2e: invalid_invalid_action_request → FAIL (exit 1) ---
+============================================================
+FCS VALIDATION REPORT: BOOK/_fcs/test_fixtures/invalid_invalid_action_request
+============================================================
+
+Errors: 3
+  [ERROR] Unknown status 'BAD_STATUS' in BOOK/_fcs/test_fixtures/invalid_invalid_action_request/action_requests/bad_req.md
+  [ERROR] Invalid preferred_agent: BAD_AGENT in BOOK/_fcs/test_fixtures/invalid_invalid_action_request/action_requests/bad_req.md
+  [ERROR] Invalid writeback mode: bad_mode in BOOK/_fcs/test_fixtures/invalid_invalid_action_request/action_requests/bad_req.md
+
+Warnings: 0
+
+Total: 3 errors, 0 warnings
+EXIT CODE: 1
+
+--- CRITERION 2f: invalid_unresolved_relation → FAIL (exit 1) ---
+============================================================
+FCS VALIDATION REPORT: BOOK/_fcs/test_fixtures/invalid_unresolved_relation
+============================================================
+
+Errors: 1
+  [ERROR] Relation pointing to missing ID: MISSING_NODE in depends_on of BOOK/_fcs/test_fixtures/invalid_unresolved_relation/manuscript/unresolved.md
+
+Warnings: 1
+  [WARN]  Folder node missing index.md: BOOK/_fcs/test_fixtures/invalid_unresolved_relation/manuscript
+
+Total: 1 errors, 1 warnings
+EXIT CODE: 1
+
+--- CRITERION 2g: invalid_missing_resource_reference → FAIL (exit 1) ---
+============================================================
+FCS VALIDATION REPORT: BOOK/_fcs/test_fixtures/invalid_missing_resource_reference
+============================================================
+
+Errors: 1
+  [ERROR] Resource reference to missing card: MISSING_PERSON in BOOK/_fcs/test_fixtures/invalid_missing_resource_reference/manuscript/bad_res.md
+
+Warnings: 1
+  [WARN]  Folder node missing index.md: BOOK/_fcs/test_fixtures/invalid_missing_resource_reference/manuscript
+
+Total: 1 errors, 1 warnings
+EXIT CODE: 1
+
+--- CRITERION 3: Main BOOK → 0 errors ---
+============================================================
+FCS VALIDATION REPORT: BOOK
+============================================================
+
+Errors: 0
+
+Warnings: 27
+  [WARN]  Missing summary: BOOK/manuscript/02_foundations/F02_vitality/index.md
+  [WARN]  Missing reader_promise: BOOK/manuscript/02_foundations/F02_vitality/index.md
+  [WARN]  Missing summary: BOOK/manuscript/02_foundations/F03_agency/index.md
+  [WARN]  Missing reader_promise: BOOK/manuscript/02_foundations/F03_agency/index.md
+  [WARN]  Missing summary: BOOK/manuscript/02_foundations/F04_cohesion/index.md
+  [WARN]  Missing reader_promise: BOOK/manuscript/02_foundations/F04_cohesion/index.md
+  [WARN]  Missing summary: BOOK/manuscript/02_foundations/F05_governance/index.md
+  [WARN]  Missing reader_promise: BOOK/manuscript/02_foundations/F05_governance/index.md
+  [WARN]  Missing summary: BOOK/manuscript/02_foundations/F06_vision/index.md
+  [WARN]  Missing reader_promise: BOOK/manuscript/02_foundations/F06_vision/index.md
+  [WARN]  Missing summary: BOOK/manuscript/02_foundations/F07_consciousness/index.md
+  [WARN]  Missing reader_promise: BOOK/manuscript/02_foundations/F07_consciousness/index.md
+  [WARN]  Missing summary: BOOK/manuscript/02_foundations/F01_material_base/F01_02_water/index.md
+  [WARN]  Missing reader_promise: BOOK/manuscript/02_foundations/F01_material_base/F01_02_water/index.md
+  [WARN]  Missing summary: BOOK/manuscript/02_foundations/F01_material_base/F01_03_food/index.md
+  [WARN]  Missing reader_promise: BOOK/manuscript/02_foundations/F01_material_base/F01_03_food/index.md
+  [WARN]  Missing summary: BOOK/manuscript/02_foundations/F01_material_base/F01_04_shelter/index.md
+  [WARN]  Missing reader_promise: BOOK/manuscript/02_foundations/F01_material_base/F01_04_shelter/index.md
+  [WARN]  Missing summary: BOOK/manuscript/02_foundations/F01_material_base/F01_05_mobility/index.md
+  [WARN]  Missing reader_promise: BOOK/manuscript/02_foundations/F01_material_base/F01_05_mobility/index.md
+  [WARN]  Missing summary: BOOK/manuscript/02_foundations/F01_material_base/F01_06_materials/index.md
+  [WARN]  Missing reader_promise: BOOK/manuscript/02_foundations/F01_material_base/F01_06_materials/index.md
+  [WARN]  Relation pointing to missing ID: metabolism in echoes of BOOK/manuscript/02_foundations/F01_material_base/index.md
+  [WARN]  Relation pointing to missing ID: infrastructure in echoes of BOOK/manuscript/02_foundations/F01_material_base/index.md
+  [WARN]  Relation pointing to missing ID: transition_dynamics in supports of BOOK/manuscript/02_foundations/F01_material_base/F01_01_energy/index.md
+  [WARN]  Relation pointing to missing ID: metabolism in echoes of BOOK/manuscript/02_foundations/F01_material_base/F01_01_energy/index.md
+  [WARN]  Relation pointing to missing ID: constraint in echoes of BOOK/manuscript/02_foundations/F01_material_base/F01_01_energy/index.md
+
+Total: 0 errors, 27 warnings
+
+Report written to: BOOK/views/dashboards/VALIDATION_REPORT.md
+EXIT CODE: 0
+
+--- CRITERION 4: Expanded render includes children ---
+[render.py] expanded view written to: /home/ubuntu/elysium-civilizational-ontology/BOOK/views/expanded/BOOK_manuscript_02_foundations_F01_material_base_F01_01_energy.md
+EXIT CODE: 0
+CONTENT:
+# Energy
+
+Energy as the dependency layer and metabolic foundation of industrial civilization.
+
+---
+
+# Energy as Dependency
+
+TEST_ONLY
+NOT_REAL_BOOK_CONTENT
+DO_NOT_USE_IN_FINAL_MANUSCRIPT
+
+This is a test module for rendering and validation.
+
+---
+
+# Energy Pathologies
+
+TEST_ONLY
+NOT_REAL_BOOK_CONTENT
+DO_NOT_USE_IN_FINAL_MANUSCRIPT
+
+This is a test module for rendering and validation.
+
+---
+
+# Energy Transition Vectors
+
+TEST_ONLY
+NOT_REAL_BOOK_CONTENT
+DO_NOT_USE_IN_FINAL_MANUSCRIPT
+
+This is a test module for rendering and validation.
+--- CRITERION 5: Graph generation → 0 warnings ---
+============================================================
+FCS GRAPH GENERATION
+============================================================
+
+Content graph: 22 nodes, 21 edges
+Concept graph: 5 concepts
+Resource graph: 0 resources
+
+Outputs written to: BOOK/views/graph/ and BOOK/output/graphs/
+EXIT CODE: 0
+
+========================================
+VERDICT: ALL CRITERIA MET — ACCEPTANCE PASS
+========================================

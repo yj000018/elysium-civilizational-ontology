@@ -41,6 +41,14 @@
     {
       "concept": "civilizational_bottleneck",
       "source": "F01_01"
+    },
+    {
+      "concept": "material_dependency",
+      "source": "F01_material_base"
+    },
+    {
+      "concept": "metabolic_foundation",
+      "source": "F01_material_base"
     }
   ]
 }

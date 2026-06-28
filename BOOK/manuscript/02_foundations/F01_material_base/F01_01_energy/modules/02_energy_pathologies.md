@@ -3,7 +3,7 @@ id: F01_01_M02
 title: Energy Pathologies
 type: module
 status: SCAFFOLDED
-parent: F01_01_energy
+parent: F01_01
 
 summary: TEST_ONLY - Pathologies in energy use.
 reader_promise: NOT_REAL_BOOK_CONTENT

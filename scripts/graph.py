@@ -58,34 +58,58 @@ def extract_frontmatter(filepath):
     return fields
 
 
+graph_warnings = []
+
 def build_content_graph():
     """Build content graph from manuscript nodes."""
     nodes = []
     edges = []
+    all_ids = set()
+    
+    for md in BOOK.rglob("*.md"):
+        if "views" in md.parts or "output" in md.parts or "reviews" in md.parts or "templates" in md.parts or "_fcs" in md.parts:
+            continue
+        fields = extract_frontmatter(md)
+        if "id" in fields:
+            all_ids.add(fields["id"])
+            
     for md in (BOOK / "manuscript").rglob("*.md"):
         if md.name in ("manifest.md",):
             continue
         fields = extract_frontmatter(md)
         if not fields.get("id"):
             continue
+        node_id = fields["id"]
         node = {
-            "id": fields["id"],
+            "id": node_id,
             "title": fields.get("title", ""),
             "type": fields.get("type", ""),
             "status": fields.get("status", ""),
             "path": str(md.relative_to(REPO_ROOT)),
         }
         nodes.append(node)
+        
         # Parent edge
         if fields.get("parent"):
-            edges.append({"source": fields["id"], "target": fields["parent"], "type": "child_of"})
+            parent = fields["parent"]
+            if parent in ("null", "None", ""):
+                if node_id != "ELYSIUM_ROOT":
+                    graph_warnings.append(f"Null parent in {node_id}")
+            elif parent != "ELYSIUM_ROOT" and parent not in all_ids:
+                graph_warnings.append(f"Unresolved parent '{parent}' in {node_id}")
+            else:
+                edges.append({"source": node_id, "target": parent, "type": "child_of"})
+                
         # Relations
-        if isinstance(fields.get("depends_on"), list):
-            for dep in fields["depends_on"]:
-                edges.append({"source": fields["id"], "target": dep, "type": "depends_on"})
-        if isinstance(fields.get("supports"), list):
-            for sup in fields["supports"]:
-                edges.append({"source": fields["id"], "target": sup, "type": "supports"})
+        for rel_type in ["depends_on", "supports", "contrasts_with", "echoes"]:
+            if isinstance(fields.get(rel_type), list):
+                for target in fields[rel_type]:
+                    if target in ("null", "None", ""):
+                        graph_warnings.append(f"Null relation target in {rel_type} of {node_id}")
+                    elif target not in all_ids:
+                        graph_warnings.append(f"Unresolved relation target '{target}' in {rel_type} of {node_id}")
+                    else:
+                        edges.append({"source": node_id, "target": target, "type": rel_type})
     return {"nodes": nodes, "edges": edges}
 
 
@@ -175,6 +199,15 @@ def main():
     readme += "- `fcs_graph.mmd`: Mermaid diagram.\n"
     (graph_dir / "fcs_graph_readme.md").write_text(readme, encoding="utf-8")
 
+    warnings_path = graph_dir / "GRAPH_WARNINGS.md"
+    with open(warnings_path, "w", encoding="utf-8") as f:
+        f.write("# Graph Generation Warnings\n\n")
+        if graph_warnings:
+            for w in graph_warnings:
+                f.write(f"- {w}\n")
+        else:
+            f.write("No warnings. All graph edges resolved successfully.\n")
+
     # Write to output/
     out_graphs = BOOK / "output" / "graphs"
     out_graphs.mkdir(parents=True, exist_ok=True)
@@ -194,6 +227,8 @@ def main():
     print(f"Concept graph: {len(concept_graph['nodes'])} concepts")
     print(f"Resource graph: {len(resource_graph['nodes'])} resources")
     print(f"\nOutputs written to: BOOK/views/graph/ and BOOK/output/graphs/")
+    if graph_warnings:
+        print(f"  [WARN] {len(graph_warnings)} warnings found. See GRAPH_WARNINGS.md")
 
 
 if __name__ == "__main__":

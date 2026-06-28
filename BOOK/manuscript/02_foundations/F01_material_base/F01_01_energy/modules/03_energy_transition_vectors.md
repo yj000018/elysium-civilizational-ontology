@@ -3,7 +3,7 @@ id: F01_01_M03
 title: Energy Transition Vectors
 type: module
 status: SCAFFOLDED
-parent: F01_01_energy
+parent: F01_01
 
 summary: TEST_ONLY - Transition vectors for energy.
 reader_promise: NOT_REAL_BOOK_CONTENT
