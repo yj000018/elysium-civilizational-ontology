@@ -7,11 +7,11 @@ movement_id: MOV-I
 movement_title: "Le Malaise du Présent"
 parent: PART_01
 order: "001"
-status: SCAFFOLDED
+status: DRAFT
 operational_status: STRUCTURE_DRAFT
 fcs_role: manuscript_module
 source_status: STRUCTURE_ONLY
-prose_status: NOT_WRITTEN
+prose_status: DRAFT_0
 routing_status: NOT_ROUTED
 word_count_target: null
 word_count_current: 0
