@@ -1,0 +1,323 @@
+registry_version: "0.1"
+source_of_truth: "module_frontmatter_plus_registry"
+generated_exports:
+  - "BOOK/_fcs/binder_views/current_binder_view.md"
+  - "BOOK/_fcs/binder_views/opening_binder_view.md"
+last_generated: null
+generator_script: "scripts/generate_binder_view.py"
+
+# ─────────────────────────────────────────────
+# PART 01 — OPENING
+# ─────────────────────────────────────────────
+
+modules:
+
+  # ── PROVISIONAL MANUS DRAFTS (raw material only) ──
+
+  - module_id: "P01_M01"
+    legacy_id: "P01_M01_pathology_of_present"
+    title: "The Pathology of the Present"
+    type: module
+    part: OPENING
+    movement_id: null
+    parent: PART-01-OPENING
+    order: "legacy-01"
+    status: DRAFT
+    operational_status: PROVISIONAL_MANUS_DRAFT
+    fcs_role: manuscript_module
+    source_status: PROVISIONAL_MANUS_DRAFT
+    prose_status: PROVISIONAL_MANUS_DRAFT
+    routing_status: NOT_ROUTED
+    path: "BOOK/manuscript/01_opening/modules/01_pathology_of_present.md"
+    raw_material_for: ["MOV-I"]
+    notes: "Provisional Manus draft. Raw material only. Do not promote."
+
+  - module_id: "P01_M02"
+    legacy_id: "P01_M02_illusion_of_silos"
+    title: "The Illusion of Silos"
+    type: module
+    part: OPENING
+    movement_id: null
+    parent: PART-01-OPENING
+    order: "legacy-02"
+    status: DRAFT
+    operational_status: PROVISIONAL_MANUS_DRAFT
+    fcs_role: manuscript_module
+    source_status: PROVISIONAL_MANUS_DRAFT
+    prose_status: PROVISIONAL_MANUS_DRAFT
+    routing_status: NOT_ROUTED
+    path: "BOOK/manuscript/01_opening/modules/02_illusion_of_silos.md"
+    raw_material_for: ["MOV-II"]
+    notes: "Provisional Manus draft. Raw material only. Do not promote."
+
+  - module_id: "P01_M03"
+    legacy_id: "P01_M03_metabolic_entity"
+    title: "Civilization as a Metabolic Entity"
+    type: module
+    part: OPENING
+    movement_id: null
+    parent: PART-01-OPENING
+    order: "legacy-03"
+    status: DRAFT
+    operational_status: PROVISIONAL_MANUS_DRAFT
+    fcs_role: manuscript_module
+    source_status: PROVISIONAL_MANUS_DRAFT
+    prose_status: PROVISIONAL_MANUS_DRAFT
+    routing_status: NOT_ROUTED
+    path: "BOOK/manuscript/01_opening/modules/03_metabolic_entity.md"
+    raw_material_for: ["MOV-III"]
+    notes: "Provisional Manus draft. Raw material only. Do not promote."
+
+  - module_id: "P01_M04"
+    legacy_id: "P01_M04_the_seven_foundations"
+    title: "The Seven Foundations"
+    type: module
+    part: OPENING
+    movement_id: null
+    parent: PART-01-OPENING
+    order: "legacy-04"
+    status: DRAFT
+    operational_status: PROVISIONAL_MANUS_DRAFT
+    fcs_role: manuscript_module
+    source_status: PROVISIONAL_MANUS_DRAFT
+    prose_status: PROVISIONAL_MANUS_DRAFT
+    routing_status: NOT_ROUTED
+    path: "BOOK/manuscript/01_opening/modules/04_the_seven_foundations.md"
+    raw_material_for: ["MOV-IV"]
+    notes: "Provisional Manus draft. Raw material only. Do not promote."
+
+  # ── STRUCTURE_DRAFT MODULES (Phase III-1A-S1) ──
+
+  - module_id: "OPN-001"
+    title: "Le sentiment que tout se défait"
+    type: module
+    part: OPENING
+    movement_id: MOV-I
+    movement_title: "Le Malaise du Présent"
+    parent: PART-01-OPENING
+    order: "001"
+    status: SCAFFOLDED
+    operational_status: STRUCTURE_DRAFT
+    fcs_role: manuscript_module
+    source_status: STRUCTURE_ONLY
+    prose_status: NOT_WRITTEN
+    routing_status: NOT_ROUTED
+    path: "BOOK/manuscript/01_opening/structure_modules/OPN-001_le_sentiment_que_tout_se_defait.md"
+    raw_material_from: ["P01_M01"]
+    notes: "Phase III-1A-S1 scaffold. Awaiting Founder validation."
+
+  - module_id: "OPN-002"
+    title: "La polycrise n'est pas une addition de crises"
+    type: module
+    part: OPENING
+    movement_id: MOV-I
+    movement_title: "Le Malaise du Présent"
+    parent: PART-01-OPENING
+    order: "002"
+    status: SCAFFOLDED
+    operational_status: STRUCTURE_DRAFT
+    fcs_role: manuscript_module
+    source_status: STRUCTURE_ONLY
+    prose_status: NOT_WRITTEN
+    routing_status: NOT_ROUTED
+    path: "BOOK/manuscript/01_opening/structure_modules/OPN-002_la_polycrise_n_est_pas_une_addition_de_crises.md"
+    raw_material_from: ["P01_M01"]
+    notes: "Phase III-1A-S1 scaffold. Awaiting Founder validation."
+
+  - module_id: "OPN-003"
+    title: "Le symptôme et le patient"
+    type: module
+    part: OPENING
+    movement_id: MOV-I
+    movement_title: "Le Malaise du Présent"
+    parent: PART-01-OPENING
+    order: "003"
+    status: SCAFFOLDED
+    operational_status: STRUCTURE_DRAFT
+    fcs_role: manuscript_module
+    source_status: STRUCTURE_ONLY
+    prose_status: NOT_WRITTEN
+    routing_status: NOT_ROUTED
+    path: "BOOK/manuscript/01_opening/structure_modules/OPN-003_le_symptome_et_le_patient.md"
+    raw_material_from: ["P01_M01"]
+    notes: "Phase III-1A-S1 scaffold. Awaiting Founder validation."
+
+  - module_id: "OPN-004"
+    title: "Le piège des silos"
+    type: module
+    part: OPENING
+    movement_id: MOV-II
+    movement_title: "L'Échec des Cartes Fragmentées"
+    parent: PART-01-OPENING
+    order: "004"
+    status: SCAFFOLDED
+    operational_status: STRUCTURE_DRAFT
+    fcs_role: manuscript_module
+    source_status: STRUCTURE_ONLY
+    prose_status: NOT_WRITTEN
+    routing_status: NOT_ROUTED
+    path: "BOOK/manuscript/01_opening/structure_modules/OPN-004_le_piege_des_silos.md"
+    raw_material_from: ["P01_M02"]
+    notes: "Phase III-1A-S1 scaffold. Awaiting Founder validation."
+
+  - module_id: "OPN-005"
+    title: "Les demi-solutions qui déplacent le problème"
+    type: module
+    part: OPENING
+    movement_id: MOV-II
+    movement_title: "L'Échec des Cartes Fragmentées"
+    parent: PART-01-OPENING
+    order: "005"
+    status: SCAFFOLDED
+    operational_status: STRUCTURE_DRAFT
+    fcs_role: manuscript_module
+    source_status: STRUCTURE_ONLY
+    prose_status: NOT_WRITTEN
+    routing_status: NOT_ROUTED
+    path: "BOOK/manuscript/01_opening/structure_modules/OPN-005_les_demi_solutions_qui_deplacent_le_probleme.md"
+    raw_material_from: ["P01_M02"]
+    notes: "Phase III-1A-S1 scaffold. Awaiting Founder validation."
+
+  - module_id: "OPN-006"
+    title: "Pourquoi l'expertise seule ne suffit plus"
+    type: module
+    part: OPENING
+    movement_id: MOV-II
+    movement_title: "L'Échec des Cartes Fragmentées"
+    parent: PART-01-OPENING
+    order: "006"
+    status: SCAFFOLDED
+    operational_status: STRUCTURE_DRAFT
+    fcs_role: manuscript_module
+    source_status: STRUCTURE_ONLY
+    prose_status: NOT_WRITTEN
+    routing_status: NOT_ROUTED
+    path: "BOOK/manuscript/01_opening/structure_modules/OPN-006_pourquoi_l_expertise_seule_ne_suffit_plus.md"
+    raw_material_from: ["P01_M02"]
+    notes: "Phase III-1A-S1 scaffold. Awaiting Founder validation."
+
+  - module_id: "OPN-007"
+    title: "Ce n'est pas une machine à réparer"
+    type: module
+    part: OPENING
+    movement_id: MOV-III
+    movement_title: "La Civilisation comme Métabolisme"
+    parent: PART-01-OPENING
+    order: "007"
+    status: SCAFFOLDED
+    operational_status: STRUCTURE_DRAFT
+    fcs_role: manuscript_module
+    source_status: STRUCTURE_ONLY
+    prose_status: NOT_WRITTEN
+    routing_status: NOT_ROUTED
+    path: "BOOK/manuscript/01_opening/structure_modules/OPN-007_ce_n_est_pas_une_machine_a_reparer.md"
+    raw_material_from: ["P01_M03"]
+    notes: "Phase III-1A-S1 scaffold. Awaiting Founder validation."
+
+  - module_id: "OPN-008"
+    title: "Une civilisation est un métabolisme vivant"
+    type: module
+    part: OPENING
+    movement_id: MOV-III
+    movement_title: "La Civilisation comme Métabolisme"
+    parent: PART-01-OPENING
+    order: "008"
+    status: SCAFFOLDED
+    operational_status: STRUCTURE_DRAFT
+    fcs_role: manuscript_module
+    source_status: STRUCTURE_ONLY
+    prose_status: NOT_WRITTEN
+    routing_status: NOT_ROUTED
+    path: "BOOK/manuscript/01_opening/structure_modules/OPN-008_une_civilisation_est_un_metabolisme_vivant.md"
+    raw_material_from: ["P01_M03"]
+    notes: "Phase III-1A-S1 scaffold. Awaiting Founder validation."
+
+  - module_id: "OPN-009"
+    title: "Énergie, matière, institutions, récits, conscience"
+    type: module
+    part: OPENING
+    movement_id: MOV-III
+    movement_title: "La Civilisation comme Métabolisme"
+    parent: PART-01-OPENING
+    order: "009"
+    status: SCAFFOLDED
+    operational_status: STRUCTURE_DRAFT
+    fcs_role: manuscript_module
+    source_status: STRUCTURE_ONLY
+    prose_status: NOT_WRITTEN
+    routing_status: NOT_ROUTED
+    path: "BOOK/manuscript/01_opening/structure_modules/OPN-009_energie_matiere_institutions_recits_conscience.md"
+    raw_material_from: ["P01_M03"]
+    notes: "Phase III-1A-S1 scaffold. Awaiting Founder validation."
+
+  - module_id: "OPN-010"
+    title: "Pourquoi il faut une ontologie civilisationnelle"
+    type: module
+    part: OPENING
+    movement_id: MOV-IV
+    movement_title: "La Carte d'ELYSIUM"
+    parent: PART-01-OPENING
+    order: "010"
+    status: SCAFFOLDED
+    operational_status: STRUCTURE_DRAFT
+    fcs_role: manuscript_module
+    source_status: STRUCTURE_ONLY
+    prose_status: NOT_WRITTEN
+    routing_status: NOT_ROUTED
+    path: "BOOK/manuscript/01_opening/structure_modules/OPN-010_pourquoi_il_faut_une_ontologie_civilisationnelle.md"
+    raw_material_from: ["P01_M04"]
+    notes: "Phase III-1A-S1 scaffold. Awaiting Founder validation."
+
+  - module_id: "OPN-011"
+    title: "Les trois échelles du réel"
+    type: module
+    part: OPENING
+    movement_id: MOV-IV
+    movement_title: "La Carte d'ELYSIUM"
+    parent: PART-01-OPENING
+    order: "011"
+    status: SCAFFOLDED
+    operational_status: STRUCTURE_DRAFT
+    fcs_role: manuscript_module
+    source_status: STRUCTURE_ONLY
+    prose_status: NOT_WRITTEN
+    routing_status: NOT_ROUTED
+    path: "BOOK/manuscript/01_opening/structure_modules/OPN-011_les_trois_echelles_du_reel.md"
+    raw_material_from: ["P01_M04"]
+    notes: "Phase III-1A-S1 scaffold. Awaiting Founder validation."
+
+  - module_id: "OPN-012"
+    title: "Les sept fondations comme chemin de lecture"
+    type: module
+    part: OPENING
+    movement_id: MOV-IV
+    movement_title: "La Carte d'ELYSIUM"
+    parent: PART-01-OPENING
+    order: "012"
+    status: SCAFFOLDED
+    operational_status: STRUCTURE_DRAFT
+    fcs_role: manuscript_module
+    source_status: STRUCTURE_ONLY
+    prose_status: NOT_WRITTEN
+    routing_status: NOT_ROUTED
+    path: "BOOK/manuscript/01_opening/structure_modules/OPN-012_les_sept_fondations_comme_chemin_de_lecture.md"
+    raw_material_from: ["P01_M04"]
+    notes: "Phase III-1A-S1 scaffold. Awaiting Founder validation. CRITICAL: Do NOT fully unpack 7 Foundations here."
+
+  - module_id: "OPN-013"
+    title: "Comment entrer dans ce livre"
+    type: module
+    part: OPENING
+    movement_id: MOV-IV
+    movement_title: "La Carte d'ELYSIUM"
+    parent: PART-01-OPENING
+    order: "013"
+    status: SCAFFOLDED
+    operational_status: STRUCTURE_DRAFT
+    fcs_role: manuscript_module
+    source_status: STRUCTURE_ONLY
+    prose_status: NOT_WRITTEN
+    routing_status: NOT_ROUTED
+    path: "BOOK/manuscript/01_opening/structure_modules/OPN-013_comment_entrer_dans_ce_livre.md"
+    raw_material_from: ["P01_M04"]
+    notes: "Phase III-1A-S1 scaffold. Awaiting Founder validation."
