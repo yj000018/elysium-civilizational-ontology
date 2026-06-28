@@ -147,3 +147,11 @@ modules:
     chatgpt_review: PASS
     revision_count: 2
     date: 2026-06-28
+  - module_id: OPN-010
+    title: The Organs of Civilization
+    movement: MOV-IV
+    word_count: 970
+    status: DRAFT_0
+    chatgpt_review: PASS
+    revision_count: 2
+    date: 2026-06-28
