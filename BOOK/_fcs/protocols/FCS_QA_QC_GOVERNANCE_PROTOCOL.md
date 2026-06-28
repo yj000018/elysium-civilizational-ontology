@@ -68,6 +68,10 @@ Any of the following conditions must immediately **stop production**. Execution 
 *   Compiled reader/source mismatch
 *   Word total mismatch between registry and compiled reader
 *   Module count mismatch between source drafts and compiled reader
+*   Any prose output with `llm_completion_status != COMPLETE`
+*   Any review output with `llm_completion_status == TRUNCATED_MAX_TOKENS`
+*   Any LLM output promoted to DRAFT_0 without verified completion status
+*   Any uncertainty about whether a text is complete
 *   Founder or Chief Architect uncertainty
 
 ---

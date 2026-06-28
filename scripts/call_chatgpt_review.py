@@ -16,7 +16,21 @@ Usage:
 """
 import argparse
 import os
+import sys
 import requests
+
+# Import LLM Output Guard for completion validation
+_SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
+if _SCRIPT_DIR not in sys.path:
+    sys.path.insert(0, _SCRIPT_DIR)
+try:
+    from llm_output_guard import validate_llm_output_completion, build_llm_metadata
+    _GUARD_AVAILABLE = True
+except ImportError:
+    _GUARD_AVAILABLE = False
+
+CHATGPT_MODEL = "gpt-4o-2024-08-06"
+CHATGPT_MAX_TOKENS = 500
 
 # Key resolution: env var first, then .user_env file, then hardcoded fallback
 def get_openai_key():
@@ -47,6 +61,8 @@ def main():
     parser.add_argument("--final", action="store_true", help="Final review mode (after revision)")
     parser.add_argument("--output_dir", default="BOOK/_fcs/api_outputs", help="Output directory")
     parser.add_argument("--phase", default="III-1A-S4", help="Phase ID for output filename")
+    parser.add_argument("--max_tokens", type=int, default=CHATGPT_MAX_TOKENS,
+                        help=f"Max output tokens for ChatGPT review (default: {CHATGPT_MAX_TOKENS})")
     args = parser.parse_args()
 
     module_id = args.module
@@ -90,12 +106,13 @@ SUMMARY: [1-2 sentences]"""
 
     print(f"[{label}] {module_id} ({wc}w)", flush=True)
 
+    max_tokens = args.max_tokens
     r = requests.post(
         "https://api.openai.com/v1/chat/completions",
         headers={"Authorization": f"Bearer {get_openai_key()}", "Content-Type": "application/json"},
-        json={"model": "gpt-4o-2024-08-06",
+        json={"model": CHATGPT_MODEL,
               "messages": [{"role": "user", "content": review_prompt}],
-              "max_tokens": 500, "temperature": 0.3},
+              "max_tokens": max_tokens, "temperature": 0.3},
         timeout=120
     )
     r.raise_for_status()
@@ -103,8 +120,27 @@ SUMMARY: [1-2 sentences]"""
     review = data["choices"][0]["message"]["content"]
     in_tok = data["usage"]["prompt_tokens"]
     out_tok = data["usage"]["completion_tokens"]
+    finish_reason = data["choices"][0].get("finish_reason", "")
 
-    print(f"Tokens: {in_tok} in / {out_tok} out", flush=True)
+    print(f"Tokens: {in_tok} in / {out_tok} out | finish_reason={finish_reason}", flush=True)
+
+    # Run completion validation on the review output
+    review_completion_status = "UNKNOWN"
+    if _GUARD_AVAILABLE:
+        meta = build_llm_metadata(
+            provider="openai", model=CHATGPT_MODEL,
+            max_tokens=max_tokens, input_tokens=in_tok, output_tokens=out_tok,
+            stop_reason=finish_reason, script="call_chatgpt_review.py",
+        )
+        validation = validate_llm_output_completion(review, meta, is_prose=False)
+        review_completion_status = validation["status"]
+        if review_completion_status != "COMPLETE":
+            print(f"[GUARD] WARNING: review completion_status={review_completion_status}", flush=True)
+            for reason in validation.get("reasons", []):
+                print(f"[GUARD]   - {reason}", flush=True)
+        else:
+            print(f"[GUARD] review completion_status=COMPLETE ✓", flush=True)
+
     print(f"\n=== {label} ===\n{review}\n=== END ===", flush=True)
 
     # Parse decision
@@ -121,7 +157,9 @@ SUMMARY: [1-2 sentences]"""
     open(path, "w").write(
         f"---\nid: PHASE_{phase_slug}_{module_slug}_{suffix}\n"
         f"module_id: {module_id}\ndecision: {decision}\n"
-        f"input_tokens: {in_tok}\noutput_tokens: {out_tok}\n---\n\n{review}"
+        f"input_tokens: {in_tok}\noutput_tokens: {out_tok}\n"
+        f"finish_reason: {finish_reason}\nllm_completion_status: {review_completion_status}\n"
+        f"max_tokens_requested: {max_tokens}\n---\n\n{review}"
     )
     print(f"Saved: {path}", flush=True)
     print(f"OUTPUT_PATH={path}", flush=True)

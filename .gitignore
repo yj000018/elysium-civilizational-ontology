@@ -4,3 +4,4 @@
 *.env
 .env*
 OPENAI_API_KEY*
+__pycache__/

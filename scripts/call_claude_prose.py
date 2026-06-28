@@ -2,6 +2,7 @@
 """
 ELYSIUM — Generic Claude API Prose Generator
 Handles all modes: initial prose, revision, compression.
+Integrates llm_output_guard for completion validation (LLM_OUTPUT_COMPLETION_AND_SECTIONING_PROTOCOL).
 
 Usage:
   # Initial prose
@@ -19,7 +20,18 @@ Usage:
 """
 import argparse
 import os
+import sys
 import anthropic
+
+# Import LLM Output Guard for completion validation
+_SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
+if _SCRIPT_DIR not in sys.path:
+    sys.path.insert(0, _SCRIPT_DIR)
+try:
+    from llm_output_guard import validate_llm_output_completion, build_llm_metadata, format_completion_block
+    _GUARD_AVAILABLE = True
+except ImportError:
+    _GUARD_AVAILABLE = False
 
 # Key resolution: env var first, then .user_env file, then hardcoded fallback
 def get_claude_key():
@@ -40,6 +52,9 @@ Voice: civilizational, lucid, literary but not ornate, rigorous but accessible. 
 No headers, no bullet points in prose. Pure literary-diagnostic paragraphs.
 Output ONLY the prose. No title, no preamble, no commentary."""
 
+CLAUDE_MODEL = "claude-opus-4-5"
+CLAUDE_MAX_TOKENS = 6000  # Raised from 4096 to reduce truncation risk
+
 def read_prose_body(path):
     """Read a markdown file and strip YAML frontmatter."""
     content = open(path).read()
@@ -48,17 +63,40 @@ def read_prose_body(path):
         return parts[2].strip() if len(parts) >= 3 else content
     return content
 
-def save_output(output_dir, phase_slug, module_slug, suffix, module_id, prose, input_tokens, output_tokens):
+def save_output(output_dir, phase_slug, module_slug, suffix, module_id, prose,
+                input_tokens, output_tokens, stop_reason="", max_tokens=CLAUDE_MAX_TOKENS):
     os.makedirs(output_dir, exist_ok=True)
     wc = len(prose.split())
+
+    # Run completion validation via LLM Output Guard
+    llm_completion_status = "UNKNOWN"
+    guard_issues = []
+    if _GUARD_AVAILABLE:
+        meta = build_llm_metadata(
+            provider="anthropic", model=CLAUDE_MODEL,
+            max_tokens=max_tokens, input_tokens=input_tokens, output_tokens=output_tokens,
+            stop_reason=stop_reason, script="call_claude_prose.py",
+        )
+        validation = validate_llm_output_completion(prose, meta, is_prose=True)
+        llm_completion_status = validation["status"]
+        guard_issues = validation.get("reasons", [])
+        if llm_completion_status != "COMPLETE":
+            print(f"[GUARD] WARNING: completion_status={llm_completion_status}", flush=True)
+            for r in guard_issues:
+                print(f"[GUARD]   - {r}", flush=True)
+        else:
+            print(f"[GUARD] completion_status=COMPLETE ✓", flush=True)
+
     filename = f"PHASE_{phase_slug}_{module_slug}_CLAUDE_{suffix}.md"
     path = os.path.join(output_dir, filename)
     open(path, "w").write(
         f"---\nid: PHASE_{phase_slug}_{module_slug}_CLAUDE_{suffix}\n"
         f"module_id: {module_id}\nword_count: {wc}\n"
-        f"input_tokens: {input_tokens}\noutput_tokens: {output_tokens}\n---\n\n{prose}"
+        f"input_tokens: {input_tokens}\noutput_tokens: {output_tokens}\n"
+        f"stop_reason: {stop_reason}\nllm_completion_status: {llm_completion_status}\n"
+        f"max_tokens_requested: {max_tokens}\n---\n\n{prose}"
     )
-    return path, wc
+    return path, wc, llm_completion_status
 
 def main():
     parser = argparse.ArgumentParser(description="ELYSIUM Claude API Prose Generator (all modes)")
@@ -71,12 +109,15 @@ def main():
     parser.add_argument("--target_words", type=int, help="Target word count for compression")
     parser.add_argument("--output_dir", default="BOOK/_fcs/api_outputs", help="Output directory")
     parser.add_argument("--phase", default="III-1A-S4", help="Phase ID for output filename")
+    parser.add_argument("--max_tokens", type=int, default=CLAUDE_MAX_TOKENS,
+                        help=f"Max output tokens for Claude (default: {CLAUDE_MAX_TOKENS})")
     args = parser.parse_args()
 
     module_id = args.module
     phase_slug = args.phase.replace("-", "_").replace("/", "_")
     module_slug = module_id.replace("-", "")
     client = anthropic.Anthropic(api_key=get_claude_key())
+    max_tokens = args.max_tokens
 
     # ── MODE: COMPRESS ──────────────────────────────────────────────────────
     if args.compress:
@@ -92,12 +133,15 @@ def main():
             f"Output ONLY the compressed prose."
         )
         print(f"[COMPRESS] {module_id}: {current_wc}w → target {target}w", flush=True)
-        msg = client.messages.create(model="claude-opus-4-5", max_tokens=4096,
+        msg = client.messages.create(model=CLAUDE_MODEL, max_tokens=max_tokens,
             system=SYSTEM_PROMPT, messages=[{"role": "user", "content": prompt}])
         prose = msg.content[0].text
-        path, wc = save_output(args.output_dir, phase_slug, module_slug, "COMPRESSED",
-                               module_id, prose, msg.usage.input_tokens, msg.usage.output_tokens)
-        print(f"Compressed: {wc}w | {msg.usage.input_tokens} in / {msg.usage.output_tokens} out")
+        stop_reason = msg.stop_reason or ""
+        path, wc, status = save_output(args.output_dir, phase_slug, module_slug, "COMPRESSED",
+                               module_id, prose, msg.usage.input_tokens, msg.usage.output_tokens,
+                               stop_reason=stop_reason, max_tokens=max_tokens)
+        print(f"Compressed: {wc}w | {msg.usage.input_tokens} in / {msg.usage.output_tokens} out | stop={stop_reason}")
+        print(f"COMPLETION_STATUS={status}")
         print(f"OUTPUT_PATH={path}"); print(f"WORD_COUNT={wc}")
 
     # ── MODE: REVISION ───────────────────────────────────────────────────────
@@ -116,12 +160,15 @@ def main():
             f"Output ONLY the revised prose."
         )
         print(f"[REVISION] {module_id}", flush=True)
-        msg = client.messages.create(model="claude-opus-4-5", max_tokens=4096,
+        msg = client.messages.create(model=CLAUDE_MODEL, max_tokens=max_tokens,
             system=SYSTEM_PROMPT, messages=[{"role": "user", "content": prompt}])
         prose = msg.content[0].text
-        path, wc = save_output(args.output_dir, phase_slug, module_slug, "REVISED",
-                               module_id, prose, msg.usage.input_tokens, msg.usage.output_tokens)
-        print(f"Revised: {wc}w | {msg.usage.input_tokens} in / {msg.usage.output_tokens} out")
+        stop_reason = msg.stop_reason or ""
+        path, wc, status = save_output(args.output_dir, phase_slug, module_slug, "REVISED",
+                               module_id, prose, msg.usage.input_tokens, msg.usage.output_tokens,
+                               stop_reason=stop_reason, max_tokens=max_tokens)
+        print(f"Revised: {wc}w | {msg.usage.input_tokens} in / {msg.usage.output_tokens} out | stop={stop_reason}")
+        print(f"COMPLETION_STATUS={status}")
         print(f"OUTPUT_PATH={path}"); print(f"WORD_COUNT={wc}")
 
     # ── MODE: INITIAL PROSE ──────────────────────────────────────────────────
@@ -137,12 +184,15 @@ def main():
             f"CONTEXT PACK:\n{context_pack}"
         )
         print(f"[PROSE] {module_id}", flush=True)
-        msg = client.messages.create(model="claude-opus-4-5", max_tokens=4096,
+        msg = client.messages.create(model=CLAUDE_MODEL, max_tokens=max_tokens,
             system=SYSTEM_PROMPT, messages=[{"role": "user", "content": prompt}])
         prose = msg.content[0].text
-        path, wc = save_output(args.output_dir, phase_slug, module_slug, "RAW",
-                               module_id, prose, msg.usage.input_tokens, msg.usage.output_tokens)
-        print(f"Generated: {wc}w | {msg.usage.input_tokens} in / {msg.usage.output_tokens} out")
+        stop_reason = msg.stop_reason or ""
+        path, wc, status = save_output(args.output_dir, phase_slug, module_slug, "RAW",
+                               module_id, prose, msg.usage.input_tokens, msg.usage.output_tokens,
+                               stop_reason=stop_reason, max_tokens=max_tokens)
+        print(f"Generated: {wc}w | {msg.usage.input_tokens} in / {msg.usage.output_tokens} out | stop={stop_reason}")
+        print(f"COMPLETION_STATUS={status}")
         print(f"OUTPUT_PATH={path}"); print(f"WORD_COUNT={wc}")
 
 if __name__ == "__main__":

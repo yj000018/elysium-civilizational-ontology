@@ -42,3 +42,5 @@ To operate FCS within Obsidian:
 - [`protocols/FCS_FSD_CONTROLLED_MODE_PROTOCOL.md`](protocols/FCS_FSD_CONTROLLED_MODE_PROTOCOL.md): FSD Controlled Mode — semi-autonomous execution with defined gates.
 - [`protocols/FCS_MULTI_LLM_ORCHESTRATION_PROTOCOL.md`](protocols/FCS_MULTI_LLM_ORCHESTRATION_PROTOCOL.md): Multi-LLM orchestration — Claude for prose, ChatGPT for review.
 - [`protocols/FCS_WRITING_BRIEF_PROTOCOL.md`](protocols/FCS_WRITING_BRIEF_PROTOCOL.md): Writing brief structure and usage.
+- [`protocols/LLM_OUTPUT_COMPLETION_AND_SECTIONING_PROTOCOL.md`](protocols/LLM_OUTPUT_COMPLETION_AND_SECTIONING_PROTOCOL.md): **LLM output completion & sectioning** — truncation detection, no-promotion rule, auto-rerun, structured section generation, provider finish reason mapping, QA/QC a posteriori. *Added 2026-06-28.*
+- [`registries/LLM_MATRIX.md`](registries/LLM_MATRIX.md): **LLM Matrix** — provider/model capabilities, output limits, finish reason mapping, capability matrix. *Added 2026-06-28.*

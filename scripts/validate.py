@@ -559,6 +559,35 @@ def validate_elysium_founder_reader_view():
         errors.append(f"[ELYSIUM] Founder Reader View missing F01 modules: found {f01_headings}/9")
 
 
+def validate_elysium_llm_completion_status():
+    """Check all API output files for llm_completion_status != COMPLETE."""
+    api_outputs_dir = BOOK / "_fcs" / "api_outputs"
+    if not api_outputs_dir.exists():
+        return
+    for f in sorted(api_outputs_dir.glob("*.md")):
+        content = f.read_text(encoding="utf-8")
+        if not content.startswith("---"):
+            continue
+        end = content.find("---", 3)
+        if end == -1:
+            continue
+        fm = content[3:end]
+        status_match = re.search(r'^llm_completion_status:\s*(\S+)', fm, re.M)
+        if not status_match:
+            continue  # No guard field — older output, skip
+        status = status_match.group(1).strip()
+        if status not in ("COMPLETE", "UNKNOWN"):
+            errors.append(
+                f"[ELYSIUM] API output has llm_completion_status={status} (not COMPLETE): "
+                f"{f.relative_to(REPO_ROOT)}"
+            )
+        elif status == "UNKNOWN":
+            warnings.append(
+                f"[ELYSIUM] API output has llm_completion_status=UNKNOWN (no finish_reason available): "
+                f"{f.relative_to(REPO_ROOT)}"
+            )
+
+
 def main():
     target_dir = BOOK
     if len(sys.argv) > 1:
@@ -588,6 +617,7 @@ def main():
     validate_elysium_terminal_punctuation()
     validate_elysium_no_four_flows()
     validate_elysium_founder_reader_view()
+    validate_elysium_llm_completion_status()
 
     print(f"\nErrors: {len(errors)}")
     for e in errors:
