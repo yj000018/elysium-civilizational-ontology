@@ -1,0 +1,122 @@
+---
+# yOS/FCS — LLM Orchestration Registry
+# Version: 0.1
+# Created: 2026-06-28
+# Protocol: FCS_MULTI_LLM_ORCHESTRATION_PROTOCOL.md
+
+registry_version: "0.1"
+principle: "Manus orchestrates; ChatGPT architects; Claude writes; Founder decides at gates."
+copy_paste_minimization: true
+silent_fallback_forbidden: true
+
+roles:
+  founder:
+    role: "vision, taste, constraints, approvals, decision gates"
+    consulted_at: "decision gates, approval gates, risk gates, ambiguity gates"
+    not_consulted_for: "routine file paths, mechanical updates, known branch names, repeated copy-paste"
+  manus:
+    role: "orchestration, files, Git, validation, reports"
+    may_act_alone_for: ["file_operations", "git", "validation", "metadata_patching", "registry_updates", "simple_templates", "local_reports", "mechanical_transformations"]
+    must_route_for: ["prose_writing", "prose_revision", "architectural_review", "ontology_synthesis", "coherence_review", "content_compression", "writing_brief_generation", "translation_review", "multi_step_intellectual_work"]
+  chatgpt_api:
+    role: "architecture, ontology alignment, coherence, review, writing briefs"
+    model_preference: "gpt-4o or equivalent"
+    call_method: "OpenAI API via Manus sandbox"
+  claude_api:
+    role: "prose writing, voice, flow, revision"
+    model_preference: "claude-sonnet-4 or equivalent"
+    call_method: "Anthropic API via Manus sandbox"
+    api_key_source: "Manus Secrets / sk-ant-api03-..."
+  specialist_tools:
+    role: "domain-specific extraction, formatting, diagrams, translation, data"
+    examples: ["Perplexity", "Exa", "Firecrawl", "Manim", "Manus generate"]
+
+artifact_status_labels:
+  api_status:
+    - NOT_REQUIRED
+    - USED
+    - FAILED
+    - NOT_CALLED_SCAFFOLD_ONLY
+  fallback_status:
+    - NONE
+    - PROVISIONAL_MANUS_OUTPUT
+    - SCAFFOLD_ONLY
+    - BLOCKED
+  approval_status:
+    - PENDING
+    - APPROVED
+    - REJECTED
+
+phase_routing:
+  xray_architecture:
+    manus: required
+    chatgpt_api: recommended
+    claude_api: not_used
+    notes: "Manus inspects files; ChatGPT reviews architecture; Manus applies changes"
+  writing_brief:
+    manus: required
+    chatgpt_api: required
+    claude_api: not_used
+    notes: "Manus scaffolds; ChatGPT reviews/enriches brief architecture"
+  prose_generation:
+    manus: required
+    chatgpt_api: required_for_structure_and_review
+    claude_api: required_for_prose
+    notes: "ChatGPT validates brief; Claude writes prose; ChatGPT reviews; Claude revises if needed"
+  translation:
+    manus: required
+    chatgpt_api: required_for_conceptual_review
+    claude_api: optional_or_required_for_translation
+    notes: "Claude or specialist translates; ChatGPT reviews conceptual fidelity"
+  atlas_research:
+    manus: required
+    chatgpt_api: required_for_synthesis
+    claude_api: not_used_unless_prose
+    notes: "Manus gathers corpus; ChatGPT synthesizes; specialist tools may extract"
+
+gate_model:
+  stop_and_ask_founder:
+    - architecture_lock_gate
+    - founder_taste_voice_gate
+    - major_split_merge_remove_decision
+    - factual_uncertainty_gate
+    - risk_gate
+    - cost_escalation_gate
+    - publication_readiness_gate
+    - s4_prose_authorization_gate
+  do_not_ask_founder:
+    - routine_file_paths
+    - mechanical_registry_updates
+    - known_branch_names_if_inferable
+    - repeated_copy_paste
+    - reports_readable_from_repo
+    - obvious_validation_reruns
+
+cost_control:
+  cost_classes:
+    LOW: "file operations, git, validation, metadata, registry"
+    MEDIUM: "ChatGPT API single pass, Claude API single module"
+    HIGH: "multi-pass ChatGPT + Claude, full part review, atlas synthesis"
+  expensive_calls_only_when:
+    - structure_is_complex
+    - prose_quality_matters
+    - ontology_coherence_matters
+    - founder_authorized_deeper_review
+    - publication_level_quality_required
+
+# Current ELYSIUM Phase III-1A application
+elysium_phase_iii_1a_application:
+  s3_status: "13 Writing Briefs generated — SCAFFOLDED — not yet reviewed by ChatGPT API"
+  s3_r_requirement: "ChatGPT API VIA API must review/enrich all 13 Writing Briefs before S4"
+  s4_requirement: "Claude API VIA API must write prose, one module at a time"
+  claude_usage_rule: "Claude not called until S4 is authorized by Founder + Chief Architect"
+  chatgpt_review_rule: "ChatGPT API must review Claude prose for ontology alignment before DRAFT_0 promotion"
+  s4_gate: "S4 does not start until all 13 briefs are approved by Founder + Chief Architect"
+
+# Inheritance
+inherits_from:
+  - "07_YOS_PATTERN_LIBRARY/LLM_ROUTING_MATRIX_PROTOCOL.md (v0.2)"
+  - "07_YOS_PATTERN_LIBRARY/MODEL_ROUTING_MATRIX.md"
+  - "BOOK/_fcs/protocols/FCS_WRITING_BRIEF_PROTOCOL.md"
+  - "yOS Program Mode Doc 11 — Model Routing & Agent Roles Protocol"
+does_not_replace: "Existing yOS Routing Matrix — this is a FCS/ELYSIUM operational specialization"
