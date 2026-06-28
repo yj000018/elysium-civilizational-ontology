@@ -5,6 +5,7 @@ title_en: "The Three Scales"
 title_fr: "Les trois échelles"
 part: 01_opening
 movement: MOV-IV
+canonical_title_en: "The Three Scales"
 movement_title: "The Architecture of a New Map"
 artifact_type: writing_brief
 phase: III-1A-S3

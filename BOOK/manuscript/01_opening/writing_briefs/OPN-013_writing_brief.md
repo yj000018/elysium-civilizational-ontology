@@ -146,7 +146,7 @@ Light. The reading contract is a gesture, not an argument.
 
 - **Follows:** OPN-012 — The Seven Foundations
 - **Precedes:** None — this is the closing module of the Opening
-- **Prepares:** The reader's entry into Part I
+- **Prepares:** The reader's entry into the main journey of the book
 
 ---
 
@@ -233,7 +233,7 @@ Write module OPN-013 of the ELYSIUM book Opening Part. Title: 'The Reading Contr
 ### Revised Narrative Architecture
 - **Reader transition:** Arrives with the framework of the Seven Foundations / Leaves with a clear understanding of the book's structure and their role as a reader.
 - **Opening direction:** Transition from the foundations to the reading contract.
-- **Closing direction:** Extend an invitation to the reader to engage with Part I.
+- **Closing direction:** Extend an invitation to the reader into the main journey of the book: the path through the Seven Foundations.
 
 ### Key Concepts & Traps
 - **Three key concepts:** 1. Reading contract / 2. Book structure / 3. Reader invitation
@@ -247,7 +247,7 @@ Write module OPN-013 of the ELYSIUM book Opening Part. Title: 'The Reading Contr
 - **Forbidden moves:** Avoid summarizing previous content.
 
 ### Claude S4 Prompt Seed
-> "Write the reading contract module — close the Opening by telling the reader what the book will do and inviting them into Part I with the metabolic lens and the skeleton of the seven foundations."
+> "Write the reading contract module — close the Opening by telling the reader what the book will do and inviting the reader into the main journey of the book: the path through the Seven Foundations."
 
 ### Founder Note Suggestions
 Consider including a visual map to enhance reader engagement.

@@ -126,7 +126,7 @@ modules:
   - id: OPN-007
     title_en: "The Machine Metaphor and Its Limits"
     title_fr: "La métaphore de la machine et ses limites"
-    movement: MOV-III
+    movement: MOV-IV
     word_target: 600
     word_min: 500
     word_max: 700
@@ -140,7 +140,7 @@ modules:
   - id: OPN-008
     title_en: "Civilization as Metabolic Entity"
     title_fr: "La civilisation comme entité métabolique"
-    movement: MOV-III
+    movement: MOV-IV
     word_target: 1050
     word_min: 900
     word_max: 1200
@@ -154,7 +154,7 @@ modules:
   - id: OPN-009
     title_en: "The Five Classes of Civilizational Flows"
     title_fr: "Les cinq classes de flux civilisationnels"
-    movement: MOV-III
+    movement: MOV-IV
     word_target: 900
     word_min: 800
     word_max: 1000

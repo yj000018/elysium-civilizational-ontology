@@ -1,0 +1,6 @@
+
+# Secrets and API keys
+.user_env
+*.env
+.env*
+OPENAI_API_KEY*

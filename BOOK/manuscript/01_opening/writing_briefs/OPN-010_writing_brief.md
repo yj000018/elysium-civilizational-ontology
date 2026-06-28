@@ -5,6 +5,7 @@ title_en: "The Ontological Foundation"
 title_fr: "Le fondement ontologique"
 part: 01_opening
 movement: MOV-IV
+canonical_title_en: "Why We Need a Civilizational Ontology"
 movement_title: "The Architecture of a New Map"
 artifact_type: writing_brief
 phase: III-1A-S3
