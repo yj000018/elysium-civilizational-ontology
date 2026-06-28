@@ -12,6 +12,39 @@ generated_date: "2026-06-28"
 ---
 
 # Opening X-Ray Reader — Enriched (EN)
+
+---
+
+# Chief Architect Review Decisions — Phase III-1A-S2X-R2
+
+**Opening X-Ray Version:** v0.2 — Accepted 2026-06-28
+**4-movement / 13-module architecture:** ACCEPTED
+**Global prose status:** NOT_WRITTEN
+**S3 status:** NOT_STARTED
+
+| Module | Decision | Readiness | Key Notes |
+|---|---|---|---|
+| OPN-001 | KEEP | XRAY_REVIEWED | Phenomenological opening. Lived atmosphere before theory. No doom rhetoric. |
+| OPN-002 | KEEP | XRAY_REVIEWED | Systemic pattern/interdependence. No crisis catalogue. No "everything is connected" cliché. |
+| OPN-003 | KEEP_WITH_OVERLAP_CAUTION | XRAY_REVIEWED | Patient metaphor. Clear separation from OPN-002. No overextension of medical metaphor. |
+| OPN-004 | KEEP | XRAY_REVIEWED | Structural critique of silos. Respectful of expertise. Critique fragmentation, not intelligence. |
+| OPN-005 | KEEP | XRAY_REVIEWED | Displacement logic: temporal/spatial/domain. No partisan examples. |
+| OPN-006 | REFINE_HINGE_TO_MOV_III | XRAY_REVIEWED_WITH_REFINEMENT | **Hinge module.** Closes critique of fragmented maps → opens metabolic lens (MOV-III). |
+| OPN-007 | KEEP | XRAY_REVIEWED | Anti-machine-metaphor, not anti-technology. Short and clear. |
+| OPN-008 | KEEP_CRITICAL | CRITICAL_REVIEWED | **Central metabolic pivot.** Do not split. Thermodynamic grounding light. If this fails, Opening fails. |
+| OPN-009 | REFINE_TERMINOLOGY | XRAY_REVIEWED_WITH_REFINEMENT | Replace "five metabolic dimensions" → "five classes of civilizational flows". Not a competing architecture. |
+| OPN-010 | KEEP | XRAY_REVIEWED | Ontology vs ideology distinction. "Map of dependencies" framing. No academic jargon. |
+| OPN-011 | KEEP | XRAY_REVIEWED | First architectural reveal. 3 Scales = horizontal axis. Keep brief. |
+| OPN-012 | KEEP_CRITICAL_FULL_REVEAL_LIGHT | CRITICAL_REVIEWED | **FULL REVEAL LIGHT.** Name all 7 Foundations. Ascent logic. No mini-chapters. No 38 Facets. Preserve Part II. |
+| OPN-013 | KEEP_WITH_VISUAL_MAP_RECOMMENDATION | XRAY_REVIEWED | Reading contract. Add compact visual map (3 Scales + 7 Foundations + reader path). Warm tone. |
+
+**Canonical phrase for OPN-012:** "Reveal the skeleton of the Seven Foundations, not the full body of Part II."
+
+**Architecture Note (OPN-009):** The five classes of civilizational flows are explanatory bridges, not a new canonical architecture. The canonical ELYSIUM architecture remains 3 Scales × 7 Foundations × 38 Facets × 12-Step Matrix.
+
+---
+
+
 _ELYSIUM — Civilizational Ontology
 Opening Part — Full Structural Architecture View
 Phase III-1A-S2X-R | Status: XRAY_DRAFT | Prose: NOT_WRITTEN_
@@ -204,7 +237,7 @@ Open with a scene or atmospheric observation that captures civilizational unease
 
 | Status | X-Ray Status | Writing Priority | Readiness |
 |---|---|---|---|
-| SCAFFOLDED | XRAY_DRAFT | HIGH | XRAY_DRAFT |
+| SCAFFOLDED | XRAY_DRAFT | HIGH | XRAY_REVIEWED |
 
 ---
 ### OPN-002 — The Polycrisis Is Not an Addition of Crises
@@ -285,7 +318,7 @@ Show why listing crises is a cognitive trap. Introduce interdependence through 2
 
 | Status | X-Ray Status | Writing Priority | Readiness |
 |---|---|---|---|
-| SCAFFOLDED | XRAY_DRAFT | HIGH | XRAY_DRAFT |
+| SCAFFOLDED | XRAY_DRAFT | HIGH | XRAY_REVIEWED |
 
 ---
 ### OPN-003 — The Symptom and the Patient
@@ -366,7 +399,7 @@ Use 2-3 concrete examples of symptom-treatment that made the patient worse. Then
 
 | Status | X-Ray Status | Writing Priority | Readiness |
 |---|---|---|---|
-| SCAFFOLDED | XRAY_DRAFT | HIGH | XRAY_DRAFT |
+| SCAFFOLDED | XRAY_DRAFT | HIGH | XRAY_REVIEWED |
 
 ---
 
@@ -454,7 +487,7 @@ Open by honoring expertise. Then show 2-3 concrete examples of how silo optimiza
 
 | Status | X-Ray Status | Writing Priority | Readiness |
 |---|---|---|---|
-| SCAFFOLDED | XRAY_DRAFT | HIGH | XRAY_DRAFT |
+| SCAFFOLDED | XRAY_DRAFT | HIGH | XRAY_REVIEWED |
 
 ---
 ### OPN-005 — Half-Solutions That Displace the Problem
@@ -535,7 +568,7 @@ Open with a concrete policy example of displacement. Show the three dimensions (
 
 | Status | X-Ray Status | Writing Priority | Readiness |
 |---|---|---|---|
-| SCAFFOLDED | XRAY_DRAFT | HIGH | XRAY_DRAFT |
+| SCAFFOLDED | XRAY_DRAFT | HIGH | XRAY_REVIEWED |
 
 ---
 ### OPN-006 — Why Expertise Alone Is No Longer Sufficient
@@ -615,7 +648,7 @@ Open by honoring expertise. Show what expertise cannot do at civilizational scal
 
 | Status | X-Ray Status | Writing Priority | Readiness |
 |---|---|---|---|
-| SCAFFOLDED | XRAY_DRAFT | HIGH | XRAY_DRAFT |
+| SCAFFOLDED | XRAY_DRAFT | HIGH | XRAY_REVIEWED_WITH_REFINEMENT |
 
 ---
 
@@ -702,7 +735,7 @@ Name the machine metaphor. Show its origin and dominance. Show what it misses ab
 
 | Status | X-Ray Status | Writing Priority | Readiness |
 |---|---|---|---|
-| SCAFFOLDED | XRAY_DRAFT | HIGH | XRAY_DRAFT |
+| SCAFFOLDED | XRAY_DRAFT | HIGH | XRAY_REVIEWED |
 
 ---
 ### OPN-008 — A Civilization Is a Living Metabolism
@@ -783,16 +816,16 @@ Introduce the metabolic concept through a concrete example (city, food system, o
 
 | Status | X-Ray Status | Writing Priority | Readiness |
 |---|---|---|---|
-| SCAFFOLDED | XRAY_DRAFT | CRITICAL | XRAY_DRAFT |
+| SCAFFOLDED | XRAY_DRAFT | CRITICAL | CRITICAL_REVIEWED |
 
 ---
 ### OPN-009 — Energy, Matter, Institutions, Narratives, Consciousness
 
 > Civilization metabolizes energy, matter, institutions, narratives, and consciousness. All five are interdependent.
 
-**Executive Summary:** This module extends the metabolic lens beyond the material. Civilization metabolizes not only energy and matter but also institutions, narratives, knowledge, values, and consciousness. This five-dimension view prepares the ELYSIUM architecture and shows why the Seven Foundations span from energy to consciousness.
+**Executive Summary:** This module extends the metabolic lens beyond the material. Civilization metabolizes not only energy and matter but also institutions, narratives, knowledge, values, and consciousness. This five-flow view prepares the ELYSIUM architecture and shows why the Seven Foundations span from energy to consciousness.
 
-**Reader Transition:** Has the metabolic lens for material flows; ready to extend it to symbolic and conscious flows. → Has the full five-dimension metabolic view; ready to receive the ELYSIUM architecture.
+**Reader Transition:** Has the metabolic lens for material flows; ready to extend it to symbolic and conscious flows. → Has the full five classes of civilizational flows; ready to receive the ELYSIUM architecture.
 
 **Key Points to Develop**
 - Five metabolic dimensions: energy, matter, institutions, narratives, consciousness
@@ -864,7 +897,7 @@ Extend metabolism dimension by dimension: energy → matter → institutions →
 
 | Status | X-Ray Status | Writing Priority | Readiness |
 |---|---|---|---|
-| SCAFFOLDED | XRAY_DRAFT | HIGH | XRAY_DRAFT |
+| SCAFFOLDED | XRAY_DRAFT | HIGH | XRAY_REVIEWED_WITH_REFINEMENT |
 
 ---
 
@@ -880,7 +913,7 @@ _The ontological architecture — 3 Scales, 7 Foundations, reading contract_
 
 **Executive Summary:** This module explains why a civilizational ontology is needed: not as a theory among others, but as a map of the real dependencies between civilizational dimensions. An ontology is not an ideology — it is a map of what exists and how it is structured. The ELYSIUM architecture is this map.
 
-**Reader Transition:** Has the five-dimension metabolic view; ready to receive the architectural map. → Understands why an ontology is needed; open to the ELYSIUM architecture.
+**Reader Transition:** Has the five classes of civilizational flows; ready to receive the architectural map. → Understands why an ontology is needed; open to the ELYSIUM architecture.
 
 **Key Points to Develop**
 - Ontology = map of dependencies, not ideology
@@ -892,7 +925,7 @@ _The ontological architecture — 3 Scales, 7 Foundations, reading contract_
 **Beats**
 - Define ontology: a map of what exists and how it is structured
 - Distinguish ontology from ideology, theory, and worldview
-- Show why the five metabolic dimensions need an ontological map
+- Show why the five classes of civilizational flows need an ontological map
 - Introduce ELYSIUM as this map
 - Bridge to OPN-011: the 3 Scales as the first orienting dimension
 
@@ -948,11 +981,11 @@ _The ontological architecture — 3 Scales, 7 Foundations, reading contract_
 No split needed.
 
 **Future Writing Brief Seed**
-Define ontology through a concrete analogy (map vs. territory). Show why the five metabolic dimensions need a map. Introduce ELYSIUM as this map. Position it as empirical, not ideological.
+Define ontology through a concrete analogy (map vs. territory). Show why the five classes of civilizational flows need a map. Introduce ELYSIUM as this map. Position it as empirical, not ideological.
 
 | Status | X-Ray Status | Writing Priority | Readiness |
 |---|---|---|---|
-| SCAFFOLDED | XRAY_DRAFT | HIGH | XRAY_DRAFT |
+| SCAFFOLDED | XRAY_DRAFT | HIGH | XRAY_REVIEWED |
 
 ---
 ### OPN-011 — The Three Scales of Reality
@@ -1032,7 +1065,7 @@ Introduce the 3 Scales through a concrete example of a challenge that operates a
 
 | Status | X-Ray Status | Writing Priority | Readiness |
 |---|---|---|---|
-| SCAFFOLDED | XRAY_DRAFT | HIGH | XRAY_DRAFT |
+| SCAFFOLDED | XRAY_DRAFT | HIGH | XRAY_REVIEWED |
 
 ---
 ### OPN-012 — The Seven Foundations as a Reading Path
@@ -1122,7 +1155,7 @@ Name the Seven Foundations. Show the ascent logic. Show why the order is not arb
 
 | Status | X-Ray Status | Writing Priority | Readiness |
 |---|---|---|---|
-| SCAFFOLDED | XRAY_DRAFT | CRITICAL | XRAY_DRAFT |
+| SCAFFOLDED | XRAY_DRAFT | CRITICAL | CRITICAL_REVIEWED |
 
 ---
 ### OPN-013 — How to Enter This Book
@@ -1202,6 +1235,6 @@ Name what the book is and is not. Give the reading contract in 3-4 clear stateme
 
 | Status | X-Ray Status | Writing Priority | Readiness |
 |---|---|---|---|
-| SCAFFOLDED | XRAY_DRAFT | HIGH | XRAY_DRAFT |
+| SCAFFOLDED | XRAY_DRAFT | HIGH | XRAY_REVIEWED |
 
 ---

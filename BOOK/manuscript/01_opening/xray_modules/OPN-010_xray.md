@@ -12,6 +12,12 @@ prose_status: NOT_WRITTEN
 writing_priority: HIGH
 readiness_status: XRAY_DRAFT
 created_by: "Manus — Phase III-1A-S2X"
+chief_architect_decision: "KEEP"
+chief_architect_review_status: "REVIEWED"
+readiness_status: "XRAY_REVIEWED"
+prose_status: "NOT_WRITTEN"
+s3_status: "NOT_STARTED"
+phase_iii_1a_s3_ready: false
 ---
 
 # Module Identity
@@ -49,7 +55,7 @@ created_by: "Manus — Phase III-1A-S2X"
 
 | | EN | FR |
 |---|---|---|
-| **State In** | Has the five-dimension metabolic view; ready to receive the architectural map. | A la vue métabolique à cinq dimensions ; prêt à recevoir la carte architecturale. |
+| **State In** | Has the five classes of civilizational flows; ready to receive the architectural map. | A la vue métabolique à cinq dimensions ; prêt à recevoir la carte architecturale. |
 | **State Out** | Understands why an ontology is needed; open to the ELYSIUM architecture. | Comprend pourquoi une ontologie est nécessaire ; ouvert à l'architecture ELYSIUM. |
 
 ---
@@ -59,7 +65,7 @@ created_by: "Manus — Phase III-1A-S2X"
 **EN:**
 - Define ontology: a map of what exists and how it is structured
 - Distinguish ontology from ideology, theory, and worldview
-- Show why the five metabolic dimensions need an ontological map
+- Show why the five classes of civilizational flows need an ontological map
 - Introduce ELYSIUM as this map
 - Bridge to OPN-011: the 3 Scales as the first orienting dimension
 
@@ -186,7 +192,7 @@ No split needed.
 
 # Future Writing Brief Seed
 
-**EN:** Define ontology through a concrete analogy (map vs. territory). Show why the five metabolic dimensions need a map. Introduce ELYSIUM as this map. Position it as empirical, not ideological.
+**EN:** Define ontology through a concrete analogy (map vs. territory). Show why the five classes of civilizational flows need a map. Introduce ELYSIUM as this map. Position it as empirical, not ideological.
 
 **FR:** Définir l'ontologie à travers une analogie concrète. Montrer pourquoi les cinq dimensions ont besoin d'une carte. Introduire ELYSIUM comme cette carte.
 
@@ -199,3 +205,22 @@ No split needed.
 NOT_WRITTEN
 
 _No prose may be written until readiness_status = READY_FOR_ROUTED_PROSE and Founder has explicitly approved._
+
+---
+
+## Chief Architect Review — Phase III-1A-S2X-R2
+
+**Decision:** KEEP
+**Readiness:** XRAY_REVIEWED
+**Prose Status:** NOT_WRITTEN
+**S3 Status:** NOT_STARTED
+
+**Review Notes:**
+
+- Strong distinction between ontology and ideology.
+- Keep 'map of dependencies' framing.
+- Avoid academic philosophy jargon.
+- Prepare OPN-011.
+
+> No module is approved for prose writing until Founder confirms after Chief Architect patch.
+

@@ -1,13 +1,13 @@
 # Status Report
 
-**Total nodes:** 142
-**Total word count:** 16268
+**Total nodes:** 156
+**Total word count:** 29267
 
 ## Status Distribution
 
 | Status | Count |
 |---|---|
-| SCAFFOLDED | 72 |
+| SCAFFOLDED | 86 |
 | PLANNED | 14 |
 | DRAFT | 4 |
 
@@ -24,3 +24,4 @@
 | movement_manifest | 1 |
 | module_map | 1 |
 | folder | 1 |
+| folder_index | 1 |

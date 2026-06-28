@@ -12,6 +12,12 @@ prose_status: NOT_WRITTEN
 writing_priority: HIGH
 readiness_status: XRAY_DRAFT
 created_by: "Manus — Phase III-1A-S2X"
+chief_architect_decision: "REFINE_TERMINOLOGY"
+chief_architect_review_status: "REVIEWED"
+readiness_status: "XRAY_REVIEWED_WITH_REFINEMENT"
+prose_status: "NOT_WRITTEN"
+s3_status: "NOT_STARTED"
+phase_iii_1a_s3_ready: false
 ---
 
 # Module Identity
@@ -31,7 +37,7 @@ created_by: "Manus — Phase III-1A-S2X"
 
 # Executive Summary
 
-**EN:** This module extends the metabolic lens beyond the material. Civilization metabolizes not only energy and matter but also institutions, narratives, knowledge, values, and consciousness. This five-dimension view prepares the ELYSIUM architecture and shows why the Seven Foundations span from energy to consciousness.
+**EN:** This module extends the metabolic lens beyond the material. Civilization metabolizes not only energy and matter but also institutions, narratives, knowledge, values, and consciousness. This five-flow view prepares the ELYSIUM architecture and shows why the Seven Foundations span from energy to consciousness.
 
 **FR:** Ce module étend la lentille métabolique au-delà du matériel. La civilisation métabolise non seulement l'énergie et la matière, mais aussi les institutions, les récits, le savoir, les valeurs et la conscience. Cette vue à cinq dimensions prépare l'architecture ELYSIUM et montre pourquoi les Sept Fondations s'étendent de l'énergie à la conscience.
 
@@ -50,7 +56,7 @@ created_by: "Manus — Phase III-1A-S2X"
 | | EN | FR |
 |---|---|---|
 | **State In** | Has the metabolic lens for material flows; ready to extend it to symbolic and conscious flows. | A la lentille métabolique pour les flux matériels ; prêt à l'étendre aux flux symboliques et conscients. |
-| **State Out** | Has the full five-dimension metabolic view; ready to receive the ELYSIUM architecture. | A la vue métabolique complète à cinq dimensions ; prêt à recevoir l'architecture ELYSIUM. |
+| **State Out** | Has the full five classes of civilizational flows; ready to receive the ELYSIUM architecture. | A la vue métabolique complète à cinq dimensions ; prêt à recevoir l'architecture ELYSIUM. |
 
 ---
 
@@ -199,3 +205,25 @@ No split needed. Could be merged with OPN-008 if MOV-III is compressed to 2 modu
 NOT_WRITTEN
 
 _No prose may be written until readiness_status = READY_FOR_ROUTED_PROSE and Founder has explicitly approved._
+
+> **Architecture Note:** These five classes of civilizational flows are explanatory bridges, not a new canonical architecture. The canonical ELYSIUM architecture remains 3 Scales × 7 Foundations × 38 Facets × 12-Step Matrix.
+
+---
+
+## Chief Architect Review — Phase III-1A-S2X-R2
+
+**Decision:** REFINE_TERMINOLOGY
+**Readiness:** XRAY_REVIEWED_WITH_REFINEMENT
+**Prose Status:** NOT_WRITTEN
+**S3 Status:** NOT_STARTED
+
+**Review Notes:**
+
+- Replace 'five metabolic dimensions' with 'five classes of civilizational flows'.
+- These are not canonical dimensions of ELYSIUM.
+- They are explanatory flow classes preparing the 7 Foundations.
+- Preserve link to energy, matter, institutions, narratives, consciousness.
+- Ensure 3 Scales x 7 Foundations x 38 Facets remains the only canonical architecture.
+
+> No module is approved for prose writing until Founder confirms after Chief Architect patch.
+

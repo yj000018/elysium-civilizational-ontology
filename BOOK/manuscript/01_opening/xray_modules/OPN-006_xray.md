@@ -12,6 +12,12 @@ prose_status: NOT_WRITTEN
 writing_priority: HIGH
 readiness_status: XRAY_DRAFT
 created_by: "Manus — Phase III-1A-S2X"
+chief_architect_decision: "REFINE_HINGE_TO_MOV_III"
+chief_architect_review_status: "REVIEWED"
+readiness_status: "XRAY_REVIEWED_WITH_REFINEMENT"
+prose_status: "NOT_WRITTEN"
+s3_status: "NOT_STARTED"
+phase_iii_1a_s3_ready: false
 ---
 
 # Module Identity
@@ -198,3 +204,26 @@ No split needed.
 NOT_WRITTEN
 
 _No prose may be written until readiness_status = READY_FOR_ROUTED_PROSE and Founder has explicitly approved._
+
+---
+
+**Chief Architect Hinge Note:** OPN-006 closes the critique of fragmented maps and creates the need for a new integrative lens; MOV-III provides that lens through the metabolic frame.
+
+---
+
+## Chief Architect Review — Phase III-1A-S2X-R2
+
+**Decision:** REFINE_HINGE_TO_MOV_III
+**Readiness:** XRAY_REVIEWED_WITH_REFINEMENT
+**Prose Status:** NOT_WRITTEN
+**S3 Status:** NOT_STARTED
+
+**Review Notes:**
+
+- OPN-006 must be explicitly framed as the hinge from MOV-II to MOV-III.
+- It closes the critique of fragmented maps and creates the need for a new integrative lens.
+- MOV-III provides that lens through metabolism.
+- Keep the ontology preparation, but do not skip the metabolic transition.
+
+> No module is approved for prose writing until Founder confirms after Chief Architect patch.
+

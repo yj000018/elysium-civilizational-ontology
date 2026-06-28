@@ -12,6 +12,39 @@ generated_date: "2026-06-28"
 ---
 
 # Lecteur X-Ray Ouverture — Enrichi (FR)
+
+---
+
+# Décisions de Revue Chief Architect — Phase III-1A-S2X-R2
+
+**Version X-Ray Opening :** v0.2 — Acceptée le 2026-06-28
+**Architecture 4 mouvements / 13 modules :** ACCEPTÉE
+**Statut prose global :** NOT_WRITTEN
+**Statut S3 :** NOT_STARTED
+
+| Module | Décision | Maturité | Notes clés |
+|---|---|---|---|
+| OPN-001 | KEEP | XRAY_REVIEWED | Ouverture phénoménologique. Atmosphère vécue avant théorie. Pas de rhétorique catastrophiste. |
+| OPN-002 | KEEP | XRAY_REVIEWED | Motif systémique/interdépendance. Pas de catalogue de crises. Pas de cliché "tout est connecté". |
+| OPN-003 | KEEP_WITH_OVERLAP_CAUTION | XRAY_REVIEWED | Métaphore du patient. Séparation claire avec OPN-002. Ne pas surétendre la métaphore médicale. |
+| OPN-004 | KEEP | XRAY_REVIEWED | Critique structurelle des silos. Respectueux de l'expertise. Critiquer la fragmentation, pas l'intelligence. |
+| OPN-005 | KEEP | XRAY_REVIEWED | Logique de déplacement : temporel/spatial/domaine. Pas d'exemples partisans. |
+| OPN-006 | REFINE_HINGE_TO_MOV_III | XRAY_REVIEWED_WITH_REFINEMENT | **Module charnière.** Clôt la critique des cartes fragmentées → ouvre la lentille métabolique (MOV-III). |
+| OPN-007 | KEEP | XRAY_REVIEWED | Anti-métaphore-machine, pas anti-technologie. Court et clair. |
+| OPN-008 | KEEP_CRITICAL | CRITICAL_REVIEWED | **Pivot métabolique central.** Ne pas diviser. Ancrage thermodynamique léger. Si ce module échoue, l'Opening échoue. |
+| OPN-009 | REFINE_TERMINOLOGY | XRAY_REVIEWED_WITH_REFINEMENT | Remplacer "cinq dimensions métaboliques" → "cinq classes de flux civilisationnels". Pas une architecture concurrente. |
+| OPN-010 | KEEP | XRAY_REVIEWED | Distinction ontologie vs idéologie. Cadrage "carte des dépendances". Pas de jargon académique. |
+| OPN-011 | KEEP | XRAY_REVIEWED | Premier révélation architecturale. 3 Scales = axe horizontal. Rester bref. |
+| OPN-012 | KEEP_CRITICAL_FULL_REVEAL_LIGHT | CRITICAL_REVIEWED | **FULL REVEAL LIGHT.** Nommer les 7 Fondations. Logique d'ascension. Pas de mini-chapitres. Pas de 38 Facettes. Préserver la Partie II. |
+| OPN-013 | KEEP_WITH_VISUAL_MAP_RECOMMENDATION | XRAY_REVIEWED | Contrat de lecture. Ajouter carte visuelle compacte (3 Scales + 7 Foundations + chemin de lecture). Ton chaleureux. |
+
+**Phrase canonique OPN-012 :** « Révéler le squelette des Sept Fondations, pas le corps entier de la Partie II. »
+
+**Note d'architecture (OPN-009) :** Les cinq classes de flux civilisationnels sont des ponts explicatifs, pas une nouvelle architecture canonique. L'architecture canonique ELYSIUM reste 3 Scales × 7 Foundations × 38 Facets × 12-Step Matrix.
+
+---
+
+
 _ELYSIUM — Ontologie Civilisationnelle
 Partie Ouverture — Vue Architecture Structurelle Complète
 Phase III-1A-S2X-R | Statut : XRAY_DRAFT | Prose : NOT_WRITTEN_
@@ -165,7 +198,7 @@ Ouvrir avec une scène ou une observation atmosphérique qui capture le malaise 
 
 | Status | X-Ray Status | Writing Priority | Readiness |
 |---|---|---|---|
-| SCAFFOLDED | XRAY_DRAFT | HIGH | XRAY_DRAFT |
+| SCAFFOLDED | XRAY_DRAFT | HIGH | XRAY_REVIEWED |
 
 ---
 ### OPN-002 — La polycrise n'est pas une addition de crises
@@ -248,7 +281,7 @@ Montrer pourquoi lister les crises est un piège cognitif. Introduire l'interdé
 
 | Status | X-Ray Status | Writing Priority | Readiness |
 |---|---|---|---|
-| SCAFFOLDED | XRAY_DRAFT | HIGH | XRAY_DRAFT |
+| SCAFFOLDED | XRAY_DRAFT | HIGH | XRAY_REVIEWED |
 
 ---
 ### OPN-003 — Le symptôme et le patient
@@ -331,7 +364,7 @@ Utiliser 2-3 exemples concrets de traitement de symptômes qui ont aggravé le p
 
 | Status | X-Ray Status | Writing Priority | Readiness |
 |---|---|---|---|
-| SCAFFOLDED | XRAY_DRAFT | HIGH | XRAY_DRAFT |
+| SCAFFOLDED | XRAY_DRAFT | HIGH | XRAY_REVIEWED |
 
 ---
 
@@ -421,7 +454,7 @@ Ouvrir en honorant l'expertise. Puis montrer 2-3 exemples concrets. Fermer en no
 
 | Status | X-Ray Status | Writing Priority | Readiness |
 |---|---|---|---|
-| SCAFFOLDED | XRAY_DRAFT | HIGH | XRAY_DRAFT |
+| SCAFFOLDED | XRAY_DRAFT | HIGH | XRAY_REVIEWED |
 
 ---
 ### OPN-005 — Les demi-solutions qui déplacent le problème
@@ -504,7 +537,7 @@ Ouvrir avec un exemple concret de déplacement politique. Montrer les trois dime
 
 | Status | X-Ray Status | Writing Priority | Readiness |
 |---|---|---|---|
-| SCAFFOLDED | XRAY_DRAFT | HIGH | XRAY_DRAFT |
+| SCAFFOLDED | XRAY_DRAFT | HIGH | XRAY_REVIEWED |
 
 ---
 ### OPN-006 — Pourquoi l'expertise seule ne suffit plus
@@ -586,7 +619,7 @@ Ouvrir en honorant l'expertise. Montrer ce qu'elle ne peut pas faire. Nommer la 
 
 | Status | X-Ray Status | Writing Priority | Readiness |
 |---|---|---|---|
-| SCAFFOLDED | XRAY_DRAFT | HIGH | XRAY_DRAFT |
+| SCAFFOLDED | XRAY_DRAFT | HIGH | XRAY_REVIEWED_WITH_REFINEMENT |
 
 ---
 
@@ -675,7 +708,7 @@ Nommer la métaphore machine. Montrer son origine et sa dominance. Montrer ce qu
 
 | Status | X-Ray Status | Writing Priority | Readiness |
 |---|---|---|---|
-| SCAFFOLDED | XRAY_DRAFT | HIGH | XRAY_DRAFT |
+| SCAFFOLDED | XRAY_DRAFT | HIGH | XRAY_REVIEWED |
 
 ---
 ### OPN-008 — Une civilisation est un métabolisme vivant
@@ -758,7 +791,7 @@ Introduire le concept métabolique à travers un exemple concret. Généraliser 
 
 | Status | X-Ray Status | Writing Priority | Readiness |
 |---|---|---|---|
-| SCAFFOLDED | XRAY_DRAFT | CRITICAL | XRAY_DRAFT |
+| SCAFFOLDED | XRAY_DRAFT | CRITICAL | CRITICAL_REVIEWED |
 
 ---
 ### OPN-009 — Énergie, matière, institutions, récits, conscience
@@ -841,7 +874,7 @@ No split needed. Could be merged with OPN-008 if MOV-III is compressed to 2 modu
 
 | Status | X-Ray Status | Writing Priority | Readiness |
 |---|---|---|---|
-| SCAFFOLDED | XRAY_DRAFT | HIGH | XRAY_DRAFT |
+| SCAFFOLDED | XRAY_DRAFT | HIGH | XRAY_REVIEWED_WITH_REFINEMENT |
 
 ---
 
@@ -931,7 +964,7 @@ Définir l'ontologie à travers une analogie concrète. Montrer pourquoi les cin
 
 | Status | X-Ray Status | Writing Priority | Readiness |
 |---|---|---|---|
-| SCAFFOLDED | XRAY_DRAFT | HIGH | XRAY_DRAFT |
+| SCAFFOLDED | XRAY_DRAFT | HIGH | XRAY_REVIEWED |
 
 ---
 ### OPN-011 — Les trois échelles du réel
@@ -1013,7 +1046,7 @@ Introduire les 3 Échelles à travers un exemple concret. Montrer l'interdépend
 
 | Status | X-Ray Status | Writing Priority | Readiness |
 |---|---|---|---|
-| SCAFFOLDED | XRAY_DRAFT | HIGH | XRAY_DRAFT |
+| SCAFFOLDED | XRAY_DRAFT | HIGH | XRAY_REVIEWED |
 
 ---
 ### OPN-012 — Les sept fondations comme chemin de lecture
@@ -1105,7 +1138,7 @@ Nommer les Sept Fondations. Montrer la logique d'ascension. Montrer pourquoi l'o
 
 | Status | X-Ray Status | Writing Priority | Readiness |
 |---|---|---|---|
-| SCAFFOLDED | XRAY_DRAFT | CRITICAL | XRAY_DRAFT |
+| SCAFFOLDED | XRAY_DRAFT | CRITICAL | CRITICAL_REVIEWED |
 
 ---
 ### OPN-013 — Comment entrer dans ce livre
@@ -1187,6 +1220,6 @@ Nommer ce qu'est et n'est pas le livre. Donner le contrat de lecture en 3-4 déc
 
 | Status | X-Ray Status | Writing Priority | Readiness |
 |---|---|---|---|
-| SCAFFOLDED | XRAY_DRAFT | HIGH | XRAY_DRAFT |
+| SCAFFOLDED | XRAY_DRAFT | HIGH | XRAY_REVIEWED |
 
 ---
