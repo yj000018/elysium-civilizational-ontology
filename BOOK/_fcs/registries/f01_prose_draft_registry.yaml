@@ -1,0 +1,132 @@
+---
+registry_id: f01_prose_draft_registry
+part: "02"
+foundation: F01
+foundation_name: Material Existence
+total_modules: 9
+draft0_complete: 9
+last_updated: "2026-06-28"
+phase: III-1A-S4-F01
+authorization_source: pasted_content_6.txt
+
+# Movement structure
+movements:
+  F01-OVERVIEW:
+    modules: [F01-000]
+    description: "Foundation overview — 7 flows introduced as integrated metabolic reality"
+  F01-FACETS:
+    modules: [F01-001, F01-002, F01-003, F01-004, F01-005, F01-006, F01-007]
+    description: "Individual facet chapters — Energy, Water, Habitat, Infrastructure, Mobility, Food, Materials"
+  F01-SYNTHESIS:
+    modules: [F01-008]
+    description: "Synthesis and transition to Foundation 02 (Vitality)"
+
+# Module entries
+modules:
+  - module_id: F01-000
+    title: "Foundation 01 Overview: Material Existence"
+    movement: F01-OVERVIEW
+    word_count: 1572
+    status: DRAFT
+    chatgpt_review: PASS
+    revisions: 1
+    founder_status: PENDING
+    chief_architect_status: PENDING
+    draft_file: "BOOK/manuscript/02_foundations/F01_material_existence/drafts/F01-000_DRAFT_0.md"
+
+  - module_id: F01-001
+    title: "Energy: The Power Flow"
+    movement: F01-FACETS
+    word_count: 1587
+    status: DRAFT
+    chatgpt_review: PASS
+    revisions: 0
+    founder_status: PENDING
+    chief_architect_status: PENDING
+    draft_file: "BOOK/manuscript/02_foundations/F01_material_existence/drafts/F01-001_DRAFT_0.md"
+
+  - module_id: F01-002
+    title: "Water: The Circulatory Constraint"
+    movement: F01-FACETS
+    word_count: 1971
+    status: DRAFT
+    chatgpt_review: PASS
+    revisions: 0
+    founder_status: PENDING
+    chief_architect_status: PENDING
+    draft_file: "BOOK/manuscript/02_foundations/F01_material_existence/drafts/F01-002_DRAFT_0.md"
+
+  - module_id: F01-003
+    title: "Habitat: The Organized Space"
+    movement: F01-FACETS
+    word_count: 1802
+    status: DRAFT
+    chatgpt_review: PASS
+    revisions: 0
+    founder_status: PENDING
+    chief_architect_status: PENDING
+    draft_file: "BOOK/manuscript/02_foundations/F01_material_existence/drafts/F01-003_DRAFT_0.md"
+
+  - module_id: F01-004
+    title: "Infrastructure: The Connective Tissue"
+    movement: F01-FACETS
+    word_count: 2148
+    status: DRAFT
+    chatgpt_review: PASS
+    revisions: 0
+    founder_status: PENDING
+    chief_architect_status: PENDING
+    draft_file: "BOOK/manuscript/02_foundations/F01_material_existence/drafts/F01-004_DRAFT_0.md"
+
+  - module_id: F01-005
+    title: "Mobility: The Circulation of Bodies and Goods"
+    movement: F01-FACETS
+    word_count: 2037
+    status: DRAFT
+    chatgpt_review: PASS
+    revisions: 0
+    founder_status: PENDING
+    chief_architect_status: PENDING
+    draft_file: "BOOK/manuscript/02_foundations/F01_material_existence/drafts/F01-005_DRAFT_0.md"
+
+  - module_id: F01-006
+    title: "Food: The Nutritive Flow"
+    movement: F01-FACETS
+    word_count: 1772
+    status: DRAFT
+    chatgpt_review: PASS
+    revisions: 0
+    founder_status: PENDING
+    chief_architect_status: PENDING
+    draft_file: "BOOK/manuscript/02_foundations/F01_material_existence/drafts/F01-006_DRAFT_0.md"
+
+  - module_id: F01-007
+    title: "Materials: The Substance of Civilization"
+    movement: F01-FACETS
+    word_count: 1596
+    status: DRAFT
+    chatgpt_review: PASS
+    revisions: 0
+    founder_status: PENDING
+    chief_architect_status: PENDING
+    draft_file: "BOOK/manuscript/02_foundations/F01_material_existence/drafts/F01-007_DRAFT_0.md"
+
+  - module_id: F01-008
+    title: "The Material Foundation: Synthesis and Transition"
+    movement: F01-SYNTHESIS
+    word_count: 1358
+    status: DRAFT
+    chatgpt_review: PASS
+    revisions: 0
+    founder_status: PENDING
+    chief_architect_status: PENDING
+    draft_file: "BOOK/manuscript/02_foundations/F01_material_existence/drafts/F01-008_DRAFT_0.md"
+
+# Summary
+summary:
+  total_words: 15871
+  modules_draft0: 9
+  modules_approved: 0
+  modules_pending_review: 9
+  chatgpt_pass_rate: "9/9 (100%)"
+  total_revisions: 1
