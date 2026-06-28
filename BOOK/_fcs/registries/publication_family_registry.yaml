@@ -1,0 +1,224 @@
+# FCS Publication Family Registry
+# Version: 0.1
+# Created: 2026-06-28
+# Created by: Manus — Phase III FCS Publication Family Architecture
+# Protocol: BOOK/_fcs/protocols/FCS_PUBLICATION_FAMILY_ARCHITECTURE.md
+
+registry_version: "0.1"
+source_language: en
+translation_targets:
+  - fr
+  - it
+  - es
+  - de
+
+# ============================================================
+# FAMILIES
+# ============================================================
+
+families:
+  - family_id: ELYSIUM_FAMILY
+    name: "ELYSIUM Publication Family"
+    source_model: ELYSIUM_CIVILIZATIONAL_ONTOLOGY
+    source_model_description: "7 Foundations, 38 Facets, 3 Scales, 12-Step Transformation Matrix"
+    purpose: "Transform the ELYSIUM ontology into core books, atlas volumes, practical guides, tools, courses, and translated editions."
+    status: ACTIVE
+    publications:
+      - ELYSIUM_CORE_BOOK
+      - ELYSIUM_ONTOLOGY_ATLAS
+      - FIX_IT_SERIES
+
+  - family_id: ARCHETYPES_FAMILY
+    name: "Archetypal Transformation Publication Family"
+    source_model: ARCHETYPAL_TRANSFORMATION_MODEL
+    source_model_description: "Final archetypal model synthesizing traditions, enneagram, astrology, sacred texts, and transformation frameworks"
+    purpose: "Develop the final archetypal model, transformation tools, and its research atlas."
+    status: CONCEPT
+    publications:
+      - ARCHETYPAL_CORE_BOOK
+      - GREAT_ARCHETYPES_SYNTHESIS
+
+# ============================================================
+# PUBLICATIONS
+# ============================================================
+
+publications:
+
+  # ----------------------------------------------------------
+  # ELYSIUM FAMILY
+  # ----------------------------------------------------------
+
+  - publication_id: ELYSIUM_CORE_BOOK
+    title: "ELYSIUM"
+    subtitle: "A Civilizational Ontology"
+    publication_type: core_book
+    family_id: ELYSIUM_FAMILY
+    canonical_role: "Presents the resulting civilizational ontology — 7 Foundations, 38 Facets, 3 Scales — in a form accessible to the general educated reader."
+    source_model: ELYSIUM_CIVILIZATIONAL_ONTOLOGY
+    related_atlas: ELYSIUM_ONTOLOGY_ATLAS
+    related_series: FIX_IT_SERIES
+    target_reader: "general_educated_reader"
+    complexity: intermediate
+    tone: "intellectual_accessible"
+    format_template: ELYSIUM_CORE_BOOK_TEMPLATE
+    status: ACTIVE
+    prose_status: NOT_WRITTEN
+    xray_status: XRAY_DRAFT
+    routing_status: NOT_ROUTED
+    source_language: en
+    translation_targets: [fr, it, es, de]
+    notes: "Opening Part X-Ray layer created in Phase III-1A-S2X. 13 modules, 4 movements."
+
+  - publication_id: ELYSIUM_ONTOLOGY_ATLAS
+    title: "The Great Ontological Synthesis"
+    subtitle: "130+ World Models, Frameworks, Thinkers, and Civilizational Maps"
+    alternative_titles:
+      - "The Great Ontological Synthesis: An Atlas of 130+ World Models and the Emergence of ELYSIUM"
+      - "Maps of the Whole: A Comparative Atlas of Civilizational Ontologies"
+      - "The Ontology Atlas: 130+ Frameworks for Understanding Reality, Civilization, and Transformation"
+    publication_type: atlas
+    family_id: ELYSIUM_FAMILY
+    canonical_role: "Documents the research corpus, comparative analysis, influence mapping, and emergence process behind the ELYSIUM ontology."
+    source_model: ELYSIUM_CIVILIZATIONAL_ONTOLOGY
+    related_core_book: ELYSIUM_CORE_BOOK
+    target_reader: "researchers_intellectuals_practitioners"
+    complexity: advanced
+    tone: "scholarly_accessible"
+    model_corpus:
+      integrated_models: 126
+      candidate_models: 10
+      corpus_label: "130+ world models"
+    status: CONCEPT
+    prose_status: NOT_WRITTEN
+    xray_status: NOT_CREATED
+    routing_status: NOT_ROUTED
+    source_language: en
+    translation_targets: [fr, it, es, de]
+    notes: "Do not overload ELYSIUM core book with this corpus. Atlas is a separate volume."
+
+  - publication_id: FIX_IT_SERIES
+    title: "FIX IT"
+    subtitle: "Practical Transformation Guides for Repairing and Regenerating Society"
+    publication_type: practical_series
+    family_id: ELYSIUM_FAMILY
+    canonical_role: "Translates the ELYSIUM ontology into accessible, domain-specific repair and transformation guides for the general public."
+    source_model: ELYSIUM_CIVILIZATIONAL_ONTOLOGY
+    related_core_book: ELYSIUM_CORE_BOOK
+    related_atlas: ELYSIUM_ONTOLOGY_ATLAS
+    target_reader: general_public
+    complexity: accessible
+    tone: "practical_transformational"
+    format_template: FIX_IT_TEMPLATE
+    status: CONCEPT
+    prose_status: NOT_WRITTEN
+    xray_status: NOT_CREATED
+    routing_status: NOT_ROUTED
+    source_language: en
+    translation_targets: [fr, it, es, de]
+    potential_volumes:
+      - "FIX IT: Energy"
+      - "FIX IT: Water"
+      - "FIX IT: Food"
+      - "FIX IT: Housing"
+      - "FIX IT: Work"
+      - "FIX IT: Education"
+      - "FIX IT: Health"
+      - "FIX IT: Media"
+      - "FIX IT: Money"
+      - "FIX IT: Technology"
+      - "FIX IT: Democracy"
+      - "FIX IT: Community"
+      - "FIX IT: Meaning"
+      - "FIX IT: Governance"
+      - "FIX IT: AI"
+      - "FIX IT: Cities"
+    notes: "Do not create individual volumes until explicitly requested. Template: See It / Name It / Map It / Fix It / Transform It."
+
+  # ----------------------------------------------------------
+  # ARCHETYPES FAMILY
+  # ----------------------------------------------------------
+
+  - publication_id: ARCHETYPAL_CORE_BOOK
+    title: "Archetypal Transformation"
+    subtitle: "A Model and Toolkit for Inner and Collective Transformation"
+    publication_type: core_book
+    family_id: ARCHETYPES_FAMILY
+    canonical_role: "Presents the final archetypal model and its transformation tools."
+    source_model: ARCHETYPAL_TRANSFORMATION_MODEL
+    related_atlas: GREAT_ARCHETYPES_SYNTHESIS
+    target_reader: "general_educated_reader"
+    complexity: intermediate
+    tone: "transformational_accessible"
+    status: CONCEPT
+    prose_status: NOT_WRITTEN
+    xray_status: NOT_CREATED
+    routing_status: NOT_ROUTED
+    source_language: en
+    translation_targets: [fr, it, es, de]
+
+  - publication_id: GREAT_ARCHETYPES_SYNTHESIS
+    title: "The Great Archetypes Synthesis"
+    subtitle: "An Atlas of Archetypal Maps, Traditions, Models, and Transformation Frameworks"
+    publication_type: atlas
+    family_id: ARCHETYPES_FAMILY
+    canonical_role: "Documents the founding research corpus and synthesis process behind the archetypal model — traditions, enneagram, astrology, sacred texts, Grimm, Zen, and transformation frameworks."
+    source_model: ARCHETYPAL_TRANSFORMATION_MODEL
+    related_core_book: ARCHETYPAL_CORE_BOOK
+    target_reader: "researchers_intellectuals_practitioners"
+    complexity: advanced
+    tone: "scholarly_accessible"
+    status: CONCEPT
+    prose_status: NOT_WRITTEN
+    xray_status: NOT_CREATED
+    routing_status: NOT_ROUTED
+    source_language: en
+    translation_targets: [fr, it, es, de]
+
+# ============================================================
+# SERIES
+# ============================================================
+
+series:
+  - series_id: FIX_IT
+    title: "FIX IT"
+    subtitle: "Practical Transformation Guides for Repairing and Regenerating Society"
+    family_id: ELYSIUM_FAMILY
+    source_model: ELYSIUM_CIVILIZATIONAL_ONTOLOGY
+    series_type: practical_series
+    purpose: "Translate the ELYSIUM ontology into accessible, domain-specific repair and transformation guides."
+    target_reader: general_public
+    tone: practical_transformational
+    complexity: accessible
+    format_template: FIX_IT_TEMPLATE
+    macro_template:
+      - "See It: What feels broken"
+      - "Name It: What is actually broken"
+      - "Map It: The hidden system behind the problem"
+      - "Fix It: What must change and how"
+      - "Transform It: What a healthy version could become"
+    status: CONCEPT
+    volumes: []
+    source_language: en
+    translation_targets: [fr, it, es, de]
+
+# ============================================================
+# COLLECTIONS
+# ============================================================
+
+collections:
+  - collection_id: ELYSIUM_PRACTICAL_TRANSFORMATION
+    title: "ELYSIUM Practical Transformation Collection"
+    subtitle: "Accessible guides for repairing and regenerating society"
+    family_id: ELYSIUM_FAMILY
+    source_model: ELYSIUM_CIVILIZATIONAL_ONTOLOGY
+    purpose: "Group all practical, accessible publications derived from the ELYSIUM ontology."
+    publication_types:
+      - practical_guide
+      - practical_series
+      - workbook
+      - field_manual
+    publications:
+      - FIX_IT_SERIES
+    status: CONCEPT
+    source_language: en
+    translation_targets: [fr, it, es, de]

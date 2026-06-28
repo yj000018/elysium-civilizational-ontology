@@ -1,0 +1,31 @@
+# FCS Series Metadata Template
+# Use this template to register any new series in the FCS system.
+# Copy, fill in all required fields, and add to publication_family_registry.yaml under 'series'.
+
+series_id:                               # Unique identifier, UPPER_SNAKE_CASE, e.g. FIX_IT
+title:                                   # Full series title
+subtitle:                                # Series subtitle
+family_id:                               # Parent family identifier
+source_model:                            # Source ontology or model
+series_type:                             # practical_series | atlas_series | companion_series | workbook_series | course_series
+purpose:                                 # One paragraph: what is the purpose of this series?
+target_reader:                           # e.g. general_public | general_educated_reader | practitioners
+tone:                                    # e.g. practical_transformational | intellectual_accessible
+complexity:                              # accessible | intermediate | advanced
+format_template:                         # Template identifier for individual volumes
+macro_template:                          # Stable section structure for all volumes in the series
+  -                                      # e.g. "See It: What feels broken"
+  -
+  -
+  -
+  -
+status: CONCEPT                          # CONCEPT | ACTIVE | IN_PRODUCTION | COMPLETE
+volumes:                                 # List of volume publication_ids (empty at creation)
+  -
+source_language: en
+translation_targets:
+  - fr
+  - it
+  - es
+  - de
+notes:                                   # Optional: constraints, decisions pending

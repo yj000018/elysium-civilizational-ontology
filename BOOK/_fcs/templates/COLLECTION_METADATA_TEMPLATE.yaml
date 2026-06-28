@@ -1,0 +1,24 @@
+# FCS Collection Metadata Template
+# Use this template to register any new collection in the FCS system.
+# A collection groups publications of different types sharing a common purpose or audience.
+# Copy, fill in all required fields, and add to publication_family_registry.yaml under 'collections'.
+
+collection_id:                           # Unique identifier, UPPER_SNAKE_CASE, e.g. ELYSIUM_PRACTICAL_TRANSFORMATION
+title:                                   # Full collection title
+subtitle:                                # Collection subtitle
+family_id:                               # Parent family identifier
+source_model:                            # Source ontology or model
+purpose:                                 # One paragraph: what is the purpose of this collection?
+publication_types:                       # List of publication types included in this collection
+  -                                      # e.g. practical_guide | workbook | field_manual
+  -
+publications:                            # List of publication_ids in this collection
+  -
+status: CONCEPT                          # CONCEPT | ACTIVE | IN_PRODUCTION | COMPLETE
+source_language: en
+translation_targets:
+  - fr
+  - it
+  - es
+  - de
+notes:                                   # Optional: constraints, decisions pending

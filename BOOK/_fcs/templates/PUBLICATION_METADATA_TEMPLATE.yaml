@@ -1,0 +1,38 @@
+# FCS Publication Metadata Template
+# Use this template to register any new publication in the FCS system.
+# Copy, fill in all required fields, and add to publication_family_registry.yaml.
+# Do not begin prose writing until metadata is complete and status is ACTIVE.
+
+publication_id:                          # Unique identifier, UPPER_SNAKE_CASE, e.g. MY_BOOK_TITLE
+title:                                   # Full title
+subtitle:                                # Subtitle
+publication_type:                        # core_book | atlas | companion_volume | practical_guide | practical_series | field_manual | workbook | course | app_content | website_content | translation_edition | derivative_product
+family_id:                               # Parent family identifier from publication_family_registry.yaml
+series:                                  # Series identifier if applicable (e.g. FIX_IT)
+collection:                              # Collection identifier if applicable (e.g. ELYSIUM_PRACTICAL_TRANSFORMATION)
+canonical_role:                          # One sentence: what is the unique role of this publication?
+source_model:                            # Source ontology or model (e.g. ELYSIUM_CIVILIZATIONAL_ONTOLOGY)
+related_core_book:                       # Related core book publication_id if applicable
+related_atlas:                           # Related atlas publication_id if applicable
+related_publications:                    # List of other related publication_ids
+  -
+primary_foundation:                      # Primary foundation from the source ontology (e.g. F01_ENERGY)
+secondary_foundations:                   # List of secondary foundations
+  -
+related_facets:                          # List of related facets
+  -
+target_reader:                           # e.g. general_public | general_educated_reader | researchers_intellectuals_practitioners | practitioners | students
+complexity:                              # accessible | intermediate | advanced
+tone:                                    # e.g. practical_transformational | intellectual_accessible | scholarly_accessible
+format_template:                         # Template identifier (e.g. FIX_IT_TEMPLATE)
+status: CONCEPT                          # CONCEPT | ACTIVE | IN_PRODUCTION | COMPLETE
+source_language: en                      # Source language (always en for new publications)
+translation_targets:                     # Target languages for future translation editions
+  - fr
+  - it
+  - es
+  - de
+prose_status: NOT_WRITTEN                # NOT_WRITTEN | IN_PROGRESS | DRAFT | COMPLETE
+xray_status: NOT_CREATED                 # NOT_CREATED | XRAY_DRAFT | XRAY_REVIEW | XRAY_APPROVED
+routing_status: NOT_ROUTED               # NOT_ROUTED | ROUTED | IN_REVIEW | APPROVED
+notes:                                   # Optional: any notes, decisions pending, or constraints
