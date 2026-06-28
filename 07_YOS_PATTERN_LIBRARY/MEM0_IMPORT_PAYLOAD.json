@@ -1,0 +1,13 @@
+{
+  "status": "MEM0_PERSISTENCE_BLOCKED_API_KEY_NOT_CONFIGURED",
+  "date": "2026-06-28",
+  "user_id": "yannick",
+  "metadata": {
+    "project": "yOS-Program-Mode",
+    "type": "candidate_pattern",
+    "pass": "post-0.2C",
+    "status": "CANDIDATE_YOS_CORE_PATTERN_PENDING_NOTION_RECONCILIATION"
+  },
+  "fact": "The yOS Program Mode candidate now includes two v0.1 documents stored in Notion: (1) yOS Semi-Autonomous Program Loop (https://app.notion.com/p/38d35e218cf881f9bafed883920c4353) and (2) GitHub Prompt Queue Protocol (https://app.notion.com/p/38d35e218cf881c3ad63c02130d6ad2f). Both are under: yOS → Cognitive Operating System → yOS Program Mode — Candidate Patterns (https://app.notion.com/p/38d35e218cf881ac9fbde1ddef4f41ce). They remain CANDIDATE_YOS_CORE_PATTERN_PENDING_NOTION_RECONCILIATION. GitHub backup: https://github.com/yj000018/elysium-civilizational-ontology/tree/main/07_YOS_PATTERN_LIBRARY",
+  "retry_instructions": "Configure MEM0_API_KEY in Manus Secrets (Settings > Secrets > mem0) and re-run mem0_program_mode.py"
+}
