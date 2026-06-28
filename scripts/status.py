@@ -15,6 +15,9 @@ from collections import Counter
 REPO_ROOT = Path(__file__).resolve().parent.parent
 BOOK = REPO_ROOT / "BOOK"
 
+# Directories excluded from all scanning (test fixtures, generated output, templates)
+EXCLUDE_PARTS = {"_fcs", "templates", "views", "output", "reviews"}
+
 
 def extract_frontmatter_fields(filepath):
     """Extract key fields from YAML frontmatter."""
@@ -55,14 +58,16 @@ def main():
     node_count = 0
 
     for md in BOOK.rglob("*.md"):
+        # Skip files inside excluded directories (_fcs test fixtures, templates, generated output)
+        if EXCLUDE_PARTS.intersection(set(md.parts)):
+            continue
         fields = extract_frontmatter_fields(md)
         if "status" in fields:
             content_statuses[fields["status"]] += 1
         if "type" in fields:
             types[fields["type"]] += 1
-        if md.parent.name != "_fcs" and "templates" not in str(md):
-            total_words += word_count(md)
-            node_count += 1
+        total_words += word_count(md)
+        node_count += 1
 
     print(f"\n## Content Nodes: {node_count}")
     print(f"## Total Word Count: {total_words}")

@@ -1,27 +1,21 @@
 # Status Report
 
-**Total nodes:** 179
-**Total word count:** 12373
+**Total nodes:** 124
+**Total word count:** 3879
 
 ## Status Distribution
 
 | Status | Count |
 |---|---|
-| SCAFFOLDED | 75 |
-| PLANNED | 17 |
-| DRAFT_ACTION | 6 |
-| TO_VERIFY | 2 |
-| BAD_STATUS | 1 |
+| SCAFFOLDED | 59 |
+| PLANNED | 14 |
 
 ## Type Distribution
 
 | Type | Count |
 |---|---|
 | facet | 38 |
-| module | 30 |
-| foundation | 10 |
-| book | 9 |
-| action_request | 5 |
+| module | 22 |
+| foundation | 7 |
 | part | 5 |
-| folder_node | 1 |
-| concept | 1 |
+| book | 1 |
