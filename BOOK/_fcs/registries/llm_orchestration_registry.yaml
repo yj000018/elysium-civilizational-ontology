@@ -120,3 +120,14 @@ inherits_from:
   - "BOOK/_fcs/protocols/FCS_WRITING_BRIEF_PROTOCOL.md"
   - "yOS Program Mode Doc 11 — Model Routing & Agent Roles Protocol"
 does_not_replace: "Existing yOS Routing Matrix — this is a FCS/ELYSIUM operational specialization"
+# FSD Controlled Mode Extension
+fsd_controlled_mode:
+  version: 0.1
+  status: INSTALLED_PENDING_FOUNDER_APPROVAL
+  installed_at: "2026-06-28"
+  protocol_file: "BOOK/_fcs/protocols/FCS_FSD_CONTROLLED_MODE_PROTOCOL.md"
+  registry_file: "BOOK/_fcs/registries/fsd_controlled_mode_registry.yaml"
+  summary: "Semi-autonomous execution mode. Manus proceeds inside approved scope only. Stops at gates. Founder is co-pilot. ChatGPT is Chief Architect. Claude is prose engine."
+  current_level: 1
+  next_recommended_level: 2
+  next_recommended_scope: "MOV-II OPN-004 to OPN-006"

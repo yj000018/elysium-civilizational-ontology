@@ -1,0 +1,78 @@
+registry_version: 0.1
+mode_name: FSD Controlled Mode
+status: INSTALLED_PENDING_FOUNDER_APPROVAL
+created_at: "2026-06-28"
+principle: "Manus may proceed autonomously inside an explicitly approved scope, but must stop at predefined gates."
+founder_role: "co-pilot"
+chatgpt_role: "Chief Architect / control tower"
+claude_role: "prose and revision engine"
+manus_role: "orchestrator only"
+
+autonomy_levels:
+  level_0:
+    name: Manual
+    scope: one_action
+    status: allowed
+  level_1:
+    name: Module-by-module supervised
+    scope: one_module
+    status: active
+    notes: "Used for S4-001 to S4-003"
+  level_2:
+    name: Movement-level FSD Controlled
+    scope: one_movement
+    status: proposed_next
+    notes: "Proposed for MOV-II OPN-004 to OPN-006 after Founder approval"
+  level_3:
+    name: Non-critical batch FSD Controlled
+    scope: non_critical_batch
+    status: future
+  level_4:
+    name: Full FSD Auto
+    scope: broad
+    status: not_authorized
+    notes: "Only after repeated clean Level 2+3 runs and explicit Founder approval"
+
+mandatory_stop_gates:
+  - chatgpt_review_revise
+  - chatgpt_review_fail
+  - api_failure
+  - critical_module
+  - architecture_drift
+  - tone_drift
+  - validation_error
+  - validation_warning
+  - secret_safety_issue
+  - git_conflict
+  - cost_threshold_exceeded
+  - movement_boundary
+  - founder_decision_required
+
+critical_modules:
+  - id: OPN-008
+    reason: metabolic_pivot
+    authorization_required: true
+  - id: OPN-012
+    reason: seven_foundations_full_reveal_light
+    authorization_required: true
+
+current_recommended_application:
+  phase: III-1A-S4
+  scope_name: MOV-II Controlled Auto
+  modules:
+    - OPN-004
+    - OPN-005
+    - OPN-006
+  autonomy_level: 2
+  status: PENDING_AFTER_FOUNDER_APPROVAL_OF_FSD_V0.1
+  prerequisite: S4-003 operational completion (DONE — commit 2588759)
+  stop_after: OPN-006
+  gate_before_mov_iii: Founder + ChatGPT Chief Architect review required
+
+completed_runs: []
+
+history:
+  - date: "2026-06-28"
+    event: "FSD Controlled Mode v0.1 installed"
+    by: "Manus orchestration"
+    notes: "Protocol installed pending Founder approval"
