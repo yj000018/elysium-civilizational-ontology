@@ -11,6 +11,7 @@ xray_status: XRAY_DRAFT
 prose_status: NOT_WRITTEN
 writing_priority: CRITICAL
 readiness_status: XRAY_DRAFT
+structural_decision: "FULL_REVEAL_LIGHT"
 created_by: "Manus — Phase III-1A-S2X"
 ---
 
@@ -74,17 +75,34 @@ created_by: "Manus — Phase III-1A-S2X"
 
 # Key Points to Develop
 
+**Structural Decision:** FULL REVEAL LIGHT.
+
+Reveal the skeleton of the Seven Foundations, not the full body of Part II. The module should name all seven Foundations, explain the ascent logic, and show why they form a reading path. It must not become seven mini-chapters, must not explain the 38 Facets, and must preserve the discovery of Part II.
+
+**Décision structurelle :** RÉVÉLATION COMPLÈTE LÉGÈRE.
+
+Révéler le squelette des Sept Fondations, non le corps complet de la Partie II. Le module doit nommer les sept Fondations, expliquer la logique d'ascension et montrer pourquoi elles forment un chemin de lecture. Il ne doit pas devenir sept mini-chapitres, ne doit pas expliquer les 38 Facettes, et doit préserver la découverte de la Partie II.
+
 **EN:**
-- CRITICAL DECISION: Full reveal vs. foreshadow only — Founder must decide
-- If full reveal: name all 7, show the ascent logic, no mini-chapters
-- If foreshadow: name 3-4, hint at the rest, preserve discovery for Part II
+- DECISION RESOLVED: FULL REVEAL LIGHT
+- Name all 7 Foundations in sequence
+- Explain the ascent logic (from energy/material base to consciousness)
+- Show why they form a reading path — not a list
+- Explain bidirectional feedback lightly
+- Do NOT create 7 mini-chapters
+- Do NOT explain the 38 Facets
+- Preserve Part II discovery
 - The ascent logic is the key insight: order matters
 - Prepare OPN-013: reading contract
-
 **FR:**
-- DÉCISION CRITIQUE : Révélation complète vs. pressentiment seulement — le Fondateur doit décider
-- Si révélation complète : nommer les 7, montrer la logique d'ascension, pas de mini-chapitres
-- Si pressentiment : nommer 3-4, suggérer le reste, préserver la découverte pour la Partie II
+- DÉCISION RÉSOLUE : RÉVÉLATION COMPLÈTE LÉGÈRE
+- Nommer les 7 Fondations en séquence
+- Expliquer la logique d'ascension (de la base matérielle/énergétique à la conscience)
+- Montrer pourquoi elles forment un chemin de lecture — pas une liste
+- Expliquer légèrement le retour bidirectionnel
+- Ne PAS créer 7 mini-chapitres
+- Ne PAS expliquer les 38 Facettes
+- Préserver la découverte de la Partie II
 - La logique d'ascension est l'insight clé : l'ordre importe
 - Préparer OPN-013 : contrat de lecture
 
@@ -180,7 +198,7 @@ created_by: "Manus — Phase III-1A-S2X"
 
 # Split / Merge / Move Notes
 
-Do not split. CRITICAL DECISION: Founder must decide full reveal vs. foreshadow before this module is written.
+Do not split. DECISION RESOLVED: FULL REVEAL LIGHT. Module will name all 7 Foundations with ascent logic, no mini-chapters.
 
 ---
 
