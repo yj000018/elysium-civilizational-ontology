@@ -38,7 +38,7 @@ modules:
     title: "Foundation 01 Overview: Material Existence"
     movement: F01-OVERVIEW
     movement_role: "Opening overview — establishes Material Existence as first civilizational foundation, introduces 7 flows"
-    word_count: 1617
+    word_count: 1584
     status: DRAFT_0
     chatgpt_review: PASS
     founder_status: PENDING

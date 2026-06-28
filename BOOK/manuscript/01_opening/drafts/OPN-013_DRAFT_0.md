@@ -3,7 +3,7 @@ module_id: OPN-013
 title: "The Reading Contract"
 movement: MOV-V
 part: 01_opening
-word_count: 733
+word_count: 734
 status: DRAFT
 review_status:
   chatgpt: PASS
@@ -19,7 +19,7 @@ A map is only as useful as the one who reads it. The most precise cartography in
 
 This requires a particular kind of reading. The passive consumer of ideas—the reader who absorbs arguments and either agrees or disagrees, who collects positions like stamps in an album—will find ELYSIUM frustrating. It does not argue for conclusions. It does not tell you that capitalism is good or bad, that technology saves or destroys, that tradition should be preserved or abandoned. These are questions of judgment, and judgment cannot be outsourced to a framework. What ELYSIUM does is provide the structure within which such judgments become coherent—the categories that allow you to see what is actually at stake, the flows that reveal where leverage exists, the organs that show where dysfunction originates. The conclusions remain yours. They must remain yours. A civilization that outsources its judgment to any single authority—including this one—has already begun to die.
 
-The active reader, by contrast, will find ELYSIUM a tool. Not a tool that does the work, but a tool that makes the work possible. The Seven Foundations do not describe an ideal civilization; they describe what any civilization must address. The four flows do not prescribe optimal circulation; they reveal the metabolic processes that determine whether a civilization thrives or starves. The organs do not mandate particular institutions; they name the functional requirements that institutions must somehow fulfill. To read ELYSIUM actively is to take these categories and apply them—to your own situation, to your community, to the civilizations you observe and the civilization you inhabit. It is to ask: where are the blockages? What flows freely and what stagnates? Which organs function and which have atrophied? Where is there health, and where is there disease?
+The active reader, by contrast, will find ELYSIUM a tool. Not a tool that does the work, but a tool that makes the work possible. The Seven Foundations do not describe an ideal civilization; they describe what any civilization must address. The five flow classes do not prescribe optimal circulation; they reveal the metabolic processes that determine whether a civilization thrives or starves. The organs do not mandate particular institutions; they name the functional requirements that institutions must somehow fulfill. To read ELYSIUM actively is to take these categories and apply them—to your own situation, to your community, to the civilizations you observe and the civilization you inhabit. It is to ask: where are the blockages? What flows freely and what stagnates? Which organs function and which have atrophied? Where is there health, and where is there disease?
 
 This is not comfortable reading. Diagnosis rarely is. The framework will reveal dysfunctions you may not wish to see, patterns that implicate systems you benefit from, problems that have no easy solutions. It will also reveal capacities you may not have recognized, health in unexpected places, possibilities that the overwhelming noise of crisis has obscured. The map does not choose what it shows. It shows what is there.
 

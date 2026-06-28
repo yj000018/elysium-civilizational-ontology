@@ -487,6 +487,78 @@ def validate_elysium_f01_seven_flows():
             errors.append(f"[ELYSIUM] F01-000 missing canonical flow mention: '{flow}'")
 
 
+def validate_elysium_terminal_punctuation():
+    """Check all DRAFT_0 prose files end with terminal punctuation (not truncated)."""
+    import glob
+    draft_dirs = [
+        BOOK / "manuscript" / "01_opening" / "drafts",
+        BOOK / "manuscript" / "02_foundations" / "F01_material_existence" / "drafts",
+    ]
+    bad_endings = (',', '-', ':', ';', 'and', 'or', 'but', 'the', 'a', 'an', 'of', 'in', 'to')
+    for d in draft_dirs:
+        if not d.exists():
+            continue
+        for f in sorted(d.glob("*_DRAFT_0.md")):
+            content = f.read_text(encoding="utf-8")
+            if content.startswith("---"):
+                end = content.find("---", 3)
+                prose = content[end + 3:].strip() if end != -1 else content
+            else:
+                prose = content.strip()
+            if not prose:
+                continue
+            last_char = prose.rstrip()[-1]
+            if last_char not in '.!?':
+                errors.append(
+                    f"[ELYSIUM] Truncated prose — does not end with terminal punctuation "
+                    f"(ends with {repr(last_char)}): {f.relative_to(REPO_ROOT)}"
+                )
+
+
+def validate_elysium_no_four_flows():
+    """Check no Opening module uses 'four flows' without explicit scope qualification."""
+    opn_dir = BOOK / "manuscript" / "01_opening" / "drafts"
+    if not opn_dir.exists():
+        return
+    import re as _re
+    for f in sorted(opn_dir.glob("*_DRAFT_0.md")):
+        content = f.read_text(encoding="utf-8")
+        if content.startswith("---"):
+            end = content.find("---", 3)
+            prose = content[end + 3:] if end != -1 else content
+        else:
+            prose = content
+        if _re.search(r'\bfour flows\b', prose, _re.IGNORECASE):
+            errors.append(
+                f"[ELYSIUM] Canonical terminology error — 'four flows' found in Opening module "
+                f"(must be 'five flow classes' or 'Five Classes of Civilizational Flows'): "
+                f"{f.relative_to(REPO_ROOT)}"
+            )
+
+
+def validate_elysium_founder_reader_view():
+    """Check Founder Reader View exists and ends with terminal punctuation."""
+    frv = BOOK / "views" / "founder_reading" / "ELYSIUM_Draft_0_Opening_plus_F01_FounderReview.md"
+    if not frv.exists():
+        warnings.append("[ELYSIUM] Founder Reader View not found: BOOK/views/founder_reading/ELYSIUM_Draft_0_Opening_plus_F01_FounderReview.md")
+        return
+    content = frv.read_text(encoding="utf-8")
+    last_char = content.rstrip()[-1]
+    if last_char not in '.!?*_':
+        errors.append(
+            f"[ELYSIUM] Founder Reader View may be truncated — ends with {repr(last_char)}: "
+            f"{frv.relative_to(REPO_ROOT)}"
+        )
+    # Check module count: must contain all 22 module headings
+    import re as _re
+    opn_headings = len(_re.findall(r'### OPN-\d{3}', content))
+    f01_headings = len(_re.findall(r'### F01-\d{3}', content))
+    if opn_headings < 13:
+        errors.append(f"[ELYSIUM] Founder Reader View missing Opening modules: found {opn_headings}/13")
+    if f01_headings < 9:
+        errors.append(f"[ELYSIUM] Founder Reader View missing F01 modules: found {f01_headings}/9")
+
+
 def main():
     target_dir = BOOK
     if len(sys.argv) > 1:
@@ -513,6 +585,9 @@ def main():
     validate_elysium_registries_exist()
     validate_elysium_registry_module_crossref()
     validate_elysium_f01_seven_flows()
+    validate_elysium_terminal_punctuation()
+    validate_elysium_no_four_flows()
+    validate_elysium_founder_reader_view()
 
     print(f"\nErrors: {len(errors)}")
     for e in errors:

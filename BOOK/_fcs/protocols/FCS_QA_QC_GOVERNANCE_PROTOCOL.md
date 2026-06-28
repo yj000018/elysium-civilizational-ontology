@@ -61,6 +61,13 @@ Any of the following conditions must immediately **stop production**. Execution 
 *   Manus prose contamination (Manus generating book prose instead of Claude API)
 *   Unresolved review failure (L2 REVISE loop stuck)
 *   Movement/foundation boundary crossing without authorization
+*   Truncated prose
+*   Incomplete module ending
+*   Source draft ending without terminal punctuation
+*   Compiled reader truncation
+*   Compiled reader/source mismatch
+*   Word total mismatch between registry and compiled reader
+*   Module count mismatch between source drafts and compiled reader
 *   Founder or Chief Architect uncertainty
 
 ---
@@ -86,8 +93,11 @@ The ELYSIUM production system uses strict terminology for module and architectur
 Foundation 02 (Vitality) **cannot start** until all the following conditions are met:
 
 1.  End-of-F01 hardening is complete.
-2.  F01 micro-patch is applied (e.g., six→seven flows).
-3.  F01 metadata and registries are standardized.
-4.  `validate.py` returns 0 errors and 0 warnings.
-5.  Founder reader draft exists and is compiled.
-6.  Chief Architect explicitly approves F01 (or explicitly approves F02 progression despite pending issues).
+2.  F01-000 truncation repaired and re-reviewed via ChatGPT API.
+3.  OPN-013 canonical terminology patched from "four flows" to "five flow classes".
+4.  F01 metadata and registries are standardized.
+5.  `validate.py` returns 0 errors and 0 warnings.
+6.  Founder reader draft is regenerated after all repairs.
+7.  Compiled reader totals match registry totals.
+8.  Compiled reader module count matches all `compile: true` source modules.
+9.  Chief Architect explicitly approves F01 (or explicitly approves F02 progression despite pending issues).
