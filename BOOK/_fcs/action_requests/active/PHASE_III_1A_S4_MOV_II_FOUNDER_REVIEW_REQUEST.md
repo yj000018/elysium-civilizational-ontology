@@ -43,7 +43,7 @@ Closing: *"What becomes possible when a framework holds time, space, and domain 
 
 ---
 
-### OPN-006 — The Hinge: From Critique to Metabolism (820 words)
+### OPN-006 — The Hinge: From Critique to Model (820 words)
 `BOOK/manuscript/01_opening/drafts/OPN-006_DRAFT_0.md`
 
 Opening: *"The argument thus far has traced a particular arc..."*
@@ -82,5 +82,5 @@ Operate in FSD Controlled Mode. Approved scope: MOV-III OPN-007 to OPN-009. Auto
 | OPN-003 | Civilization as Patient | 814 | Founder approval pending |
 | OPN-004 | The Illusion of Silos | 776 | Founder approval pending |
 | OPN-005 | The Displacement Problem | 780 | Founder approval pending |
-| OPN-006 | The Hinge: From Critique to Metabolism | 820 | Founder approval pending |
+| OPN-006 | The Hinge: From Critique to Model | 820 | Founder approval pending |
 | **TOTAL** | — | **4,609 words** | **6/6 DRAFT_0** |

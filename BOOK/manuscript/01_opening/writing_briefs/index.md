@@ -23,7 +23,7 @@ This folder contains 13 Writing Briefs for the Opening Part of ELYSIUM.
 | OPN-003 | The Patient Metaphor | MOV-I | 700 | KEEP_WITH_OVERLAP_CAUTION | BRIEF_DRAFT |
 | OPN-004 | The Illusion of Silos | MOV-II | 850 | KEEP | BRIEF_DRAFT |
 | OPN-005 | The Displacement Problem | MOV-II | 800 | KEEP | BRIEF_DRAFT |
-| OPN-006 | The Hinge: From Critique to Metabolism | MOV-II | 850 | REFINE_HINGE_TO_MOV_III | BRIEF_DRAFT |
+| OPN-006 | The Hinge: From Critique to Model | MOV-II | 850 | REFINE_HINGE_TO_MOV_III | BRIEF_DRAFT |
 | OPN-007 | The Machine Metaphor and Its Limits | MOV-III | 600 | KEEP | BRIEF_DRAFT |
 | OPN-008 | Civilization as Metabolic Entity | MOV-III | 1050 | KEEP_CRITICAL_DO_NOT_SPLIT | BRIEF_DRAFT |
 | OPN-009 | The Five Classes of Civilizational Flows | MOV-III | 900 | KEEP_WITH_TERMINOLOGY_LOCK | BRIEF_DRAFT |

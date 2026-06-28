@@ -1,7 +1,7 @@
 ---
 id: OPN-006_DRAFT_0
 module_id: OPN-006
-title_en: "The Hinge: From Critique to Metabolism"
+title_en: "The Hinge: From Critique to Model"
 part: 01_opening
 movement: MOV-II
 movement_title: "The Failure of Fragmented Maps"
@@ -17,14 +17,16 @@ claude_api_status: USED_FOR_PROSE
 chatgpt_api_status: USED_FOR_REVIEW
 chatgpt_review_status: PASS
 founder_approval_status: PENDING
-word_count: 820
+word_count: 791
 fsd_controlled_mode: true
 fsd_scope: MOV-II
 mov_ii_closure: true
+patch_applied: "Chief Architect MOV-II micro-patch — title rename + ending softened"
+patch_date: "2026-06-28"
 created_by: "Manus orchestration + Claude API + ChatGPT API review"
 ---
 
-# The Hinge: From Critique to Metabolism
+# The Hinge: From Critique to Model
 
 The argument thus far has traced a particular arc. We began with a patient presenting symptoms across every dimension of civilizational life—ecological, social, psychological, institutional, economic, spiritual. We observed that these symptoms, though catalogued exhaustively by various specialist disciplines, had never been diagnosed as a pattern. The patient's condition remained unnamed not because evidence was lacking but because no framework existed capable of holding the whole in view.
 
@@ -48,10 +50,8 @@ What would such a map need to do?
 
 It would need to hold time in a way that prevents the present from externalizing its costs to the future. It would need to hold space in a way that prevents the local from externalizing its costs to the distant. It would need to hold domain in a way that prevents one sphere of activity from externalizing its costs to another. And it would need to do all three simultaneously, because problems move through all three dimensions at once.
 
-This is a demanding specification. It asks for a framework that treats civilization not as a collection of separate compartments to be managed but as a single coherent phenomenon to be understood. It asks for the kind of integration that we instinctively apply to living systems—an organism, an ecosystem, a body—but that we have rarely thought to apply to civilization itself.
+This is a demanding specification. It asks for a framework that treats civilization not as a collection of separate compartments to be managed but as a single coherent phenomenon to be understood. The integration required is of a particular kind—the kind we instinctively bring to living systems, where we understand without argument that parts exist in continuous relation, that flows connect what boundaries would separate, that the whole cannot be recovered by summing fragments.
 
-There is something in this intuition worth pursuing. When we encounter a living system, we do not imagine that its respiratory function can be understood in isolation from its circulatory function, or that its metabolism can be separated from its structure, or that what it does can be divided from what it is. We understand, without requiring argument, that life involves a particular kind of wholeness—that the parts exist in constant relation, that matter and energy flow through in continuous cycles, that function and form are inseparable.
+Could civilization be understood as such a system? The question is not rhetorical. It asks whether our failure to see the whole reflects a limitation in our instruments or a misapprehension of the phenomenon's basic nature. Whether we have been treating as separable what is in fact joined, as static what is in fact flowing, as assembled what is in fact grown.
 
-What if civilization were such a system? Not metaphorically, but actually. What if the fragmentation we have diagnosed is not merely an intellectual failure but a misapprehension of the phenomenon's basic nature—treating as separable what is in fact joined, treating as static what is in fact flowing, treating as mechanical what is in fact alive?
-
-The next movement turns toward this possibility.
+The next movement takes up this question directly. It will require a model—not a metaphor but a formal structure capable of making the integration precise. What such a model might look like, and what it would need to contain, is the work that now begins.

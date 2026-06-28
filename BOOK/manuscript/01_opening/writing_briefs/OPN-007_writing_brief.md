@@ -144,7 +144,7 @@ Medium-light. This is a clearing operation — remove the machine frame to make 
 
 ## 14. Required Cross-References
 
-- **Follows:** OPN-006 — The Hinge: From Critique to Metabolism
+- **Follows:** OPN-006 — The Hinge: From Critique to Model
 - **Precedes:** OPN-008 — Civilization as Metabolic Entity
 - **Prepares:** OPN-008's full metabolic frame
 

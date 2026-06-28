@@ -44,7 +44,7 @@ created_at: "2026-06-28"
 |---|---|---|---|---|
 | OPN-004 | The Illusion of Silos | 776 | PASS | DRAFT_0 — Founder approval pending |
 | OPN-005 | The Displacement Problem | 780 | PASS | DRAFT_0 — Founder approval pending |
-| OPN-006 | The Hinge: From Critique to Metabolism | 820 | PASS | DRAFT_0 — Founder approval pending |
+| OPN-006 | The Hinge: From Critique to Model | 820 | PASS | DRAFT_0 — Founder approval pending |
 | **MOV-II total** | — | **2,376 words** | 3/3 PASS | DRAFT_0 COMPLETE |
 
 ---
@@ -77,7 +77,7 @@ The three modules form a coherent diagnostic arc:
 | OPN-003 | Civilization as Patient | 814 | DRAFT_0 — Founder approval pending |
 | OPN-004 | The Illusion of Silos | 776 | DRAFT_0 — Founder approval pending |
 | OPN-005 | The Displacement Problem | 780 | DRAFT_0 — Founder approval pending |
-| OPN-006 | The Hinge: From Critique to Metabolism | 820 | DRAFT_0 — Founder approval pending |
+| OPN-006 | The Hinge: From Critique to Model | 820 | DRAFT_0 — Founder approval pending |
 | **TOTAL** | — | **4,609 words** | 6/6 DRAFT_0 COMPLETE |
 
 ---

@@ -145,7 +145,7 @@ Medium. Three types of displacement, each illustrated concretely. Do not over-th
 ## 14. Required Cross-References
 
 - **Follows:** OPN-004 — The Illusion of Silos
-- **Precedes:** OPN-006 — The Hinge: From Critique to Metabolism
+- **Precedes:** OPN-006 — The Hinge: From Critique to Model
 - **Prepares:** OPN-006's hinge to the metabolic frame; OPN-008's metabolic inputs/outputs
 
 ---

@@ -1,7 +1,7 @@
 ---
 id: OPN-006_WRITING_BRIEF
 module_id: OPN-006
-title_en: "The Hinge: From Critique to Metabolism"
+title_en: "The Hinge: From Critique to Model"
 title_fr: "La charnière : de la critique au métabolisme"
 part: 01_opening
 movement: MOV-II
@@ -29,7 +29,7 @@ routing:
 ---
 
 # OPN-006 — Writing Brief
-## The Hinge: From Critique to Metabolism / La charnière : de la critique au métabolisme
+## The Hinge: From Critique to Model / La charnière : de la critique au métabolisme
 
 ---
 
@@ -38,7 +38,7 @@ routing:
 | Field | Value |
 |---|---|
 | Module ID | OPN-006 |
-| Title EN | The Hinge: From Critique to Metabolism |
+| Title EN | The Hinge: From Critique to Model |
 | Title FR | La charnière : de la critique au métabolisme |
 | Movement | MOV-II — The Failure of Fragmented Maps |
 | Part | 01_opening |
@@ -185,7 +185,7 @@ Medium. The hinge must be felt, not over-explained.
 > **For S4 use only. Do NOT execute now. Claude is NOT called in S3.**
 
 ```
-Write module OPN-006 of the ELYSIUM book Opening Part. Title: 'The Hinge: From Critique to Metabolism'. Word target: 850 words (min 700 / max 1000). This is the hinge between MOV-II and MOV-III. Close the critique of fragmented maps. Create the need for a new integrative lens. Do not introduce the ELYSIUM architecture. Hint at the living-systems intuition without naming it fully. Tone: transitional, building, anticipatory.
+Write module OPN-006 of the ELYSIUM book Opening Part. Title: 'The Hinge: From Critique to Model'. Word target: 850 words (min 700 / max 1000). This is the hinge between MOV-II and MOV-III. Close the critique of fragmented maps. Create the need for a new integrative lens. Do not introduce the ELYSIUM architecture. Hint at the living-systems intuition without naming it fully. Tone: transitional, building, anticipatory.
 ```
 
 ---

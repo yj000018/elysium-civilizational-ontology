@@ -62,7 +62,7 @@ MOV-II title: **The Failure of Fragmented Maps**
 
 ## Next Module Summary (OPN-006)
 
-Title: The Hinge: From Critique to Metabolism
+Title: The Hinge: From Critique to Model
 Purpose: Close MOV-II and turn toward MOV-III. Respect expertise while showing why expertise alone cannot provide the integrative map required.
 State in: The reader sees why silos and partial solutions fail.
 State out: The reader is ready to ask what kind of model can hold the whole.

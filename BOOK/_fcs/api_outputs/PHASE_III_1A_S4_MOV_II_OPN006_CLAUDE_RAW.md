@@ -6,7 +6,7 @@ input_tokens: 755
 output_tokens: 1031
 ---
 
-# The Hinge: From Critique to Metabolism
+# The Hinge: From Critique to Model
 
 The argument thus far has traced a particular arc. We began with a patient presenting symptoms across every dimension of civilizational life—ecological, social, psychological, institutional, economic, spiritual. We observed that these symptoms, though catalogued exhaustively by various specialist disciplines, had never been diagnosed as a pattern. The patient's condition remained unnamed not because evidence was lacking but because no framework existed capable of holding the whole in view.
 

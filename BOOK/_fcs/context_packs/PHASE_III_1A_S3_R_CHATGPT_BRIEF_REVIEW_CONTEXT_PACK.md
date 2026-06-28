@@ -226,7 +226,7 @@ After all 13 module reviews:
 
 ---
 
-### OPN-006 — The Hinge: From Critique to Metabolism
+### OPN-006 — The Hinge: From Critique to Model
 **Movement:** MOV-II | **Word target:** 600 | **Decision (S2X-R2):** KEEP — explicit hinge MOV-II → MOV-III
 
 **Purpose:** This is the structural hinge of the Opening. It closes the critique of fragmented thinking and opens the metabolic model. The reader must feel the shift — from "what is wrong" to "what is actually happening."

@@ -9,7 +9,7 @@ autonomy_level: 2
 created_at: "2026-06-28"
 ---
 
-# Context Pack: OPN-006 — The Hinge: From Critique to Metabolism
+# Context Pack: OPN-006 — The Hinge: From Critique to Model
 
 ## FSD Controlled Mode Scope
 
@@ -35,7 +35,7 @@ MOV-II title: **The Failure of Fragmented Maps**
 
 ## Current Module: OPN-006
 
-**Canonical title:** The Hinge: From Critique to Metabolism
+**Canonical title:** The Hinge: From Critique to Model
 
 **Target:** 850 words. Acceptable range: 700–1000 words.
 
