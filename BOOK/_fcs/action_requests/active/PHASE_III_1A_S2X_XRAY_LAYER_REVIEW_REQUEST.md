@@ -3,6 +3,7 @@ id: PHASE_III_1A_S2X_XRAY_LAYER_REVIEW_REQUEST
 title: "Phase III-1A-S2X — Opening X-Ray Layer Review Request"
 type: action_request
 status: ACTIVE
+target: "ChatGPT Chief Architect + Founder"
 target_agent: "ChatGPT Chief Architect + Founder"
 phase: "Phase III-1A-S2X"
 created_by: "Manus"
