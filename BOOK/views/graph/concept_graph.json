@@ -5,11 +5,47 @@
       "type": "concept"
     },
     {
+      "id": "civilizational_direction",
+      "type": "concept"
+    },
+    {
+      "id": "civilizational_metabolism",
+      "type": "concept"
+    },
+    {
+      "id": "cultural_metabolism",
+      "type": "concept"
+    },
+    {
+      "id": "cybernetics",
+      "type": "concept"
+    },
+    {
       "id": "dependency_structure",
       "type": "concept"
     },
     {
       "id": "energy_metabolism",
+      "type": "concept"
+    },
+    {
+      "id": "eroi",
+      "type": "concept"
+    },
+    {
+      "id": "feedback_loops",
+      "type": "concept"
+    },
+    {
+      "id": "foresight",
+      "type": "concept"
+    },
+    {
+      "id": "human_capital",
+      "type": "concept"
+    },
+    {
+      "id": "living_systems",
       "type": "concept"
     },
     {
@@ -19,16 +55,160 @@
     {
       "id": "metabolic_foundation",
       "type": "concept"
+    },
+    {
+      "id": "phase_shifts",
+      "type": "concept"
+    },
+    {
+      "id": "polycrisis",
+      "type": "concept"
+    },
+    {
+      "id": "regeneration",
+      "type": "concept"
+    },
+    {
+      "id": "regenerative_design",
+      "type": "concept"
+    },
+    {
+      "id": "regenerative_energy",
+      "type": "concept"
+    },
+    {
+      "id": "social_fabric",
+      "type": "concept"
+    },
+    {
+      "id": "systemic_coordination",
+      "type": "concept"
+    },
+    {
+      "id": "systemic_intervention",
+      "type": "concept"
+    },
+    {
+      "id": "systemic_learning",
+      "type": "concept"
+    },
+    {
+      "id": "systemic_thinking",
+      "type": "concept"
+    },
+    {
+      "id": "thermodynamic_limits",
+      "type": "concept"
+    },
+    {
+      "id": "transition_dynamics",
+      "type": "concept"
+    },
+    {
+      "id": "value_creation",
+      "type": "concept"
+    },
+    {
+      "id": "worldview_shift",
+      "type": "concept"
     }
   ],
   "mentions": [
     {
-      "concept": "material_dependency",
-      "source": "F01_material_base"
+      "concept": "polycrisis",
+      "source": "PART_01"
+    },
+    {
+      "concept": "civilizational_metabolism",
+      "source": "PART_01"
+    },
+    {
+      "concept": "transition_dynamics",
+      "source": "PART_03"
+    },
+    {
+      "concept": "feedback_loops",
+      "source": "PART_03"
+    },
+    {
+      "concept": "phase_shifts",
+      "source": "PART_03"
+    },
+    {
+      "concept": "regenerative_design",
+      "source": "PART_04"
+    },
+    {
+      "concept": "systemic_intervention",
+      "source": "PART_04"
+    },
+    {
+      "concept": "polycrisis",
+      "source": "P01_M01_pathology_of_present"
+    },
+    {
+      "concept": "systemic_thinking",
+      "source": "P01_M02_illusion_of_silos"
+    },
+    {
+      "concept": "civilizational_metabolism",
+      "source": "P01_M03_metabolic_entity"
     },
     {
       "concept": "metabolic_foundation",
       "source": "F01_material_base"
+    },
+    {
+      "concept": "thermodynamic_limits",
+      "source": "F01_material_base"
+    },
+    {
+      "concept": "living_systems",
+      "source": "F02_vitality"
+    },
+    {
+      "concept": "regeneration",
+      "source": "F02_vitality"
+    },
+    {
+      "concept": "value_creation",
+      "source": "F03_agency"
+    },
+    {
+      "concept": "human_capital",
+      "source": "F03_agency"
+    },
+    {
+      "concept": "social_fabric",
+      "source": "F04_cohesion"
+    },
+    {
+      "concept": "cultural_metabolism",
+      "source": "F04_cohesion"
+    },
+    {
+      "concept": "cybernetics",
+      "source": "F05_governance"
+    },
+    {
+      "concept": "systemic_coordination",
+      "source": "F05_governance"
+    },
+    {
+      "concept": "systemic_learning",
+      "source": "F06_vision"
+    },
+    {
+      "concept": "foresight",
+      "source": "F06_vision"
+    },
+    {
+      "concept": "civilizational_direction",
+      "source": "F07_consciousness"
+    },
+    {
+      "concept": "worldview_shift",
+      "source": "F07_consciousness"
     },
     {
       "concept": "energy_metabolism",
@@ -41,6 +221,18 @@
     {
       "concept": "civilizational_bottleneck",
       "source": "F01_01"
+    },
+    {
+      "concept": "eroi",
+      "source": "F01_01_M01_energy_trap"
+    },
+    {
+      "concept": "thermodynamic_limits",
+      "source": "F01_01_M01_energy_trap"
+    },
+    {
+      "concept": "regenerative_energy",
+      "source": "F01_01_M02_energy_transition"
     },
     {
       "concept": "material_dependency",

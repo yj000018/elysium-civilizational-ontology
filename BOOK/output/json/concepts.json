@@ -1,17 +1,102 @@
 {
   "concepts": [
     "civilizational_bottleneck",
+    "civilizational_direction",
+    "civilizational_metabolism",
+    "cultural_metabolism",
+    "cybernetics",
     "dependency_structure",
     "energy_metabolism",
-    "material_dependency",
-    "metabolic_foundation"
+    "eroi",
+    "feedback_loops",
+    "foresight",
+    "human_capital",
+    "living_systems",
+    "metabolic_foundation",
+    "phase_shifts",
+    "polycrisis",
+    "regeneration",
+    "regenerative_design",
+    "regenerative_energy",
+    "social_fabric",
+    "systemic_coordination",
+    "systemic_intervention",
+    "systemic_learning",
+    "systemic_thinking",
+    "thermodynamic_limits",
+    "transition_dynamics",
+    "value_creation",
+    "worldview_shift"
   ],
   "mentions": {
-    "material_dependency": [
-      "F01_material_base"
+    "polycrisis": [
+      "PART_01",
+      "P01_M01_pathology_of_present"
+    ],
+    "civilizational_metabolism": [
+      "PART_01",
+      "P01_M03_metabolic_entity"
+    ],
+    "transition_dynamics": [
+      "PART_03"
+    ],
+    "feedback_loops": [
+      "PART_03"
+    ],
+    "phase_shifts": [
+      "PART_03"
+    ],
+    "regenerative_design": [
+      "PART_04"
+    ],
+    "systemic_intervention": [
+      "PART_04"
+    ],
+    "systemic_thinking": [
+      "P01_M02_illusion_of_silos"
     ],
     "metabolic_foundation": [
       "F01_material_base"
+    ],
+    "thermodynamic_limits": [
+      "F01_material_base",
+      "F01_01_M01_energy_trap"
+    ],
+    "living_systems": [
+      "F02_vitality"
+    ],
+    "regeneration": [
+      "F02_vitality"
+    ],
+    "value_creation": [
+      "F03_agency"
+    ],
+    "human_capital": [
+      "F03_agency"
+    ],
+    "social_fabric": [
+      "F04_cohesion"
+    ],
+    "cultural_metabolism": [
+      "F04_cohesion"
+    ],
+    "cybernetics": [
+      "F05_governance"
+    ],
+    "systemic_coordination": [
+      "F05_governance"
+    ],
+    "systemic_learning": [
+      "F06_vision"
+    ],
+    "foresight": [
+      "F06_vision"
+    ],
+    "civilizational_direction": [
+      "F07_consciousness"
+    ],
+    "worldview_shift": [
+      "F07_consciousness"
     ],
     "energy_metabolism": [
       "F01_01"
@@ -21,6 +106,12 @@
     ],
     "civilizational_bottleneck": [
       "F01_01"
+    ],
+    "eroi": [
+      "F01_01_M01_energy_trap"
+    ],
+    "regenerative_energy": [
+      "F01_01_M02_energy_transition"
     ]
   }
 }

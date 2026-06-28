@@ -1,0 +1,114 @@
+=== ACCEPTANCE EVIDENCE — Phase III-0B ===
+Date: Sun Jun 28 00:43:07 UTC 2026
+
+--- TEST 1: VALID FIXTURE (MUST PASS = exit 0) ---
+============================================================
+FCS VALIDATION REPORT: BOOK/_fcs/test_fixtures/valid_minimal_project
+============================================================
+
+Errors: 0
+
+Warnings: 0
+
+Total: 0 errors, 0 warnings
+EXIT CODE: 0
+
+--- TEST 2: INVALID broken_manifest (MUST FAIL = exit 1) ---
+============================================================
+FCS VALIDATION REPORT: BOOK/_fcs/test_fixtures/invalid_broken_manifest
+============================================================
+
+Errors: 1
+  [ERROR] Manifest include missing: does_not_exist in BOOK/_fcs/test_fixtures/invalid_broken_manifest/manuscript/manifest.md
+
+Warnings: 0
+
+Total: 1 errors, 0 warnings
+EXIT CODE: 1
+
+--- TEST 3: INVALID duplicate_id (MUST FAIL = exit 1) ---
+============================================================
+FCS VALIDATION REPORT: BOOK/_fcs/test_fixtures/invalid_duplicate_id
+============================================================
+
+Errors: 1
+  [ERROR] Duplicate ID: DUP_ID (found 2 times)
+
+Warnings: 1
+  [WARN]  Folder node missing index.md: BOOK/_fcs/test_fixtures/invalid_duplicate_id/manuscript
+
+Total: 1 errors, 1 warnings
+EXIT CODE: 1
+
+--- TEST 4: INVALID missing_parent (MUST FAIL = exit 1) ---
+============================================================
+FCS VALIDATION REPORT: BOOK/_fcs/test_fixtures/invalid_missing_parent
+============================================================
+
+Errors: 1
+  [ERROR] Parent ID does not exist: DOES_NOT_EXIST in BOOK/_fcs/test_fixtures/invalid_missing_parent/manuscript/missing_parent.md
+
+Warnings: 1
+  [WARN]  Folder node missing index.md: BOOK/_fcs/test_fixtures/invalid_missing_parent/manuscript
+
+Total: 1 errors, 1 warnings
+EXIT CODE: 1
+
+--- TEST 5: MAIN BOOK (MUST PASS = exit 0, 0 errors) ---
+============================================================
+FCS VALIDATION REPORT: BOOK
+============================================================
+
+Errors: 0
+
+Warnings: 0
+
+Total: 0 errors, 0 warnings
+
+Report written to: BOOK/views/dashboards/VALIDATION_REPORT.md
+EXIT CODE: 0
+
+--- TEST 6: GRAPH (0 warnings expected) ---
+============================================================
+FCS GRAPH GENERATION
+============================================================
+
+Content graph: 73 nodes, 72 edges
+Concept graph: 28 concepts
+Resource graph: 0 resources
+
+Outputs written to: BOOK/views/graph/ and BOOK/output/graphs/
+EXIT CODE: 0
+
+--- TEST 7: RENDER expanded (must produce output) ---
+[render.py] expanded view written to: /home/ubuntu/elysium-civilizational-ontology/BOOK/views/expanded/BOOK_manuscript.md
+EXIT CODE: 0
+
+--- TEST 8: STATUS (node count > 50) ---
+============================================================
+FCS STATUS REPORT
+============================================================
+
+## Content Nodes: 179
+## Total Word Count: 12373
+
+## Status Distribution
+  SCAFFOLDED: 75
+  PLANNED: 17
+  DRAFT_ACTION: 6
+  TO_VERIFY: 2
+  BAD_STATUS: 1
+
+## Type Distribution
+  facet: 38
+  module: 30
+  foundation: 10
+  book: 9
+  action_request: 5
+  part: 5
+  folder_node: 1
+  concept: 1
+
+Reports written to: BOOK/views/dashboards/
+EXIT CODE: 0
+=== END ===

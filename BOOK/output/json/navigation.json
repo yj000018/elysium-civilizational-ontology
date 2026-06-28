@@ -7,8 +7,8 @@
       "path": "BOOK/manuscript/index.md"
     },
     {
-      "id": "01_opening",
-      "title": "01_opening",
+      "id": "PART_01",
+      "title": "01 Opening",
       "type": "part",
       "path": "BOOK/manuscript/01_opening/index.md"
     },
@@ -19,62 +19,86 @@
       "path": "BOOK/manuscript/02_foundations/index.md"
     },
     {
-      "id": "03_transition_dynamics",
-      "title": "03_transition_dynamics",
+      "id": "PART_03",
+      "title": "03 Transition Dynamics",
       "type": "part",
       "path": "BOOK/manuscript/03_transition_dynamics/index.md"
     },
     {
-      "id": "04_implementation",
-      "title": "04_implementation",
+      "id": "PART_04",
+      "title": "04 Implementation",
       "type": "part",
       "path": "BOOK/manuscript/04_implementation/index.md"
     },
     {
-      "id": "05_appendices",
-      "title": "05_appendices",
+      "id": "PART_05",
+      "title": "05 Appendices",
       "type": "part",
       "path": "BOOK/manuscript/05_appendices/index.md"
     },
     {
+      "id": "P01_M01_pathology_of_present",
+      "title": "The Pathology of the Present",
+      "type": "module",
+      "path": "BOOK/manuscript/01_opening/modules/01_pathology_of_present.md"
+    },
+    {
+      "id": "P01_M02_illusion_of_silos",
+      "title": "The Illusion of Silos",
+      "type": "module",
+      "path": "BOOK/manuscript/01_opening/modules/02_illusion_of_silos.md"
+    },
+    {
+      "id": "P01_M03_metabolic_entity",
+      "title": "Civilization as a Metabolic Entity",
+      "type": "module",
+      "path": "BOOK/manuscript/01_opening/modules/03_metabolic_entity.md"
+    },
+    {
+      "id": "P01_M04_the_seven_foundations",
+      "title": "The Seven Foundations",
+      "type": "module",
+      "path": "BOOK/manuscript/01_opening/modules/04_the_seven_foundations.md"
+    },
+    {
       "id": "F01_material_base",
-      "title": "Material Base",
+      "title": "F01 Material Base",
       "type": "foundation",
       "path": "BOOK/manuscript/02_foundations/F01_material_base/index.md"
     },
     {
       "id": "F02_vitality",
-      "title": "F02_vitality",
+      "title": "F02 Vitality",
       "type": "foundation",
       "path": "BOOK/manuscript/02_foundations/F02_vitality/index.md"
     },
     {
       "id": "F03_agency",
-      "title": "F03_agency",
+      "title": "F03 Agency",
       "type": "foundation",
       "path": "BOOK/manuscript/02_foundations/F03_agency/index.md"
     },
     {
       "id": "F04_cohesion",
-      "title": "F04_cohesion",
+      "title": "F04 Cohesion",
       "type": "foundation",
       "path": "BOOK/manuscript/02_foundations/F04_cohesion/index.md"
     },
     {
       "id": "F05_governance",
-      "title": "F05_governance",
+      "title": "F05 Governance",
       "type": "foundation",
       "path": "BOOK/manuscript/02_foundations/F05_governance/index.md"
     },
     {
       "id": "F06_vision",
-      "title": "F06_vision",
+      "title": "F06 Vision",
       "type": "foundation",
       "path": "BOOK/manuscript/02_foundations/F06_vision/index.md"
     },
     {
       "id": "F07_consciousness",
-      "title": "F07_consciousness",
+      "title": "F07 Consciousness",
       "type": "foundation",
       "path": "BOOK/manuscript/02_foundations/F07_consciousness/index.md"
     },
@@ -85,34 +109,34 @@
       "path": "BOOK/manuscript/02_foundations/F01_material_base/F01_01_energy/index.md"
     },
     {
-      "id": "F01_02_water",
-      "title": "F01_02_water",
+      "id": "F01_02",
+      "title": "Water",
       "type": "facet",
       "path": "BOOK/manuscript/02_foundations/F01_material_base/F01_02_water/index.md"
     },
     {
-      "id": "F01_03_food",
-      "title": "F01_03_food",
-      "type": "facet",
-      "path": "BOOK/manuscript/02_foundations/F01_material_base/F01_03_food/index.md"
-    },
-    {
-      "id": "F01_04_shelter",
-      "title": "F01_04_shelter",
-      "type": "facet",
-      "path": "BOOK/manuscript/02_foundations/F01_material_base/F01_04_shelter/index.md"
-    },
-    {
-      "id": "F01_05_mobility",
-      "title": "F01_05_mobility",
+      "id": "F01_05",
+      "title": "Mobility",
       "type": "facet",
       "path": "BOOK/manuscript/02_foundations/F01_material_base/F01_05_mobility/index.md"
     },
     {
-      "id": "F01_06_materials",
-      "title": "F01_06_materials",
+      "id": "F01_06",
+      "title": "Materials",
       "type": "facet",
       "path": "BOOK/manuscript/02_foundations/F01_material_base/F01_06_materials/index.md"
+    },
+    {
+      "id": "F01_03",
+      "title": "Habitat",
+      "type": "facet",
+      "path": "BOOK/manuscript/02_foundations/F01_material_base/F01_03_habitat/index.md"
+    },
+    {
+      "id": "F01_04",
+      "title": "Infrastructure",
+      "type": "facet",
+      "path": "BOOK/manuscript/02_foundations/F01_material_base/F01_04_infrastructure/index.md"
     },
     {
       "id": "F01_01_M01",
@@ -131,6 +155,288 @@
       "title": "Energy Transition Vectors",
       "type": "module",
       "path": "BOOK/manuscript/02_foundations/F01_material_base/F01_01_energy/modules/03_energy_transition_vectors.md"
+    },
+    {
+      "id": "F01_01_M01_energy_trap",
+      "title": "The Energy Trap",
+      "type": "module",
+      "path": "BOOK/manuscript/02_foundations/F01_material_base/F01_01_energy/modules/01_energy_trap.md"
+    },
+    {
+      "id": "F01_01_M02_energy_transition",
+      "title": "The Transition Vector",
+      "type": "module",
+      "path": "BOOK/manuscript/02_foundations/F01_material_base/F01_01_energy/modules/02_energy_transition.md"
+    },
+    {
+      "id": "F02_01",
+      "title": "Health",
+      "type": "facet",
+      "path": "BOOK/manuscript/02_foundations/F02_vitality/F02_01_health/index.md"
+    },
+    {
+      "id": "F02_02",
+      "title": "Food & Agriculture",
+      "type": "facet",
+      "path": "BOOK/manuscript/02_foundations/F02_vitality/F02_02_food_agriculture/index.md"
+    },
+    {
+      "id": "F02_03",
+      "title": "Biodiversity",
+      "type": "facet",
+      "path": "BOOK/manuscript/02_foundations/F02_vitality/F02_03_biodiversity/index.md"
+    },
+    {
+      "id": "F02_04",
+      "title": "Ecosystems",
+      "type": "facet",
+      "path": "BOOK/manuscript/02_foundations/F02_vitality/F02_04_ecosystems/index.md"
+    },
+    {
+      "id": "F02_05",
+      "title": "Regeneration",
+      "type": "facet",
+      "path": "BOOK/manuscript/02_foundations/F02_vitality/F02_05_regeneration/index.md"
+    },
+    {
+      "id": "F03_01",
+      "title": "Economy",
+      "type": "facet",
+      "path": "BOOK/manuscript/02_foundations/F03_agency/F03_01_economy/index.md"
+    },
+    {
+      "id": "F03_02",
+      "title": "Work",
+      "type": "facet",
+      "path": "BOOK/manuscript/02_foundations/F03_agency/F03_02_work/index.md"
+    },
+    {
+      "id": "F03_03",
+      "title": "Finance",
+      "type": "facet",
+      "path": "BOOK/manuscript/02_foundations/F03_agency/F03_03_finance/index.md"
+    },
+    {
+      "id": "F03_04",
+      "title": "Entrepreneurship",
+      "type": "facet",
+      "path": "BOOK/manuscript/02_foundations/F03_agency/F03_04_entrepreneurship/index.md"
+    },
+    {
+      "id": "F03_05",
+      "title": "Innovation",
+      "type": "facet",
+      "path": "BOOK/manuscript/02_foundations/F03_agency/F03_05_innovation/index.md"
+    },
+    {
+      "id": "F03_06",
+      "title": "Production",
+      "type": "facet",
+      "path": "BOOK/manuscript/02_foundations/F03_agency/F03_06_production/index.md"
+    },
+    {
+      "id": "F04_01",
+      "title": "Community",
+      "type": "facet",
+      "path": "BOOK/manuscript/02_foundations/F04_cohesion/F04_01_community/index.md"
+    },
+    {
+      "id": "F04_02",
+      "title": "Relationships",
+      "type": "facet",
+      "path": "BOOK/manuscript/02_foundations/F04_cohesion/F04_02_relationships/index.md"
+    },
+    {
+      "id": "F04_03",
+      "title": "Culture",
+      "type": "facet",
+      "path": "BOOK/manuscript/02_foundations/F04_cohesion/F04_03_culture/index.md"
+    },
+    {
+      "id": "F04_04",
+      "title": "Art",
+      "type": "facet",
+      "path": "BOOK/manuscript/02_foundations/F04_cohesion/F04_04_art/index.md"
+    },
+    {
+      "id": "F04_05",
+      "title": "Media",
+      "type": "facet",
+      "path": "BOOK/manuscript/02_foundations/F04_cohesion/F04_05_media/index.md"
+    },
+    {
+      "id": "F04_06",
+      "title": "Belonging & Identity",
+      "type": "facet",
+      "path": "BOOK/manuscript/02_foundations/F04_cohesion/F04_06_belonging_identity/index.md"
+    },
+    {
+      "id": "F05_01",
+      "title": "Law & Justice",
+      "type": "facet",
+      "path": "BOOK/manuscript/02_foundations/F05_governance/F05_01_law_justice/index.md"
+    },
+    {
+      "id": "F05_02",
+      "title": "Democracy",
+      "type": "facet",
+      "path": "BOOK/manuscript/02_foundations/F05_governance/F05_02_democracy/index.md"
+    },
+    {
+      "id": "F05_03",
+      "title": "Institutions",
+      "type": "facet",
+      "path": "BOOK/manuscript/02_foundations/F05_governance/F05_03_institutions/index.md"
+    },
+    {
+      "id": "F05_04",
+      "title": "Security",
+      "type": "facet",
+      "path": "BOOK/manuscript/02_foundations/F05_governance/F05_04_security/index.md"
+    },
+    {
+      "id": "F05_05",
+      "title": "Communication",
+      "type": "facet",
+      "path": "BOOK/manuscript/02_foundations/F05_governance/F05_05_communication/index.md"
+    },
+    {
+      "id": "F06_01",
+      "title": "Education",
+      "type": "facet",
+      "path": "BOOK/manuscript/02_foundations/F06_vision/F06_01_education/index.md"
+    },
+    {
+      "id": "F06_02",
+      "title": "Science",
+      "type": "facet",
+      "path": "BOOK/manuscript/02_foundations/F06_vision/F06_02_science/index.md"
+    },
+    {
+      "id": "F06_03",
+      "title": "Foresight",
+      "type": "facet",
+      "path": "BOOK/manuscript/02_foundations/F06_vision/F06_03_foresight/index.md"
+    },
+    {
+      "id": "F06_04",
+      "title": "Systems Thinking",
+      "type": "facet",
+      "path": "BOOK/manuscript/02_foundations/F06_vision/F06_04_systems_thinking/index.md"
+    },
+    {
+      "id": "F06_05",
+      "title": "Technology",
+      "type": "facet",
+      "path": "BOOK/manuscript/02_foundations/F06_vision/F06_05_technology/index.md"
+    },
+    {
+      "id": "F07_01",
+      "title": "Ethics",
+      "type": "facet",
+      "path": "BOOK/manuscript/02_foundations/F07_consciousness/F07_01_ethics/index.md"
+    },
+    {
+      "id": "F07_02",
+      "title": "Spirituality",
+      "type": "facet",
+      "path": "BOOK/manuscript/02_foundations/F07_consciousness/F07_02_spirituality/index.md"
+    },
+    {
+      "id": "F07_03",
+      "title": "Meaning & Purpose",
+      "type": "facet",
+      "path": "BOOK/manuscript/02_foundations/F07_consciousness/F07_03_meaning_purpose/index.md"
+    },
+    {
+      "id": "F07_04",
+      "title": "Worldview",
+      "type": "facet",
+      "path": "BOOK/manuscript/02_foundations/F07_consciousness/F07_04_worldview/index.md"
+    },
+    {
+      "id": "F07_05",
+      "title": "Civilizational Direction",
+      "type": "facet",
+      "path": "BOOK/manuscript/02_foundations/F07_consciousness/F07_05_civilizational_direction/index.md"
+    },
+    {
+      "id": "P03_M_01_mechanics_of_lockin",
+      "title": "01_mechanics_of_lockin",
+      "type": "module",
+      "path": "BOOK/manuscript/03_transition_dynamics/modules/01_mechanics_of_lockin.md"
+    },
+    {
+      "id": "P03_M_02_cross_foundation_feedback",
+      "title": "02_cross_foundation_feedback",
+      "type": "module",
+      "path": "BOOK/manuscript/03_transition_dynamics/modules/02_cross_foundation_feedback.md"
+    },
+    {
+      "id": "P03_M_03_leverage_points",
+      "title": "03_leverage_points",
+      "type": "module",
+      "path": "BOOK/manuscript/03_transition_dynamics/modules/03_leverage_points.md"
+    },
+    {
+      "id": "P03_M_04_anatomy_of_phase_shift",
+      "title": "04_anatomy_of_phase_shift",
+      "type": "module",
+      "path": "BOOK/manuscript/03_transition_dynamics/modules/04_anatomy_of_phase_shift.md"
+    },
+    {
+      "id": "P04_M_01_stance_of_architect",
+      "title": "01_stance_of_architect",
+      "type": "module",
+      "path": "BOOK/manuscript/04_implementation/modules/01_stance_of_architect.md"
+    },
+    {
+      "id": "P04_M_02_regenerative_enterprises",
+      "title": "02_regenerative_enterprises",
+      "type": "module",
+      "path": "BOOK/manuscript/04_implementation/modules/02_regenerative_enterprises.md"
+    },
+    {
+      "id": "P04_M_03_governing_commons",
+      "title": "03_governing_commons",
+      "type": "module",
+      "path": "BOOK/manuscript/04_implementation/modules/03_governing_commons.md"
+    },
+    {
+      "id": "P04_M_04_resilient_habitats",
+      "title": "04_resilient_habitats",
+      "type": "module",
+      "path": "BOOK/manuscript/04_implementation/modules/04_resilient_habitats.md"
+    },
+    {
+      "id": "P04_M_05_role_of_individual",
+      "title": "05_role_of_individual",
+      "type": "module",
+      "path": "BOOK/manuscript/04_implementation/modules/05_role_of_individual.md"
+    },
+    {
+      "id": "P05_M_appendix_a_matrix",
+      "title": "appendix_a_matrix",
+      "type": "module",
+      "path": "BOOK/manuscript/05_appendices/modules/appendix_a_matrix.md"
+    },
+    {
+      "id": "P05_M_appendix_b_models",
+      "title": "appendix_b_models",
+      "type": "module",
+      "path": "BOOK/manuscript/05_appendices/modules/appendix_b_models.md"
+    },
+    {
+      "id": "P05_M_appendix_c_glossary",
+      "title": "appendix_c_glossary",
+      "type": "module",
+      "path": "BOOK/manuscript/05_appendices/modules/appendix_c_glossary.md"
+    },
+    {
+      "id": "P05_M_appendix_d_bibliography",
+      "title": "appendix_d_bibliography",
+      "type": "module",
+      "path": "BOOK/manuscript/05_appendices/modules/appendix_d_bibliography.md"
     }
   ]
 }

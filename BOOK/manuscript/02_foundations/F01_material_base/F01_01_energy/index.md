@@ -30,13 +30,11 @@ resources:
 
 relations:
   depends_on:
-    - F01_06_materials
+    - F01_06
   supports:
-    - transition_dynamics
+    - F01_02
   contrasts_with: []
-  echoes:
-    - metabolism
-    - constraint
+  echoes: []
   should_reference: []
   avoid_duplicate_with: []
 

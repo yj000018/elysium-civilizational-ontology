@@ -5,6 +5,26 @@
     "type": "concept"
   },
   {
+    "id": "civilizational_direction",
+    "title": "civilizational_direction",
+    "type": "concept"
+  },
+  {
+    "id": "civilizational_metabolism",
+    "title": "civilizational_metabolism",
+    "type": "concept"
+  },
+  {
+    "id": "cultural_metabolism",
+    "title": "cultural_metabolism",
+    "type": "concept"
+  },
+  {
+    "id": "cybernetics",
+    "title": "cybernetics",
+    "type": "concept"
+  },
+  {
     "id": "dependency_structure",
     "title": "dependency_structure",
     "type": "concept"
@@ -15,13 +35,103 @@
     "type": "concept"
   },
   {
-    "id": "material_dependency",
-    "title": "material_dependency",
+    "id": "eroi",
+    "title": "eroi",
+    "type": "concept"
+  },
+  {
+    "id": "feedback_loops",
+    "title": "feedback_loops",
+    "type": "concept"
+  },
+  {
+    "id": "foresight",
+    "title": "foresight",
+    "type": "concept"
+  },
+  {
+    "id": "human_capital",
+    "title": "human_capital",
+    "type": "concept"
+  },
+  {
+    "id": "living_systems",
+    "title": "living_systems",
     "type": "concept"
   },
   {
     "id": "metabolic_foundation",
     "title": "metabolic_foundation",
+    "type": "concept"
+  },
+  {
+    "id": "phase_shifts",
+    "title": "phase_shifts",
+    "type": "concept"
+  },
+  {
+    "id": "polycrisis",
+    "title": "polycrisis",
+    "type": "concept"
+  },
+  {
+    "id": "regeneration",
+    "title": "regeneration",
+    "type": "concept"
+  },
+  {
+    "id": "regenerative_design",
+    "title": "regenerative_design",
+    "type": "concept"
+  },
+  {
+    "id": "regenerative_energy",
+    "title": "regenerative_energy",
+    "type": "concept"
+  },
+  {
+    "id": "social_fabric",
+    "title": "social_fabric",
+    "type": "concept"
+  },
+  {
+    "id": "systemic_coordination",
+    "title": "systemic_coordination",
+    "type": "concept"
+  },
+  {
+    "id": "systemic_intervention",
+    "title": "systemic_intervention",
+    "type": "concept"
+  },
+  {
+    "id": "systemic_learning",
+    "title": "systemic_learning",
+    "type": "concept"
+  },
+  {
+    "id": "systemic_thinking",
+    "title": "systemic_thinking",
+    "type": "concept"
+  },
+  {
+    "id": "thermodynamic_limits",
+    "title": "thermodynamic_limits",
+    "type": "concept"
+  },
+  {
+    "id": "transition_dynamics",
+    "title": "transition_dynamics",
+    "type": "concept"
+  },
+  {
+    "id": "value_creation",
+    "title": "value_creation",
+    "type": "concept"
+  },
+  {
+    "id": "worldview_shift",
+    "title": "worldview_shift",
     "type": "concept"
   }
 ]
