@@ -92,7 +92,7 @@ def main():
             f"Output ONLY the compressed prose."
         )
         print(f"[COMPRESS] {module_id}: {current_wc}w → target {target}w", flush=True)
-        msg = client.messages.create(model="claude-opus-4-5", max_tokens=2048,
+        msg = client.messages.create(model="claude-opus-4-5", max_tokens=4096,
             system=SYSTEM_PROMPT, messages=[{"role": "user", "content": prompt}])
         prose = msg.content[0].text
         path, wc = save_output(args.output_dir, phase_slug, module_slug, "COMPRESSED",
@@ -116,7 +116,7 @@ def main():
             f"Output ONLY the revised prose."
         )
         print(f"[REVISION] {module_id}", flush=True)
-        msg = client.messages.create(model="claude-opus-4-5", max_tokens=2048,
+        msg = client.messages.create(model="claude-opus-4-5", max_tokens=4096,
             system=SYSTEM_PROMPT, messages=[{"role": "user", "content": prompt}])
         prose = msg.content[0].text
         path, wc = save_output(args.output_dir, phase_slug, module_slug, "REVISED",
@@ -137,7 +137,7 @@ def main():
             f"CONTEXT PACK:\n{context_pack}"
         )
         print(f"[PROSE] {module_id}", flush=True)
-        msg = client.messages.create(model="claude-opus-4-5", max_tokens=2048,
+        msg = client.messages.create(model="claude-opus-4-5", max_tokens=4096,
             system=SYSTEM_PROMPT, messages=[{"role": "user", "content": prompt}])
         prose = msg.content[0].text
         path, wc = save_output(args.output_dir, phase_slug, module_slug, "RAW",
