@@ -69,7 +69,7 @@ WRITING BRIEF:
 
 PROSE:
 ---
-{prose[:4000]}
+{prose}
 ---
 
 EVALUATE:
