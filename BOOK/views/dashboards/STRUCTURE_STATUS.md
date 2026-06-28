@@ -1,7 +1,7 @@
 # Status Report
 
-**Total nodes:** 174
-**Total word count:** 45922
+**Total nodes:** 175
+**Total word count:** 46736
 
 ## Status Distribution
 
@@ -9,7 +9,7 @@
 |---|---|
 | SCAFFOLDED | 100 |
 | PLANNED | 14 |
-| DRAFT | 7 |
+| DRAFT | 8 |
 
 ## Type Distribution
 

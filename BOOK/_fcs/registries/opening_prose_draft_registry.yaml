@@ -5,6 +5,7 @@ part: 01_opening
 description: "Tracks prose draft status for all Opening modules (OPN-001 to OPN-013)"
 last_updated: "2026-06-28"
 phase: III-1A-S4
+mov_i_status: DRAFT_0_COMPLETE_PENDING_FOUNDER
 routing:
   manus: orchestration_only
   claude_api: prose_writing
@@ -19,7 +20,7 @@ routing:
 |--------|-------|--------|------------|----------------|-----------------|
 | OPN-001 | The Felt Sense of Civilizational Malaise | DRAFT_0 | 670 | PASS | PENDING |
 | OPN-002 | The Convergence of Crises | DRAFT_0 | 749 | PASS | PENDING |
-| OPN-003 | The Patient Metaphor | NOT_STARTED | — | — | — |
+| OPN-003 | Civilization as Patient | DRAFT_0 | 814 | PASS (after 1 revision) | PENDING |
 | OPN-004 | The Illusion of Silos | NOT_STARTED | — | — | — |
 | OPN-005 | The Displacement Problem | NOT_STARTED | — | — | — |
 | OPN-006 | The Hinge: From Critique to Model | NOT_STARTED | — | — | — |
@@ -65,16 +66,19 @@ modules:
     review_request: "BOOK/_fcs/action_requests/active/PHASE_III_1A_S4_002_OPN002_FOUNDER_REVIEW_REQUEST.md"
 
   - id: OPN-003
-    title_en: "The Patient Metaphor"
+    title_en: "Civilization as Patient"
     movement: MOV-I
-    prose_status: NOT_STARTED
-    operational_status: NOT_STARTED
-    draft_path: ~
-    word_count: ~
-    phase_produced: ~
-    claude_api_model: ~
-    chatgpt_review_status: ~
+    prose_status: DRAFT_0
+    operational_status: DRAFT_0
+    draft_path: "BOOK/manuscript/01_opening/drafts/OPN-003_DRAFT_0.md"
+    word_count: 814
+    phase_produced: III-1A-S4-003
+    claude_api_model: claude-opus-4-5
+    chatgpt_review_model: gpt-4o-2024-08-06
+    chatgpt_review_status: PASS
+    revision_count: 1
     founder_approval_status: PENDING
+    review_request: "BOOK/_fcs/action_requests/active/PHASE_III_1A_S4_003_OPN003_FOUNDER_REVIEW_REQUEST.md"
 
   - id: OPN-004
     title_en: "The Illusion of Silos"
