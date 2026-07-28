@@ -7,7 +7,7 @@ version: 0.1
 date: 2026-06-29
 owner: Founder / Chief Architect
 scope: general framework nomenclature, cosmology, symbolic architecture, civilizational wheel, terminology rules
-canonical_level: provisional_canon_pending_component_recovery
+canonical_level: canon_v0_1
 stability: high for general architecture and nomenclature, pending recovery for exact 7/12/38 component names
 tags:
   - elysium
@@ -72,7 +72,7 @@ The framework is formalized as a progression representing different orders of re
 * **1 — Le Tout / The Whole**: La Roue civilisationnelle complète.
 * **2 — Spanda**: Mouvement de respiration kosmique : création-résorption.
 * **3 — Les 3 Sphères d’Incarnation**: Individu, Société, Civilisation. Trois sphères transparentes imbriquées, comme des atmosphères de complexité croissante. La conscience y prend forme à différents degrés de complexité.
-* **5 — Les 5 Flux**: (Provisional: Les 5 Flux Primordiaux) Sens, Information/Intelligence, Énergie, Vivant, Matière.
+* **5 — Les 5 Flux Primordiaux**: Sens, Information/Intelligence, Énergie, Vivant, Matière.
 * **7 — Les 7 Organes Civilisationnels**: Les grandes fonctions vivantes par lesquelles une civilisation tient, respire, se coordonne, se transforme et s’incarne.
 * **12 — ELYSIUM Inquiry Process**: 12 Inquiry Gates (les gates / 12 Portes d'Investigation).
 * **38 — Couronne d’Application**: Périphérie active, points de contact et d’appui au réel (38 Points de Contact au Réel / les 38 Applications).
@@ -103,9 +103,9 @@ These are not stacked strata or a rigid hierarchy. They are nested, transparent,
 
 *Canonical phrase:* L’individu vit dans la société, la société vit dans la civilisation, et la civilisation se réalise à travers les individus et les sociétés.
 
-## 7. The 5 Flux
+## 7. Les 5 Flux Primordiaux
 
-**Official concept:** 5 — Les 5 Flux (Recommended provisional: Les 5 Flux Primordiaux)
+**Official concept:** 5 — Les 5 Flux Primordiaux *(Founder decision: 2026-07-28)*
 
 The 5 Flux are the transition layer between non-form and form. They are the cosmological engine of ELYSIUM, corresponding to archetypal elemental principles.
 
@@ -206,7 +206,7 @@ The Civilizational Wheel is the core visual metaphor and the symbolic architectu
 | 1 | Le Tout / The Whole | the full wheel | total mandala, full civilizational wheel | center alone | 1 is the whole, not the hub |
 | 2 | Spanda | respiration kosmique | création-résorption, émanation-résorption | banal duality | movement from void to form and back |
 | 3 | 3 Sphères d’Incarnation | les Sphères | plans, scopes, fields | échelles as official term, pyramid layers | nested spheres, not separated levels |
-| 5 | 5 Flux Primordiaux (provisional) | les 5 Flux | Flux Vitaux, Flux d’Émanation | fixed if not decided | name still slightly open |
+| 5 | **5 Flux Primordiaux** | les 5 Flux Primordiaux | — | **FIXED** (Founder 2026-07-28) | canonical |
 | 7 | 7 Organes Civilisationnels | les Organes | Piliers, Rayons, Dimensions, Axes | Fondations (official) | official term is Organes |
 | 12 | ELYSIUM Inquiry Process | the gates / les gates | 12 Inquiry Gates, Portes d’Investigation | questions as primary term | method, not ontology |
 | 38 | Couronne d’Application | 38 Applications | Points de Contact au Réel, Points d’Appui | jante | concrete contact with reality |
@@ -239,7 +239,7 @@ The Civilizational Wheel is the core visual metaphor and the symbolic architectu
 | CORE | validated | yes | current session | high | documented |
 | Spanda | validated | yes | current session | high | documented |
 | 3 Sphères d’Incarnation | validated | yes | current session | high | documented |
-| 5 Flux | validated structure, name slightly open | partial | current/prior framework | medium-high | finalize Flux Primordiaux vs Vitaux vs Émanation |
+| 5 Flux Primordiaux | validated structure, name FIXED | yes | Founder decision 2026-07-28 | high | resolved ✓ |
 | 7 Organes names | recovered | yes | `CANONICAL_FACET_ID_MAP.md`, `04_the_seven_foundations.md` | high | successfully mapped from "Foundations" |
 | 12 Inquiry Gates | recovered | yes | `FACET_MATRICES/F01_01_ENERGIE.md` | high | successfully extracted |
 | 38 Points de Contact | recovered | yes | `CANONICAL_FACET_ID_MAP.md` | high | successfully extracted |
@@ -248,7 +248,7 @@ The Civilizational Wheel is the core visual metaphor and the symbolic architectu
 
 ## 18. Open Questions / Remaining Recovery Tasks
 
-*   Finalize the exact terminology for the 5 Flux (Primordiaux vs. Vitaux vs. Émanation).
+*   ~~Finalize the exact terminology for the 5 Flux~~ → **DONE**: Les 5 Flux Primordiaux (Founder decision 2026-07-28).
 *   Confirm if any minor adjustments are needed to the 38 Points de Contact based on the shift from "Facettes" to "Applications."
 
 ## 19. Next Steps
