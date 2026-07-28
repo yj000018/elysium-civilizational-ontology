@@ -5,7 +5,7 @@ type: folder_index
 part: 02_foundations
 foundation: F02_vitality
 fcs_role: writing_briefs_index
-status: READY_FOR_PRODUCTION
+status: SCAFFOLDED
 summary: "Index of all writing briefs for Foundation 02 (Vitality). Gate opened 2026-07-28 by Founder."
 reader_promise: "Provides the prompt briefs used by Claude API to generate Foundation 02 prose modules."
 created: 2026-07-28
