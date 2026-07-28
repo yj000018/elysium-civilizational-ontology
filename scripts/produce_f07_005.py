@@ -9,8 +9,8 @@ import re, time, subprocess, requests
 from pathlib import Path
 
 REPO = Path("/home/ubuntu/elysium_github_clone")
-ANTHROPIC_KEY = "ANTHROPIC_API_KEY_REDACTED"
-OPENAI_KEY = "OPENAI_API_KEY_REDACTED"
+ANTHROPIC_KEY = os.environ.get("ANTHROPIC_API_KEY", "")
+OPENAI_KEY = os.environ.get("OPENAI_API_KEY", "")
 LOG_FILE = REPO / "00_PROGRAM_OFFICE" / "AUTONOMOUS_PRODUCTION_LOG.md"
 
 def log(msg):

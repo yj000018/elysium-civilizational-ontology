@@ -21,10 +21,11 @@ def collect_modules():
     """Collect all DRAFT_0 modules in order."""
     modules = []
     
-    # Opening
+    # Opening — check both root and drafts subdir
     opn_dir = REPO / "BOOK" / "manuscript" / "01_opening"
     if opn_dir.exists():
-        for f in sorted(opn_dir.glob("OPN-*_DRAFT_0.md")):
+        opn_drafts = sorted(opn_dir.glob("OPN-*_DRAFT_0.md")) or sorted((opn_dir / "drafts").glob("OPN-*_DRAFT_0.md"))
+        for f in opn_drafts:
             modules.append(("Opening", f.stem.split("_")[0], strip_yaml(f.read_text())))
     
     # Foundations F01-F07
