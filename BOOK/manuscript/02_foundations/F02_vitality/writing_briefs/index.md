@@ -1,8 +1,23 @@
-# F02 Writing Briefs Index
+---
+id: F02_WRITING_BRIEFS_INDEX
+title: "Foundation 02 — Writing Briefs Index"
+type: folder_index
+part: 02_foundations
+foundation: F02_vitality
+fcs_role: writing_briefs_index
+status: READY_FOR_PRODUCTION
+summary: "Index of all writing briefs for Foundation 02 (Vitality). Gate opened 2026-07-28 by Founder."
+reader_promise: "Provides the prompt briefs used by Claude API to generate Foundation 02 prose modules."
+created: 2026-07-28
+gate_opened: 2026-07-28
+gate_authority: "Founder / Yannick"
+---
 
-**Foundation:** F02 — Vitality / Vitalité  
-**Modules:** 6 (F02-000 overview + 5 facets)  
-**Status:** READY FOR PRODUCTION
+# Foundation 02 — Writing Briefs Index
+
+This folder contains the writing briefs used for Claude API prose generation for each F02 module.
+
+## Briefs
 
 | Module | Title | Word Target | Status |
 |--------|-------|-------------|--------|
@@ -12,5 +27,3 @@
 | F02-003 | Biodiversity: The Living Library | 1500-2500 | BRIEF_READY |
 | F02-004 | Ecosystems: The Living Architecture | 1500-2500 | BRIEF_READY |
 | F02-005 | Regeneration: The Civilizational Imperative | 1500-2500 | BRIEF_READY |
-
-**Facet matrices available:** F02_01_SANTE, F02_02_ALIMENTATION_AGRICULTURE, F02_03_BIODIVERSITE, F02_04_ECOSYSTEMES, F02_05_REGENERATION
