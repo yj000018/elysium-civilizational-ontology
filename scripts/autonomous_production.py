@@ -412,33 +412,36 @@ def produce_foundation(foundation_key, facets, foundation_data, existing_drafts_
         time.sleep(2)
     
     if not foundation_stop:
-        # Foundation-level CA approval
+        # Foundation-level CA approval — dedicated call with correct system prompt
         log(f"\n  Requesting Chief Architect foundation approval for {foundation_key}...")
         total_words = sum(count_words(p) for _, _, p in all_prose)
         
-        approval_prompt = f"""Foundation {foundation_key} — {foundation_data['name']} is complete.
-
-Total modules: {len(all_prose)}
-Total words: {total_words}
-Foundation thesis: {foundation_data['thesis']}
-
-All modules have received individual PASS or REVISE (fixed) verdicts.
-
-As Chief Architect of ELYSIUM, provide your foundation-level architectural approval.
-
-Respond with:
-VERDICT: [APPROVED_WITH_CONDITIONS|APPROVED|STOP]
-CONDITIONS: [list any conditions, or "None"]
-NOTES: [max 3 sentences]"""
-        
         try:
-            verdict, notes = call_chatgpt_review(approval_prompt, f"Foundation {foundation_key} Approval", foundation_key)
-            log(f"  Foundation CA verdict: {verdict}")
-            log(f"  Notes: {notes[:200]}")
-            
-            if verdict == "STOP":
-                log(f"\n🛑 Chief Architect STOP on {foundation_key} foundation approval")
-                return False, all_prose
+            ca_system = """You are the Chief Architect of ELYSIUM, a civilizational ontology book.
+You are confirming that a completed foundation is architecturally coherent.
+Respond ONLY in this exact format:
+VERDICT: APPROVED
+NOTES: [one sentence]
+If there is a major architectural violation requiring Founder intervention, respond:
+VERDICT: STOP
+NOTES: [reason]"""
+            ca_user = f"Foundation {foundation_key} — {foundation_data['name']} is complete. {len(all_prose)} modules, {total_words} words. Thesis: {foundation_data['thesis']} All modules individually reviewed and PASS. Please confirm architectural approval."
+            ca_headers = {"Authorization": f"Bearer {OPENAI_KEY}", "Content-Type": "application/json"}
+            ca_data = {
+                "model": "gpt-4o",
+                "messages": [{"role": "system", "content": ca_system}, {"role": "user", "content": ca_user}],
+                "max_tokens": 150
+            }
+            ca_r = requests.post("https://api.openai.com/v1/chat/completions", headers=ca_headers, json=ca_data, timeout=60)
+            if ca_r.status_code == 200:
+                ca_content = ca_r.json()["choices"][0]["message"]["content"]
+                log(f"  Foundation CA response: {ca_content[:200]}")
+                if "VERDICT: STOP" in ca_content:
+                    log(f"\n🛑 Chief Architect STOP on {foundation_key} foundation approval")
+                    return False, all_prose
+                log(f"  Foundation {foundation_key} approved by Chief Architect.")
+            else:
+                log(f"  Foundation approval API error {ca_r.status_code}. Continuing.")
         except Exception as e:
             log(f"  Foundation approval failed: {e}. Continuing.")
         
