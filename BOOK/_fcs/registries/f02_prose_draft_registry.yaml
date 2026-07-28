@@ -1,0 +1,105 @@
+---
+registry: f02_prose_draft_registry
+foundation: F02
+foundation_name: "Vitality / Vitalité"
+version: "1.0"
+created: "2026-07-28"
+gate_opened: "2026-07-28"
+gate_authority: "Founder / Yannick"
+ca_decision: "APPROVED_WITH_CONDITIONS (Chief Architect gpt-4o, 2026-07-28)"
+founder_decision: "APPROVED (Founder, 2026-07-28)"
+modules_total: 6
+modules_complete: 0
+total_words: 0
+---
+
+modules:
+  - module_id: F02-000
+    title: "Foundation 02 Overview: Vitality"
+    draft_path: null
+    word_count: null
+    word_target: "1200-1800"
+    llm_engine: claude
+    llm_completion_status: null
+    chatgpt_review_result: null
+    chatgpt_review_date: null
+    api_output_raw: null
+    api_output_revised: null
+    api_output_review: null
+    status: NOT_STARTED
+    compile: true
+
+  - module_id: F02-001
+    title: "Health: The Living Condition"
+    draft_path: null
+    word_count: null
+    word_target: "1500-2500"
+    llm_engine: claude
+    llm_completion_status: null
+    chatgpt_review_result: null
+    chatgpt_review_date: null
+    api_output_raw: null
+    api_output_revised: null
+    api_output_review: null
+    status: NOT_STARTED
+    compile: true
+
+  - module_id: F02-002
+    title: "Food & Agriculture: The Metabolic Foundation"
+    draft_path: null
+    word_count: null
+    word_target: "1500-2500"
+    llm_engine: claude
+    llm_completion_status: null
+    chatgpt_review_result: null
+    chatgpt_review_date: null
+    api_output_raw: null
+    api_output_revised: null
+    api_output_review: null
+    status: NOT_STARTED
+    compile: true
+
+  - module_id: F02-003
+    title: "Biodiversity: The Living Library"
+    draft_path: null
+    word_count: null
+    word_target: "1500-2500"
+    llm_engine: claude
+    llm_completion_status: null
+    chatgpt_review_result: null
+    chatgpt_review_date: null
+    api_output_raw: null
+    api_output_revised: null
+    api_output_review: null
+    status: NOT_STARTED
+    compile: true
+
+  - module_id: F02-004
+    title: "Ecosystems: The Living Architecture"
+    draft_path: null
+    word_count: null
+    word_target: "1500-2500"
+    llm_engine: claude
+    llm_completion_status: null
+    chatgpt_review_result: null
+    chatgpt_review_date: null
+    api_output_raw: null
+    api_output_revised: null
+    api_output_review: null
+    status: NOT_STARTED
+    compile: true
+
+  - module_id: F02-005
+    title: "Regeneration: The Civilizational Imperative"
+    draft_path: null
+    word_count: null
+    word_target: "1500-2500"
+    llm_engine: claude
+    llm_completion_status: null
+    chatgpt_review_result: null
+    chatgpt_review_date: null
+    api_output_raw: null
+    api_output_revised: null
+    api_output_review: null
+    status: NOT_STARTED
+    compile: true

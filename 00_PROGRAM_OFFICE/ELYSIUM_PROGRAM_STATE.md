@@ -1,7 +1,6 @@
 # ELYSIUM PROGRAM STATE
-
-**Date:** 2026-06-27
-**Status:** Alpha generated package under canonicalization — Pass 0.2
+**Date:** 2026-07-28
+**Status:** F02 ACTIVE — Production in progress
 
 ---
 
@@ -9,21 +8,46 @@
 
 | Field | Value |
 |---|---|
-| Program Phase | Canonicalization / QA |
-| Package Status | Alpha generated package under canonicalization — Pass 0.2 |
-| Documents | 26 core documents, DRAFT_INTEGRATED_QA_PENDING |
-| Ontology | 3 Scales x 7 Foundations x 38 Facets x 12-Step Universal Analysis Matrix |
-| Model Corpus | 126 analyzed + 10 candidates proposed |
-| Facet Archive | 38/38 facet matrices required |
-| Datasets | QA_REPAIRED where valid; QA_PENDING otherwise |
-| yOS Program OS | V1.1 draft specification for Chief Architect review, not yet integrated into yOS Core |
-| Next Action | Chief Architect Review of Pass 0.2 |
+| Program Phase | Phase III — Book Production |
+| Active Foundation | F02 — Vitality / Vitalité |
+| F01 Status | APPROVED (Founder + Chief Architect, 2026-07-28) |
+| F02 Gate | OPEN (Founder authorization 2026-07-28) |
+| F02 Production | NOT_STARTED — Scaffolding complete, briefs ready |
+| Total Modules Complete | 22/22 (Opening + F01) |
+| Total Words | ~26,738 |
+| Validate.py | 0 errors / 0 warnings / 55 QC debt (non-blocking) |
+| Ontology | 3 Scales × 7 Organs × 38 Facets × 12 Inquiry Gates |
+| 5 Flux | Flux Primordiaux (Founder decision 2026-07-28) |
+| Git Destination | UNIQUE — Notion abandoned as production target |
 
 ---
 
 ## Authority Hierarchy
+
 1. Founder / Yannick — final strategic authority
-2. ChatGPT Chief Architect — architectural coherence authority
+2. ChatGPT Chief Architect — architectural coherence authority (L3)
 3. Manus — executive orchestrator and file/state operator
-4. Claude — review officer when actually called via API
-5. Other engines — research or specialist support only
+4. Claude — prose generation engine (not QA authority)
+5. ChatGPT API — L2 module review (PASS/REVISE)
+
+---
+
+## F02 Production Plan
+
+| Module | Title | Status |
+|--------|-------|--------|
+| F02-000 | Foundation 02 Overview: Vitality | BRIEF_READY |
+| F02-001 | Health: The Living Condition | BRIEF_READY |
+| F02-002 | Food & Agriculture: The Metabolic Foundation | BRIEF_READY |
+| F02-003 | Biodiversity: The Living Library | BRIEF_READY |
+| F02-004 | Ecosystems: The Living Architecture | BRIEF_READY |
+| F02-005 | Regeneration: The Civilizational Imperative | BRIEF_READY |
+
+---
+
+## Key Decisions (2026-07-28)
+
+- F01 APPROVED by Chief Architect (APPROVED_WITH_CONDITIONS) and Founder (APPROVED)
+- 5 Flux = **Flux Primordiaux** (Founder decision)
+- Git = unique destination (Notion abandoned)
+- 55 QC debt warnings = non-blocking legacy traceability metadata
