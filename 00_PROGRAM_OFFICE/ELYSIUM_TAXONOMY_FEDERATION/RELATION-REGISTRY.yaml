@@ -1,0 +1,92 @@
+schema_version: '0.1'
+registry_id: ETF-RELATION-REGISTRY
+status: APPROVED_VERSION_0_1
+approved_by: Yannick
+approved_at: '2026-09-01'
+execution_state: relational_only
+source_registry: TAXONOMY-REGISTRY.yaml
+relations:
+  - relation_id: ETF-0002
+    relation_type: PRIMARY_CORRESPONDENCE
+    left: {taxonomy_id: ELY-TAX-A-METABOLIC, node_id: A.S1, label: 'Individual / Micro'}
+    right: {taxonomy_id: ELY-TAX-B-OPEN-INFRASTRUCTURE, node_id: B.S1, label: Individual}
+    confidence: high
+    rationale: Both models explicitly frame a human individual scale with personal development and local agency.
+    non_equivalence_note: A adds micro/local metabolic interaction; B adds rights, responsibilities and emotional well-being.
+  - relation_id: ETF-0003
+    relation_type: PRIMARY_CORRESPONDENCE
+    left: {taxonomy_id: ELY-TAX-A-METABOLIC, node_id: A.S2, label: 'Collective / Meso'}
+    right: {taxonomy_id: ELY-TAX-B-OPEN-INFRASTRUCTURE, node_id: B.S2, label: Collective}
+    confidence: high
+    rationale: Both models cover communities, institutions, organizations and collective coordination.
+    non_equivalence_note: A is framed through meso-level cohesion; B foregrounds collaboration and shared purpose.
+  - relation_id: ETF-0004
+    relation_type: PRIMARY_CORRESPONDENCE_WITH_SCOPE_DELTA
+    left: {taxonomy_id: ELY-TAX-A-METABOLIC, node_id: A.S3, label: 'Civilizational / Macro'}
+    right: {taxonomy_id: ELY-TAX-B-OPEN-INFRASTRUCTURE, node_id: B.S3, label: Universal}
+    confidence: medium
+    rationale: Both models state planetary/global scale, biosphere or environmental stewardship and universal governance or ethics.
+    non_equivalence_note: B explicitly adds a cosmic dimension; Universal must not be silently reduced to Civilizational.
+  - relation_id: ETF-0005
+    relation_type: PRIMARY_CORRESPONDENCE
+    left: {taxonomy_id: ELY-TAX-A-METABOLIC, node_id: A.F01, label: 'Material Base'}
+    right: {taxonomy_id: ELY-TAX-B-OPEN-INFRASTRUCTURE, node_id: B.F04, label: Infrastructure}
+    confidence: high
+    rationale: Physical infrastructure, energy, mobility and spatial or urban organization are explicit in both sources.
+    non_equivalence_note: A includes resources and civilizational metabolism; B includes explicit digital systems.
+  - relation_id: ETF-0006
+    relation_type: PRIMARY_CORRESPONDENCE
+    left: {taxonomy_id: ELY-TAX-A-METABOLIC, node_id: A.F02, label: Vitality}
+    right: {taxonomy_id: ELY-TAX-B-OPEN-INFRASTRUCTURE, node_id: B.F07, label: Health}
+    confidence: high
+    rationale: Both sources explicitly cover health, well-being and the conditions sustaining life.
+    non_equivalence_note: A includes biospheric vitality; B separates Environment as a distinct foundation.
+  - relation_id: ETF-0007
+    relation_type: PRIMARY_CORRESPONDENCE
+    left: {taxonomy_id: ELY-TAX-A-METABOLIC, node_id: A.F03, label: Agency}
+    right: {taxonomy_id: ELY-TAX-B-OPEN-INFRASTRUCTURE, node_id: B.F03, label: Economy}
+    confidence: high
+    rationale: Value creation, work, innovation and economic exchange in A overlap strongly with sustainable economic systems in B.
+    non_equivalence_note: A foregrounds human potential and agency; B foregrounds economic structure and inclusion.
+  - relation_id: ETF-0008
+    relation_type: PRIMARY_CORRESPONDENCE
+    left: {taxonomy_id: ELY-TAX-A-METABOLIC, node_id: A.F04, label: Cohesion}
+    right: {taxonomy_id: ELY-TAX-B-OPEN-INFRASTRUCTURE, node_id: B.F05, label: Culture}
+    confidence: high
+    rationale: Culture, identity, belonging, shared narratives and social fabric are explicit components across the two definitions.
+    non_equivalence_note: A foregrounds relational resilience; B foregrounds values, traditions and expression.
+  - relation_id: ETF-0009
+    relation_type: PRIMARY_CORRESPONDENCE
+    left: {taxonomy_id: ELY-TAX-A-METABOLIC, node_id: A.F05, label: Governance}
+    right: {taxonomy_id: ELY-TAX-B-OPEN-INFRASTRUCTURE, node_id: B.F02, label: Governance}
+    confidence: high
+    rationale: Decision-making, institutions, justice, participation and accountability are explicit in both sources.
+    non_equivalence_note: The shared label does not guarantee identical governance theories or scope.
+  - relation_id: ETF-0010
+    relation_type: PRIMARY_CORRESPONDENCE
+    left: {taxonomy_id: ELY-TAX-A-METABOLIC, node_id: A.F06, label: Vision}
+    right: {taxonomy_id: ELY-TAX-B-OPEN-INFRASTRUCTURE, node_id: B.F01, label: Knowledge}
+    confidence: high
+    rationale: Education, science, research, foresight and technological direction overlap with knowledge acquisition, dissemination and application.
+    non_equivalence_note: A adds foresight and civilizational direction; B adds data integrity and lifelong learning.
+  - relation_id: ETF-0011
+    relation_type: TRANSVERSAL_UNREPRESENTED
+    left: {taxonomy_id: ELY-TAX-A-METABOLIC, node_id: A.F07, label: Consciousness}
+    right: {taxonomy_id: ELY-TAX-B-OPEN-INFRASTRUCTURE, node_id: null, label: null}
+    confidence: high
+    rationale: Ethics, spirituality, meaning, worldview and civilizational direction are explicit in A without an equivalent B foundation.
+    non_equivalence_note: Culture, Governance and Universal offer partial connections but no replacement for Consciousness.
+  - relation_id: ETF-0012
+    relation_type: TRANSVERSAL_UNREPRESENTED
+    left: {taxonomy_id: ELY-TAX-A-METABOLIC, node_id: null, label: null}
+    right: {taxonomy_id: ELY-TAX-B-OPEN-INFRASTRUCTURE, node_id: B.F06, label: Environment}
+    confidence: high
+    rationale: Environment is a distinct B foundation; A distributes related content across Material Base and Vitality.
+    non_equivalence_note: Environment remains an autonomous B node and cannot be reduced to a single A foundation.
+deferred_secondary_relations:
+  - {relation_id: ETF-S-001, left: A.F01, right: B.F06, type: SECONDARY_CORRESPONDENCE}
+  - {relation_id: ETF-S-002, left: A.F02, right: B.F06, type: SECONDARY_CORRESPONDENCE}
+  - {relation_id: ETF-S-003, left: A.F03, right: B.F01, type: SECONDARY_CORRESPONDENCE}
+  - {relation_id: ETF-S-004, left: A.F04, right: B.F02, type: SECONDARY_CORRESPONDENCE}
+  - {relation_id: ETF-S-005, left: A.F07, right: B.F05, type: SECONDARY_CORRESPONDENCE}
+  - {relation_id: ETF-S-006, left: A.F06, right: B.F04, type: SECONDARY_CORRESPONDENCE}
