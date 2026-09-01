@@ -1,0 +1,64 @@
+schema_version: '0.1'
+registry_id: ETF-TAXONOMY-REGISTRY
+status: APPROVED_VERSION_0_1
+approved_by: Yannick
+approved_at: '2026-09-01'
+execution_state: relational_only
+invariants:
+  - source_content_is_not_modified
+  - taxonomy_identity_is_preserved
+  - federation_does_not_imply_equivalence
+  - source_mutation_requires_separate_approved_pull_request
+taxonomies:
+  - taxonomy_id: ELY-TAX-A-METABOLIC
+    source_title: 'ELYSIUM: Ontology Map'
+    role: civilizational_metabolic_and_regenerative_model
+    source_status: provisional
+    source:
+      repository: yj000018/elysium-book
+      branch: master
+      path: 00-meta/ontology-map.md
+      content_sha256: 0ce04c6ef171bfe11f9236cd49e7db535950526f3a6eb3f470335e3757ab79ed
+      observed_at: '2026-09-01T00:00:00+02:00'
+    scales:
+      - {id: A.S1, label: 'Individual / Micro'}
+      - {id: A.S2, label: 'Collective / Meso'}
+      - {id: A.S3, label: 'Civilizational / Macro'}
+    foundations:
+      - {id: A.F01, label: 'Material Base'}
+      - {id: A.F02, label: Vitality}
+      - {id: A.F03, label: Agency}
+      - {id: A.F04, label: Cohesion}
+      - {id: A.F05, label: Governance}
+      - {id: A.F06, label: Vision}
+      - {id: A.F07, label: Consciousness}
+    capabilities:
+      - id: A.CAP-12STEP
+        label: 12-Step Universal Analysis Matrix
+        role: optional_analysis_lens
+  - taxonomy_id: ELY-TAX-B-OPEN-INFRASTRUCTURE
+    source_title: 'Document 06: Ontology Specification'
+    role: open_civilizational_infrastructure_model
+    source_status: DRAFT_INTEGRATED_QA_PENDING
+    source:
+      repository: yj000018/elysium-civilizational-ontology
+      branch: main
+      path: 03_BOOK_AND_PUBLICATION/06_ONTOLOGY_SPECIFICATION.md
+      content_sha256: 472ec78d7c89c0e7c1669c84fe13fb3934eab4030c6f2e4cd08a8736bd3aa207
+      observed_at: '2026-09-01T00:00:00+02:00'
+    scales:
+      - {id: B.S1, label: Individual}
+      - {id: B.S2, label: Collective}
+      - {id: B.S3, label: Universal}
+    foundations:
+      - {id: B.F01, label: Knowledge}
+      - {id: B.F02, label: Governance}
+      - {id: B.F03, label: Economy}
+      - {id: B.F04, label: Infrastructure}
+      - {id: B.F05, label: Culture}
+      - {id: B.F06, label: Environment}
+      - {id: B.F07, label: Health}
+    capabilities:
+      - id: B.CAP-HOLOGRAPHIC
+        label: Holographic Interlocking
+        role: optional_relational_principle
