@@ -1,0 +1,23 @@
+[
+  {
+    "parent": "F01_05_MOBILITE_v0.2.md",
+    "parent_sha256": "ece506630fa8b50c5cce0e7ecff9731e98b7442ecb21a598240a605571bd96f5",
+    "child": "F01_05_MOBILITE_v0.3-cited.md",
+    "replacements_applied": 1,
+    "expected_replacements": 1
+  },
+  {
+    "parent": "F02_03_BIODIVERSITE_v0.2.md",
+    "parent_sha256": "d100eb72ae5c9f5bafb4d42a33caee7eb5140c838548d47364d7dc444a1f1e92",
+    "child": "F02_03_BIODIVERSITE_v0.3-cited.md",
+    "replacements_applied": 4,
+    "expected_replacements": 4
+  },
+  {
+    "parent": "F02_04_ECOSYSTEMES_v0.2.md",
+    "parent_sha256": "e72102afcde652c65ade90cef0384f12cbcac8de659e05c1637df913ffadeedb",
+    "child": "F02_04_ECOSYSTEMES_v0.3-cited.md",
+    "replacements_applied": 2,
+    "expected_replacements": 2
+  }
+]
