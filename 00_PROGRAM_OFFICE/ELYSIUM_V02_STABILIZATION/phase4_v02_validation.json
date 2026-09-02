@@ -1,0 +1,79 @@
+{
+  "rows": [
+    {
+      "facet_id": "F01_05_MOBILITE",
+      "candidate_exists": true,
+      "parent_hash_ok": true,
+      "status_noncanonical": true,
+      "source_recovery_negative": true,
+      "step_count": 12,
+      "unique_steps": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "twelve_steps_once": true,
+      "original_hash_unchanged": true,
+      "verdict": "PASS"
+    },
+    {
+      "facet_id": "F02_03_BIODIVERSITE",
+      "candidate_exists": true,
+      "parent_hash_ok": true,
+      "status_noncanonical": true,
+      "source_recovery_negative": true,
+      "step_count": 12,
+      "unique_steps": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "twelve_steps_once": true,
+      "original_hash_unchanged": true,
+      "verdict": "PASS"
+    },
+    {
+      "facet_id": "F02_04_ECOSYSTEMES",
+      "candidate_exists": true,
+      "parent_hash_ok": true,
+      "status_noncanonical": true,
+      "source_recovery_negative": true,
+      "step_count": 12,
+      "unique_steps": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "twelve_steps_once": true,
+      "original_hash_unchanged": true,
+      "verdict": "PASS"
+    }
+  ]
+}
