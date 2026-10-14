@@ -22,7 +22,7 @@ No separate accepted project canon is asserted by this audit. Use [PROJECT.md](.
 
 ## Status
 
-- [docs/status/CURRENT.md](../docs/status/CURRENT.md)
+- [docs/status/CURRENT.md](../docs/status/CURRENT.md) — état revérifié au 14 octobre 2026 ; validations ouvertes et erratum des reçus.
 
 ## Handoffs
 
@@ -44,3 +44,7 @@ No dedicated accepted surface identified in the reviewed entrypoints. This is a 
 
 - [SHA256SUMS.txt](../SHA256SUMS.txt)
 - [99_FINAL_REPORTS](../99_FINAL_REPORTS)
+- [Erratum des reçus du 14 octobre 2026](../00_PROGRAM_OFFICE/ELYSIUM_MODEL_STABILIZATION/ERRATUM-RECEIPTS-2026-10-14.md) — rectifications et continuité source → v0.2 → v0.3 ; aucune promotion canonique.
+- [Reçu de réconciliation technique MVS-1](../00_PROGRAM_OFFICE/ELYSIUM_MODEL_STABILIZATION/MVS1-TECHNICAL-RECONCILIATION-2026-10-14.md) — historique conservé, à lire avec l’erratum.
+- [Reçu de QA comparative v0.2](../00_PROGRAM_OFFICE/ELYSIUM_MODEL_STABILIZATION/CANDIDATE-COMPARATIVE-QA-2026-10-14.md) — historique conservé, à lire avec l’erratum.
+- [Reçu de QA mécanique v0.3](../00_PROGRAM_OFFICE/ELYSIUM_MODEL_STABILIZATION/V03-CITATION-MECHANICS-QA-2026-10-14.md) — historique conservé, à lire avec l’erratum.
