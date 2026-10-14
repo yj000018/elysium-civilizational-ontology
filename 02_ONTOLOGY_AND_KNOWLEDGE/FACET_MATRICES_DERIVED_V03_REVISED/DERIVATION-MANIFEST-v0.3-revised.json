@@ -1,0 +1,61 @@
+{
+  "version": "v0.3-revised",
+  "status": "DERIVED_DRAFT_EDITORIAL_REVISED_QA_PENDING",
+  "authority": "Founder Gate 2026-10-14: six reformulations approved",
+  "preserved_parents": true,
+  "canonical_promotion": false,
+  "items": [
+    {
+      "facet": "F01_05_MOBILITE",
+      "source": "F01_05_MOBILITE_v0.3-cited.md",
+      "output": "F01_05_MOBILITE_v0.3-revised.md",
+      "v03_cited_sha256": "a7a20cec449cf370a92c88608d2030580c7aa260338a911d6f94a437de1687b0",
+      "v02_parent_sha256": "ece506630fa8b50c5cce0e7ecff9731e98b7442ecb21a598240a605571bd96f5",
+      "v03_revised_sha256": "06f8462a2089e61aab97078fc9505c80f8aa671ff35a6e09b9f3cad0e1310fcf",
+      "reformulation_ids": [
+        "RF-MOB-001"
+      ],
+      "replacement_count": 1,
+      "changes": [
+        {
+          "old": "Les données environnementales indiquent que le secteur des transports est responsable d’environ environ 23 % des émissions anthropiques mondiales de CO₂ selon la CEE-ONU ; cette proportion doit être lue avec le périmètre et la date de la source [4], contribuant de façon significative au changement climatique.",
+          "new": "La CEE-ONU indique, dans sa fiche de référence sur le transport et le climat, que le transport représente environ 23 % des émissions anthropiques mondiales de CO₂ ; cette proportion doit être lue avec le périmètre et la date de la source [4], et ne constitue pas à elle seule une mesure de l’ensemble des impacts climatiques du secteur."
+        }
+      ]
+    },
+    {
+      "facet": "F02_03_BIODIVERSITE",
+      "source": "F02_03_BIODIVERSITE_v0.3-cited.md",
+      "output": "F02_03_BIODIVERSITE_v0.3-revised.md",
+      "v03_cited_sha256": "813a223914b6b40f039baa6f8a199f6d71306d70c45b92669c733de39e6df43e",
+      "v02_parent_sha256": "d100eb72ae5c9f5bafb4d42a33caee7eb5140c838548d47364d7dc444a1f1e92",
+      "v03_revised_sha256": "fc93218ef24ea8fc2e2b9dbdb981e19fd2b550244f76e9cbdd66fb27b2276233",
+      "reformulation_ids": [
+        "RF-BIO-001",
+        "RF-BIO-002",
+        "RF-BIO-003"
+      ],
+      "replacement_count": 1,
+      "changes": [
+        {
+          "old": "La Constitution équatorienne de 2008 reconnaît la nature comme sujet de droits ; la portée juridique doit être lue dans les articles constitutionnels pertinents [8].",
+          "new": "La Constitution équatorienne de 2008 constitue un exemple juridiquement situé de reconnaissance de droits de la nature ; sa portée doit être lue dans les articles constitutionnels pertinents et ne doit pas être généralisée comme un standard mondial [8]."
+        }
+      ]
+    },
+    {
+      "facet": "F02_04_ECOSYSTEMES",
+      "source": "F02_04_ECOSYSTEMES_v0.3-cited.md",
+      "output": "F02_04_ECOSYSTEMES_v0.3-revised.md",
+      "v03_cited_sha256": "a3e217998b3ea80c888e13b543d319725421e8a3947dda8a358c0f41482fb2e8",
+      "v02_parent_sha256": "e72102afcde652c65ade90cef0384f12cbcac8de659e05c1637df913ffadeedb",
+      "v03_revised_sha256": "b4df62019c764dfdace02a7ac891e9046aa642141c812dd2ad3f5f876517ffc2",
+      "reformulation_ids": [
+        "RF-ECO-001",
+        "RF-ECO-002"
+      ],
+      "replacement_count": 0,
+      "changes": []
+    }
+  ]
+}
