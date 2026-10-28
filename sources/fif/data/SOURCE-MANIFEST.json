@@ -1,0 +1,100 @@
+{
+  "schema_version": "fif-source-1",
+  "acceptance": "source_material",
+  "source_name": "FiF – Futures in Focus",
+  "styled_name": "F·U·T·U·R·E·S in Focus",
+  "short_name": "FiF",
+  "tagline": "Navigate the Transformations Reshaping Civilization",
+  "localized_names": {
+    "en": "F·U·T·U·R·E·S in Focus",
+    "fr": "F·U·T·U·R·S en Focus",
+    "it": "F·U·T·U·R·I in Focus"
+  },
+  "localized_taglines": {
+    "en": "Transforming Society\n& Reshaping Civilization",
+    "fr": "Naviguez les transformations qui remodèlent la civilisation",
+    "it": "Naviga le trasformazioni che rimodellano la civiltà"
+  },
+  "in_app_credit": "Developed by Ynot (YJ). 2026.",
+  "claimed_version": "0.9 release candidate, from replit.md",
+  "imported_on": "2026-10-28",
+  "archive_filename": "FiF-code.tar_986d.gz",
+  "archive_sha256": "661b863c1afe34262a5c8143daecd1eae2a4a5466c64ba173efdb016b4daa9aa",
+  "sanitization": {
+    "images": "The provided export was already image-stripped. No image bytes were added.",
+    "secrets": "The export's .replit file contains the literal placeholder OPENAI_API_KEY = \"REDACTED\". No secret values were copied into this repository. Environment configuration, object-storage clients, and the application runtime were left out."
+  },
+  "what_was_imported": [
+    "Ten transformation domains with category, subtitle, why-it-matters line, three implication lenses, icon name, color, and EN/FR/IT labels",
+    "Six category labels and the spec-versus-UI color record",
+    "Five exploration modes from the specification and from the Archive UI",
+    "Navigator prompt as designed in FUTURES_SPEC.md",
+    "Navigator prompt and inherited WIP prompt templates as executed in server/routes.ts",
+    "31 trilingual daily reflection prompts",
+    "32 daily signal quotations",
+    "Learning-journey duration labels and fallback strings",
+    "A source crosswalk onto ELYSIUM facet identifiers"
+  ],
+  "what_was_left_out": [
+    "React UI, routes, database schema, and Replit integrations",
+    "Package manifests, lockfile, and build configuration",
+    "Images, logos, and generated media",
+    "User records, passwords, and uploaded-document text"
+  ],
+  "source_files_read": [
+    {
+      "path": "FUTURES_SPEC.md",
+      "sha256": "9388898e61597fecb5958647a941238d7de953433c36858d771260d252ae0514"
+    },
+    {
+      "path": "replit.md",
+      "sha256": "995ac709c659ddbad19be9b504122f214954a119fbfc833d4a79a26573553a83"
+    },
+    {
+      "path": "shared/schema.ts",
+      "sha256": "f46aac392c3972c6653d6f6c8df95ad9ebbde542428924e48e729163ad17069b"
+    },
+    {
+      "path": "server/routes.ts",
+      "sha256": "c975f58a77b60ebb1266544bfc7e6307d25fc55f85bc96a690edd21beb1e26b8"
+    },
+    {
+      "path": "client/src/pages/Archive.tsx",
+      "sha256": "29589b3a794b4cc676b17e1222e56ef76f2aa45ba7933da144d478a28dbf493e"
+    },
+    {
+      "path": "client/src/pages/Journal.tsx",
+      "sha256": "210ddce05ca4fbf8afe2a57fce2d3415b4cd27c006ee77d30e45665575c0c8cd"
+    },
+    {
+      "path": "client/src/pages/Lab.tsx",
+      "sha256": "073beb9c1b30f058a1faf5de819cf7fa07aec1baf99b22b9e7021c1f15a026c5"
+    },
+    {
+      "path": "client/src/lib/translations.ts",
+      "sha256": "ff028ab20e55041584fb378bde76c6fe7ca219a8962b96fee34d88a523eb31ef"
+    },
+    {
+      "path": "client/src/lib/i18n.ts",
+      "sha256": "16ead68e3aaa56e42c9d866fb596c4a396727c982c265943d54cf27afbf4c537"
+    },
+    {
+      "path": "client/src/components/DailyReflectionPrompt.tsx",
+      "sha256": "d6a0d55f5917e81921cd94df3072c5f814a5d2be52914ac4383567fba04505ba"
+    },
+    {
+      "path": "client/src/components/ContemplationCorner.tsx",
+      "sha256": "c1ec51170298ea1d1a2843b03fdbd456abe245eeb49fcdcad7ffd169298147f5"
+    }
+  ],
+  "known_tensions": [
+    "English UI labels shorten Digital Money & Programmable Finance to Digital Money & Finance, Institutional Collapse & Rebuild to Institutional Evolution, and the French and Italian biotech labels drop Synthetic Life.",
+    "Archive.tsx category colors for Perception and Meaning are swapped relative to FUTURES_SPEC.md and to domain colorAccent values.",
+    "FUTURES_SPEC.md describes futures exploration-mode prompts. server/routes.ts still runs the earlier WIP theme-mode prompts, and only when a themeId is present. The Archive does not send themeId.",
+    "JourneyDay in shared/schema.ts is a futures day. The Lab day generator still requests a spiritual retreat day.",
+    "replit.md still describes sacred themes, solfeggio bells, and tradition familiarity beside the futures branding. The file is a mixed generation of the app, not a clean futures specification."
+  ],
+  "replit_md_opening": "# Futures in Focus (FiF) - Futures Literacy Platform\n\n**Version 0.9** - Release Candidate\n\nAn AI-powered platform for understanding 10 civilization-level transformations reshaping humanity. Features multi-modal conversation with a Futures Navigator AI, transformation domain archive, structured learning journeys, scenario planning, and comprehensive user expertise tracking.\n\n**Branding**: \"F·U·T·U·R·E·S in Focus\" (styled with middle dot separators). Alternative short name: \"FiF\"\n\n**Logo**: Colorful watercolor infinity symbol representing continuous futures exploration (stored at `attached_assets/fif-logo.png`)",
+  "spec_tagline": "Navigate the Transformations Reshaping Civilization",
+  "tagline_note": "FUTURES_SPEC.md uses the spec tagline. The English UI string in translations.ts is a two-line splash line, stored in source as a \\n escape."
+}

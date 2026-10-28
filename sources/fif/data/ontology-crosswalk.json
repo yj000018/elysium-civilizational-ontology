@@ -1,0 +1,255 @@
+{
+  "schema_version": "fif-source-1",
+  "acceptance": "source_crosswalk",
+  "authority_note": "This crosswalk is a reading of FiF source material against the ELYSIUM facet identifiers in 02_ONTOLOGY_AND_KNOWLEDGE/CANONICAL_FACET_ID_MAP.md and the foundation list in 04_DATASETS_AND_MATRICES/ELYSIUM_CORE_ONTOLOGY.json. It does not accept FiF into canon, and it does not revise facet matrices. Facet matrix files remain recovered drafts with their own status.",
+  "practice_mapping": {
+    "fif_practice": "Futures literacy: understand ten transformations, connect them, and position a person inside the transition.",
+    "elysium_facet": {
+      "id": "F06_03_PROSPECTIVE",
+      "name_en": "Foresight",
+      "name_fr": "Prospective",
+      "foundation": "F06 Vision / Knowledge & Foresight"
+    },
+    "rationale": "The Navigator, the Think Tank scenarios, the daily signals, and the reflection prompts are foresight instruments. Prospective is the ELYSIUM facet for systematic exploration of possible futures. The ten domains are the objects that practice looks at, not substitutes for the facet.",
+    "related_publication_draft": "03_BOOK_AND_PUBLICATION/14_FUTURE_OBSERVATORY_FRAMEWORK.md describes a monitoring and mapping observatory. FiF's Observatory is a conversational space in a personal app. The names rhyme. The artifacts differ, and that publication draft is not the mapping authority used here."
+  },
+  "scales": {
+    "source": "04_DATASETS_AND_MATRICES/ELYSIUM_CORE_ONTOLOGY.json scales Human, Society, Civilization",
+    "fif_lenses": {
+      "individual": "Human",
+      "society": "Society",
+      "economy": "Agency (F03), read at Society and Civilization scales. Economy is an implication lens in FiF, not a fourth ELYSIUM scale."
+    }
+  },
+  "categories_to_foundations": [
+    {
+      "fif_category": "cognitive",
+      "elysium_foundation": "F06 Vision",
+      "relation": "partial_overlap",
+      "note": "Intelligence and coordination of knowing. Vision also holds education, science, foresight, systems thinking, and technology, which this category does not enumerate."
+    },
+    {
+      "fif_category": "physical",
+      "elysium_foundation": "F01 Foundation",
+      "relation": "partial_overlap",
+      "note": "Energy and materials sit in Foundation. Robotics is filed here by FiF and also overlaps Agency (work, production) and Vision (technology)."
+    },
+    {
+      "fif_category": "life",
+      "elysium_foundation": "F02 Vitality",
+      "relation": "partial_overlap",
+      "note": "Biotechnology touches health and food. FiF does not carry water, biodiversity, ecosystems, or regeneration as domains."
+    },
+    {
+      "fif_category": "systems",
+      "elysium_foundation": "F05 Governance and F03 Agency",
+      "relation": "split",
+      "note": "Institutions overlap Governance. Programmable finance overlaps Agency / Finance. One FiF category covers two foundations."
+    },
+    {
+      "fif_category": "perception",
+      "elysium_foundation": null,
+      "relation": "no_single_foundation",
+      "note": "Spatial computing spreads across technology (F06), media (F04), and communication (F05)."
+    },
+    {
+      "fif_category": "meaning",
+      "elysium_foundation": "F07 Consciousness",
+      "relation": "partial_overlap",
+      "note": "Identity and purpose sit in Consciousness. Ethics and civilizational direction are sibling facets, not this one domain."
+    }
+  ],
+  "source_thesis": {
+    "text": "Humanity is moving from a scarcity-driven, labor-based civilization to an intelligence-abundant, meaning-driven one.",
+    "reading": "A source claim about civilizational direction (F07_05_DIRECTION_CIVILISATIONNELLE) and about work after labor abundance (F03_02_TRAVAIL). Recorded as FiF's thesis, not as an accepted ELYSIUM proposition."
+  },
+  "domains": [
+    {
+      "slug": "agi",
+      "primary_facet": "F06_05_TECHNOLOGIE",
+      "related_facets": [
+        "F06_01_EDUCATION",
+        "F03_02_TRAVAIL",
+        "F06_04_PENSEE_SYSTEMIQUE"
+      ],
+      "rationale": "The technology facet already treats artificial intelligence as civilizational exoskeleton. FiF's 'who thinks' claim also touches education, knowledge work, and systems thinking."
+    },
+    {
+      "slug": "energy",
+      "primary_facet": "F01_01_ENERGIE",
+      "related_facets": [
+        "F03_06_PRODUCTION"
+      ],
+      "rationale": "Direct name overlap with Foundation / Energy. The abundance claim also feeds production."
+    },
+    {
+      "slug": "biotech",
+      "primary_facet": "F02_01_SANTE",
+      "related_facets": [
+        "F02_02_ALIMENTATION_AGRICULTURE",
+        "F07_01_ETHIQUE"
+      ],
+      "rationale": "Healthspan, disease, and genetic intervention land in Health. The schema names a food revolution and ethical frontiers, which point at Food & Agriculture and Ethics. Ecological regeneration is a different facet and is not this domain."
+    },
+    {
+      "slug": "robotics",
+      "primary_facet": "F03_06_PRODUCTION",
+      "related_facets": [
+        "F03_02_TRAVAIL",
+        "F06_05_TECHNOLOGIE"
+      ],
+      "rationale": "FiF frames machines that act: manufacturing and labor first, technology as the means."
+    },
+    {
+      "slug": "collective_intelligence",
+      "primary_facet": "F06_04_PENSEE_SYSTEMIQUE",
+      "related_facets": [
+        "F04_01_COMMUNAUTE",
+        "F05_05_COMMUNICATION"
+      ],
+      "rationale": "Networked sense-making is systems thinking at collective scale, with community and communication as the social channels."
+    },
+    {
+      "slug": "digital_finance",
+      "primary_facet": "F03_03_FINANCE",
+      "related_facets": [
+        "F03_01_ECONOMIE"
+      ],
+      "rationale": "Programmable money is the Finance facet, inside the Economy."
+    },
+    {
+      "slug": "institutions",
+      "primary_facet": "F05_03_INSTITUTIONS",
+      "related_facets": [
+        "F05_02_DEMOCRATIE",
+        "F07_05_DIRECTION_CIVILISATIONNELLE"
+      ],
+      "rationale": "Trust, legitimacy, and governance models are Institutions, with democracy and civilizational direction as the neighboring questions the schema raises."
+    },
+    {
+      "slug": "spatial_computing",
+      "primary_facet": "F06_05_TECHNOLOGIE",
+      "related_facets": [
+        "F04_05_MEDIAS",
+        "F05_05_COMMUNICATION"
+      ],
+      "rationale": "A perception technology. Media and communication carry the social side of a blended interface. It shares its primary facet with AGI and is distinguished by the 'how we perceive' claim."
+    },
+    {
+      "slug": "materials",
+      "primary_facet": "F01_06_MATERIAUX",
+      "related_facets": [
+        "F03_06_PRODUCTION"
+      ],
+      "rationale": "Direct name overlap with Foundation / Materials, with production as the making system."
+    },
+    {
+      "slug": "meaning",
+      "primary_facet": "F07_03_SENS_FINALITE",
+      "related_facets": [
+        "F04_06_APPARTENANCE_IDENTITE",
+        "F07_04_VISION_DU_MONDE",
+        "F07_02_SPIRITUALITE"
+      ],
+      "rationale": "FiF's 'why we exist' claim is Meaning & Purpose. Identity, worldview, and spirituality are the adjacent Consciousness and Cohesion facets named by the schema's cultural and identity implications."
+    }
+  ],
+  "exploration_modes_to_matrix_steps": {
+    "authority": "Interpretive reading against universal_matrix_steps in ELYSIUM_CORE_ONTOLOGY.json. FiF modes are prompts for a guide. Matrix steps are an analysis worksheet. The alignment is a finding aid.",
+    "modes": [
+      {
+        "fif_mode": "essential_insight",
+        "matrix_steps": [
+          1,
+          2
+        ],
+        "step_names": [
+          "What Is It? (Ontology)",
+          "Why It Matters (Teleology)"
+        ]
+      },
+      {
+        "fif_mode": "deep_dive",
+        "matrix_steps": [
+          3,
+          4,
+          5,
+          6
+        ],
+        "step_names": [
+          "Today's Paradigm (Status Quo)",
+          "Current Crisis / Limitations",
+          "Key Transitions Underway",
+          "Technology / AI Disruption"
+        ]
+      },
+      {
+        "fif_mode": "systems_weave",
+        "matrix_steps": [
+          5
+        ],
+        "step_names": [
+          "Key Transitions Underway"
+        ],
+        "also": "Cross-facet reading, closest ongoing facet F06_04_PENSEE_SYSTEMIQUE"
+      },
+      {
+        "fif_mode": "strategic_questions",
+        "matrix_steps": [
+          7,
+          8
+        ],
+        "step_names": [
+          "Consciousness / Cultural Shift",
+          "The Future Paradigm"
+        ]
+      },
+      {
+        "fif_mode": "action_gateway",
+        "matrix_steps": [
+          9,
+          10,
+          11,
+          12
+        ],
+        "step_names": [
+          "Transition Pathways",
+          "Projects / Experiments",
+          "Risks / Shadows",
+          "Resources (The Library)"
+        ]
+      }
+    ]
+  },
+  "facets_without_a_fif_domain": [
+    "F01_02_EAU",
+    "F01_03_HABITAT",
+    "F01_04_INFRASTRUCTURE",
+    "F01_05_MOBILITE",
+    "F02_03_BIODIVERSITE",
+    "F02_04_ECOSYSTEMES",
+    "F02_05_REGENERATION",
+    "F03_04_ENTREPRENEURIAT",
+    "F03_05_INNOVATION",
+    "F04_02_RELATIONS",
+    "F04_03_CULTURE",
+    "F04_04_ART",
+    "F05_01_DROIT_JUSTICE",
+    "F05_04_SECURITE",
+    "F06_02_SCIENCE"
+  ],
+  "facets_only_touched_as_related": [
+    "F06_01_EDUCATION",
+    "F07_01_ETHIQUE",
+    "F07_02_SPIRITUALITE",
+    "F05_02_DEMOCRATIE",
+    "F04_01_COMMUNAUTE",
+    "F04_05_MEDIAS",
+    "F04_06_APPARTENANCE_IDENTITE",
+    "F05_05_COMMUNICATION",
+    "F07_04_VISION_DU_MONDE",
+    "F07_05_DIRECTION_CIVILISATIONNELLE",
+    "F03_01_ECONOMIE",
+    "F03_02_TRAVAIL"
+  ]
+}
