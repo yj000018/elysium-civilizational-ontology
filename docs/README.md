@@ -32,6 +32,12 @@ Resume from [CURRENT](status/CURRENT.md), then read project-specific source/modu
 
 - [05_RESEARCH_CORPUS](../05_RESEARCH_CORPUS)
 
+## Sources
+
+Imported external material. Presence in this list records provenance. It does not accept the material as canon.
+
+- [FiF – Futures in Focus](../sources/fif/README.md)
+
 ## Operations
 
 No dedicated accepted surface identified in the reviewed entrypoints. This is a documentary gap, not proof that the underlying corpus contains none. Add material here when needed, preserving original provenance.

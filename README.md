@@ -19,6 +19,10 @@ No consolidation with elysium-book. Folder names and final reports do not promot
 | Specifications | [Specs map](docs/README.md#specs) |
 | Resume / handoff | [Resume map](docs/README.md#handoffs) |
 
+## FiF – Futures in Focus
+
+Yannick's earlier Replit app, preserved as source material in [sources/fif](sources/fif/README.md). The import keeps the ten future-of-civilisation transformation domains, their prompts, and a crosswalk onto the ELYSIUM facets. The application itself is not rebuilt here, and the folder does not enter accepted canon.
+
 ## Validation
 
 Preserve existing SHA256SUMS.txt and verify listed payloads before corpus changes; new navigation docs are not retroactively part of its source inventory.
