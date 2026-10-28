@@ -12,6 +12,12 @@ Observation: 2026-10-01. Source baseline commit: `de6ea45ea6c6c0208c01a2fd804090
 - [06_ENGINEERING_AND_WORKFLOWS](../../06_ENGINEERING_AND_WORKFLOWS)
 - [SHA256SUMS.txt](../../SHA256SUMS.txt)
 
+## Imported sources
+
+Added 2026-10-28, after the audit observation above. Source material, outside that inventory and outside `SHA256SUMS.txt`.
+
+- [sources/fif](../../sources/fif/README.md) — FiF transformation domains and prompts
+
 ## Boundary and dependencies
 
 No consolidation with elysium-book. Folder names and final reports do not promote every document into accepted canon.

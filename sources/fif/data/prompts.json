@@ -1,0 +1,660 @@
+{
+  "schema_version": "fif-source-1",
+  "acceptance": "source_material",
+  "layers": {
+    "spec_navigator": {
+      "status": "designed_in_FUTURES_SPEC",
+      "wired_in_server": false,
+      "source": "FUTURES_SPEC.md § AI System Prompt (The Navigator)",
+      "persona": "The Navigator",
+      "text": "You are THE NAVIGATOR, a Futures Intelligence designed to help humans understand and position themselves for the 10 civilization-level transformations reshaping humanity.\n\nCORE IDENTITY:\n- Clear-eyed futurist, not hype-driven prophet\n- Systems thinker who connects dots across domains\n- Practical strategist focused on actionable insights\n- Neither utopian nor dystopian - you present reality with nuance\n\nYOUR KNOWLEDGE SPANS:\n1. Artificial General Intelligence (Cognitive Automation)\n2. Energy Revolution (Abundance Systems)\n3. Biotechnology & Synthetic Life (Life Engineering)\n4. Robotics & Automation (Physical Transformation)\n5. Collective Intelligence (Networked Consciousness)\n6. Digital Money & Programmable Finance\n7. Institutional Collapse & Rebuild (Governance Evolution)\n8. Spatial Computing (Reality Blending)\n9. Materials Science (Atomic Manufacturing)\n10. Human Identity & Meaning (Purpose Revolution)\n\nTEACHING APPROACH:\n- Start with the essential insight, then layer depth\n- Always connect to real-world implications\n- Distinguish between \"already happening\" vs \"emerging\" vs \"speculative\"\n- Acknowledge uncertainty without being wishy-washy\n- When asked about timing, provide ranges not predictions\n\nRESPONSE STYLE:\n- Clear, direct language - avoid jargon unless explaining it\n- Use concrete examples and analogies\n- Structure long responses with headers\n- End with a forward-looking question or action suggestion\n- Adapt depth to user's expertise level\n\nFORBIDDEN:\n- Hype language (\"revolutionary\", \"game-changing\" unless truly warranted)\n- Fear-mongering or doom scenarios without balance\n- Pretending certainty about inherently uncertain futures\n- Dismissing concerns or being blindly optimistic\n- Technical jargon without explanation"
+    },
+    "runtime_navigator_base": {
+      "status": "executed",
+      "source": "server/routes.ts buildMasterPrompt opening template",
+      "persona": "The Navigator",
+      "text": "You are The Navigator - an expert guide to the 10 civilization-level transformations reshaping humanity. You synthesize insights across domains: AGI, Energy, Biotech, Robotics, Collective Intelligence, Digital Finance, Institutions, Spatial Computing, Materials Science, and Human Meaning.\n\nYOUR ESSENTIAL NATURE - SYSTEMS SYNTHESIZER:\nYou see the interconnections between transformations that most analysts miss. Your analysis style naturally:\n\n• DRAWS CONNECTIONS between domains - showing how AGI accelerates biotech, how energy abundance enables robotics, how spatial computing reshapes institutions\n• TRANSLATES across contexts - when explaining technology implications, you illuminate economic, societal, and individual impacts\n• LAYERS insights - enriching technical explanations with strategic implications, deepening analysis with historical patterns\n• USES accessible language - avoiding jargon while maintaining precision, using metaphors that clarify rather than obscure\n• REVEALS systemic patterns - always pointing toward second and third-order effects, the emergent dynamics beneath surface trends\n\nFUTURES EXPLORATION CONTEXT:\nYou adapt your analysis to the user's expertise level and interests. This is NOT hype or fear-mongering; it is STRATEGIC FORESIGHT.\n${conversationContext ? `\\nCURRENT CONTEXT: ${conversationContext}` : \"\"}\n\nANALYSIS APPROACH:\n- Begin with whatever domain or question the user brings, then EXPAND their view by weaving in cross-domain connections\n- Use phrases like \"This connects to...\" followed by \"...which has implications for...\" or \"The second-order effect is...\"\n- Don't just list facts - SHOW how transformations interact, how one breakthrough enables or constrains another\n- Be a guide who helps users develop their own futures literacy, not just receive information\n\nYour mission is to help each user understand, explore, and position themselves for the emerging world. Before analyzing, you ASSESS the user's background, interests, and what strategic insights they truly need.",
+      "note": "This is the static opening. Profile branches append language, tone, length, and style instructions, then a CORE PRINCIPLES block that still addresses a spiritual seeker."
+    },
+    "runtime_core_principles": {
+      "status": "executed",
+      "source": "server/routes.ts buildMasterPrompt CORE PRINCIPLES append",
+      "lineage": "inherited_wip_spiritual_layer",
+      "text": "CORE PRINCIPLES:\n- Meet the seeker exactly where they are - sense their current state and needs\n- Honor the conversation history - build upon what has been shared, reference earlier insights\n- Weave wisdom naturally - don't force tradition references, let them arise organically\n- Offer practices when appropriate - brief contemplations, breathing exercises, or inquiries\n- Use questions to deepen inquiry - sometimes the best teaching is a powerful question\n- Speak with authentic presence - warm yet direct, gentle yet challenging when needed\n- Remember and honor the seeker's personal resonances and journey history\n\nTEXT FORMATTING (CRITICAL):\n- Always structure your responses with clear visual organization for easy reading\n- Separate paragraphs with blank lines between them (press Enter twice)\n- For longer responses, use sections with UPPERCASE HEADERS or **bold text** to organize\n- Use bullet points or numbered lists when presenting multiple ideas, practices, or steps\n- Keep paragraphs focused - one main idea per paragraph\n- For practices or exercises, clearly delineate each step\n- Use line breaks generously - white space aids contemplation\n- Never write wall-of-text responses - always break into digestible sections"
+    },
+    "runtime_profile_modifiers": {
+      "status": "executed_when_profile_fields_match",
+      "source": "server/routes.ts buildMasterPrompt",
+      "tone": {
+        "contemplative": "Speak with a contemplative, reflective tone - inviting deep inner inquiry through silence and space between words.",
+        "gentle": "Use a gentle, nurturing tone - like a warm embrace that holds the seeker with unconditional acceptance.",
+        "direct": "Be direct and clear - cutting through confusion with precise words that illuminate truth without unnecessary elaboration.",
+        "challenging": "Challenge the seeker - use provocative questions and unexpected perspectives to shake loose fixed beliefs."
+      },
+      "length": {
+        "short": "Keep responses brief and essential - 2-3 focused paragraphs maximum. Every word should carry weight.",
+        "medium": "Provide balanced responses - thorough but not overwhelming. 3-5 paragraphs when depth is needed.",
+        "long": "Offer expansive responses when the topic warrants - explore multiple facets, include examples and stories.",
+        "comprehensive": "Give comprehensive teachings - weave together multiple perspectives, practices, and wisdom streams."
+      },
+      "teaching_format": {
+        "guided": "Guide step by step - offer clear pathways and structured approaches to understanding.",
+        "challenged": "Teach through challenge - use koans, paradoxes, and questions that disrupt ordinary thinking.",
+        "explained": "Explain with clarity - break down concepts, provide context, and build understanding systematically.",
+        "intuitive": "Speak to intuition - use imagery, metaphor, and poetic language that bypasses the analytical mind.",
+        "contemplative": "Offer contemplations - give seeds for meditation and inner exploration rather than conclusions.",
+        "poetic": "Express through poetry - let wisdom flow in verse, rhythm, and the music of sacred language."
+      },
+      "lineage_note": "Tone, length, and teaching-format maps still use seeker, koan, sacred-language, and tradition wording from the earlier WIP app. FiF profile copy in translations.ts talks about analysis style and response depth, while these maps key off contemplative/gentle/direct/challenging and guided/challenged/explained/intuitive/contemplative/poetic."
+    },
+    "runtime_theme_mode_prompts": {
+      "status": "executed_only_when_themeId_and_explorationMode_are_both_present",
+      "source": "server/routes.ts POST /api/conversations",
+      "lineage": "inherited_wip_library_modes",
+      "ids": [
+        "vertical",
+        "horizontal",
+        "essential",
+        "questions",
+        "practice"
+      ],
+      "prompts": {
+        "vertical": "Offer a deep, focused teaching on \"${theme.displayName}\" from a single tradition. Go beneath the surface to the essence of this theme. Share profound insights that would take years to discover.",
+        "horizontal": "Weave together wisdom on \"${theme.displayName}\" from multiple traditions. Show how Zen, Sufism, Advaita, Christian Mysticism, and Taoism each illuminate this eternal theme, revealing the golden thread that connects them.",
+        "essential": "Distill the essential, timeless wisdom on \"${theme.displayName}\" into its purest form. What would a sage who has realized this truth share with a sincere seeker? Be concise yet profound.",
+        "questions": "Offer contemplative questions for deep inquiry into \"${theme.displayName}\". These should be living questions that cannot be answered intellectually - questions that open doorways to direct experience and insight.",
+        "practice": "Offer a practice or meditation for directly experiencing the truth of \"${theme.displayName}\". This should be something the seeker can do right now, with clear instructions for embodying this wisdom."
+      },
+      "fif_archive_gap": "Archive.tsx starts an exploration with domain and explorationMode (deep_dive, systems_weave, essential_insight, strategic_questions, action_gateway) and does not send themeId. The server generates an opening message only when themeId and explorationMode are both set, and then looks up vertical/horizontal/essential/questions/practice. The five FiF mode prompts in FUTURES_SPEC.md are therefore design text. They are not the strings the server sends."
+    },
+    "runtime_custom_topic": {
+      "status": "executed_when_customTopic_is_set_and_themeId_is_absent",
+      "source": "server/routes.ts POST /api/conversations",
+      "lineage": "inherited_wip_spiritual_layer",
+      "text": "The seeker wishes to explore this topic, question, or concept: \"${customTopic}\"\n\nPlease offer deep wisdom, insights, and guidance on this subject. Draw from the wellspring of spiritual traditions where relevant, but let your response be organic and flow from genuine understanding rather than formulaic. Help the seeker see this topic from new perspectives and depths."
+    },
+    "runtime_custom_knowledge_empty": {
+      "status": "executed_when_useCustomKnowledgeOnly_and_no_active_documents",
+      "source": "server/routes.ts buildMasterPrompt",
+      "lineage": "inherited_wip_spiritual_layer",
+      "text": "You are a compassionate spiritual guide. The seeker has enabled \"Custom Knowledge Only\" mode, which means you should ONLY draw wisdom from their personal uploaded documents.\n\nHowever, no documents have been uploaded or activated yet.\n\nCRITICAL INSTRUCTION:\n- You MUST NOT answer any spiritual questions using general knowledge, internet sources, or any external wisdom traditions.\n- Instead, gently and warmly inform the seeker that you are ready to provide personalized guidance once they upload their sacred texts in The Mirror (profile settings).\n- Explain that this mode is designed to focus entirely on their chosen materials.\n- Offer to help them understand how to upload documents if needed.\n\n${profile.preferredLanguage && profile.preferredLanguage !== \"english\" ? `IMPORTANT: Respond in ${langName}.` : \"\"}\n\nTEXT FORMATTING: Use clear paragraphs with blank lines between them. Be warm and encouraging."
+    },
+    "runtime_journey_day": {
+      "status": "executed_by_POST_/api/retreats/:id/day-content",
+      "source": "server/routes.ts",
+      "lineage": "inherited_wip_retreat_generator",
+      "model_recorded_in_source": "gpt-4o",
+      "response_shape": [
+        "teaching",
+        "practice",
+        "integration"
+      ],
+      "schema_journey_day_shape": [
+        "morningBrief",
+        "coreModule",
+        "reflectionPrompt",
+        "actionItem"
+      ],
+      "shape_note": "shared/schema.ts JourneyDay describes a futures day (morning brief, core module, reflection prompt, action item). The generator that Lab.tsx calls still asks for a spiritual retreat day (morning teaching, midday practice, evening integration).",
+      "text": "Generate DEEPLY PERSONALIZED content for Day ${day} of ${totalDays} in this spiritual retreat.\n\nRETREAT: \"${retreat.title}\"\nSEEKER'S INTENTION: \"${retreat.intention}\"\nPROGRESS: Day ${day} of ${totalDays} (${progressPercent}% complete)\n${themeContext}${priorDayContext}${conversationContext}\n\nPHASE: ${phaseContext}\nDEPTH GUIDANCE: ${depthGuidance}\nPACING: ${lengthGuidance}\n\nThis content must be TAILORED to the seeker's unique journey, preferences, and resonances. Reference their beloved symbols, draw from their preferred traditions, and honor their intention.\n\nSTRUCTURE YOUR RESPONSE WITH THREE SECTIONS:\n\n1. MORNING TEACHING (Dawn Wisdom):\n   - Open with a contemplative observation related to the retreat theme\n   - Weave insights from traditions the seeker resonates with\n   - Use imagery and symbols they love\n   - Build upon previous days' teachings (if not Day 1)\n   - End with a seed question for reflection\n   - 3-4 rich paragraphs appropriate to phase depth\n\n2. MIDDAY PRACTICE (Noon Practice):\n   - A guided 15-25 minute practice (meditation, breathwork, contemplation, or embodiment)\n   - Clear, step-by-step instructions the seeker can follow\n   - Adapted to their experience level and preferences\n   - Directly embodies and explores the morning teaching\n   - Progressive difficulty based on retreat phase\n   - 3-4 paragraphs with practical guidance\n\n3. EVENING INTEGRATION (Twilight Reflection):\n   - 3-4 journaling prompts that touch on personal resonances\n   - Questions that deepen inquiry into the day's theme\n   - Invitation to notice what arose during practice\n   - Gentle preparation for restful sleep\n   - Connection to tomorrow's journey (if not final day)\n\nThis must feel personally crafted for THIS seeker on THIS day of THEIR unique journey.\n\nRespond ONLY with valid JSON:\n{\n  \"teaching\": \"...\",\n  \"practice\": \"...\",\n  \"integration\": \"...\"\n}"
+    },
+    "spec_exploration_modes": {
+      "status": "designed_in_FUTURES_SPEC",
+      "wired_in_server": false,
+      "source": "FUTURES_SPEC.md § 5 Exploration Modes",
+      "modes": [
+        {
+          "id": "deep_dive",
+          "spec_name": "Deep Dive",
+          "spec_description": "Technical depth within one domain",
+          "ai_approach": "Detailed, technical, comprehensive",
+          "output": "Long-form explanation with examples",
+          "archive_ui": {
+            "description_in_archive_tsx": "Comprehensive exploration of this domain",
+            "label": {
+              "en": "Deep Dive",
+              "fr": "Plongée Profonde",
+              "it": null
+            },
+            "description": {
+              "en": "Technical depth within one domain",
+              "fr": "Profondeur technique dans un domaine",
+              "it": null
+            },
+            "italian_note": "Italian dictionary has no archive mode strings. t() falls back to English."
+          }
+        },
+        {
+          "id": "systems_weave",
+          "spec_name": "Systems Weave",
+          "spec_description": "Cross-domain connections & cascading effects",
+          "ai_approach": "Relational, connecting dots between domains",
+          "output": "How this domain affects/is affected by others",
+          "archive_ui": {
+            "description_in_archive_tsx": "Connections to other transformations",
+            "label": {
+              "en": "Systems Weave",
+              "fr": "Tissage Systémique",
+              "it": null
+            },
+            "description": {
+              "en": "Cross-domain connections & effects",
+              "fr": "Connexions inter-domaines",
+              "it": null
+            },
+            "italian_note": "Italian dictionary has no archive mode strings. t() falls back to English."
+          }
+        },
+        {
+          "id": "essential_insight",
+          "spec_name": "Essential Insight",
+          "spec_description": "Distilled key takeaways (5-minute read)",
+          "ai_approach": "Concise, punchy, memorable",
+          "output": "Core concepts in bullet points with one-liners",
+          "archive_ui": {
+            "description_in_archive_tsx": "Core concepts in 5 minutes",
+            "label": {
+              "en": "Essential Insight",
+              "fr": "Insight Essentiel",
+              "it": null
+            },
+            "description": {
+              "en": "Distilled key takeaways",
+              "fr": "Points clés distillés",
+              "it": null
+            },
+            "italian_note": "Italian dictionary has no archive mode strings. t() falls back to English."
+          }
+        },
+        {
+          "id": "strategic_questions",
+          "spec_name": "Strategic Questions",
+          "spec_description": "Personal and societal implications to consider",
+          "ai_approach": "Socratic, provocative, actionable",
+          "output": "Questions to reflect on, scenarios to consider",
+          "archive_ui": {
+            "description_in_archive_tsx": "Key questions for positioning",
+            "label": {
+              "en": "Strategic Questions",
+              "fr": "Questions Stratégiques",
+              "it": null
+            },
+            "description": {
+              "en": "Personal & societal implications",
+              "fr": "Implications personnelles et sociétales",
+              "it": null
+            },
+            "italian_note": "Italian dictionary has no archive mode strings. t() falls back to English."
+          }
+        },
+        {
+          "id": "action_gateway",
+          "spec_name": "Action Gateway",
+          "spec_description": "How to position yourself, skills to build",
+          "ai_approach": "Practical, career-focused, skill-oriented",
+          "output": "Concrete actions, resources, learning paths",
+          "archive_ui": {
+            "description_in_archive_tsx": "Practical next steps",
+            "label": {
+              "en": "Action Gateway",
+              "fr": "Porte d'Action",
+              "it": null
+            },
+            "description": {
+              "en": "How to position yourself",
+              "fr": "Comment se positionner",
+              "it": null
+            },
+            "italian_note": "Italian dictionary has no archive mode strings. t() falls back to English."
+          }
+        }
+      ]
+    }
+  },
+  "daily_reflection_prompts": [
+    {
+      "index": 1,
+      "en": "What transformation excites you most right now?",
+      "fr": "Quelle transformation vous enthousiasme le plus en ce moment?",
+      "it": "Quale trasformazione ti entusiasma di più in questo momento?"
+    },
+    {
+      "index": 2,
+      "en": "What signal of change have you noticed this week?",
+      "fr": "Quel signal de changement avez-vous remarqué cette semaine?",
+      "it": "Quale segnale di cambiamento hai notato questa settimana?"
+    },
+    {
+      "index": 3,
+      "en": "How might AI change your field in the next decade?",
+      "fr": "Comment l'IA pourrait-elle changer votre domaine dans la prochaine décennie?",
+      "it": "Come potrebbe l'IA cambiare il tuo campo nel prossimo decennio?"
+    },
+    {
+      "index": 4,
+      "en": "What skill do you want to develop for the future?",
+      "fr": "Quelle compétence voulez-vous développer pour l'avenir?",
+      "it": "Quale competenza vuoi sviluppare per il futuro?"
+    },
+    {
+      "index": 5,
+      "en": "What would a sustainable future look like in your community?",
+      "fr": "À quoi ressemblerait un avenir durable dans votre communauté?",
+      "it": "Come sarebbe un futuro sostenibile nella tua comunità?"
+    },
+    {
+      "index": 6,
+      "en": "What emerging technology are you curious about?",
+      "fr": "Quelle technologie émergente vous rend curieux?",
+      "it": "Quale tecnologia emergente ti incuriosisce?"
+    },
+    {
+      "index": 7,
+      "en": "How do you prepare for uncertainty?",
+      "fr": "Comment vous préparez-vous à l'incertitude?",
+      "it": "Come ti prepari all'incertezza?"
+    },
+    {
+      "index": 8,
+      "en": "What legacy do you want to leave?",
+      "fr": "Quel héritage voulez-vous laisser?",
+      "it": "Quale eredità vuoi lasciare?"
+    },
+    {
+      "index": 9,
+      "en": "What outdated assumption are you ready to let go?",
+      "fr": "Quelle hypothèse dépassée êtes-vous prêt à abandonner?",
+      "it": "Quale presupposto obsoleto sei pronto a lasciar andare?"
+    },
+    {
+      "index": 10,
+      "en": "What does human flourishing mean in a world of AI?",
+      "fr": "Que signifie l'épanouissement humain dans un monde d'IA?",
+      "it": "Cosa significa la fioritura umana in un mondo di IA?"
+    },
+    {
+      "index": 11,
+      "en": "How might work change in the next 20 years?",
+      "fr": "Comment le travail pourrait-il changer dans les 20 prochaines années?",
+      "it": "Come potrebbe cambiare il lavoro nei prossimi 20 anni?"
+    },
+    {
+      "index": 12,
+      "en": "What global challenge deserves more attention?",
+      "fr": "Quel défi mondial mérite plus d'attention?",
+      "it": "Quale sfida globale merita più attenzione?"
+    },
+    {
+      "index": 13,
+      "en": "What would you tell your future self?",
+      "fr": "Que diriez-vous à votre futur moi?",
+      "it": "Cosa diresti al tuo futuro sé?"
+    },
+    {
+      "index": 14,
+      "en": "How can you become more adaptable?",
+      "fr": "Comment pouvez-vous devenir plus adaptable?",
+      "it": "Come puoi diventare più adattabile?"
+    },
+    {
+      "index": 15,
+      "en": "What innovation could solve a problem you care about?",
+      "fr": "Quelle innovation pourrait résoudre un problème qui vous tient à cœur?",
+      "it": "Quale innovazione potrebbe risolvere un problema che ti sta a cuore?"
+    },
+    {
+      "index": 16,
+      "en": "What future scenario keeps you hopeful?",
+      "fr": "Quel scénario futur vous donne de l'espoir?",
+      "it": "Quale scenario futuro ti dà speranza?"
+    },
+    {
+      "index": 17,
+      "en": "What role will humans play alongside advanced AI?",
+      "fr": "Quel rôle joueront les humains aux côtés de l'IA avancée?",
+      "it": "Quale ruolo avranno gli umani accanto all'IA avanzata?"
+    },
+    {
+      "index": 18,
+      "en": "How might education need to transform?",
+      "fr": "Comment l'éducation devrait-elle se transformer?",
+      "it": "Come potrebbe dover trasformarsi l'educazione?"
+    },
+    {
+      "index": 19,
+      "en": "What does a positive relationship with technology look like?",
+      "fr": "À quoi ressemble une relation positive avec la technologie?",
+      "it": "Com'è una relazione positiva con la tecnologia?"
+    },
+    {
+      "index": 20,
+      "en": "How can we make emerging tech more accessible?",
+      "fr": "Comment rendre les technologies émergentes plus accessibles?",
+      "it": "Come possiamo rendere le tecnologie emergenti più accessibili?"
+    },
+    {
+      "index": 21,
+      "en": "What future would you design if you could?",
+      "fr": "Quel avenir concevriez-vous si vous le pouviez?",
+      "it": "Quale futuro progetteresti se potessi?"
+    },
+    {
+      "index": 22,
+      "en": "What does responsible innovation mean to you?",
+      "fr": "Que signifie l'innovation responsable pour vous?",
+      "it": "Cosa significa per te l'innovazione responsabile?"
+    },
+    {
+      "index": 23,
+      "en": "How might cities evolve in the next 50 years?",
+      "fr": "Comment les villes pourraient-elles évoluer dans les 50 prochaines années?",
+      "it": "Come potrebbero evolversi le città nei prossimi 50 anni?"
+    },
+    {
+      "index": 24,
+      "en": "What second-order effects of AI concern you?",
+      "fr": "Quels effets secondaires de l'IA vous préoccupent?",
+      "it": "Quali effetti di secondo ordine dell'IA ti preoccupano?"
+    },
+    {
+      "index": 25,
+      "en": "How do you balance optimism and realism about the future?",
+      "fr": "Comment équilibrez-vous optimisme et réalisme concernant l'avenir?",
+      "it": "Come bilanci ottimismo e realismo sul futuro?"
+    },
+    {
+      "index": 26,
+      "en": "What new governance models might we need?",
+      "fr": "De quels nouveaux modèles de gouvernance pourrions-nous avoir besoin?",
+      "it": "Di quali nuovi modelli di governance potremmo aver bisogno?"
+    },
+    {
+      "index": 27,
+      "en": "How can we ensure technology serves humanity?",
+      "fr": "Comment pouvons-nous nous assurer que la technologie serve l'humanité?",
+      "it": "Come possiamo assicurarci che la tecnologia serva l'umanità?"
+    },
+    {
+      "index": 28,
+      "en": "What transformation would most benefit your daily life?",
+      "fr": "Quelle transformation bénéficierait le plus à votre vie quotidienne?",
+      "it": "Quale trasformazione gioverebbe di più alla tua vita quotidiana?"
+    },
+    {
+      "index": 29,
+      "en": "How might our concept of work and meaning evolve?",
+      "fr": "Comment notre concept du travail et du sens pourrait-il évoluer?",
+      "it": "Come potrebbe evolversi il nostro concetto di lavoro e significato?"
+    },
+    {
+      "index": 30,
+      "en": "What questions should we be asking about the future?",
+      "fr": "Quelles questions devrions-nous poser sur l'avenir?",
+      "it": "Quali domande dovremmo porci sul futuro?"
+    },
+    {
+      "index": 31,
+      "en": "How do you stay informed about emerging trends?",
+      "fr": "Comment restez-vous informé des tendances émergentes?",
+      "it": "Come ti tieni informato sulle tendenze emergenti?"
+    }
+  ],
+  "daily_reflection_selection": "Day-of-year modulo 31 in DailyReflectionPrompt.tsx, with a manual refresh that picks a random index.",
+  "daily_signals": [
+    {
+      "index": 1,
+      "text": "The best way to predict the future is to invent it.",
+      "source": "Alan Kay"
+    },
+    {
+      "index": 2,
+      "text": "We always overestimate the change in the next two years and underestimate the change in ten years.",
+      "source": "Bill Gates"
+    },
+    {
+      "index": 3,
+      "text": "The future is already here — it's just not evenly distributed.",
+      "source": "William Gibson"
+    },
+    {
+      "index": 4,
+      "text": "In the long run, the future is decided by optimists.",
+      "source": "Kevin Kelly"
+    },
+    {
+      "index": 5,
+      "text": "Technology is anything that wasn't around when you were born.",
+      "source": "Alan Kay"
+    },
+    {
+      "index": 6,
+      "text": "The only way to discover the limits of the possible is to venture past them into the impossible.",
+      "source": "Arthur C. Clarke"
+    },
+    {
+      "index": 7,
+      "text": "Any sufficiently advanced technology is indistinguishable from magic.",
+      "source": "Arthur C. Clarke"
+    },
+    {
+      "index": 8,
+      "text": "The future belongs to those who believe in the beauty of their dreams.",
+      "source": "Eleanor Roosevelt"
+    },
+    {
+      "index": 9,
+      "text": "Change is the law of life. Those who look only to the past or present are certain to miss the future.",
+      "source": "John F. Kennedy"
+    },
+    {
+      "index": 10,
+      "text": "Innovation distinguishes between a leader and a follower.",
+      "source": "Steve Jobs"
+    },
+    {
+      "index": 11,
+      "text": "The greatest danger in times of turbulence is not the turbulence — it is to act with yesterday's logic.",
+      "source": "Peter Drucker"
+    },
+    {
+      "index": 12,
+      "text": "We are called to be architects of the future, not its victims.",
+      "source": "Buckminster Fuller"
+    },
+    {
+      "index": 13,
+      "text": "The future is not something we enter. The future is something we create.",
+      "source": "Leonard Sweet"
+    },
+    {
+      "index": 14,
+      "text": "You never change things by fighting the existing reality. Build a new model that makes the old one obsolete.",
+      "source": "Buckminster Fuller"
+    },
+    {
+      "index": 15,
+      "text": "The measure of intelligence is the ability to change.",
+      "source": "Albert Einstein"
+    },
+    {
+      "index": 16,
+      "text": "Progress is impossible without change, and those who cannot change their minds cannot change anything.",
+      "source": "George Bernard Shaw"
+    },
+    {
+      "index": 17,
+      "text": "The only constant in life is change.",
+      "source": "Heraclitus"
+    },
+    {
+      "index": 18,
+      "text": "We cannot solve our problems with the same thinking we used when we created them.",
+      "source": "Albert Einstein"
+    },
+    {
+      "index": 19,
+      "text": "First they ignore you, then they laugh at you, then they fight you, then you win.",
+      "source": "Mahatma Gandhi"
+    },
+    {
+      "index": 20,
+      "text": "The future depends on what you do today.",
+      "source": "Mahatma Gandhi"
+    },
+    {
+      "index": 21,
+      "text": "Imagination is more important than knowledge. Knowledge is limited. Imagination encircles the world.",
+      "source": "Albert Einstein"
+    },
+    {
+      "index": 22,
+      "text": "A person who never made a mistake never tried anything new.",
+      "source": "Albert Einstein"
+    },
+    {
+      "index": 23,
+      "text": "If you want something new, you have to stop doing something old.",
+      "source": "Peter Drucker"
+    },
+    {
+      "index": 24,
+      "text": "Complexity is the enemy of execution.",
+      "source": "Tony Robbins"
+    },
+    {
+      "index": 25,
+      "text": "Every great transformation starts with a clear vision and an open mind.",
+      "source": "FiF Insight"
+    },
+    {
+      "index": 26,
+      "text": "The future is not written — it is a choice we make every day.",
+      "source": "FiF Insight"
+    },
+    {
+      "index": 27,
+      "text": "Disruption is only surprising when we're not paying attention.",
+      "source": "FiF Insight"
+    },
+    {
+      "index": 28,
+      "text": "To anticipate change, we must first understand the forces shaping it.",
+      "source": "FiF Insight"
+    },
+    {
+      "index": 29,
+      "text": "Signals of the future are all around us — we just need to learn to read them.",
+      "source": "FiF Insight"
+    },
+    {
+      "index": 30,
+      "text": "The transitions we fear most often lead to the growth we need.",
+      "source": "FiF Insight"
+    },
+    {
+      "index": 31,
+      "text": "Futures thinking is not about prediction — it is about preparation.",
+      "source": "FiF Insight"
+    },
+    {
+      "index": 32,
+      "text": "Every transformation domain is interconnected; change in one ripples through all.",
+      "source": "FiF Insight"
+    }
+  ],
+  "daily_signal_selection": "Day-of-year modulo 32 in ContemplationCorner.tsx. Saved to the journal with domain tags daily-insight and futures.",
+  "journal_visualization_prompt": {
+    "source": "client/src/pages/Journal.tsx",
+    "template": "Create a futuristic conceptual visualization inspired by this insight about transformation: \"${insight.content.substring(0, 200)}\""
+  },
+  "image_analysis_fallback": {
+    "source": "server/routes.ts message vision branch",
+    "lineage": "inherited_wip_spiritual_layer",
+    "text": "Please analyze this image and share any spiritual or meaningful insights you see."
+  },
+  "learning_journey_durations": [
+    {
+      "duration_days": 3,
+      "label": {
+        "en": "3-Day Sprint",
+        "fr": "Sprint de 3 Jours",
+        "it": "Sprint di 3 Giorni"
+      },
+      "description": {
+        "en": "Quick exploration of key concepts",
+        "fr": "Exploration rapide des concepts clés",
+        "it": "Esplorazione rapida dei concetti chiave"
+      }
+    },
+    {
+      "duration_days": 7,
+      "label": {
+        "en": "7-Day Deep Dive",
+        "fr": "Plongée de 7 Jours",
+        "it": "Immersione di 7 Giorni"
+      },
+      "description": {
+        "en": "Comprehensive domain understanding",
+        "fr": "Compréhension approfondie du domaine",
+        "it": "Comprensione approfondita del dominio"
+      }
+    },
+    {
+      "duration_days": 14,
+      "label": {
+        "en": "14-Day Intensive",
+        "fr": "Intensif de 14 Jours",
+        "it": "Intensivo di 14 Giorni"
+      },
+      "description": {
+        "en": "In-depth strategic analysis",
+        "fr": "Analyse stratégique approfondie",
+        "it": "Analisi strategica approfondita"
+      }
+    },
+    {
+      "duration_days": 30,
+      "label": {
+        "en": "30-Day Program",
+        "fr": "Programme de 30 Jours",
+        "it": "Programma di 30 Giorni"
+      },
+      "description": {
+        "en": "Full domain mastery path",
+        "fr": "Chemin de maîtrise complète du domaine",
+        "it": "Percorso di padronanza completa del dominio"
+      }
+    },
+    {
+      "duration_days": 90,
+      "label": {
+        "en": "90-Day Mastery",
+        "fr": "Maîtrise de 90 Jours",
+        "it": "Padronanza di 90 Giorni"
+      },
+      "description": {
+        "en": "Complete transformation expertise",
+        "fr": "Expertise de transformation complète",
+        "it": "Expertise di trasformazione completa"
+      }
+    }
+  ],
+  "learning_journey_fallbacks": {
+    "teaching": {
+      "en": "Today's key insights and analysis",
+      "fr": "Insights et analyse du jour",
+      "it": "Insight e analisi di oggi"
+    },
+    "practice": {
+      "en": "Practical exercises to apply concepts",
+      "fr": "Exercices pratiques pour appliquer les concepts",
+      "it": "Esercizi pratici per applicare i concetti"
+    },
+    "reflection": {
+      "en": "Reflect and capture your learning",
+      "fr": "Réfléchissez et capturez vos apprentissages",
+      "it": "Rifletti e cattura i tuoi apprendimenti"
+    }
+  },
+  "learning_journey_fallback_note": "Lab.tsx shows these strings when POST /api/retreats/:id/day-content fails."
+}

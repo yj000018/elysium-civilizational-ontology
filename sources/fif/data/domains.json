@@ -1,0 +1,437 @@
+{
+  "schema_version": "fif-source-1",
+  "acceptance": "source_material",
+  "title": "FiF transformation domains",
+  "philosophy": "Humanity is moving from a scarcity-driven, labor-based civilization to an intelligence-abundant, meaning-driven one.",
+  "name_authority": "shared/schema.ts DOMAIN_METADATA is the English name used by the running Archive. translations.ts shortens three labels.",
+  "domains": [
+    {
+      "order": 1,
+      "slug": "agi",
+      "name": "Artificial General Intelligence",
+      "subtitle": "Cognitive Automation - When Machines Think",
+      "subtitle_languages": {
+        "en": "Cognitive Automation - When Machines Think",
+        "fr": null,
+        "it": null,
+        "note": "client/src/lib/translations.ts stores domain subtitles in the English dictionary only. French and Italian fall back to English through t()."
+      },
+      "category": "cognitive",
+      "why_it_matters": "It changes WHO thinks",
+      "icon": "Brain",
+      "color_accent": "#3B82F6",
+      "implications": {
+        "economy": "Knowledge work automation, new value creation paradigms",
+        "society": "Education reimagined, power concentration risks, governance challenges",
+        "individual": "Cognitive augmentation, skill adaptation, human-AI collaboration"
+      },
+      "labels": {
+        "en": "Artificial General Intelligence",
+        "fr": "Intelligence Artificielle Générale",
+        "it": "Intelligenza Artificiale Generale"
+      },
+      "ui_label_differs_from_schema_name": {
+        "en": false,
+        "fr": true,
+        "it": true
+      }
+    },
+    {
+      "order": 2,
+      "slug": "energy",
+      "name": "Energy Revolution",
+      "subtitle": "Abundance Systems - Unlimited Clean Power",
+      "subtitle_languages": {
+        "en": "Abundance Systems - Unlimited Clean Power",
+        "fr": null,
+        "it": null,
+        "note": "client/src/lib/translations.ts stores domain subtitles in the English dictionary only. French and Italian fall back to English through t()."
+      },
+      "category": "physical",
+      "why_it_matters": "It changes WHAT limits us",
+      "icon": "Zap",
+      "color_accent": "#10B981",
+      "implications": {
+        "economy": "Energy cost approaches zero, new industrial possibilities",
+        "society": "Decentralized power, climate solutions, geopolitical shifts",
+        "individual": "Energy independence, new lifestyles, location freedom"
+      },
+      "labels": {
+        "en": "Energy Revolution",
+        "fr": "Révolution Énergétique",
+        "it": "Rivoluzione Energetica"
+      },
+      "ui_label_differs_from_schema_name": {
+        "en": false,
+        "fr": true,
+        "it": true
+      }
+    },
+    {
+      "order": 3,
+      "slug": "biotech",
+      "name": "Biotechnology & Synthetic Life",
+      "subtitle": "Life Engineering - Rewriting the Code of Life",
+      "subtitle_languages": {
+        "en": "Life Engineering - Rewriting the Code of Life",
+        "fr": null,
+        "it": null,
+        "note": "client/src/lib/translations.ts stores domain subtitles in the English dictionary only. French and Italian fall back to English through t()."
+      },
+      "category": "life",
+      "why_it_matters": "It changes WHAT we are",
+      "icon": "Dna",
+      "color_accent": "#8B5CF6",
+      "implications": {
+        "economy": "Programmable biology, bio-manufacturing, food revolution",
+        "society": "Healthspan extension, population dynamics, ethical frontiers",
+        "individual": "Genetic optimization, disease elimination, longevity"
+      },
+      "labels": {
+        "en": "Biotechnology & Synthetic Life",
+        "fr": "Biotechnologie",
+        "it": "Biotecnologia"
+      },
+      "ui_label_differs_from_schema_name": {
+        "en": false,
+        "fr": true,
+        "it": true
+      }
+    },
+    {
+      "order": 4,
+      "slug": "robotics",
+      "name": "Robotics & Automation",
+      "subtitle": "Physical World Transformation - When Machines Act",
+      "subtitle_languages": {
+        "en": "Physical World Transformation - When Machines Act",
+        "fr": null,
+        "it": null,
+        "note": "client/src/lib/translations.ts stores domain subtitles in the English dictionary only. French and Italian fall back to English through t()."
+      },
+      "category": "physical",
+      "why_it_matters": "It changes WHO acts",
+      "icon": "Bot",
+      "color_accent": "#10B981",
+      "implications": {
+        "economy": "Labor market transformation, new manufacturing paradigms",
+        "society": "Care robots, autonomous logistics, urban redesign",
+        "individual": "Personal robots, new human roles, physical augmentation"
+      },
+      "labels": {
+        "en": "Robotics & Automation",
+        "fr": "Robotique et Automatisation",
+        "it": "Robotica e Automazione"
+      },
+      "ui_label_differs_from_schema_name": {
+        "en": false,
+        "fr": true,
+        "it": true
+      }
+    },
+    {
+      "order": 5,
+      "slug": "collective_intelligence",
+      "name": "Collective Intelligence",
+      "subtitle": "Networked Consciousness - Humanity's Hive Mind",
+      "subtitle_languages": {
+        "en": "Networked Consciousness - Humanity's Hive Mind",
+        "fr": null,
+        "it": null,
+        "note": "client/src/lib/translations.ts stores domain subtitles in the English dictionary only. French and Italian fall back to English through t()."
+      },
+      "category": "cognitive",
+      "why_it_matters": "It changes HOW humanity coordinates",
+      "icon": "Network",
+      "color_accent": "#3B82F6",
+      "implications": {
+        "economy": "Swarm decision-making, prediction markets, distributed organizations",
+        "society": "Informal networks outpace institutions, new governance forms",
+        "individual": "New participation modes, amplified influence, collective sense-making"
+      },
+      "labels": {
+        "en": "Collective Intelligence",
+        "fr": "Intelligence Collective",
+        "it": "Intelligenza Collettiva"
+      },
+      "ui_label_differs_from_schema_name": {
+        "en": false,
+        "fr": true,
+        "it": true
+      }
+    },
+    {
+      "order": 6,
+      "slug": "digital_finance",
+      "name": "Digital Money & Programmable Finance",
+      "subtitle": "Economic Infrastructure - Money Becomes Code",
+      "subtitle_languages": {
+        "en": "Economic Infrastructure - Money Becomes Code",
+        "fr": null,
+        "it": null,
+        "note": "client/src/lib/translations.ts stores domain subtitles in the English dictionary only. French and Italian fall back to English through t()."
+      },
+      "category": "systems",
+      "why_it_matters": "It changes HOW value flows",
+      "icon": "Coins",
+      "color_accent": "#F59E0B",
+      "implications": {
+        "economy": "Instant settlement, tokenized assets, algorithmic markets",
+        "society": "State monetary monopoly challenged, new economic models",
+        "individual": "Financial sovereignty, new investment paradigms, risks"
+      },
+      "labels": {
+        "en": "Digital Money & Finance",
+        "fr": "Finance Numérique",
+        "it": "Finanza Digitale"
+      },
+      "ui_label_differs_from_schema_name": {
+        "en": true,
+        "fr": true,
+        "it": true
+      }
+    },
+    {
+      "order": 7,
+      "slug": "institutions",
+      "name": "Institutional Collapse & Rebuild",
+      "subtitle": "Governance Evolution - Trust Shifts",
+      "subtitle_languages": {
+        "en": "Governance Evolution - Trust Shifts",
+        "fr": null,
+        "it": null,
+        "note": "client/src/lib/translations.ts stores domain subtitles in the English dictionary only. French and Italian fall back to English through t()."
+      },
+      "category": "systems",
+      "why_it_matters": "It changes WHO we trust",
+      "icon": "Building2",
+      "color_accent": "#F59E0B",
+      "implications": {
+        "economy": "Individuals + AI outperform organizations, new business forms",
+        "society": "New governance models, legitimacy crises, social contracts",
+        "individual": "Self-sovereignty, new responsibilities, community formation"
+      },
+      "labels": {
+        "en": "Institutional Evolution",
+        "fr": "Évolution Institutionnelle",
+        "it": "Evoluzione Istituzionale"
+      },
+      "ui_label_differs_from_schema_name": {
+        "en": true,
+        "fr": true,
+        "it": true
+      }
+    },
+    {
+      "order": 8,
+      "slug": "spatial_computing",
+      "name": "Spatial Computing",
+      "subtitle": "Reality Blending - The World Becomes Interface",
+      "subtitle_languages": {
+        "en": "Reality Blending - The World Becomes Interface",
+        "fr": null,
+        "it": null,
+        "note": "client/src/lib/translations.ts stores domain subtitles in the English dictionary only. French and Italian fall back to English through t()."
+      },
+      "category": "perception",
+      "why_it_matters": "It changes HOW we perceive",
+      "icon": "Glasses",
+      "color_accent": "#06B6D4",
+      "implications": {
+        "economy": "Digital twins, virtual collaboration, new entertainment",
+        "society": "Blended reality normalization, presence transformation",
+        "individual": "Enhanced perception, new skills, reality customization"
+      },
+      "labels": {
+        "en": "Spatial Computing",
+        "fr": "Informatique Spatiale",
+        "it": "Spatial Computing"
+      },
+      "ui_label_differs_from_schema_name": {
+        "en": false,
+        "fr": true,
+        "it": false
+      }
+    },
+    {
+      "order": 9,
+      "slug": "materials",
+      "name": "Materials Science",
+      "subtitle": "Atomic-Level Manufacturing - Programmable Matter",
+      "subtitle_languages": {
+        "en": "Atomic-Level Manufacturing - Programmable Matter",
+        "fr": null,
+        "it": null,
+        "note": "client/src/lib/translations.ts stores domain subtitles in the English dictionary only. French and Italian fall back to English through t()."
+      },
+      "category": "physical",
+      "why_it_matters": "It changes WHAT we build with",
+      "icon": "Atom",
+      "color_accent": "#10B981",
+      "implications": {
+        "economy": "AI-designed materials, new industries, sustainable production",
+        "society": "Self-healing infrastructure, bio-integrated systems",
+        "individual": "Personalized materials, health applications, enhanced products"
+      },
+      "labels": {
+        "en": "Materials Science",
+        "fr": "Science des Matériaux",
+        "it": "Scienza dei Materiali"
+      },
+      "ui_label_differs_from_schema_name": {
+        "en": false,
+        "fr": true,
+        "it": true
+      }
+    },
+    {
+      "order": 10,
+      "slug": "meaning",
+      "name": "Human Identity & Meaning",
+      "subtitle": "The Purpose Revolution - Who Are We Now?",
+      "subtitle_languages": {
+        "en": "The Purpose Revolution - Who Are We Now?",
+        "fr": null,
+        "it": null,
+        "note": "client/src/lib/translations.ts stores domain subtitles in the English dictionary only. French and Italian fall back to English through t()."
+      },
+      "category": "meaning",
+      "why_it_matters": "It changes WHY we exist",
+      "icon": "Compass",
+      "color_accent": "#EC4899",
+      "implications": {
+        "economy": "Meaning economy, purpose-driven work, post-labor society",
+        "society": "Spiritual/philosophical renaissance, new cultural forms",
+        "individual": "Identity reformation, existential exploration, new life scripts"
+      },
+      "labels": {
+        "en": "Human Identity & Meaning",
+        "fr": "Identité et Sens",
+        "it": "Identità e Significato"
+      },
+      "ui_label_differs_from_schema_name": {
+        "en": false,
+        "fr": true,
+        "it": true
+      }
+    }
+  ],
+  "categories": [
+    {
+      "slug": "cognitive",
+      "name": "Cognitive Revolution",
+      "description": "Transformations in how intelligence operates",
+      "spec_heading": "COGNITIVE REVOLUTION",
+      "spec_color": "#3B82F6",
+      "archive_ui_color": "#3B82F6",
+      "color_note": "Archive.tsx category color matches FUTURES_SPEC.md and the domain colorAccent values.",
+      "labels": {
+        "en": "Cognitive Revolution",
+        "fr": "Révolution Cognitive",
+        "it": "Rivoluzione Cognitiva"
+      }
+    },
+    {
+      "slug": "physical",
+      "name": "Physical Revolution",
+      "description": "Transformations in energy, matter, and manufacturing",
+      "spec_heading": "PHYSICAL REVOLUTION",
+      "spec_color": "#10B981",
+      "archive_ui_color": "#10B981",
+      "color_note": "Archive.tsx category color matches FUTURES_SPEC.md and the domain colorAccent values.",
+      "labels": {
+        "en": "Physical Revolution",
+        "fr": "Révolution Physique",
+        "it": "Rivoluzione Fisica"
+      }
+    },
+    {
+      "slug": "life",
+      "name": "Life Revolution",
+      "description": "Transformations in biology and longevity",
+      "spec_heading": "LIFE REVOLUTION",
+      "spec_color": "#8B5CF6",
+      "archive_ui_color": "#8B5CF6",
+      "color_note": "Archive.tsx category color matches FUTURES_SPEC.md and the domain colorAccent values.",
+      "labels": {
+        "en": "Life Revolution",
+        "fr": "Révolution de la Vie",
+        "it": "Rivoluzione della Vita"
+      }
+    },
+    {
+      "slug": "systems",
+      "name": "Systems Revolution",
+      "description": "Transformations in coordination and governance",
+      "spec_heading": "SYSTEMS REVOLUTION",
+      "spec_color": "#F59E0B",
+      "archive_ui_color": "#F59E0B",
+      "color_note": "Archive.tsx category color matches FUTURES_SPEC.md and the domain colorAccent values.",
+      "labels": {
+        "en": "Systems Revolution",
+        "fr": "Révolution des Systèmes",
+        "it": "Rivoluzione dei Sistemi"
+      }
+    },
+    {
+      "slug": "perception",
+      "name": "Perception Revolution",
+      "description": "Transformations in how we experience reality",
+      "spec_heading": "PERCEPTION REVOLUTION",
+      "spec_color": "#06B6D4",
+      "archive_ui_color": "#EC4899",
+      "color_note": "Archive.tsx swaps the Perception and Meaning category colors relative to FUTURES_SPEC.md and to each domain colorAccent in shared/schema.ts.",
+      "labels": {
+        "en": "Perception Revolution",
+        "fr": "Révolution Perceptive",
+        "it": "Rivoluzione Percettiva"
+      }
+    },
+    {
+      "slug": "meaning",
+      "name": "Meaning Revolution",
+      "description": "Transformations in purpose and human identity",
+      "spec_heading": "MEANING REVOLUTION",
+      "spec_color": "#EC4899",
+      "archive_ui_color": "#06B6D4",
+      "color_note": "Archive.tsx swaps the Perception and Meaning category colors relative to FUTURES_SPEC.md and to each domain colorAccent in shared/schema.ts.",
+      "labels": {
+        "en": "Meaning Revolution",
+        "fr": "Révolution du Sens",
+        "it": "Rivoluzione del Significato"
+      }
+    }
+  ],
+  "expertise_levels": {
+    "novice": {
+      "en": "Novice",
+      "fr": "Novice",
+      "it": "Novizio"
+    },
+    "aware": {
+      "en": "Aware",
+      "fr": "Sensibilisé",
+      "it": "Consapevole"
+    },
+    "informed": {
+      "en": "Informed",
+      "fr": "Informé",
+      "it": "Informato"
+    },
+    "strategic": {
+      "en": "Strategic",
+      "fr": "Stratégique",
+      "it": "Strategico"
+    },
+    "expert": {
+      "en": "Expert",
+      "fr": "Expert",
+      "it": "Esperto"
+    }
+  },
+  "implication_lenses": [
+    "economy",
+    "society",
+    "individual"
+  ]
+}
