@@ -1,0 +1,138 @@
+{
+  "status": "draft",
+  "canon": false,
+  "crosswalk_status": "à valider par Yannick",
+  "provenance": "FiF (Futures in Focus) prototype spec, 2026-01",
+  "domains": [
+    {
+      "n": 1,
+      "name": "Artificial General Intelligence",
+      "fif_category": "Cognitive",
+      "subtitle": "Cognitive Automation — When Machines Think",
+      "changes": "WHO thinks",
+      "implications": {
+        "economy": "Knowledge work automation, new value creation",
+        "society": "Education reimagined, power concentration risks",
+        "individual": "Cognitive augmentation, skill obsolescence"
+      },
+      "elysium_foundation_proposed": "F03"
+    },
+    {
+      "n": 2,
+      "name": "Energy Revolution",
+      "fif_category": "Physical",
+      "subtitle": "Abundance Systems — Unlimited Clean Power",
+      "changes": "WHAT limits us",
+      "implications": {
+        "economy": "Energy cost approaches zero, new industries",
+        "society": "Decentralized power, climate solutions",
+        "individual": "Energy independence, new lifestyles"
+      },
+      "elysium_foundation_proposed": "F01"
+    },
+    {
+      "n": 3,
+      "name": "Biotechnology & Synthetic Life",
+      "fif_category": "Life",
+      "subtitle": "Life Engineering — Rewriting the Code of Life",
+      "changes": "WHAT we are",
+      "implications": {
+        "economy": "Programmable biology, bio-manufacturing",
+        "society": "Healthspan extension, population dynamics",
+        "individual": "Genetic optimization, disease elimination"
+      },
+      "elysium_foundation_proposed": "F02"
+    },
+    {
+      "n": 4,
+      "name": "Robotics & Automation",
+      "fif_category": "Physical",
+      "subtitle": "Physical World Transformation — When Machines Act",
+      "changes": "WHO acts",
+      "implications": {
+        "economy": "Labor market transformation, new manufacturing",
+        "society": "Care robots, autonomous logistics",
+        "individual": "Personal robots, new human roles"
+      },
+      "elysium_foundation_proposed": "F01"
+    },
+    {
+      "n": 5,
+      "name": "Collective Intelligence",
+      "fif_category": "Cognitive",
+      "subtitle": "Networked Consciousness — Humanity's Hive Mind",
+      "changes": "HOW humanity coordinates",
+      "implications": {
+        "economy": "Swarm decision-making, prediction markets",
+        "society": "Informal networks outpace institutions",
+        "individual": "New forms of participation and influence"
+      },
+      "elysium_foundation_proposed": "F04"
+    },
+    {
+      "n": 6,
+      "name": "Digital Money & Programmable Finance",
+      "fif_category": "Systems",
+      "subtitle": "Economic Infrastructure — Money Becomes Code",
+      "changes": "HOW value flows",
+      "implications": {
+        "economy": "Instant settlement, tokenized assets",
+        "society": "State monetary monopoly challenged",
+        "individual": "New financial sovereignty, risks"
+      },
+      "elysium_foundation_proposed": "F05"
+    },
+    {
+      "n": 7,
+      "name": "Institutional Collapse & Rebuild",
+      "fif_category": "Systems",
+      "subtitle": "Governance Evolution — Trust Shifts",
+      "changes": "WHO we trust",
+      "implications": {
+        "economy": "Individuals + AI outperform organizations",
+        "society": "New governance models emerge",
+        "individual": "Self-sovereignty, new responsibilities"
+      },
+      "elysium_foundation_proposed": "F05"
+    },
+    {
+      "n": 8,
+      "name": "Spatial Computing",
+      "fif_category": "Perception",
+      "subtitle": "Reality Blending — The World Becomes Interface",
+      "changes": "HOW we perceive",
+      "implications": {
+        "economy": "Digital twins, virtual collaboration",
+        "society": "Blended reality becomes normal",
+        "individual": "Enhanced perception, new skills"
+      },
+      "elysium_foundation_proposed": "F06"
+    },
+    {
+      "n": 9,
+      "name": "Materials Science",
+      "fif_category": "Physical",
+      "subtitle": "Atomic-Level Manufacturing — Programmable Matter",
+      "changes": "WHAT we build with",
+      "implications": {
+        "economy": "AI-designed materials, new industries",
+        "society": "Self-healing infrastructure, bio-integrated matter",
+        "individual": "Personalized materials, health applications"
+      },
+      "elysium_foundation_proposed": "F01"
+    },
+    {
+      "n": 10,
+      "name": "Human Identity & Meaning",
+      "fif_category": "Meaning",
+      "subtitle": "The Purpose Revolution — Who Are We Now?",
+      "changes": "WHY we exist",
+      "implications": {
+        "economy": "Meaning economy, purpose-driven work",
+        "society": "Spiritual/philosophical renaissance",
+        "individual": "New identity formation, existential exploration"
+      },
+      "elysium_foundation_proposed": "F07"
+    }
+  ]
+}
